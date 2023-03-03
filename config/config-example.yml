@@ -83,36 +83,36 @@ webhooks:                            # Can be individually specified per library
 
 plex:
   url: http://192.168.70.11:32400
-  token: SktLeBq2-1nZN3_YjZxx
+  token: your-token-here
   timeout: 60
   clean_bundles: false
   empty_trash: false
   optimize: false
 
 tmdb:                                                   # REQUIRED for the script to run
-  apikey: b2cb2917c2c92cef2bc180346ec7f151
+  apikey: your-api-key-here
   language: en
   cache_expiration: 60
   region:
 
 trakt:
-  client_id: 0f2f2ac682fbb7d4ba30eb86ecd91313c3a4311dae25b51099236aa12c1bb516
-  client_secret: fa28266c8e710e82bf1ad8d76a21b2ba47938f3b413b938b5702f65e224ea8dd
+  client_id: your-client-id-here
+  client_secret: your-client-secret-here
   pin:
   authorization:                          # everything below is autofilled by the script
-    access_token: 24364e905c0c50ce6eab6444779f3d65154fec4bfdeeae5b41271d344c2eb7f2
-    token_type: Bearer
-    expires_in: 7889237
-    refresh_token: a13fe50f980820719fbbf6ef5e934d7c7643deb0ea1689774e670c8f4bd6c0aa
-    scope: public
-    created_at: 1675964721
+    access_token: 
+    token_type: 
+    expires_in: 
+    refresh_token: 
+    scope: 
+    created_at: 
 mdblist:
-  apikey: 3aq477s3fgb4u4baunimjnygz
+  apikey: your-api-key-here
   cache_expiration: 60
 
 # radarr:
 #   url: http://192.168.40.40:7878
-#   token: f21559379a044347bc31c013e8e1e6ac
+#   token: your-token-here
 #   add_missing: false
 #   add_existing: false
 #   root_folder_path: S:/movies
@@ -127,7 +127,7 @@ mdblist:
 
 # sonarr:
 #   url: http://192.168.40.40:8989
-#   token: 0f9e7a36432843c08e1f4753ae7d86fe
+#   token: your-token-here
 #   add_missing: false
 #   add_existing: false
 #   root_folder_path: S:/shows
