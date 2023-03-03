@@ -1,0 +1,21 @@
+[2022-11-02 03:03:22,474] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-02 03:03:22,474] [builder.py:197]            [INFO]     |                                  Shakespeare Collection in Movies                                  |
+[2022-11-02 03:03:22,475] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-02 03:03:22,475] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-02 03:03:22,475] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-02 03:03:22,475] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-02 03:03:22,475] [plex_meta_manager.py:696]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 559, in run_collection
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 213, in __init__
+                                                                 |     new_attributes = self.metadata.apply_template(name, self.mapping_name, self.data, self.data[methods["template"]])
+                                                                 |   File "/modules/meta.py", line 124, in apply_template
+                                                                 |     raise Failed(f"{self.data_type} Error: template {variables['name']} not found")
+                                                                 | modules.util.Failed: Collection Error: template People not found
+                                                                 | 
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:697]  [ERROR]    | Collection Error: template People not found
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:709]  [INFO]     |                                  Finished Shakespeare Collection                                   |
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-02 03:03:22,476] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

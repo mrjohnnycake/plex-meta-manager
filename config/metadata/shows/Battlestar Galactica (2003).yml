@@ -1,0 +1,17 @@
+# metadata:
+  # <tvdb-id>: # <show_name>
+    # title: # override stupid translations of show names
+    # label: # <overlay_positions>
+    # seasons:
+      # <number>:
+        # title: # custom season name
+        # summary: # custom summary for season
+        # label: # <overlay_positions>
+        # episodes:
+          # <number>:
+            # title: # custom episode name
+            # summary: # custom summary for episode
+            # label: # <overlay_positions>
+
+#  71365: # Battlestar Galactica (2003)
+#    title: Battlestar Galactica

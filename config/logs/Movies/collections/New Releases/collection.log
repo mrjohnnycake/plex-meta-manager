@@ -1,0 +1,33 @@
+[2023-03-02 05:05:03,794] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:05:03,794] [builder.py:193]            [INFO]     |                                 New Releases Collection in Movies                                  |
+[2023-03-02 05:05:03,794] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:05:03,794] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-02 05:05:03,794] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-02 05:05:03,794] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,794] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-03-02 05:05:03,794] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,795] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-02 05:05:03,795] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,795] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.ibb.co/VNwwdZQ/New-Releases.jpg', 'collection_mode': 'hide', 'collection_order': 'release', 'visible_home': False, 'visible_shared': True, 'sync_mode': 'sync'} |
+[2023-03-02 05:05:03,795] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,795] [builder.py:233]            [INFO]     |================================ Validating New Releases Attributes ================================|
+[2023-03-02 05:05:03,846] [builder.py:473]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,846] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-03-02 05:05:03,846] [builder.py:479]            [DEBUG]    | Value: critic_rating.desc                                                                          |
+[2023-03-02 05:05:03,865] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:03,865] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-02 05:05:03,865] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-02 05:05:03,866] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 681, in __init__                                                |
+                                                                 |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")      |
+                                                                 | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections       |
+                                                                 |                                                                                                    |
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:769]  [ERROR]    | Collection Error: collection_order does not work with Smart Collections                            |
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:781]  [INFO]     |                                  Finished New Releases Collection                                  |
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-02 05:05:03,867] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

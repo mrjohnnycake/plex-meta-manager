@@ -1,0 +1,69 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Country:
+    url_poster: <<poster>>
+    sort_title: <<collection_name>>
+    collection_order: release
+    # schedule: weekly(sunday)
+    delete_not_scheduled: true
+    run_again: true
+    visible_home: false
+    visible_shared: true
+    sync_mode: sync
+
+#######################
+##     Countries     ##
+#######################
+
+collections:
+
+  British:
+   template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
+   smart_filter:
+     all:
+       country: United Kingdom
+     sort_by: release.desc
+   summary: A collection of British Films.
+
+  French:
+   template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
+   smart_filter:
+     all:
+       country: France
+     sort_by: release.desc
+   summary: A collection of French Films.
+
+  German:
+   template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
+   smart_filter:
+     all:
+       country: Germany
+     sort_by: release.desc
+   summary: A collection of German Films.
+
+  Japanese:
+   template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
+   smart_filter:
+     all:
+       country: Japan
+     sort_by: release.desc
+   summary: A collection of Japanese Films.
+
+  Korean:
+    template: {name: Country, poster: https://theposterdb.com/api/assets/158483}
+    smart_filter:
+      all:
+        country: Republic of Korea
+      sort_by: release.desc
+    summary: A collection of Korean Films.
+
+  Spanish Language:
+   template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
+   plex_all: true
+   filters:
+     original_language: es
+   summary: A collection of Spanish language films.

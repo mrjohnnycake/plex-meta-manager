@@ -1,0 +1,139 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Franchise:  
+    url_poster: <<poster>>
+    sort_title: ++++_<<collection_name>>
+    collection_mode: hide
+    collection_order: release
+    # schedule: weekly(sunday)
+    delete_not_scheduled: true
+    run_again: true
+    visible_home: false
+    visible_shared: true
+    sync_mode: sync
+
+########################
+##     Franchises     ##
+########################
+
+collections:
+
+  Alien:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/97097}
+    trakt_list: https://trakt.tv/users/barffy194/lists/aliens?sort=released,desc
+    summary: The Alien franchise is a science fiction horror franchise, consisting primarily of a series of films focusing on the voracious extraterrestrial endoparasitoid species Xenomorph XX121, commonly referred to simply as "the Alien".
+
+  Body Snatchers:
+    template: {name: Franchise, poster: https://image.tmdb.org/t/p/original/fqvoXoi8Vn53c0WtjEXn7kBLfeO.jpg}
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/body-snatchers-copy?sort=released,desc
+    summary: Based on Jack Finney’s novel about an insidious and silent alien invasion that threatens the world’s population, The Invasion of the Body Snatchers is one of the most prolific stories in all of horror, and, which employs a handful of standard noirish elements and leaves the story open to countless social and political interpretations.
+
+  Bourne:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/16464}
+    imdb_list: https://www.imdb.com/list/ls026772377/
+    summary: The Bourne franchise consists of action-thriller installments based on the character Jason Bourne, created by author Robert Ludlum. The franchise includes five theatrical films, and a spin-off prequel television series.
+
+  Cloverfield:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/66280}
+    trakt_list: https://trakt.tv/users/mateoxw10/lists/saga-cloverfield?sort=rank,asc
+    summary: Cloverfield is an American science fiction anthology film series created and by J. J. Abrams consisting of three films, all set in a shared fictional universe.
+
+  Die Hard:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/277766}
+    trakt_list: https://trakt.tv/users/theriskoftime/lists/die-hard?sort=released,desc
+    summary: An action film series centered around the character of John McClane, a New York City police detective who finds himself fighting a group of terrorists in each film.
+
+  Eastrail 177:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/256025}
+    trakt_list: https://trakt.tv/users/jmpichardo/lists/eastrail-177?sort=released,desc
+    summary: The Eastrail 177 Trilogy is an American superhero thriller and psychological horror film series written, produced, and directed by M. Night Shyamalan. The series has been noted for its differences from more traditional superhero movies, with Shyamalan's work referred to as "the first auteur shared superhero universe".
+
+  Hannibal Lector:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/21369}
+    trakt_list: https://trakt.tv/users/ireallylovevids/lists/hannibal-lecter?sort=released,desc
+    summary: Hannibal Lecter is an American psychological thriller film series, adapted from the Thomas Harris novel of the same name about a serial killer named Hannibal Lecter.
+
+  Hunger Games:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/69294}
+    imdb_list: https://www.imdb.com/list/ls069064647/
+    summary: A science fiction film series based on the novel of the same name by Suzanne Collins. The film series takes place in a dystopian post-apocalyptic future in the nation of Panem, featuring the protagonist, Katniss Everdeen.
+
+  Indiana Jones:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/105678}
+    imdb_list: https://www.imdb.com/list/ls027779939/?sort=release_date,asc&st_dt=&mode=detail&page=1
+    summary: The Adventure films series from the Director George Lucas and Steven Spielberg, starring Harrison Ford as the archaeologist Dr. Henry Walton "Indiana" Jones.
+
+  Jack Ryan:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/150542}
+    trakt_list: https://trakt.tv/users/magalop/lists/jack-ryan?sort=released,desc
+    summary: A collection of independent movies that do not need to be watched in order all featuring John Patrick "Jack" Ryan, a fictional character created by Tom Clancy.
+
+  James Bond:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/115662}
+    trakt_list: https://trakt.tv/users/any/lists/james-bond?sort=released,desc
+    summary: The James Bond film series is a British series of spy films based on the fictional character of MI6 agent James Bond, codename "007". With all of the action, adventure, gadgetry & film scores that Bond is famous for.
+
+  Marvel Cinematic Universe:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/162885}
+    imdb_list: https://www.imdb.com/list/ls039269245/
+    summary: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series.
+
+  Middle Earth:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/115119}
+    imdb_list: https://www.imdb.com/list/ls055713151/?sort=release_date,asc&st_dt=&mode=detail&page=1
+    summary: The Lord of the Rings is an epic high-fantasy novel by English author and scholar J. R. R. Tolkien. Set in Middle-earth, intended to be Earth at some distant time in the past, the story began as a sequel to Tolkien's 1937 children's book The Hobbit, but eventually developed into a much larger work.
+
+  Mission Impossible:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/49297}
+    trakt_list: https://trakt.tv/users/user71/lists/mission-impossible?sort=released,asc
+    summary: Mission Impossible is a series of a secret agent thriller films based on the popular television series. They chronicle the missions of a team of secret government agents known as the Impossible Missions Force (IMF) under the leadership of Ethan Hunt.
+
+  The Muppets:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/205}
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/the-muppets?sort=released,desc
+    sort_title: ++++_Muppets
+    summary: The Muppets are an American ensemble cast of puppet characters known for an absurdist, burlesque, and self-referential style of variety-sketch comedy.
+
+  Planet of the Apes:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/3041}
+    trakt_list: https://trakt.tv/users/bmonomad/lists/planet-of-the-apes?sort=released,desc
+    summary: Planet of the Apes is an American science fiction franchise about a world in which humans and intelligent apes clash for control and is based on the 1963 novel by French author Pierre Boulle.
+
+  Predator:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/43447}
+    trakt_list: https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc
+    summary: A science fiction action film series centered on a warrior class extraterrestrial species with technologically advanced weaponry that travel to Earth to trophy hunt human beings.
+
+  Spider-Man:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/221984}
+    trakt_list: https://trakt.tv/users/hitsquid/lists/spider-man?sort=released,desc
+    summary: Spider-Man centers on student Peter Parker who, after being bitten by a genetically-altered spider, gains superhuman strength and the spider-like ability to cling to any surface. He vows to use his abilities to fight crime, coming to understand the words of his beloved Uncle Ben- "With great power comes great responsibility."
+
+  Star Trek:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/146184}
+    trakt_list: https://trakt.tv/users/strangerer/lists/star-trek?sort=released,desc
+    summary: Star Trek is a science fiction media franchise originating from the 1960s television series Star Trek, created by Gene Roddenberry.
+
+  Star Wars:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/58758}
+    trakt_list: https://trakt.tv/users/zorge88/lists/star-wars?sort=released,desc
+    summary: Star Wars is an American epic space-opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
+
+  Three Flavours Cornetto:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/234}
+    imdb_list: https://www.imdb.com/list/ls068623110/
+    summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
+
+  Wizarding World:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/85944}
+    trakt_list: https://trakt.tv/users/malvado/lists/wizarding-world?sort=released,desc
+    summary: The Wizarding World is a fantasy media franchise and shared fictional universe centred on a series of films, based on the Harry Potter novel series by J. K. Rowling.
+
+  X-Men:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/163839}
+    imdb_list: https://www.imdb.com/list/ls026465600/
+    summary: X-Men is an American superhero film series based on the fictional superhero team of the same name, who originally appeared in a series of comic books created by Stan Lee and Jack Kirby and published by Marvel Comics.

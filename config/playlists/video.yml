@@ -1,0 +1,9 @@
+#playlists:
+#
+#  Dave's Nod Off List:
+#    sync_to_users:
+#    sync_mode: sync
+#    libraries: Movies, Shows
+#    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/dave-s-nod-off-list?sort=title,asc
+#    summary: For some reason, Dave can fall asleep to these videos easier than other media. Probably because he's seen each so many times.
+#    url_poster: https://m.media-amazon.com/images/I/710nZSbneDL._SS500_.jpg

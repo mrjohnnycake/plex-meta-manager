@@ -1,0 +1,38 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Studio:
+        url_poster: <<poster>>
+        sort_title: ++++++++_<<collection_name>>
+        collection_mode: hide
+        collection_order: release
+        delete_not_scheduled: true
+        run_again: true
+        visible_home: false
+        visible_shared: true
+        # schedule: weekly(sunday)
+        sync_mode: sync
+
+################################
+##     Studio Collections     ##
+################################
+
+collections:
+
+  Pixar Animation Studios:
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/189763}
+    trakt_list: https://trakt.tv/users/selkcer/lists/pixar?sort=released,desc
+    summary: Every release from Pixar Animation Studios
+
+  Studio Ghibli:
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/193453}
+    trakt_list: https://trakt.tv/users/hitsquid/lists/studio-ghibli?sort=released,desc
+    summary: Every release from Studio Ghibli
+
+  Walt Disney Animation Studios:
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/191971}
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/disney-animation?sort=released,desc
+    summary: Every release from Walt Disney Animation Studios

@@ -1,0 +1,61 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Charts:
+    url_poster: <<poster>>
+    collection_mode: hide
+    collection_order: release
+    # schedule: weekly(sunday)
+    visible_home: false
+    visible_shared: true
+    sync_mode: sync
+
+collections:
+
+############################
+#        TRENDING          #
+############################
+
+  New Releases:
+    template: {name: Charts, poster: https://i.ibb.co/VNwwdZQ/New-Releases.jpg}    
+    trakt_list: https://trakt.tv/users/giladg/lists/latest-releases
+    sort_title: "*101a"
+    smart_label: critic_rating.desc
+    summary: The most recent movie releases.
+
+  Trending:
+    template: {name: Charts, poster: https://theposterdb.com/api/assets/259815}
+    trakt_trending: 100
+    sort_title: "*101b"
+    summary: Trending movies on Trakt.com
+
+############################
+#         BEST OF          #
+############################
+
+  IMDb Top 250:
+    template: {name: Charts, poster: https://i.redd.it/gkfygy4k3tr21.jpg}
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
+    sort_title: ++++++++_IMDb Top 250
+    summary: IMDb's all-time top 250 highest rated movies.
+
+  Best Picture:
+    template: {name: Charts, poster: https://i.imgur.com/nNTPdYS.png}
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees
+    sort_title: "*101c"
+    summary: All of these movies took home the Best Picture Oscar.
+
+  Oscar Winners:
+    template: {name: Charts, poster: https://i.imgur.com/9yKqpqa.png}
+    imdb_list: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner
+    sort_title: "*101d"
+    summary: Oscar Winning Movies
+
+  1001 Movies You Must See Before You Die:
+    template: {name: Charts, poster: https://i.imgur.com/wdDPk80.jpeg}
+    trakt_list: https://trakt.tv/users/sp1ti/lists/1001-movies-you-must-see-before-you-die
+    sort_title: "*101e"
+    summary: 1001 Movies You Must See Before You Die is a film reference book edited by Steven Jay Schneider with original essays on each film contributed by over 70 film critics.

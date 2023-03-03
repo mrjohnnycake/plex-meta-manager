@@ -1,0 +1,146 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+    Specialty:
+        url_poster: <<poster>>
+        sort_title: <<collection_name>>
+        # collection_order: release
+        delete_not_scheduled: true
+        run_again: true
+        visible_home: false
+        visible_shared: true
+        # schedule: weekly(sunday)
+        sync_mode: sync
+
+##########################
+##   Specialty Genres   ##
+##########################
+
+collections:
+
+  Apocalyptic:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/mccaffe/lists/apocalyptic-dystopia?sort=released,asc
+    summary: This list of movies about the end of the world includes apocalypse movies and doomsday films.
+
+  Based on Books:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/235323}
+    tmdb_keyword: 818 #https://www.themoviedb.org/keyword/818-based-on-novel-or-book/movie
+    summary: Movies based on books or novels
+
+  Based on True Events:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
+    summary: Movies based on true events.
+
+  Black Experience:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc
+    summary: These films will teach you something the history books don’t.
+
+  Cult Classics:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/mr-mc86/lists/cult-classics?sort=rank,asc
+      #- https://trakt.tv/users/mekwall/lists/cult-films?sort=rank,asc
+    summary: Judge these movies not by their quality but by their cult following
+
+  Disaster:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/164980}
+    trakt_list: https://trakt.tv/users/29zombies/lists/disaster?sort=released,asc
+    summary: dis·as·ter- a sudden event, such as an accident or a natural catastrophe, that causes great damage or loss of life. ie flood, earthquake, hurricanes.
+
+  Dystopian:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/vagnerr/lists/dystopia
+    summary: A dystopia is a speculated community or society that is undesirable or frightening.
+
+  Famous Detectives:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list:
+      - https://trakt.tv/users/goape/lists/sherlock-holmes?display=movie&sort=rank,asc
+      - https://trakt.tv/users/grelipe/lists/hercule-poirot?sort=released,desc
+    summary: Television and movies are dominated by detectives, with some of the best media following these iconic agents and sleuths as they investigate crime.
+
+  Fantasy:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/51476}
+    imdb_list:
+    - url: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=fantasy
+      limit: 100
+    - url: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=fantasy&sort=user_rating,desc
+      limit: 100 
+    summary: Fantasy film is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
+
+  Good Bad Movies:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list:
+      - https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc
+      - https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc
+      - https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc
+      - https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc
+    summary: The bad special effects, the awful acting, the nonsensical plots — there’s something enchanting about a movie that’s hopelessly bad.
+
+  Heist Movies:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/164791}
+    imdb_list:
+      - https://www.imdb.com/list/ls068224634/
+      - https://www.imdb.com/list/ls009794682/ 
+    summary: Movies detailing the preparation for, execution of and aftermath of a (well-)planned and often daring heist.
+
+  Lovecraftian:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/twentywashere/lists/lovecraft-lovecraftian?sort=released,asc
+    summary: Movies and shorts based on the works of HP Lovecraft (some only loosely), have Lovecraftian themes or strong references to Lovecraft or are clearly Lovecraft inspired. Some might be fringe cases and not considered Lovecraftian by purists but are included because the atmosphere is suggestive of Lovecraft's work, there are clear nods to Lovecraft and in some case it is just because of name dropping or big tentacle monsters.
+
+  Martial Arts:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/254748}
+    imdb_list:
+      - https://www.imdb.com/list/ls000099643/
+      - https://www.imdb.com/list/ls068611186/
+      - https://www.imdb.com/list/ls068378513/
+      - https://www.imdb.com/list/ls090404120/
+    summary: Martial Arts film is a sub-genre of action films that feature numerous martial arts combat between characters. These combats are usually the films' primary appeal and entertainment value, and often are a method of storytelling and character expression and development. Martial Arts are frequently featured in training scenes and other sequences in addition to fights. Martial Arts films commonly include other types of action, such as hand-to-hand combat, stuntwork, chases, and gunfights.
+
+  Mindfuck Movies:
+    template: {name: Specialty, poster: https://i.imgur.com/Tl6QMgA.png}
+    trakt_list:
+      - https://trakt.tv/users/hdlists/lists/mindfuck-movies
+      - https://trakt.tv/users/benfranklin/lists/best-mindfucks
+    summary: There’s nothing greater than a film that makes you think. A film that lingers on your mind long after the credits have rolled and is the subject of many conversation and discussion. Trying to piece together the puzzle of what you saw and coming to a conclusion that makes sense or still doesn’t add up.
+
+  Music:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/69217}
+    trakt_list: https://trakt.tv/users/movistapp/lists/music?sort=released,asc
+    summary: Music film is genre that revolves around music being an integral part of the characters lives.
+
+  Pandemic:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/55837}
+    imdb_list: https://www.imdb.com/list/ls092321048/
+    summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
+
+  Revenge:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/jtucci/lists/revenge?sort=released,asc
+    summary: Who doesn’t love watching someone finally get their sweet, sweet, revenge?
+
+  Sports:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/167979}
+    trakt_list: https://trakt.tv/users/reafthompson/lists/sports?sort=released,asc
+    summary: A Sports Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
+
+  Stand Up Comedy:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/166533}
+    trakt_list: https://trakt.tv/users/willy-wally/lists/stand-up-stand-up?sort=released,asc
+    summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
+
+  Time Travel:
+    template: {name: Specialty, poster: https://theposterdb.com/api/assets/160794}
+    trakt_list: https://trakt.tv/users/vagnerr/lists/time-travel?sort=released,asc
+    summary: What would you do with the power to travel through time? Even though we're stuck in the present, humans can't stop dreaming about what we would do if we could change the past, tell the future, and influence our current reality. Luckily, the following cinematic masterpieces have done all the thinking for us. These movies showcase the challenges, pitfalls, and miracles that come with using time travel to change the course of history—if it was possible.
+
+#  Writing:
+#    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+#    trakt_list: 
+#    summary:

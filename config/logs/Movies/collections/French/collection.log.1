@@ -1,0 +1,42 @@
+[2023-03-01 05:06:01,766] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-01 05:06:01,767] [builder.py:193]            [INFO]     |                                    French Collection in Movies                                     |
+[2023-03-01 05:06:01,767] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-01 05:06:01,767] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-01 05:06:01,767] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-01 05:06:01,767] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,767] [builder.py:216]            [DEBUG]    | Templates Called: Country                                                                          |
+[2023-03-01 05:06:01,767] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,768] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-01 05:06:01,768] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,768] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/158488', 'sort_title': 'French', 'collection_order': 'release', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': True, 'sync_mode': 'sync'} |
+[2023-03-01 05:06:01,768] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,768] [builder.py:233]            [INFO]     |=================================== Validating French Attributes ===================================|
+[2023-03-01 05:06:01,880] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,881] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-03-01 05:06:01,881] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-01 05:06:01,881] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,881] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-03-01 05:06:01,881] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-01 05:06:01,881] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-01 05:06:01,881] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-01 05:06:01,881] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-01 05:06:01,881] [builder.py:1875]           [INFO]     |                                                                                                    |
+[2023-03-01 05:06:01,881] [builder.py:1876]           [INFO]     | Validating Method: smart_filter                                                                    |
+[2023-03-01 05:06:01,881] [builder.py:1882]           [DEBUG]    | Value: ordereddict([('all', ordereddict([('country', 'France')])), ('sort_by', 'release.desc')])   |
+[2023-03-01 05:06:01,893] [builder.py:2069]           [DEBUG]    | Smart URL: ?type=1&sort=originallyAvailableAt%3Adesc&country=1375                                  |
+[2023-03-01 05:06:01,893] [builder.py:657]            [INFO]     |                                                                                                    |
+[2023-03-01 05:06:01,893] [builder.py:658]            [WARNING]  | Collection Error: smart_filter is not compatible with run_again removing run_again                 |
+[2023-03-01 05:06:01,894] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 681, in __init__                                                |
+                                                                 |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")      |
+                                                                 | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections       |
+                                                                 |                                                                                                    |
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:769]  [ERROR]    | Collection Error: collection_order does not work with Smart Collections                            |
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:781]  [INFO]     |                                     Finished French Collection                                     |
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-01 05:06:01,895] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

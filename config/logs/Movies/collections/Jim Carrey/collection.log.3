@@ -1,0 +1,25 @@
+[2023-02-27 05:17:07,179] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-02-27 05:17:07,179] [builder.py:193]            [INFO]     |                                  Jim Carrey Collection in Movies                                   |
+[2023-02-27 05:17:07,179] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-02-27 05:17:07,179] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-02-27 05:17:07,179] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-02-27 05:17:07,179] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-02-27 05:17:07,179] [builder.py:216]            [DEBUG]    | Templates Called: People                                                                           |
+[2023-02-27 05:17:07,179] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-02-27 05:17:07,180] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 227, in __init__                                                |
+                                                                 |     new_attributes = self.metadata.apply_template(name, self.mapping_name, self.data, self.data[methods["template"]], new_variables) |
+                                                                 |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/meta.py", line 201, in apply_template                                             |
+                                                                 |     raise Failed(f"{self.data_type} Error: template {original_variables['name']} not found")       |
+                                                                 | modules.util.Failed: Collection Error: template People not found                                   |
+                                                                 |                                                                                                    |
+[2023-02-27 05:17:07,180] [plex_meta_manager.py:769]  [ERROR]    | Collection Error: template People not found                                                        |
+[2023-02-27 05:17:07,180] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-02-27 05:17:07,180] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-02-27 05:17:07,181] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Jim Carrey Collection                                   |
+[2023-02-27 05:17:07,181] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-02-27 05:17:07,181] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

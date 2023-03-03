@@ -1,0 +1,71 @@
+[2023-03-02 05:14:35,538] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:14:35,538] [builder.py:193]            [INFO]     |                                 Coen Brothers Collection in Movies                                 |
+[2023-03-02 05:14:35,538] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:14:35,538] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,538] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-02 05:14:35,538] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,538] [builder.py:216]            [DEBUG]    | Templates Called: Director                                                                         |
+[2023-03-02 05:14:35,538] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,539] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-02 05:14:35,539] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,539] [meta.py:552]               [DEBUG]    | {'tmdb_person': 1223, 'sort_title': '++_Coen Brothers', 'collection_order': 'release', 'collection_mode': 'hide'} |
+[2023-03-02 05:14:35,539] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,539] [builder.py:233]            [INFO]     |=============================== Validating Coen Brothers Attributes ================================|
+[2023-03-02 05:14:35,641] [builder.py:591]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,641] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2023-03-02 05:14:35,641] [builder.py:596]            [DEBUG]    | Value: 1223                                                                                        |
+[2023-03-02 05:14:35,761] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,761] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-02 05:14:35,761] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2023-03-02 05:14:35,761] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,761] [builder.py:719]            [DEBUG]    | Validating Method: director                                                                        |
+[2023-03-02 05:14:35,761] [builder.py:720]            [DEBUG]    | Value: tmdb                                                                                        |
+[2023-03-02 05:14:35,823] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,823] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-02 05:14:35,823] [builder.py:720]            [DEBUG]    | Value: Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. |
+[2023-03-02 05:14:35,823] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,823] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-02 05:14:35,823] [builder.py:720]            [DEBUG]    | Value: ++_Coen Brothers                                                                            |
+[2023-03-02 05:14:35,823] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,824] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-03-02 05:14:35,824] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-03-02 05:14:35,824] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,824] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:638]  [INFO]     |================================= Running Coen Brothers Collection =================================|
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Joel Coen", '?type=1&sort=titleSort&push=1&director=27512&pop=1') |
+[2023-03-02 05:14:35,824] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,824] [plex.py:946]               [INFO]     | Processing Plex Movie Search                                                                       |
+                                                                 | Sort By: ['title.asc']                                                                             |
+                                                                 | Filter:                                                                                            |
+                                                                 |   Match any of the following:                                                                      |
+                                                                 |     Director is Joel Coen                                                                          |
+[2023-03-02 05:14:35,847] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,847] [builder.py:1666]           [DEBUG]    | 6 IDs Found                                                                                        |
+[2023-03-02 05:14:35,847] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-02 05:14:35,848] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,848] [builder.py:2250]           [INFO]     |================================ Adding to Coen Brothers Collection ================================|
+[2023-03-02 05:14:35,848] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 1/6 | Coen Brothers Collection | = | The Ballad of Buster Scruggs (2018)                           |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 2/6 | Coen Brothers Collection | = | No Country for Old Men (2007)                                 |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 3/6 | Coen Brothers Collection | = | O Brother, Where Art Thou? (2000)                             |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 4/6 | Coen Brothers Collection | = | Raising Arizona (1987)                                        |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 5/6 | Coen Brothers Collection | = | The Tragedy of Macbeth (2021)                                 |
+[2023-03-02 05:14:35,848] [builder.py:2265]           [INFO]     | 6/6 | Coen Brothers Collection | = | True Grit (2010)                                              |
+[2023-03-02 05:14:35,848] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,848] [builder.py:2287]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
+[2023-03-02 05:14:35,859] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,859] [builder.py:2624]           [INFO]     |=========================== Updating Details of Coen Brothers Collection ===========================|
+[2023-03-02 05:14:35,859] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,871] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-03-02 05:14:35,871] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-03-02 05:14:35,872] [util.py:180]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/rgVaJNkZCgMarUcZuUAsVfXMWk3.jpg    |
+[2023-03-02 05:14:35,872] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-03-02 05:14:35,963] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-02 05:14:35,963] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-02 05:14:35,963] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Coen Brothers Collection                                  |
+[2023-03-02 05:14:35,963] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-02 05:14:35,963] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

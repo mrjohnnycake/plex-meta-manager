@@ -1,0 +1,132 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+####################################
+##     Plex Auto-naming Fixes     ##
+####################################
+
+metadata:
+
+  913290: # Barbarian
+    title: Barbarian
+    url_poster: https://theposterdb.com/api/assets/267452
+
+  1685: # Beneath the Planet of the Apes
+    title: Beneath the Planet of the Apes
+    url_poster: https://theposterdb.com/api/assets/258307
+
+  20504: # The Book of Eli
+    title: The Book of Eli
+    url_poster: https://theposterdb.com/api/assets/165333
+
+  102780: # Byzantium
+    title: Byzantium
+    url_poster: https://theposterdb.com/api/assets/93471
+
+  25769: # Carriers
+    title: Carriers
+    url_poster: https://theposterdb.com/api/assets/105507
+
+  10823: # Children of the Corn
+    title: Children of the Corn
+    url_poster: https://theposterdb.com/api/assets/279826
+
+  16281: # Creepshow
+    title: Creepshow
+    url_poster: https://theposterdb.com/api/assets/108982
+
+  24099: # Dreamscape
+    title: Dreamscape
+    url_poster: https://theposterdb.com/api/assets/33713
+
+  9276: # The Faculty
+    title: The Faculty
+    url_poster: https://theposterdb.com/api/assets/33949
+
+  5994: # The Family Man
+    title: The Family Man
+
+  436305: # The Farthest
+    title: The Farthest
+    url_poster: https://theposterdb.com/api/assets/21494
+
+  8738: # The Final Countdown
+    title: The Final Countdown
+    url_poster: https://theposterdb.com/api/assets/179552
+
+  65754: # The Girl with the Dragon Tattoo
+    title: The Girl with the Dragon Tattoo
+    url_poster: https://theposterdb.com/api/assets/39706
+
+  9504: # Glengarry Glen Ross
+    title: Glengarry Glen Ross
+    url_poster: https://theposterdb.com/api/assets/108248
+
+  929: # Godzilla (1998)
+    title: Godzilla
+    url_poster: https://theposterdb.com/api/assets/62751
+
+  497: # The Green Mile
+    title: The Green Mile
+    url_poster: https://theposterdb.com/api/assets/31065
+
+  12476: # The Hidden
+    title: The Hidden
+    url_poster: https://theposterdb.com/api/assets/20662
+
+  16295: # Higher Learning
+    title: Higher Learning
+    url_poster: https://theposterdb.com/api/assets/218714
+
+  1581: # The Holiday
+    title: The Holiday
+    url_poster: https://theposterdb.com/api/assets/14838
+
+  31909: # Invaders From Mars (1986)
+    title: Invaders From Mars
+    url_poster: https://theposterdb.com/api/assets/89956
+
+  11287: # A League of Their Own (1992)
+    title: A League of Their Own
+    url_poster: https://theposterdb.com/api/assets/87818
+
+  334: # Magnolia
+    title: Magnolia
+    url_poster: https://theposterdb.com/api/assets/188510
+
+  20481: # Nightbreed
+    title: Nightbreed
+    url_poster: https://theposterdb.com/api/assets/103711
+
+  10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
+    title: A Nightmare on Elm Street, Part 2- Freddy's Revenge
+    url_poster: https://theposterdb.com/api/assets/115954
+
+  668: # On Her Majesty's Secret Service
+    title: On Her Majesty's Secret Service
+    url_poster: https://theposterdb.com/api/assets/2080
+
+  35412: # On The Beach
+    title: On The Beach
+    url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg
+
+  871: # Planet of the Apes (1968)
+    title: Planet of the Apes
+    url_poster: https://theposterdb.com/api/assets/258306
+
+  869: # Planet of the Apes (2001)
+    title: Planet of the Apes
+    url_poster: https://theposterdb.com/api/assets/262168
+
+  17898: # Silver Bullet
+    title: Silver Bullet
+    url_poster: https://theposterdb.com/api/assets/314340
+
+  319: # True Romance
+    title: True Romance
+    url_poster: https://theposterdb.com/api/assets/166546

@@ -1,0 +1,102 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Actor:
+    actor: tmdb
+    tmdb_person: <<person>>
+    sort_title: ++_<<collection_name>>
+    collection_order: release
+    collection_mode: hide
+
+  Director:
+    director: tmdb
+    tmdb_person: <<person>>
+    sort_title: ++_<<collection_name>>
+    collection_order: release
+    collection_mode: hide
+
+  Writer:
+    writer: tmdb
+    tmdb_person: <<person>>
+    sort_title: ++_<<collection_name>>
+    collection_order: release
+    collection_mode: hide
+
+####################
+##     People     ##
+####################
+
+collections:
+
+  Alfred Hitchcock:
+    director: tmdb
+    template: {name: Director, person: 2636}
+    # trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
+    summary: Sir Alfred Joseph Hitchcock, KBE (13 August 1899 – 29 April 1980), was an English director and producer. He became known for thrillers, earning him the nickname 'Master of Suspense'. After a successful career in his native country, Hitchcock moved to Hollywood. Over a career spanning more than half a century, Hitchcock fashioned for himself a distinctive and recognizable directorial style. He pioneered the use of a camera made to move in a way that mimics a person's gaze, forcing viewers to engage in a form of voyeurism. He framed shots to maximize anxiety, fear, or empathy, and used innovative film editing.
+
+  Christopher Guest:
+    director: tmdb
+    template: {name: Actor, person: 13524}
+    summary: The Rt. Hon. Christopher Haden-Guest, 5th Baron Haden-Guest (born February 5, 1948), better known as Christopher Guest, is an American screenwriter, composer, musician, director, actor and comedian. He is most widely known in Hollywood for having written, directed and starred in several improvisational "mockumentary" films that feature a repertory-like ensemble cast, such as This is Spinal Tap.
+
+  Christopher Nolan:
+    director: tmdb
+    template: {name: Director, person: 525}
+    summary: Christopher Edward Nolan, CBE (born 30 July 1970) is a British-American film director, screenwriter, and producer. He was born in Westminster, London, England and holds both British and American citizenship due to his American mother. Nolan is the founder of the production company Syncopy Films. He often collaborates with his wife, producer Emma Thomas, and his brother, screenwriter Jonathan Nolan.
+
+  Coen Brothers:
+    director: tmdb
+    template: {name: Director, person: 1223, poster: https://upload.wikimedia.org/wikipedia/commons/e/e2/Coen_brothers_Cannes_2015_2_%28CROPPED%29.jpg}
+    summary: Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody.
+
+  Dave Chappelle:
+    actor: tmdb
+    template: {name: People, person: 4169}
+    summary: David Khari Webber "Dave" Chappelle was born on August 24, 1973 in Washington, D.C. He is a comedian, screenwriter, television/film producer and actor.
+
+  Denzel Washington:
+    actor: tmdb
+    template: {name: People, person: 5292}
+    summary: Denzel Hayes Washington, Jr. is an American actor, screenwriter, director and film producer.
+
+  J.J. Abrams:
+    director: tmdb
+    template: {name: People, person: 15344}
+    summary: Jeffrey Jacob Abrams (born June 27, 1966) is an American filmmaker. He is best known for his work in the genres of action, drama, and science fiction.
+
+  Jim Carrey:
+    actor: tmdb
+    template: {name: People, person: 206}
+    summary: James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994).
+
+  Philip K Dick:
+    writer: tmdb
+    template: {name: Writer, person: 584}
+    summary: American short story writer, novelist, and essayist. Dick has been hailed as one of the most original and thought-provoking writers of science fiction. He is regarded as one of the most prolific writers of the form during the mid-twentieth century. Since his death, Dick's work has been the subject of numerous critical studies and cinematic adaptations. Critics praise his short stories as innovative and provocative, contending that Dick's fiction cleverly explores scientific, social, and metaphysical issues of concern to post-World War II America.
+
+  Roland Emmerich:
+    director: tmdb
+    template: {name: Director, person: 6046}
+    summary: Roland Emmerich is a German film director, screenwriter, and producer who is known for his work on disaster and action flicks. He co-founded Centropolis Entertainment in 1985 with his sister.
+
+  Stephen King:
+    writer: tmdb
+    template: {name: Writer, person: 3027}
+    summary: An American author of contemporary horror, suspense, science fiction and fantasy fiction. His books have sold more than 350 million copies, which have been adapted into a number of feature films, television movies and comic books. As of 2011, King has written and published 49 novels, including seven under the pen name Richard Bachman, five non-fiction books, and nine collections of short stories.
+
+  Taika Waititi:
+    director: tmdb
+    template: {name: Director, person: 55934}
+    summary: Taika David Cohen ONZM (born 16 August 1975), known professionally as Taika Waititi, is a New Zealand film and television director, producer, screenwriter, actor, and comedian. He is the recipient of an Academy Award, BAFTA Award and a Grammy Award, and has been nominated for two Primetime Emmy Awards.
+
+  William Shakespeare:
+    trakt_list: https://trakt.tv/users/mrjohnnycake/lists/shakespeare?sort=released,asc
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/60ZqefTZIgfGtklgihIjXmi4ClH.jpg
+    url_background: https://i.imgur.com/juAQnOG.jpg
+    collection_order: release
+    sort_title: ++_William Shakespeare
+    sync_mode: sync
+    summary: William Shakespeare (26 April 1564 (baptised) – 23 April 1616) was an English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of around 38 plays, 154 sonnets, two long narrative poems, and a few other verses, of which the authorship of some is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.

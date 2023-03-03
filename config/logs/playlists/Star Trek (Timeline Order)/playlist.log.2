@@ -1,0 +1,44 @@
+[2022-10-17 20:27:34,705] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-17 20:27:34,706] [builder.py:197]            [INFO]     |                                Star Trek (Timeline Order) Playlist                                 |
+[2022-10-17 20:27:34,706] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-17 20:27:34,706] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-17 20:27:34,706] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-17 20:27:34,706] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,706] [meta.py:128]               [DEBUG]    | Template playlist                                                                                  |
+[2022-10-17 20:27:34,707] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'playlist'), ('trakt_url', 'https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline')]) |
+[2022-10-17 20:27:34,707] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,707] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'playlist'), ('trakt_url', 'https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline'), ('playlist_name', 'Star Trek (Timeline Order)'), ('mapping_name', 'Star Trek (Timeline Order)'), ('library_type', 'items'), ('library_name', 'playlist'), ('name_encoded', 'playlist'), ('trakt_url_encoded', 'https%3A//trakt.tv/users/pedrohcramos/lists/star-trek-timeline'), ('playlist_name_encoded', 'Star%20Trek%20%28Timeline%20Order%29'), ('mapping_name_encoded', 'Star%20Trek%20%28Timeline%20Order%29'), ('library_type_encoded', 'items'), ('library_name_encoded', 'playlist'), ('playlist_sort', 'Star Trek (Timeline Order)')]) |
+[2022-10-17 20:27:34,707] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,707] [meta.py:307]               [DEBUG]    | Defaults: {'libraries': 'Movies, Shows', 'libraries_encoded': 'Movies%2C%20Shows', 'url_<<key>>': 'https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline', 'url_<<key>>_encoded': 'https%3A//trakt.tv/users/pedrohcramos/lists/star-trek-timeline'} |
+[2022-10-17 20:27:34,707] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,708] [meta.py:309]               [DEBUG]    | Optional: ['use_<<key>>', 'use_<<key>>_encoded']                                                   |
+[2022-10-17 20:27:34,708] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,709] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'trakt_list': 'https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline', 'cache_builders': 1, 'sync_to_users': 'all', 'sync_mode': 'sync', 'libraries': 'Movies, Shows', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/playlist/Star%20Trek%20%28Timeline%20Order%29.jpg'} |
+[2022-10-17 20:27:34,709] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,709] [builder.py:219]            [INFO]     |========================= Validating Star Trek (Timeline Order) Attributes =========================|
+[2022-10-17 20:27:34,709] [builder.py:300]            [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,709] [builder.py:301]            [DEBUG]    | Validating Method: libraries                                                                       |
+[2022-10-17 20:27:34,710] [builder.py:304]            [DEBUG]    | Value: Movies, Shows                                                                               |
+[2022-10-17 20:27:34,710] [builder.py:313]            [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:34,710] [builder.py:314]            [DEBUG]    | Validating Method: sync_to_users                                                                   |
+[2022-10-17 20:27:34,710] [builder.py:315]            [DEBUG]    | Value: all                                                                                         |
+[2022-10-17 20:27:35,550] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:35,550] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-17 20:27:35,550] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-17 20:27:35,550] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-17 20:27:35,550] [builder.py:631]            [DEBUG]    | Validating Method: variables                                                                       |
+[2022-10-17 20:27:35,550] [builder.py:632]            [DEBUG]    | Value: ordereddict([('key', 'startrek')])                                                          |
+[2022-10-17 20:27:35,551] [plex_meta_manager.py:866]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 745, in run_playlists
+                                                                 |     builder = CollectionBuilder(config, playlist_file, mapping_name, playlist_attrs, extra=output_str)
+                                                                 |   File "/modules/builder.py", line 639, in __init__
+                                                                 |     raise Failed(f"{self.Type} Error: {method_final} attribute not allowed when using playlists")
+                                                                 | modules.util.Failed: Playlist Error: variables attribute not allowed when using playlists
+                                                                 | 
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:867]  [ERROR]    | Playlist Error: variables attribute not allowed when using playlists
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:876]  [INFO]     | 
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:879]  [INFO]     | 
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:880]  [INFO]     |====================================================================================================|
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:880]  [INFO]     |                            Finished Star Trek (Timeline Order) Playlist                            |
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:880]  [INFO]     |                                     Playlist Run Time: 0:00:00                                     |
+[2022-10-17 20:27:35,552] [plex_meta_manager.py:880]  [INFO]     |====================================================================================================|

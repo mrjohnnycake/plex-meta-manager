@@ -1,0 +1,171 @@
+[2022-10-18 16:47:59,206] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-18 16:47:59,207] [builder.py:197]            [INFO]     |                                Trakt Trending Collection in Movies                                 |
+[2022-10-18 16:47:59,207] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-18 16:47:59,207] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,207] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-18 16:47:59,207] [builder.py:219]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-10-18 16:47:59,207] [builder.py:421]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,207] [builder.py:422]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-10-18 16:47:59,207] [builder.py:426]            [DEBUG]    | Value: daily                                                                                       |
+[2022-10-18 16:47:59,207] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,207] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-18 16:47:59,208] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-18 16:47:59,208] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,208] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-18 16:47:59,208] [builder.py:611]            [DEBUG]    | Value: custom                                                                                      |
+[2022-10-18 16:47:59,208] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,208] [builder.py:631]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-10-18 16:47:59,208] [builder.py:632]            [DEBUG]    | Value: 100                                                                                         |
+[2022-10-18 16:47:59,208] [builder.py:1432]           [WARNING]  | Collection Warning: trakt_trending will run as trakt_chart                                         |
+[2022-10-18 16:47:59,208] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,209] [builder.py:631]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2022-10-18 16:47:59,209] [builder.py:632]            [DEBUG]    | Value: default                                                                                     |
+[2022-10-18 16:47:59,209] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,209] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-18 16:47:59,209] [builder.py:632]            [DEBUG]    | Value: *101b                                                                                       |
+[2022-10-18 16:47:59,209] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,209] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-18 16:47:59,209] [builder.py:632]            [DEBUG]    | Value: https://i.imgur.com/1qbVXLi.png                                                             |
+[2022-10-18 16:47:59,241] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,241] [plex.py:793]               [DEBUG]    | Looking for: Trakt Trending                                                                        |
+[2022-10-18 16:47:59,241] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,241] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-18 16:47:59,241] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,241] [plex_meta_manager.py:563]  [INFO]     |================================ Running Trakt Trending Collection =================================|
+[2022-10-18 16:47:59,242] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,242] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-18 16:47:59,242] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,242] [plex_meta_manager.py:580]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 100, 'time_period': None}                     |
+[2022-10-18 16:47:59,242] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,242] [trakt.py:495]              [INFO]     | Processing Trakt Chart: 100 Trending Movies                                                        |
+[2022-10-18 16:47:59,403] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,403] [builder.py:1541]           [DEBUG]    | 100 IDs Found: [(718930, 'tmdb'), (616820, 'tmdb'), (361743, 'tmdb'), (675445, 'tmdb'), (121, 'tmdb'), (717728, 'tmdb'), (338947, 'tmdb'), (672, 'tmdb'), (616037, 'tmdb'), (507086, 'tmdb'), (723419, 'tmdb'), (614939, 'tmdb'), (671, 'tmdb'), (568124, 'tmdb'), (597922, 'tmdb'), (635891, 'tmdb'), (120, 'tmdb'), (122, 'tmdb'), (673, 'tmdb'), (762504, 'tmdb'), (438148, 'tmdb'), (438695, 'tmdb'), (629542, 'tmdb'), (539681, 'tmdb'), (864959, 'tmdb'), (966220, 'tmdb'), (879444, 'tmdb'), (732459, 'tmdb'), (857258, 'tmdb'), (299536, 'tmdb'), (9806, 'tmdb'), (10193, 'tmdb'), (414906, 'tmdb'), (75780, 'tmdb'), (301528, 'tmdb'), (330457, 'tmdb'), (766507, 'tmdb'), (10439, 'tmdb'), (526896, 'tmdb'), (508947, 'tmdb'), (675353, 'tmdb'), (642885, 'tmdb'), (799546, 'tmdb'), (551271, 'tmdb'), (886396, 'tmdb'), (852252, 'tmdb'), (1011579, 'tmdb'), (27205, 'tmdb'), (297761, 'tmdb'), (277834, 'tmdb'), (680, 'tmdb'), (767, 'tmdb'), (324857, 'tmdb'), (771, 'tmdb'), (238, 'tmdb'), (920, 'tmdb'), (337339, 'tmdb'), (634649, 'tmdb'), (37799, 'tmdb'), (72105, 'tmdb'), (679, 'tmdb'), (338952, 'tmdb'), (9502, 'tmdb'), (453, 'tmdb'), (2080, 'tmdb'), (559, 'tmdb'), (450465, 'tmdb'), (259693, 'tmdb'), (20526, 'tmdb'), (615457, 'tmdb'), (420818, 'tmdb'), (791373, 'tmdb'), (22970, 'tmdb'), (493922, 'tmdb'), (35, 'tmdb'), (373571, 'tmdb'), (13053, 'tmdb'), (335787, 'tmdb'), (588228, 'tmdb'), (406759, 'tmdb'), (725201, 'tmdb'), (786, 'tmdb'), (513310, 'tmdb'), (151960, 'tmdb'), (614934, 'tmdb'), (984, 'tmdb'), (899082, 'tmdb'), (760104, 'tmdb'), (985939, 'tmdb'), (459151, 'tmdb'), (894205, 'tmdb'), (760741, 'tmdb'), (762968, 'tmdb'), (420634, 'tmdb'), (791155, 'tmdb'), (13682, 'tmdb'), (724495, 'tmdb'), (724665, 'tmdb'), (366672, 'tmdb'), (650031, 'tmdb')] |
+[2022-10-18 16:47:59,403] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-18 16:47:59,407] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,407] [builder.py:2065]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
+[2022-10-18 16:47:59,407] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-18 16:47:59,407] [builder.py:2080]           [INFO]     |  1/51 | Trakt Trending Collection | + | Bullet Train (2022)                                        |
+[2022-10-18 16:47:59,554] [builder.py:2080]           [INFO]     |  2/51 | Trakt Trending Collection | + | Top Gun: Maverick (2022)                                   |
+[2022-10-18 16:47:59,564] [builder.py:2080]           [INFO]     |  3/51 | Trakt Trending Collection | + | PAW Patrol: The Movie (2021)                               |
+[2022-10-18 16:47:59,721] [builder.py:2080]           [INFO]     |  4/51 | Trakt Trending Collection | + | The Lord of the Rings: The Two Towers (2002)               |
+[2022-10-18 16:47:59,732] [builder.py:2080]           [INFO]     |  5/51 | Trakt Trending Collection | + | Harry Potter and the Chamber of Secrets (2002)             |
+[2022-10-18 16:47:59,949] [builder.py:2080]           [INFO]     |  6/51 | Trakt Trending Collection | + | Jurassic World Dominion (2022)                             |
+[2022-10-18 16:48:00,126] [builder.py:2080]           [INFO]     |  7/51 | Trakt Trending Collection | + | Harry Potter and the Sorcerer's Stone (2001)               |
+[2022-10-18 16:48:00,339] [builder.py:2080]           [INFO]     |  8/51 | Trakt Trending Collection | + | Encanto (2021)                                             |
+[2022-10-18 16:48:00,552] [builder.py:2080]           [INFO]     |  9/51 | Trakt Trending Collection | + | The Lord of the Rings: The Fellowship of the Ring (2001)   |
+[2022-10-18 16:48:00,563] [builder.py:2080]           [INFO]     | 10/51 | Trakt Trending Collection | + | The Lord of the Rings: The Return of the King (2003)       |
+[2022-10-18 16:48:00,574] [builder.py:2080]           [INFO]     | 11/51 | Trakt Trending Collection | + | Harry Potter and the Prisoner of Azkaban (2004)            |
+[2022-10-18 16:48:00,770] [builder.py:2080]           [INFO]     | 12/51 | Trakt Trending Collection | + | Nope (2022)                                                |
+[2022-10-18 16:48:00,907] [builder.py:2080]           [INFO]     | 13/51 | Trakt Trending Collection | + | Minions: The Rise of Gru (2022)                            |
+[2022-10-18 16:48:01,039] [builder.py:2080]           [INFO]     | 14/51 | Trakt Trending Collection | + | Sing 2 (2021)                                              |
+[2022-10-18 16:48:01,214] [builder.py:2080]           [INFO]     | 15/51 | Trakt Trending Collection | + | The Bad Guys (2022)                                        |
+[2022-10-18 16:48:01,362] [builder.py:2080]           [INFO]     | 16/51 | Trakt Trending Collection | + | DC League of Super-Pets (2022)                             |
+[2022-10-18 16:48:01,504] [builder.py:2080]           [INFO]     | 17/51 | Trakt Trending Collection | + | Avengers: Infinity War (2018)                              |
+[2022-10-18 16:48:01,515] [builder.py:2080]           [INFO]     | 18/51 | Trakt Trending Collection | + | The Incredibles (2004)                                     |
+[2022-10-18 16:48:01,526] [builder.py:2080]           [INFO]     | 19/51 | Trakt Trending Collection | + | Toy Story 3 (2010)                                         |
+[2022-10-18 16:48:01,536] [builder.py:2080]           [INFO]     | 20/51 | Trakt Trending Collection | + | The Batman (2022)                                          |
+[2022-10-18 16:48:01,675] [builder.py:2080]           [INFO]     | 21/51 | Trakt Trending Collection | + | Jack Reacher (2012)                                        |
+[2022-10-18 16:48:01,809] [builder.py:2080]           [INFO]     | 22/51 | Trakt Trending Collection | + | Toy Story 4 (2019)                                         |
+[2022-10-18 16:48:02,045] [builder.py:2080]           [INFO]     | 23/51 | Trakt Trending Collection | + | Frozen II (2019)                                           |
+[2022-10-18 16:48:02,278] [builder.py:2080]           [INFO]     | 24/51 | Trakt Trending Collection | + | Prey (2022)                                                |
+[2022-10-18 16:48:02,396] [builder.py:2080]           [INFO]     | 25/51 | Trakt Trending Collection | + | Hocus Pocus (1993)                                         |
+[2022-10-18 16:48:02,563] [builder.py:2080]           [INFO]     | 26/51 | Trakt Trending Collection | + | Turning Red (2022)                                         |
+[2022-10-18 16:48:02,795] [builder.py:2080]           [INFO]     | 27/51 | Trakt Trending Collection | + | Sonic the Hedgehog 2 (2022)                                |
+[2022-10-18 16:48:02,971] [builder.py:2080]           [INFO]     | 28/51 | Trakt Trending Collection | + | Inception (2010)                                           |
+[2022-10-18 16:48:02,981] [builder.py:2080]           [INFO]     | 29/51 | Trakt Trending Collection | + | Moana (2016)                                               |
+[2022-10-18 16:48:03,200] [builder.py:2080]           [INFO]     | 30/51 | Trakt Trending Collection | + | Pulp Fiction (1994)                                        |
+[2022-10-18 16:48:03,210] [builder.py:2080]           [INFO]     | 31/51 | Trakt Trending Collection | + | Harry Potter and the Half-Blood Prince (2009)              |
+[2022-10-18 16:48:03,421] [builder.py:2080]           [INFO]     | 32/51 | Trakt Trending Collection | + | Spider-Man: Into the Spider-Verse (2018)                   |
+[2022-10-18 16:48:03,432] [builder.py:2080]           [INFO]     | 33/51 | Trakt Trending Collection | + | Home Alone (1990)                                          |
+[2022-10-18 16:48:03,613] [builder.py:2080]           [INFO]     | 34/51 | Trakt Trending Collection | + | The Godfather (1972)                                       |
+[2022-10-18 16:48:03,624] [builder.py:2080]           [INFO]     | 35/51 | Trakt Trending Collection | + | Cars (2006)                                                |
+[2022-10-18 16:48:03,798] [builder.py:2080]           [INFO]     | 36/51 | Trakt Trending Collection | + | Spider-Man: No Way Home (2021)                             |
+[2022-10-18 16:48:03,809] [builder.py:2080]           [INFO]     | 37/51 | Trakt Trending Collection | + | Aliens (1986)                                              |
+[2022-10-18 16:48:03,820] [builder.py:2080]           [INFO]     | 38/51 | Trakt Trending Collection | + | Fantastic Beasts: The Crimes of Grindelwald (2018)         |
+[2022-10-18 16:48:04,028] [builder.py:2080]           [INFO]     | 39/51 | Trakt Trending Collection | + | Kung Fu Panda (2008)                                       |
+[2022-10-18 16:48:04,133] [builder.py:2080]           [INFO]     | 40/51 | Trakt Trending Collection | + | X-Men Origins: Wolverine (2009)                            |
+[2022-10-18 16:48:04,243] [builder.py:2080]           [INFO]     | 41/51 | Trakt Trending Collection | + | Spider-Man 3 (2007)                                        |
+[2022-10-18 16:48:04,393] [builder.py:2080]           [INFO]     | 42/51 | Trakt Trending Collection | + | Glass (2019)                                               |
+[2022-10-18 16:48:04,526] [builder.py:2080]           [INFO]     | 43/51 | Trakt Trending Collection | + | Nobody (2021)                                              |
+[2022-10-18 16:48:04,656] [builder.py:2080]           [INFO]     | 44/51 | Trakt Trending Collection | + | The Cabin in the Woods (2012)                              |
+[2022-10-18 16:48:04,840] [builder.py:2080]           [INFO]     | 45/51 | Trakt Trending Collection | + | Bolt (2008)                                                |
+[2022-10-18 16:48:05,030] [builder.py:2080]           [INFO]     | 46/51 | Trakt Trending Collection | + | Moonfall (2022)                                            |
+[2022-10-18 16:48:05,197] [builder.py:2080]           [INFO]     | 47/51 | Trakt Trending Collection | + | Boss Level (2021)                                          |
+[2022-10-18 16:48:05,289] [builder.py:2080]           [INFO]     | 48/51 | Trakt Trending Collection | + | Planes (2013)                                              |
+[2022-10-18 16:48:05,402] [builder.py:2080]           [INFO]     | 49/51 | Trakt Trending Collection | + | Elvis (2022)                                               |
+[2022-10-18 16:48:05,555] [builder.py:2080]           [INFO]     | 50/51 | Trakt Trending Collection | + | Fall (2022)                                                |
+[2022-10-18 16:48:05,656] [builder.py:2080]           [INFO]     | 51/51 | Trakt Trending Collection | + | The Boss Baby: Family Business (2021)                      |
+[2022-10-18 16:48:05,798] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-18 16:48:05,798] [builder.py:2102]           [INFO]     | 51 Movies Processed 51 Movies Added                                                                |
+[2022-10-18 16:48:05,802] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-18 16:48:05,802] [builder.py:2442]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
+[2022-10-18 16:48:05,802] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-18 16:48:05,865] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | *101b
+                                                                 | Label | +PMM
+[2022-10-18 16:48:05,933] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-18 16:48:05,933] [builder.py:2517]           [INFO]     | 
+[2022-10-18 16:48:05,998] [builder.py:2540]           [INFO]     | Collection Order | custom
+[2022-10-18 16:48:05,999] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Trakt Trending
+                                                                 | Asset Directory Created: //config/assets/movies/Trakt Trending'
+[2022-10-18 16:48:05,999] [util.py:150]               [DEBUG]    | 1 poster found:
+[2022-10-18 16:48:05,999] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/1qbVXLi.png
+[2022-10-18 16:48:06,040] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/1qbVXLi.png
+[2022-10-18 16:48:06,307] [builder.py:2597]           [INFO]     | 
+[2022-10-18 16:48:06,307] [builder.py:2598]           [INFO]     |================================ Sorting Trakt Trending Collection =================================|
+[2022-10-18 16:48:06,308] [builder.py:2599]           [INFO]     |                                                                                                    |
+[2022-10-18 16:48:06,308] [builder.py:2615]           [INFO]     | Moving Bullet Train (2022) to the beginning                                                        |
+[2022-10-18 16:48:06,408] [builder.py:2615]           [INFO]     | Moving Top Gun: Maverick (2022) after Bullet Train (2022)                                          |
+[2022-10-18 16:48:06,506] [builder.py:2615]           [INFO]     | Moving PAW Patrol: The Movie (2021) after Top Gun: Maverick (2022)                                 |
+[2022-10-18 16:48:06,605] [builder.py:2615]           [INFO]     | Moving The Lord of the Rings: The Two Towers (2002) after PAW Patrol: The Movie (2021)             |
+[2022-10-18 16:48:06,704] [builder.py:2615]           [INFO]     | Moving Harry Potter and the Chamber of Secrets (2002) after The Lord of the Rings: The Two Towers (2002) |
+[2022-10-18 16:48:06,802] [builder.py:2615]           [INFO]     | Moving Jurassic World Dominion (2022) after Harry Potter and the Chamber of Secrets (2002)         |
+[2022-10-18 16:48:06,902] [builder.py:2615]           [INFO]     | Moving Harry Potter and the Sorcerer's Stone (2001) after Jurassic World Dominion (2022)           |
+[2022-10-18 16:48:06,998] [builder.py:2615]           [INFO]     | Moving Encanto (2021) after Harry Potter and the Sorcerer's Stone (2001)                           |
+[2022-10-18 16:48:07,100] [builder.py:2615]           [INFO]     | Moving The Lord of the Rings: The Fellowship of the Ring (2001) after Encanto (2021)               |
+[2022-10-18 16:48:07,198] [builder.py:2615]           [INFO]     | Moving The Lord of the Rings: The Return of the King (2003) after The Lord of the Rings: The Fellowship of the Ring (2001) |
+[2022-10-18 16:48:07,299] [builder.py:2615]           [INFO]     | Moving Harry Potter and the Prisoner of Azkaban (2004) after The Lord of the Rings: The Return of the King (2003) |
+[2022-10-18 16:48:07,400] [builder.py:2615]           [INFO]     | Moving Nope (2022) after Harry Potter and the Prisoner of Azkaban (2004)                           |
+[2022-10-18 16:48:07,500] [builder.py:2615]           [INFO]     | Moving Sing 2 (2021) after Minions: The Rise of Gru (2022)                                         |
+[2022-10-18 16:48:07,597] [builder.py:2615]           [INFO]     | Moving The Bad Guys (2022) after Sing 2 (2021)                                                     |
+[2022-10-18 16:48:07,703] [builder.py:2615]           [INFO]     | Moving DC League of Super-Pets (2022) after The Bad Guys (2022)                                    |
+[2022-10-18 16:48:07,800] [builder.py:2615]           [INFO]     | Moving Avengers: Infinity War (2018) after DC League of Super-Pets (2022)                          |
+[2022-10-18 16:48:07,898] [builder.py:2615]           [INFO]     | Moving The Incredibles (2004) after Avengers: Infinity War (2018)                                  |
+[2022-10-18 16:48:07,996] [builder.py:2615]           [INFO]     | Moving Toy Story 3 (2010) after The Incredibles (2004)                                             |
+[2022-10-18 16:48:08,096] [builder.py:2615]           [INFO]     | Moving The Batman (2022) after Toy Story 3 (2010)                                                  |
+[2022-10-18 16:48:08,194] [builder.py:2615]           [INFO]     | Moving Jack Reacher (2012) after The Batman (2022)                                                 |
+[2022-10-18 16:48:08,292] [builder.py:2615]           [INFO]     | Moving Toy Story 4 (2019) after Jack Reacher (2012)                                                |
+[2022-10-18 16:48:08,390] [builder.py:2615]           [INFO]     | Moving Frozen II (2019) after Toy Story 4 (2019)                                                   |
+[2022-10-18 16:48:08,488] [builder.py:2615]           [INFO]     | Moving Prey (2022) after Frozen II (2019)                                                          |
+[2022-10-18 16:48:08,585] [builder.py:2615]           [INFO]     | Moving Hocus Pocus (1993) after Prey (2022)                                                        |
+[2022-10-18 16:48:08,683] [builder.py:2615]           [INFO]     | Moving Turning Red (2022) after Hocus Pocus (1993)                                                 |
+[2022-10-18 16:48:08,779] [builder.py:2615]           [INFO]     | Moving Sonic the Hedgehog 2 (2022) after Turning Red (2022)                                        |
+[2022-10-18 16:48:08,877] [builder.py:2615]           [INFO]     | Moving Inception (2010) after Sonic the Hedgehog 2 (2022)                                          |
+[2022-10-18 16:48:08,973] [builder.py:2615]           [INFO]     | Moving Moana (2016) after Inception (2010)                                                         |
+[2022-10-18 16:48:09,073] [builder.py:2615]           [INFO]     | Moving Pulp Fiction (1994) after Moana (2016)                                                      |
+[2022-10-18 16:48:09,170] [builder.py:2615]           [INFO]     | Moving Harry Potter and the Half-Blood Prince (2009) after Pulp Fiction (1994)                     |
+[2022-10-18 16:48:09,266] [builder.py:2615]           [INFO]     | Moving Spider-Man: Into the Spider-Verse (2018) after Harry Potter and the Half-Blood Prince (2009) |
+[2022-10-18 16:48:09,366] [builder.py:2615]           [INFO]     | Moving Home Alone (1990) after Spider-Man: Into the Spider-Verse (2018)                            |
+[2022-10-18 16:48:09,464] [builder.py:2615]           [INFO]     | Moving The Godfather (1972) after Home Alone (1990)                                                |
+[2022-10-18 16:48:09,560] [builder.py:2615]           [INFO]     | Moving Cars (2006) after The Godfather (1972)                                                      |
+[2022-10-18 16:48:09,658] [builder.py:2615]           [INFO]     | Moving Spider-Man: No Way Home (2021) after Cars (2006)                                            |
+[2022-10-18 16:48:09,760] [builder.py:2615]           [INFO]     | Moving Aliens (1986) after Spider-Man: No Way Home (2021)                                          |
+[2022-10-18 16:48:09,859] [builder.py:2615]           [INFO]     | Moving Fantastic Beasts: The Crimes of Grindelwald (2018) after Aliens (1986)                      |
+[2022-10-18 16:48:09,955] [builder.py:2615]           [INFO]     | Moving Kung Fu Panda (2008) after Fantastic Beasts: The Crimes of Grindelwald (2018)               |
+[2022-10-18 16:48:10,054] [builder.py:2615]           [INFO]     | Moving X-Men Origins: Wolverine (2009) after Kung Fu Panda (2008)                                  |
+[2022-10-18 16:48:10,152] [builder.py:2615]           [INFO]     | Moving Spider-Man 3 (2007) after X-Men Origins: Wolverine (2009)                                   |
+[2022-10-18 16:48:10,248] [builder.py:2615]           [INFO]     | Moving Glass (2019) after Spider-Man 3 (2007)                                                      |
+[2022-10-18 16:48:10,347] [builder.py:2615]           [INFO]     | Moving Nobody (2021) after Glass (2019)                                                            |
+[2022-10-18 16:48:10,444] [builder.py:2615]           [INFO]     | Moving The Cabin in the Woods (2012) after Nobody (2021)                                           |
+[2022-10-18 16:48:10,541] [builder.py:2615]           [INFO]     | Moving Bolt (2008) after The Cabin in the Woods (2012)                                             |
+[2022-10-18 16:48:10,642] [builder.py:2615]           [INFO]     | Moving Moonfall (2022) after Bolt (2008)                                                           |
+[2022-10-18 16:48:10,740] [builder.py:2615]           [INFO]     | Moving Boss Level (2021) after Moonfall (2022)                                                     |
+[2022-10-18 16:48:10,840] [builder.py:2615]           [INFO]     | Moving Planes (2013) after Boss Level (2021)                                                       |
+[2022-10-18 16:48:10,937] [builder.py:2615]           [INFO]     | Moving Elvis (2022) after Planes (2013)                                                            |
+[2022-10-18 16:48:11,038] [builder.py:2615]           [INFO]     | Moving Fall (2022) after Elvis (2022)                                                              |
+[2022-10-18 16:48:11,136] [builder.py:2615]           [INFO]     | Moving The Boss Baby: Family Business (2021) after Fall (2022)                                     |
+[2022-10-18 16:48:11,237] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-10-18 16:48:11,237] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-18 16:48:11,237] [plex_meta_manager.py:709]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-10-18 16:48:11,237] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-10-18 16:48:11,237] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

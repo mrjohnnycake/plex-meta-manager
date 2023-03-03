@@ -1,0 +1,30 @@
+[2023-03-02 05:05:58,768] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:05:58,768] [builder.py:193]            [INFO]     |                             New Year's Eve Movies Collection in Movies                             |
+[2023-03-02 05:05:58,768] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:05:58,768] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-02 05:05:58,768] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-02 05:05:58,768] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,768] [builder.py:216]            [DEBUG]    | Templates Called: Holiday                                                                          |
+[2023-03-02 05:05:58,769] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,769] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-02 05:05:58,769] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,770] [meta.py:552]               [DEBUG]    | {'sort_title': "New Year's Eve Movies", 'url_poster': 'https://i.imgur.com/YCYXhAX.png', 'collection_order': 'release.desc', 'delete_not_scheduled': False, 'run_again': True, 'sync_mode': 'sync'} |
+[2023-03-02 05:05:58,770] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,770] [builder.py:233]            [INFO]     |=========================== Validating New Year's Eve Movies Attributes ============================|
+[2023-03-02 05:05:58,780] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,780] [plex.py:860]               [DEBUG]    | Looking for: New Year's Eve Movies                                                                 |
+[2023-03-02 05:05:58,780] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,780] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-03-02 05:05:58,781] [builder.py:502]            [DEBUG]    | Value: False                                                                                       |
+[2023-03-02 05:05:58,781] [builder.py:519]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:05:58,781] [builder.py:520]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2023-03-02 05:05:58,781] [builder.py:524]            [DEBUG]    | Value: range(12/26-01/05)                                                                          |
+[2023-03-02 05:05:58,781] [plex_meta_manager.py:755]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled between December 26th and January 5th                                                    |
+                                                                 |                                                                                                    |
+                                                                 | Collection New Year's Eve Movies not scheduled to run                                              |
+[2023-03-02 05:05:58,781] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-02 05:05:58,782] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-02 05:05:58,782] [plex_meta_manager.py:781]  [INFO]     |                             Finished New Year's Eve Movies Collection                              |
+[2023-03-02 05:05:58,782] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-02 05:05:58,782] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

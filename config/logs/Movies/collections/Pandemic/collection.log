@@ -1,0 +1,89 @@
+[2023-03-02 05:04:32,360] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:04:32,360] [builder.py:193]            [INFO]     |                                   Pandemic Collection in Movies                                    |
+[2023-03-02 05:04:32,360] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-02 05:04:32,360] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-02 05:04:32,360] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-02 05:04:32,360] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,361] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
+[2023-03-02 05:04:32,361] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,361] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-02 05:04:32,361] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,361] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/55837', 'sort_title': 'Pandemic', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': True, 'sync_mode': 'sync'} |
+[2023-03-02 05:04:32,362] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,362] [builder.py:233]            [INFO]     |================================== Validating Pandemic Attributes ==================================|
+[2023-03-02 05:04:32,497] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,497] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-03-02 05:04:32,497] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-02 05:04:32,497] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,497] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-03-02 05:04:32,498] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-02 05:04:32,498] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,498] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-02 05:04:32,498] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-02 05:04:32,498] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:32,498] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-03-02 05:04:32,498] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/list/ls092321048/                                                      |
+[2023-03-02 05:04:35,309] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:35,309] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-02 05:04:35,309] [builder.py:720]            [DEBUG]    | Value: A Pandemic film resolves around widespread viruses, plagues, and diseases.                  |
+[2023-03-02 05:04:35,310] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:35,310] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-02 05:04:35,310] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/55837                                                    |
+[2023-03-02 05:04:36,432] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:36,432] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-02 05:04:36,432] [builder.py:720]            [DEBUG]    | Value: Pandemic                                                                                    |
+[2023-03-02 05:04:36,432] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:36,432] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-03-02 05:04:36,432] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-03-02 05:04:36,432] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:36,433] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-03-02 05:04:36,433] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-02 05:04:36,433] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-02 05:04:36,433] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:638]  [INFO]     |=================================== Running Pandemic Collection ====================================|
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls092321048/', 'limit': 0}                  |
+[2023-03-02 05:04:36,433] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-02 05:04:36,433] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls092321048/                                       |
+[2023-03-02 05:04:44,114] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:44,114] [builder.py:1666]           [DEBUG]    | 84 IDs Found                                                                                       |
+[2023-03-02 05:04:44,114] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-02 05:04:44,127] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,128] [builder.py:2250]           [INFO]     |================================== Adding to Pandemic Collection ===================================|
+[2023-03-02 05:04:44,128] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  1/18 | Pandemic Collection | = | Outbreak (1995)                                                  |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  2/18 | Pandemic Collection | = | 28 Days Later (2002)                                             |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  3/18 | Pandemic Collection | = | Shaun of the Dead (2004)                                         |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  4/18 | Pandemic Collection | = | The Crazies (2010)                                               |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  5/18 | Pandemic Collection | = | Contagion (2011)                                                 |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  6/18 | Pandemic Collection | = | World War Z (2013)                                               |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  7/18 | Pandemic Collection | = | Carriers (2009)                                                  |
+[2023-03-02 05:04:44,129] [builder.py:2265]           [INFO]     |  8/18 | Pandemic Collection | = | Pontypool (2009)                                                 |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     |  9/18 | Pandemic Collection | = | The Girl with All the Gifts (2016)                               |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 10/18 | Pandemic Collection | = | V for Vendetta (2006)                                            |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 11/18 | Pandemic Collection | = | Mission: Impossible II (2000)                                    |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 12/18 | Pandemic Collection | = | Maze Runner: The Death Cure (2018)                               |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 13/18 | Pandemic Collection | = | Train to Busan (2016)                                            |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 14/18 | Pandemic Collection | = | Zombieland: Double Tap (2019)                                    |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 15/18 | Pandemic Collection | = | Zombieland (2009)                                                |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 16/18 | Pandemic Collection | = | Children of Men (2006)                                           |
+[2023-03-02 05:04:44,130] [builder.py:2265]           [INFO]     | 17/18 | Pandemic Collection | = | The Road (2009)                                                  |
+[2023-03-02 05:04:44,131] [builder.py:2265]           [INFO]     | 18/18 | Pandemic Collection | = | The Andromeda Strain (1971)                                      |
+[2023-03-02 05:04:44,131] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,131] [builder.py:2287]           [INFO]     | 18 Movies Processed 0 Movies Added                                                                 |
+[2023-03-02 05:04:44,141] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,141] [builder.py:2624]           [INFO]     |============================= Updating Details of Pandemic Collection ==============================|
+[2023-03-02 05:04:44,141] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,151] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-03-02 05:04:44,157] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-03-02 05:04:44,157] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/55837                                |
+[2023-03-02 05:04:44,158] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Pandemic/poster.png', 'prefix': "Pandemic's ", 'is_poster': True, 'is_url': False, 'compare': 8022138, 'message': "Pandemic's poster to [File] //config/assets/movies/Pandemic/poster.png"} |
+[2023-03-02 05:04:44,158] [library.py:177]            [INFO]     | Detail: Pandemic's poster update not needed                                                        |
+[2023-03-02 05:04:44,281] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-02 05:04:44,281] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-02 05:04:44,281] [plex_meta_manager.py:781]  [INFO]     |                                    Finished Pandemic Collection                                    |
+[2023-03-02 05:04:44,281] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2023-03-02 05:04:44,281] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

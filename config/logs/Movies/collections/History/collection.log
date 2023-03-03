@@ -1,0 +1,30 @@
+[2022-11-02 18:29:52,082] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-02 18:29:52,082] [builder.py:197]            [INFO]     |                                    History Collection in Movies                                    |
+[2022-11-02 18:29:52,082] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-11-02 18:29:52,082] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-11-02 18:29:52,083] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-11-02 18:29:52,083] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,083] [meta.py:128]               [DEBUG]    | Template Genre                                                                                     |
+[2022-11-02 18:29:52,083] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Genre'), ('genre', 'History'), ('poster', 'https://theposterdb.com/api/assets/58022')]) |
+[2022-11-02 18:29:52,083] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,084] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Genre'), ('genre', 'History'), ('poster', 'https://theposterdb.com/api/assets/58022'), ('collection_name', 'History'), ('mapping_name', 'History'), ('library_type', 'movie'), ('library_name', 'Movies'), ('name_encoded', 'Genre'), ('genre_encoded', 'History'), ('poster_encoded', 'https%3A//theposterdb.com/api/assets/58022'), ('collection_name_encoded', 'History'), ('mapping_name_encoded', 'History'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Movies'), ('collection_sort', 'History')]) |
+[2022-11-02 18:29:52,084] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,084] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-11-02 18:29:52,084] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,084] [meta.py:309]               [DEBUG]    | Optional: []                                                                                       |
+[2022-11-02 18:29:52,085] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,085] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'plex_search': {'genre': 'History'}, 'url_poster': 'https://theposterdb.com/api/assets/58022', 'sort_title': 'History', 'collection_order': 'alpha', 'schedule': 'weekly(sunday)'} |
+[2022-11-02 18:29:52,085] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,085] [builder.py:219]            [INFO]     |================================== Validating History Attributes ===================================|
+[2022-11-02 18:29:52,085] [builder.py:421]            [DEBUG]    |                                                                                                    |
+[2022-11-02 18:29:52,086] [builder.py:422]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-11-02 18:29:52,086] [builder.py:426]            [DEBUG]    | Value: weekly(sunday)                                                                              |
+[2022-11-02 18:29:52,086] [plex_meta_manager.py:686]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled weekly on Sunday
+                                                                 | 
+                                                                 | Collection History not scheduled to run
+[2022-11-02 18:29:52,086] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-11-02 18:29:52,087] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-11-02 18:29:52,087] [plex_meta_manager.py:709]  [INFO]     |                                    Finished History Collection                                     |
+[2022-11-02 18:29:52,087] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-02 18:29:52,087] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
