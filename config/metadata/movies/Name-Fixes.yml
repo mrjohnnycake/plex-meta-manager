@@ -67,9 +67,17 @@ metadata:
     title: Glengarry Glen Ross
     url_poster: https://theposterdb.com/api/assets/108248
 
+  8393: # The Gods Must Be Crazy (1980)
+    title: The Gods Must Be Crazy
+    url_poster: https://theposterdb.com/api/assets/125091
+
   929: # Godzilla (1998)
     title: Godzilla
     url_poster: https://theposterdb.com/api/assets/62751
+
+  373571: # Godzilla: King of the Monsters (2019)
+    title: Godzilla - King of the Monsters
+    url_poster: https://theposterdb.com/api/assets/16643
 
   497: # The Green Mile
     title: The Green Mile
@@ -99,6 +107,10 @@ metadata:
     title: Magnolia
     url_poster: https://theposterdb.com/api/assets/188510
 
+  36670: # Never Say Never Again
+    title: Never Say Never Again
+    url_poster: https://theposterdb.com/api/assets/2088
+
   20481: # Nightbreed
     title: Nightbreed
     url_poster: https://theposterdb.com/api/assets/103711
@@ -106,6 +118,14 @@ metadata:
   10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
     title: A Nightmare on Elm Street, Part 2- Freddy's Revenge
     url_poster: https://theposterdb.com/api/assets/115954
+
+  298: # Ocean's Thirteen
+    title: Ocean's Thirteen
+    url_poster: https://theposterdb.com/api/assets/19156
+
+  700: # Octopussy
+    title: Octopussy
+    url_poster: https://theposterdb.com/api/assets/21083
 
   668: # On Her Majesty's Secret Service
     title: On Her Majesty's Secret Service
@@ -122,6 +142,10 @@ metadata:
   869: # Planet of the Apes (2001)
     title: Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/262168
+
+  10498: # Point of No Return (1993)
+    title: Point of No Return
+    url_poster: https://theposterdb.com/api/assets/87369
 
   17898: # Silver Bullet
     title: Silver Bullet
