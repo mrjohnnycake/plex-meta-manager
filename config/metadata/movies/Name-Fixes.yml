@@ -4,41 +4,225 @@
 
 #  [TMDb number]: # [Name of movie]
 #    title: [Name of movie]
-#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
 
-####################################
-##     Plex Auto-naming Fixes     ##
-####################################
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
 
 metadata:
+
+  348: # Alien
+    sort_title: Alien 1
+
+  679: # Aliens
+    sort_title: Alien 2
+
+  8077: # Alien 3
+    sort_title: Alien 3
+
+  8078: # Alien Resurrection
+    sort_title: Alien 4
+
+  70981: # Prometheus
+    alt_title: Alien Prometheus
+    sort_title: Alien 5
+
+  126889: # Alien: Covenant
+    sort_title: Alien 6
+
+  395: # Alien vs. Predator
+    alt_title: AVP Alien vs. Predator
+    sort_title: AVP 1
+
+  440: # Aliens vs. Predator: Requiem
+    sort_title: AVP 2
+
+  10514: # The Andromeda Strain
+    url_poster: https://theposterdb.com/api/assets/76544
+
+  494895: # Anne of Green Gables: The Good Stars
+    title: Anne of Green Gables - The Good Stars
+    url_poster: https://theposterdb.com/api/assets/85045
+
+  537996: # The Ballad of Buster Scruggs
+    url_poster: https://theposterdb.com/api/assets/284748
 
   913290: # Barbarian
     title: Barbarian
     url_poster: https://theposterdb.com/api/assets/267452
 
+  414906: # The Batman (2022)
+    url_poster: https://theposterdb.com/api/assets/185105
+
+  11548: # *batteries not included
+    sort_title: Batteries Not Included
+
   1685: # Beneath the Planet of the Apes
     title: Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307
+
+  194662: # Birdman or (The Unexpected Virtue of Ignorance)
+    url_poster: https://theposterdb.com/api/assets/214684
 
   20504: # The Book of Eli
     title: The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
 
+  62177: # Brave (2012)
+    url_poster: https://theposterdb.com/api/assets/60698
+
+  287: # Bull Durham
+    url_poster: https://theposterdb.com/api/assets/119865
+
+  11974: # The 'Burbs
+    sort_title: Burbs
+    url_poster: https://theposterdb.com/api/assets/25872
+
   102780: # Byzantium
     title: Byzantium
     url_poster: https://theposterdb.com/api/assets/93471
+
+  11977: # Caddyshack
+    url_poster: https://theposterdb.com/api/assets/143409
+
+  11286: # The Cannonball Run
+    url_poster: https://theposterdb.com/api/assets/72226
+
+  34069: # Cargo
+    url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg
 
   25769: # Carriers
     title: Carriers
     url_poster: https://theposterdb.com/api/assets/105507
 
+  289: # Casablanca
+    url_poster: https://image.tmdb.org/t/p/original//5K7cOHoay2mZusSLezBOY0Qxh8a.jpg
+
+  10515: # Castle In The Sky
+    url_poster: https://theposterdb.com/api/assets/111923
+
+  10694: # The Chase
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lEmGW4Fc9wMRLIKq6NRojZnTbdp.jpg
+
   10823: # Children of the Corn
     title: Children of the Corn
     url_poster: https://theposterdb.com/api/assets/279826
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  902: # The City of Lost Children
+    url_poster: 
+
+  9612: # Coneheads
+    url_poster: 
+
+  39538: # Contagion
+    url_poster: 
+
+  11362: # The Count of Monte Cristo
+    url_poster: 
+
+  11839: # The Court Jester
+    url_poster: 
+
   16281: # Creepshow
     title: Creepshow
     url_poster: https://theposterdb.com/api/assets/108982
+
+  9495: # The Crow
+    url_poster: 
+
+  387: # Das Boot
+    sort_title: Das Boot
+    url_poster: 
+
+  35595: # Dave Chappelle: HBO Comedy Half Hour
+    sort_title: Dave Chappelle 1
+
+  16275: # Dave Chappelle: Killin' Them Softly
+    sort_title: Dave Chappelle 2
+
+  20147: # Dave Chappelle: For What It's Worth
+    sort_title: Dave Chappelle 3
+
+  444705: # Dave Chappelle: The Age of Spin
+    sort_title: Dave Chappelle 4
+
+  444706: # Dave Chappelle: Deep in the Heart of Texas
+    sort_title: Dave Chappelle 5
+
+  488223: # Dave Chappelle: Equanimity
+    sort_title: Dave Chappelle 6
+
+  494368: # Dave Chappelle: The Bird Revelation
+    sort_title: Dave Chappelle 7
+
+  624932: # Dave Chappelle: Sticks & Stones
+    sort_title: Dave Chappelle 8
+
+  879540: # Dave Chappelle: The Closer
+    sort_title: Dave Chappelle 9
+    url_poster: https://theposterdb.com/api/assets/279560
+
+  32182: # David Cross: The Pride Is Back
+    sort_title: David Cross 1
+
+  41994: # David Cross: Bigger and Blackerer
+    sort_title: David Cross 3
+
+  408546: # David Cross: Making America Great Again
+    sort_title: David Cross 4
+
+  601938: # David Cross: Oh, Come On
+    sort_title: David Cross 5
+
+  505026: # Death on the Nile
+    url_poster: 
+
+  892: # Delicatessen
+    url_poster: 
+
+  9739: # Demolition Man
+    url_poster: 
+
+  562: # Die Hard
+    sort_title: Die Hard 1
+    url_poster: 
+
+  1573: # Die Hard 2
+    sort_title: Die Hard 2
+    url_poster: 
+
+  1572: # Die Hard with a Vengeance
+    sort_title: Die Hard 3
+    url_poster: 
+
+  1571: # Live Free or Die Hard
+    sort_title: Die Hard 4
+    url_poster: 
+
+  9101: # Down Periscope
+    url_poster: 
+
+  935: # Dr. Strangelove
+    url_poster: 
 
   24099: # Dreamscape
     title: Dreamscape
@@ -55,9 +239,25 @@ metadata:
     title: The Farthest
     url_poster: https://theposterdb.com/api/assets/21494
 
+  18: # The Fifth Element
+    url_poster: 
+
   8738: # The Final Countdown
     title: The Final Countdown
     url_poster: https://theposterdb.com/api/assets/179552
+
+  539892: # Freaks
+    title: Freaks
+    url_poster: 
+
+  10559: # Frequency
+    url_poster: 
+
+  759: # Gentlemen Prefer Blondes
+    url_poster: 
+
+  4816: # Ghost Dog: The Way of the Samurai
+    url_poster: 
 
   65754: # The Girl with the Dragon Tattoo
     title: The Girl with the Dragon Tattoo
@@ -79,9 +279,60 @@ metadata:
     title: Godzilla - King of the Monsters
     url_poster: https://theposterdb.com/api/assets/16643
 
+  9340: # The Goonies
+    url_poster: 
+
   497: # The Green Mile
     title: The Green Mile
     url_poster: https://theposterdb.com/api/assets/31065
+
+  137: # Groundhog Day
+    url_poster: 
+
+  11520: # Grumpy Old Men
+    url_poster: 
+
+  555604: # Guillermo del Toro's Pinocchio
+    sort_title: Pinocchio
+
+  9614: # Happy Gilmore
+    url_poster: 
+
+  671: # Harry Potter and the Philosopher's Stone
+    alt_title: Harry Potter and the Sorcerer's Stone
+    sort_title: Harry Potter 1
+    url_poster: 
+
+  672: # Harry Potter and the Chamber of Secrets
+    sort_title: Harry Potter 2
+    url_poster: 
+
+  673: # Harry Potter and the Prisoner of Azkaban
+    sort_title: Harry Potter 3
+    url_poster: 
+
+  674: # Harry Potter and the Goblet of Fire
+    sort_title: Harry Potter 4
+    url_poster: 
+
+  675: # Harry Potter and the Order of the Phoenix
+    sort_title: Harry Potter 5
+    url_poster: 
+
+  767: # Harry Potter and the Half-Blood Prince
+    sort_title: Harry Potter 6
+    url_poster: 
+
+  12444: # Harry Potter and the Deathly Hallows, Part 1
+    sort_title: Harry Potter 7
+    url_poster: 
+
+  12445: # Harry Potter and the Deathly Hallows, Part 2
+    sort_title: Harry Potter 8
+    url_poster: 
+
+  254375: # Hector and the Search for Happiness
+    url_poster: 
 
   12476: # The Hidden
     title: The Hidden
@@ -91,25 +342,250 @@ metadata:
     title: Higher Learning
     url_poster: https://theposterdb.com/api/assets/218714
 
+  10156: # History of the World, Part I
+    url_poster: 
+
+  49051: # The Hobbit: An Unexpected Journey
+    sort_title: Hobbit 1
+
+  57158: # The Hobbit: The Desolation of Smaug
+    sort_title: Hobbit 2
+
+  122917: # The Hobbit: The Battle of the Five Armies
+    sort_title: Hobbit 3
+
   1581: # The Holiday
     title: The Holiday
     url_poster: https://theposterdb.com/api/assets/14838
+
+  879: # Hook
+    url_poster: 
+
+  9595: # Hot Shots!
+    url_poster: 
+
+  85: # Indiana Jones and the Raiders of the Lost Ark
+    title: Indiana Jones and the Raiders of the Lost Ark
+    alt_title: Raiders of the Lost Ark
+    sort_title: Indiana Jones 1
+    url_poster: 
+
+  87: # Indiana Jones and the Temple of Doom
+    sort_title: Indiana Jones 2
+    url_poster: 
+
+  89: # Indiana Jones and the Last Crusade
+    sort_title: Indiana Jones 3
+    url_poster: 
+
+  217: # Indiana Jones and the Kingdom of the Crystal Skull
+    sort_title: Indiana Jones 4
+    url_poster: 
+
+  262500: # Insurgent
+    sort_title: Insurgent
 
   31909: # Invaders From Mars (1986)
     title: Invaders From Mars
     url_poster: https://theposterdb.com/api/assets/89956
 
+  23082: # The Invention of Lying
+    url_poster: 
+
+  1585: # It's A Wonderful Life
+    url_poster: 
+
+  9012: # Jackass: The Movie
+    sort_title: Jackass 1
+
+  12094: # Jackass: Number Two
+    sort_title: Jackass 2
+
+  16290: # Jackass 3D
+    sort_title: Jackass 3
+
+  656663: # Jackass Forever
+    sort_title: Jackass 4
+
+  329: # Jurassic Park
+    sort_title: Jurassic Park 1
+
+  330: # The Lost World: Jurassic Park
+    sort_title: Jurassic Park 2
+
+  331: # Jurassic Park III
+    sort_title: Jurassic Park 3
+
+  135397: # Jurassic World
+    sort_title: Jurassic Park 4
+
+  351286: # Jurassic World: Fallen Kingdom
+    sort_title: Jurassic Park 5
+
+  507086: # Jurassic World: Dominion
+    sort_title: Jurassic Park 6
+
+  270828: # Kill The Habit
+    url_poster: 
+
+  207703: # Kingsman: The Secret Service
+    sort_title: Kingsman 1
+
+  343668: # Kingsman: The Golden Circle
+    sort_title: Kingsman 2
+
+  476669: # The King's Man
+    sort_title: Kingsman 3
+    url_poster: https://theposterdb.com/api/assets/50365
+
+  9502: # Kung Fu Panda
+    url_poster: 
+
+  9322: # La Femme Nikita
+    sort_title: La Femme Nikita
+    url_poster: 
+
   11287: # A League of Their Own (1992)
     title: A League of Their Own
     url_poster: https://theposterdb.com/api/assets/87818
+
+  12207: # The Legend of Drunken Master
+    alt_title: Drunken Master II
+    url_poster: 
+
+  27933: # Legend of Frosty the Snowman
+    url_poster: 
+
+  70608: # LEGO Star Wars: The Padawan Menace
+    title: LEGO Star Wars - The Padawan Menace
+    sort_title: LEGO Star Wars 1
+
+  136406: # LEGO Star Wars: The Empire Strikes Out
+    title: LEGO Star Wars - The Empire Strikes Out
+    sort_title: LEGO Star Wars 2
+    url_poster: https://theposterdb.com/api/assets/296092
+
+  732670: # The LEGO Star Wars Holiday Special
+    title: The LEGO Star Wars Holiday Special
+    sort_title: LEGO Star Wars 3
+
+  857702: # LEGO Star Wars: Terrifying Tales
+    title: LEGO Star Wars - Terrifying Tales
+    sort_title: LEGO Star Wars 4
+
+  980804: # LEGO Star Wars: Summer Vacation
+    title: LEGO Star Wars - Summer Vacation
+    sort_title: LEGO Star Wars 5
+
+  943: # Lethal Weapon 3
+    url_poster: 
+
+  944: # Lethal Weapon 4
+    url_poster: 
+
+  718789: # Lightyear
+    url_poster: 
+
+  708: # The Living Daylights
+    url_poster: 
+
+  254320: # The Lobster
+    url_poster: 
+
+  10803: # Logan's Run
+    url_poster: 
+
+  120: # The Lord of the Rings: The Fellowship of the Ring
+    sort_title: Lord of the Rings 1
+    url_poster: 
+
+  121: # The Lord of the Rings: The Two Towers
+    sort_title: Lord of the Rings 2
+    url_poster: 
+
+  122: # The Lord of the Rings: The Return of the King
+    sort_title: Lord of the Rings 3
+    url_poster: 
 
   334: # Magnolia
     title: Magnolia
     url_poster: https://theposterdb.com/api/assets/188510
 
+  11454: # Manhunter
+    url_poster: 
+
+  250480: # The Many Adventures of Winnie the Pooh
+    url_poster: 
+
+  603: # The Matrix
+    sort_title: Matrix 1
+
+  604: # The Matrix Reloaded
+    sort_title: Matrix 2
+
+  605: # The Matrix Revolutions
+    sort_title: Matrix 3
+
+  624860: # The Matrix Resurrections
+    sort_title: Matrix 4
+
+  198663: # The Maze Runner
+    sort_title: Maze Runner 1
+
+  294254: # The Maze Runner: The Scorch Trials
+    sort_title: Maze Runner 2
+
+  336843: # The Maze Runner: The Death Cure
+    sort_title: Maze Runner 3
+
+  1267: # Meet The Robinsons
+    url_poster: 
+
+  954: # Mission: Impossible
+    sort_title: Mission Impossible 1
+    url_poster: 
+
+  955: # Mission: Impossible II
+    sort_title: Mission Impossible 2
+    url_poster: 
+
+  956: # Mission: Impossible III
+    sort_title: Mission Impossible 3
+    url_poster: 
+
+  56292: # Mission: Impossible - Ghost Protocal
+    sort_title: Mission Impossible 4
+    url_poster: 
+
+  177677: # Mission: Impossible - Rogue Nation
+    sort_title: Mission Impossible 5
+    url_poster: 
+
+  353081: # Mission: Impossible - Fallout
+    sort_title: Mission Impossible 6
+    url_poster: 
+
+  13509: # The Monster Squad
+    url_poster: 
+
+  3065: # Mystery Science Theatre 3000: The Movie
+    url_poster: 
+
+  37136: # The Naked Gun: From the Files of Police Squad!
+    sort_title: Naked Gun 1
+
+  37137: # The Naked Gun 2: The Smell of Fear
+    sort_title: Naked Gun 2
+
+  36593: # Naked Gun 3: The Final Insult
+    sort_title: Naked Gun 3
+
   36670: # Never Say Never Again
     title: Never Say Never Again
     url_poster: https://theposterdb.com/api/assets/2088
+
+  15762: # Night of the Creeps
+    url_poster: 
 
   20481: # Nightbreed
     title: Nightbreed
@@ -119,13 +595,26 @@ metadata:
     title: A Nightmare on Elm Street, Part 2- Freddy's Revenge
     url_poster: https://theposterdb.com/api/assets/115954
 
+  161: # Ocean's Eleven
+    sort_title: Oceans 1
+    url_poster: https://theposterdb.com/api/assets/19154
+
+  163: # Ocean's Twelve
+    sort_title: Oceans 2
+
   298: # Ocean's Thirteen
-    title: Ocean's Thirteen
+    sort_title: Oceans 3
     url_poster: https://theposterdb.com/api/assets/19156
 
   700: # Octopussy
     title: Octopussy
     url_poster: https://theposterdb.com/api/assets/21083
+
+  1542: # Office Space
+    url_poster: 
+
+  11635: # Old School
+    url_poster: 
 
   668: # On Her Majesty's Secret Service
     title: On Her Majesty's Secret Service
@@ -134,6 +623,26 @@ metadata:
   35412: # On The Beach
     title: On The Beach
     url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg
+
+  2055: # Open Range
+    url_poster: 
+
+  19186: # The Parent Trap
+    url_poster: 
+
+  14425: # PCU
+    url_poster: 
+
+  32657: # Percy Jackson & the Olympians: The Lightning Thief
+    title: Percy Jackson & the Olympians - The Lightning Thief 
+    url_poster: 
+
+  56601: # The Perfect Game
+    title: Perfect Game
+    url_poster: 
+
+  10606: # The Philadelphia Experiment
+    url_poster: 
 
   871: # Planet of the Apes (1968)
     title: Planet of the Apes
@@ -145,12 +654,291 @@ metadata:
 
   10498: # Point of No Return (1993)
     title: Point of No Return
+    alt_title: The Assassin
     url_poster: https://theposterdb.com/api/assets/87369
+
+  12429: # Ponyo
+    url_poster: 
+
+  169: # Predator 2
+    url_poster: 
+
+  14337: # Primer
+    url_poster: 
+
+  457840: # Psych: The Movie
+    sort_title: Psych 1
+
+  582218: # Psych 2: Lassie Come Home
+    sort_title: Psych 2
+
+  829400: # Psych 3: This Is Gus
+    sort_title: Psych 3
+
+  539: # Psycho
+    url_poster: 
+
+  114442: # The Quest
+    url_poster: 
+
+  94329: # The Raid
+    title: The Raid
+    alt_title: The Raid Redemption
+    url_poster: 
+
+  31867: # Repo Men
+    url_poster: 
+
+  5548: # RoboCop
+    url_poster: 
+
+  461634: # Rory Scovel Tries Standup for the First Time
+    url_poster: 
+
+  13188: # Scrooge (1951)
+    title: Scrooge
+    alt_title: A Christmas Carol
+    url_poster: 
+
+  14291: # Searching for Bobby Fischer
+    url_poster: 
+
+  808: # Shrek
+    sort_title: Shrek 1
+
+  809: # Shrek 2
+    sort_title: Shrek 2
+    url_poster: 
+
+  810: # Shrek the Third
+    sort_title: Shrek 3
+    url_poster: 
+
+  10192: # Shrek Forever After
+    sort_title: Shrek 4
+    url_poster: 
+
+  278: # The Shawshank Redemption
+    url_poster: 
+
+  14924: # Sid & Nancy
+    url_poster: 
+
+  9882: # The Siege
+    url_poster: 
+
+  117974: # Sightseers
+    url_poster: 
 
   17898: # Silver Bullet
     title: Silver Bullet
     url_poster: https://theposterdb.com/api/assets/314340
 
+  137116: # Smurfs: The Lost Village
+    sort_title: Smurfs 3
+    url_poster: 
+
+  10442: # So I Married an Axe Murderer
+    url_poster: 
+
+  325813: # Splitting Adam
+    url_poster: 
+
+  152: # Star Trek: The Motion Picture
+    sort_title: Star Trek 1
+    url_poster: 
+
+  154: # Star Trek II: The Wrath of Khan
+    sort_title: Star Trek 2
+    url_poster: 
+
+  157: # Star Trek III: The Search for Spock
+    sort_title: Star Trek 3
+    url_poster: 
+
+  168: # Star Trek IV: The Voyage Home
+    sort_title: Star Trek 4
+    url_poster: 
+
+  172: # Star Trek V: The Final Frontier
+    sort_title: Star Trek 5
+    url_poster: 
+
+  174: # Star Trek VI: The Undiscovered Country
+    sort_title: Star Trek 6
+    url_poster: 
+
+  193: # Star Trek: Generations
+    sort_title: Star Trek 7
+    url_poster: 
+
+  199: # Star Trek: First Contact
+    sort_title: Star Trek 8
+    url_poster: 
+
+  200: # Star Trek: Insurrection
+    sort_title: Star Trek 9
+    url_poster: 
+
+  201: # Star Trek: Nemesis
+    sort_title: Star Trek 10
+    url_poster: 
+
+  13475: # Star Trek
+    sort_title: Star Trek 11
+    url_poster: 
+
+  54138: # Star Trek Into Darkness
+    sort_title: Star Trek 12
+    url_poster: 
+
+  188927: # Star Trek Beyond
+    sort_title: Star Trek 13
+    url_poster: 
+
+  1893: # Star Wars: Episode I - The Phantom Menace
+    sort_title: Star Wars 1
+    url_poster: 
+
+  1894: # Star Wars: Episode II - Attack of the Clones
+    sort_title: Star Wars 2
+    url_poster: 
+
+  1895: # Star Wars: Episode III - Revenge of the Sith
+    sort_title: Star Wars 3
+    url_poster: 
+
+  11: # Star Wars: Episode IV - A New Hope
+    sort_title: Star Wars 4
+    url_poster: 
+
+  1891: # Star Wars: Episode V - The Empire Strikes Back
+    sort_title: Star Wars 5
+    url_poster: 
+
+  1892: # Star Wars: Episode VI - Return of the Jedi
+    sort_title: Star Wars 6
+    url_poster: 
+
+  140607: # Star Wars: Episode VII - The Force Awakens
+    sort_title: Star Wars 7
+    url_poster: 
+
+  181808: # Star Wars: Episode VIII - The Last Jedi
+    sort_title: Star Wars 8
+    url_poster: 
+
+  181812: # Star Wars: Episode IX - The Rise of Skywalker
+    sort_title: Star Wars 9
+    url_poster: 
+
+  9384: # Starsky & Hutch
+    url_poster: 
+
+  1262: # Stranger Than Fiction
+    url_poster: 
+
+  4614: # The Sum of All Fears
+    url_poster: 
+
+  37686: # Super 8
+    url_poster: 
+
+  121734: # Tad, the Lost Explorer
+    sort_title: Tad the Lost Explorer 1
+
+  452773: # Tad, the Lost Explorer and the Secret of King Midas
+    sort_title: Tad the Lost Explorer 2
+
+  676701: # Tad, the Lost Explorer and the Emerald Tablet
+    sort_title: Tad the Lost Explorer 3
+
+  64720: # Take Shelter
+    url_poster: 
+
+  10785: # The Thing From Another World
+    url_poster: 
+
+  10195: # Thor
+    sort_title: Thor 1
+    url_poster: 
+
+  76338: # Thor: The Dark World
+    sort_title: Thor 2
+    url_poster: 
+
+  284053: # Thor: Ragnarok
+    sort_title: Thor 3
+    url_poster: 
+
+  616037: # Thor: Love and Thunder
+    sort_title: Thor 4
+    url_poster: 
+
+  11969: # Tombstone
+    url_poster: 
+
+  11381: # Tommy Boy
+    url_poster: 
+
+  361743: # Top Gun - Maverick
+    url_poster: 
+
+  8764: # Top Secret
+    url_poster: 
+
+  863: # Toy Story 2
+    url_poster: 
+
+  2034: # Training Day
+    url_poster: 
+
+  23719: # Trapped In Paradise
+    url_poster: 
+
+  774810: # A Trash Truck Christmas
+    alt_title: A Giant Jack Christmas
+    url_poster: 
+
+  3090: # The Treasure of the Sierra Madre
+    url_poster: 
+
   319: # True Romance
     title: True Romance
     url_poster: https://theposterdb.com/api/assets/166546
+
+  7461: # Vantage Point
+    url_poster: 
+
+  426: # Vertigo
+    url_poster: 
+
+  69: # Walk The Line
+    url_poster: 
+
+  13183: # Watchmen
+    url_poster: 
+
+  318973: # Welcome to Leith
+    url_poster: 
+
+  10548: # When We Were Kings
+    url_poster: 
+
+  25925: # Who's The Man?
+    url_poster: 
+
+  847: # Willow
+    url_poster: 
+
+  252: # Willy Wonka & the Chocolate Factory
+    url_poster: 
+
+  517129: # Wolfman's Got Nards
+    url_poster: 
+
+  75506: # World Without End
+    url_poster: 
+
+  703451: # Your Place or Mine
+    url_poster: 
