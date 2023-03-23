@@ -51,7 +51,6 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/284748
 
   913290: # Barbarian
-    title: Barbarian
     url_poster: https://theposterdb.com/api/assets/267452
 
   414906: # The Batman (2022)
@@ -61,14 +60,12 @@ metadata:
     sort_title: Batteries Not Included
 
   1685: # Beneath the Planet of the Apes
-    title: Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307
 
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
 
   20504: # The Book of Eli
-    title: The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
 
   62177: # Brave (2012)
@@ -82,7 +79,6 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/25872
 
   102780: # Byzantium
-    title: Byzantium
     url_poster: https://theposterdb.com/api/assets/93471
 
   11977: # Caddyshack
@@ -95,7 +91,6 @@ metadata:
     url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg
 
   25769: # Carriers
-    title: Carriers
     url_poster: https://theposterdb.com/api/assets/105507
 
   289: # Casablanca
@@ -108,50 +103,32 @@ metadata:
     url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lEmGW4Fc9wMRLIKq6NRojZnTbdp.jpg
 
   10823: # Children of the Corn
-    title: Children of the Corn
     url_poster: https://theposterdb.com/api/assets/279826
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   902: # The City of Lost Children
-    url_poster: 
+    url_poster: https://image.tmdb.org/t/p/original//whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg
 
   9612: # Coneheads
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/67311
 
   39538: # Contagion
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/51763
 
   11362: # The Count of Monte Cristo
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/117112
 
   11839: # The Court Jester
-    url_poster: 
+    url_poster: https://image.tmdb.org/t/p/original//pPCOAipDP0sm8SLChpTMBPdCiqB.jpg
 
   16281: # Creepshow
-    title: Creepshow
     url_poster: https://theposterdb.com/api/assets/108982
 
   9495: # The Crow
-    url_poster: 
+    url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg
 
   387: # Das Boot
     sort_title: Das Boot
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/164559
 
   35595: # Dave Chappelle: HBO Comedy Half Hour
     sort_title: Dave Chappelle 1
@@ -194,109 +171,98 @@ metadata:
     sort_title: David Cross 5
 
   505026: # Death on the Nile
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/223827
 
   892: # Delicatessen
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/167028
 
   9739: # Demolition Man
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/67020
 
   562: # Die Hard
     sort_title: Die Hard 1
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/558
 
   1573: # Die Hard 2
     sort_title: Die Hard 2
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/559
 
   1572: # Die Hard with a Vengeance
     sort_title: Die Hard 3
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/560
 
   1571: # Live Free or Die Hard
     sort_title: Die Hard 4
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/561
 
   9101: # Down Periscope
-    url_poster: 
+    url_poster: https://image.tmdb.org/t/p/original//brleKcHsirTw7lFqcgUMOfgL2nl.jpg
 
   935: # Dr. Strangelove
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/214759
 
   24099: # Dreamscape
-    title: Dreamscape
     url_poster: https://theposterdb.com/api/assets/33713
 
   9276: # The Faculty
-    title: The Faculty
     url_poster: https://theposterdb.com/api/assets/33949
 
   5994: # The Family Man
-    title: The Family Man
+    url_poster: https://www.themoviedb.org/t/p/original/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg
 
   436305: # The Farthest
-    title: The Farthest
     url_poster: https://theposterdb.com/api/assets/21494
 
   18: # The Fifth Element
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/14377
 
   8738: # The Final Countdown
-    title: The Final Countdown
     url_poster: https://theposterdb.com/api/assets/179552
 
   539892: # Freaks
-    title: Freaks
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/163349
 
   10559: # Frequency
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/108800
 
   759: # Gentlemen Prefer Blondes
-    url_poster: 
+    url_poster: https://image.tmdb.org/t/p/original//fDozhst5HVJJcd3BM8ZOsKniO7Q.jpg
 
   4816: # Ghost Dog: The Way of the Samurai
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/147143
 
   65754: # The Girl with the Dragon Tattoo
-    title: The Girl with the Dragon Tattoo
     url_poster: https://theposterdb.com/api/assets/39706
 
   9504: # Glengarry Glen Ross
-    title: Glengarry Glen Ross
     url_poster: https://theposterdb.com/api/assets/108248
 
   8393: # The Gods Must Be Crazy (1980)
-    title: The Gods Must Be Crazy
     url_poster: https://theposterdb.com/api/assets/125091
 
   929: # Godzilla (1998)
-    title: Godzilla
     url_poster: https://theposterdb.com/api/assets/62751
 
   373571: # Godzilla: King of the Monsters (2019)
-    title: Godzilla - King of the Monsters
     url_poster: https://theposterdb.com/api/assets/16643
 
   9340: # The Goonies
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/106516
 
   497: # The Green Mile
-    title: The Green Mile
     url_poster: https://theposterdb.com/api/assets/31065
 
   137: # Groundhog Day
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/68032
 
   11520: # Grumpy Old Men
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/176088
 
   555604: # Guillermo del Toro's Pinocchio
     sort_title: Pinocchio
 
   9614: # Happy Gilmore
-    url_poster: 
+    url_poster: https://theposterdb.com/api/assets/207689
 
   671: # Harry Potter and the Philosopher's Stone
     alt_title: Harry Potter and the Sorcerer's Stone
@@ -335,11 +301,9 @@ metadata:
     url_poster: 
 
   12476: # The Hidden
-    title: The Hidden
     url_poster: https://theposterdb.com/api/assets/20662
 
   16295: # Higher Learning
-    title: Higher Learning
     url_poster: https://theposterdb.com/api/assets/218714
 
   10156: # History of the World, Part I
@@ -355,7 +319,6 @@ metadata:
     sort_title: Hobbit 3
 
   1581: # The Holiday
-    title: The Holiday
     url_poster: https://theposterdb.com/api/assets/14838
 
   879: # Hook
@@ -386,7 +349,6 @@ metadata:
     sort_title: Insurgent
 
   31909: # Invaders From Mars (1986)
-    title: Invaders From Mars
     url_poster: https://theposterdb.com/api/assets/89956
 
   23082: # The Invention of Lying
@@ -446,7 +408,6 @@ metadata:
     url_poster: 
 
   11287: # A League of Their Own (1992)
-    title: A League of Their Own
     url_poster: https://theposterdb.com/api/assets/87818
 
   12207: # The Legend of Drunken Master
@@ -508,7 +469,6 @@ metadata:
     url_poster: 
 
   334: # Magnolia
-    title: Magnolia
     url_poster: https://theposterdb.com/api/assets/188510
 
   11454: # Manhunter
@@ -581,18 +541,15 @@ metadata:
     sort_title: Naked Gun 3
 
   36670: # Never Say Never Again
-    title: Never Say Never Again
     url_poster: https://theposterdb.com/api/assets/2088
 
   15762: # Night of the Creeps
     url_poster: 
 
   20481: # Nightbreed
-    title: Nightbreed
     url_poster: https://theposterdb.com/api/assets/103711
 
   10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
-    title: A Nightmare on Elm Street, Part 2- Freddy's Revenge
     url_poster: https://theposterdb.com/api/assets/115954
 
   161: # Ocean's Eleven
@@ -607,7 +564,6 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/19156
 
   700: # Octopussy
-    title: Octopussy
     url_poster: https://theposterdb.com/api/assets/21083
 
   1542: # Office Space
@@ -617,11 +573,9 @@ metadata:
     url_poster: 
 
   668: # On Her Majesty's Secret Service
-    title: On Her Majesty's Secret Service
     url_poster: https://theposterdb.com/api/assets/2080
 
   35412: # On The Beach
-    title: On The Beach
     url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg
 
   2055: # Open Range
@@ -638,18 +592,15 @@ metadata:
     url_poster: 
 
   56601: # The Perfect Game
-    title: Perfect Game
     url_poster: 
 
   10606: # The Philadelphia Experiment
     url_poster: 
 
   871: # Planet of the Apes (1968)
-    title: Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258306
 
   869: # Planet of the Apes (2001)
-    title: Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/262168
 
   10498: # Point of No Return (1993)
@@ -731,7 +682,6 @@ metadata:
     url_poster: 
 
   17898: # Silver Bullet
-    title: Silver Bullet
     url_poster: https://theposterdb.com/api/assets/314340
 
   137116: # Smurfs: The Lost Village
@@ -904,7 +854,6 @@ metadata:
     url_poster: 
 
   319: # True Romance
-    title: True Romance
     url_poster: https://theposterdb.com/api/assets/166546
 
   7461: # Vantage Point
