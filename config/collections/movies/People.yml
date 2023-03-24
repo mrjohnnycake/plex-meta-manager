@@ -18,6 +18,13 @@ templates:
     collection_order: release
     collection_mode: hide
 
+  People:
+    people: tmdb
+    tmdb_person: <<person>>
+    sort_title: ++_<<collection_name>>
+    collection_order: release
+    collection_mode: hide
+
   Writer:
     writer: tmdb
     tmdb_person: <<person>>
@@ -59,7 +66,7 @@ collections:
 
   Denzel Washington:
     actor: tmdb
-    template: {name: People, person: 5292}
+    template: {name: Actor, person: 5292}
     summary: Denzel Hayes Washington, Jr. is an American actor, screenwriter, director and film producer.
 
   J.J. Abrams:
@@ -69,7 +76,7 @@ collections:
 
   Jim Carrey:
     actor: tmdb
-    template: {name: People, person: 206}
+    template: {name: Actor, person: 206}
     summary: James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994).
 
   Philip K Dick:
