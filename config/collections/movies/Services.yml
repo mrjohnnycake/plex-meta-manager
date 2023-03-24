@@ -5,93 +5,23 @@
 #######################
 
 templates:
-
-  Service:
-    tmdb_network: <<network>>
-    sort_title: +++++++_<<collection_name>>
-    collection_order: release
-    collection_mode: hide
-    url_poster: <<poster>>
-    # schedule: weekly(sunday)
-    run_again: true
-    visible_home: false
-    visible_shared: true
+  streaming:
+    cache_builders: 1
+    smart_label: release.desc
     sync_mode: sync
+    mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-movies
+    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/<<key_name_encoded>>.jpg
 
-collections:
-
-############################
-#         SERVICES         #
-############################
-
-  Apple TV+:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,video,&release_date=2015-01-01,2022-12-31&genres=%21animation&companies=co0546168&countries=us&languages=en&sort=release_date,asc
-    summary: All Apple TV Originals
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_Apple
-    schedule: weekly(sunday)
-    url_poster: https://theposterdb.com/api/assets/163303
-    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
-
-  Disney+:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=feature,tv_movie,documentary,video,&release_date=2019-01-01,2022-12-31&genres=%21animation&companies=co0721120&countries=us&languages=en&sort=release_date,asc
-    summary: All Disney+ Originals
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_Disney
-    schedule: weekly(sunday)
-    url_poster: https://theposterdb.com/api/assets/163294
-    url_background: https://wallpaper-house.com/data/out/8/wallpaper2you_228774.png
-
-  HBO Max:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=movie&release_date=2015-01-01,2025-12-31&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0754095
-    summary: All HBO Max Originals From 2015-2025
-    url_poster: https://theposterdb.com/api/assets/163885
-    url_background: https://wallpapercave.com/wp/wp6402755.png
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_HBO
-    schedule: weekly(sunday)
-
-  Hulu:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=movie&release_date=2015-01-01,2025-12-31&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0218858
-    summary: All HULU Originals From 20185-2025
-    url_poster: https://theposterdb.com/api/assets/163302
-    url_background: https://cdn.vox-cdn.com/thumbor/oR4hqrmTxbX_O4gdJ6np8h-PxFk=/0x439:750x861/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/56311701/Image_uploaded_from_iOS__8_.1503433270.jpg
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_Hulu
-    schedule: weekly(sunday)
-
-  Netflix:
-    trakt_list:
-      url: https://trakt.tv/users/faria-luisfilipe/lists/netflix-originals?display=movie&hide=unreleased&sort=percentage,asc
-    summary: All Netflix Originals
-    url_poster: https://theposterdb.com/api/assets/163448
-    url_background: https://img5.goodfon.com/original/1920x1080/1/61/fon-netflix-logo-raduga-tsvet-fon-background-skachat-oboi-sk.jpg
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_Netflix
-    schedule: weekly(sunday)
-
-  Prime Video:
-    imdb_list:
-      url: https://www.imdb.com/search/title/?title_type=movie&release_date=2015-01-01,2025-12-31&countries=us&languages=en&sort=release_date,desc&count=250&companies=co0319272
-    summary: All Amazon Originals
-    url_poster: https://theposterdb.com/api/assets/163301
-    url_background: https://i.imgur.com/2jfs7oS.png
-    sync_mode: sync
-    collection_mode: hide
-    collection_order: release
-    sort_title: +++++++_Prime
-    schedule: weekly(sunday)
+dynamic_collections:
+  Streaming:
+    type: custom
+    data:
+      appletv: Apple TV+
+      disney: Disney+
+      hbo-max: HBO Max
+      hulu: Hulu
+      netflix: Netflix
+      amazon-prime-video: Prime Video
+    title_format: <<key_name>> Movies
+    template:
+      - streaming
