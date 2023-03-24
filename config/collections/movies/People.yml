@@ -18,13 +18,6 @@ templates:
     collection_order: release
     collection_mode: hide
 
-  People:
-    people: tmdb
-    tmdb_person: <<person>>
-    sort_title: ++_<<collection_name>>
-    collection_order: release
-    collection_mode: hide
-
   Writer:
     writer: tmdb
     tmdb_person: <<person>>
