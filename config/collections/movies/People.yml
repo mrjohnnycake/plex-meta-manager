@@ -70,8 +70,13 @@ collections:
     summary: Denzel Hayes Washington, Jr. is an American actor, screenwriter, director and film producer.
 
   J.J. Abrams:
-    director: tmdb
-    template: {name: People, person: 15344}
+    trakt_list: https://trakt.tv/users/caspian024/lists/j-j-abrams?sort=released,asc
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/k4IWd2RV5kY1kAL2VgKQwFvnCLP.jpg
+    url_background: https://i.imgur.com/juAQnOG.jpg
+    collection_order: release
+    sort_title: ++_JJ Abrams
+    sync_mode: sync
+    collection_mode: hide
     summary: Jeffrey Jacob Abrams (born June 27, 1966) is an American filmmaker. He is best known for his work in the genres of action, drama, and science fiction.
 
   Jim Carrey:
