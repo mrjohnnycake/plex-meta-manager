@@ -7,7 +7,7 @@ templates:
   Charts:
     url_poster: <<poster>>
     collection_mode: hide
-    collection_order: release
+    # collection_order: release
     # schedule: weekly(sunday)
     visible_home: false
     visible_shared: true
