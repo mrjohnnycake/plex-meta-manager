@@ -64,7 +64,7 @@ collections:
   Spanish Language:
    template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
    plex_all: true
-   schedule: weekly(sunday)
+   schedule: weekly(friday)
    filters:
      original_language: es
    summary: A collection of Spanish language films.

@@ -106,4 +106,5 @@ collections:
     collection_order: release
     sort_title: ++_William Shakespeare
     sync_mode: sync
+    collection_mode: hide
     summary: William Shakespeare (26 April 1564 (baptised) – 23 April 1616) was an English poet, playwright, and actor, widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the "Bard of Avon". His extant works, including some collaborations, consist of around 38 plays, 154 sonnets, two long narrative poems, and a few other verses, of which the authorship of some is uncertain. His plays have been translated into every major living language and are performed more often than those of any other playwright.
