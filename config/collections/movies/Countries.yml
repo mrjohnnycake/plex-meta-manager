@@ -8,8 +8,8 @@ templates:
     url_poster: <<poster>>
     sort_title: <<collection_name>>
     # collection_order: release
-    schedule: weekly(sunday)
-    delete_not_scheduled: true
+    # schedule: weekly(sunday)
+    delete_not_scheduled: false
     run_again: true
     visible_home: false
     visible_shared: true
@@ -64,6 +64,7 @@ collections:
   Spanish Language:
    template: {name: Country, poster: https://theposterdb.com/api/assets/158488}
    plex_all: true
+   schedule: weekly(sunday)
    filters:
      original_language: es
    summary: A collection of Spanish language films.

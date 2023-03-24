@@ -65,14 +65,6 @@ collections:
       - https://www.imdb.com/list/ls066838460/
     summary: This collection revolves around the plot involving New Year's Eve.
 
-  St. Patrick's Day Movies:
-    template: {name: Holiday, holiday: "St. Patrick's Day", poster: https://theposterdb.com/api/assets/240644}
-    visible_home: range(03/01-03/17)
-    visible_shared: range(03/01-03/17)
-    imdb_list:
-      - https://www.imdb.com/list/ls063934595/
-    summary: This collection revolves around the plot involving St. Patrick's Day.
-
   Thanksgiving Movies:
     template: {name: Holiday, holiday: Thanksgiving, poster: https://theposterdb.com/api/assets/212638}
     visible_home: range(11/01-11/31)
