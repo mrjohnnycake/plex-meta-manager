@@ -54,7 +54,7 @@ collections:
 
   Dave Chappelle:
     actor: tmdb
-    template: {name: People, person: 4169}
+    template: {name: Actor, person: 4169}
     summary: David Khari Webber "Dave" Chappelle was born on August 24, 1973 in Washington, D.C. He is a comedian, screenwriter, television/film producer and actor.
 
   Denzel Washington:
