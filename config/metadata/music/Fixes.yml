@@ -18,13 +18,13 @@ metadata:
           "Check Yo Self (“The Message” remix)":
             track: 17
             disc: 1
-  "The Halluci Nation"
+  "The Halluci Nation":
      alt_title: "A Tribe Called Red"
      url_poster: https://earth-agency.com/wp-content/uploads/2021/03/logo-We-Are-The-Halluci-Nation-Seal-800x800.png
      albums:
-       "We Are the Halluci Nation"
+       "We Are the Halluci Nation":
          tracks:
-           "R.E.D. (featuring Yasiin Bey, Narcy & Black Bear)"
+           "R.E.D. (featuring Yasiin Bey, Narcy & Black Bear)":
              track: 2
-  "Various Artists"
+  "Various Artists":
      url_poster: https://www.theaudiodb.com/images/media/artist/thumb/vjqm9u1659326549.jpg
