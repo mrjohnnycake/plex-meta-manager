@@ -1,0 +1,20 @@
+metadata:
+  "Ice Cube":
+    albums:
+      "The Predator":
+        tracks:
+          "Gangsta’s Fairytale 2":
+            track: 12
+            disc: 1
+          "Check Yo Self":
+            track: 13
+            disc: 1
+          "Integration (insert)":
+            track: 15
+            disc: 1
+          "Say Hi to the Bad Guy":
+            track: 16
+            disc: 1
+          "Check Yo Self (“The Message” remix)":
+            track: 17
+            disc: 1
