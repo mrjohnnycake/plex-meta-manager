@@ -32,9 +32,13 @@ metadata:
   353546: # Bluey
     title: Bluey
 
+  76676: # The Dana Carvey Show
+    content_rating: 14
+
   "Dave Ramsey's Financial Peace University":
     url_poster: https://gethope.net/wp-content/uploads/2020/12/financialpeace.png
     summary: "Financial Peace University is a nine-lesson course that teaches you how to save for emergencies, pay off debt fast, spend wisely, and invest for your future. And no complicated financial blah blah blah over here."
+    content_rating: 12
     seasons:
       1:
         episodes:
@@ -80,6 +84,9 @@ metadata:
 
   366972: # Foundation
     title: Foundation
+
+  409547: # The Long Call
+    content_rating: 17
 
   367226: # Midnight Mass
     title: Midnight Mass
