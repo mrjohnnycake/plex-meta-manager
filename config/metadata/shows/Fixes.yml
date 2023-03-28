@@ -20,6 +20,9 @@ metadata:
   110381: # Archer
     title: Archer
 
+  353546: # Bluey
+    title: Bluey
+
   "Dave Ramsey's Financial Peace University":
     url_poster: https://gethope.net/wp-content/uploads/2020/12/financialpeace.png
     summary: "Financial Peace University is a nine-lesson course that teaches you how to save for emergencies, pay off debt fast, spend wisely, and invest for your future. And no complicated financial blah blah blah over here."
@@ -53,3 +56,30 @@ metadata:
           9:
             title: "The Great Misunderstanding; Unleashing the Power of Generous Giving"
             summary: "The power of giving and why it’s so important for our lives"
+
+  78804: # Doctor Who
+    title: Doctor Who
+
+  367329: # The Family
+    title: The Family
+
+  389612: # The First Lady
+    title: The First Lady
+
+  366972: # Foundation
+    title: Foundation
+
+  367226: # Midnight Mass
+    title: Midnight Mass
+
+  297963: # Partners In Crime
+    title: Partners In Crime
+
+  392740: # Surface
+    title: Surface
+
+  214921: # Upstairs, Downstairs
+    title: Upstairs, Downstairs
+
+  404833: # The Watcher
+    title: The Watcher
