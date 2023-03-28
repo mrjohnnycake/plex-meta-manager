@@ -1,0 +1,138 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  72173: # Arrested Development
+    url_poster: https://artworks.thetvdb.com/banners/posters/5c6c6bd1ea050.jpg
+    seasons:
+      1:
+        url_poster: https://artworks.thetvdb.com/banners/seasons/72173-1.jpg
+        episodes:
+          1:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75834.jpg
+          2:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75835.jpg
+          3:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75836.jpg
+          4:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75837.jpg
+          5:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75838.jpg
+          6:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75839.jpg
+          7:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75840.jpg
+          8:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75841.jpg
+          9:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75842.jpg
+          10:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75843.jpg
+          11:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75844.jpg
+          12:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75845.jpg
+          13:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75846.jpg
+          14:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75847.jpg
+          15:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75848.jpg
+          16:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75851.jpg
+          17:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75849.jpg
+          18:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75850.jpg
+          19:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75852.jpg
+          20:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75853.jpg
+          21:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75854.jpg
+          22:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75855.jpg
+      2:
+        url_poster: https://artworks.thetvdb.com/banners/seasons/72173-2.jpg
+        episodes:
+          1:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75856.jpg
+          2:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75857.jpg
+          3:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75858.jpg
+          4:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75859.jpg
+          5:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75860.jpg
+          6:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75861.jpg
+          7:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75862.jpg
+          8:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75863.jpg
+          9:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75864.jpg
+          10:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75865.jpg
+          11:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75866.jpg
+          12:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75867.jpg
+          13:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75868.jpg
+          14:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75869.jpg
+          15:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75870.jpg
+          16:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75871.jpg
+          17:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75872.jpg
+          18:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/75873.jpg
+      3:
+        url_poster: https://artworks.thetvdb.com/banners/seasons/72173-3.jpg
+        episodes:
+          1:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/302635.jpg
+          2:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306154.jpg
+          3:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306155.jpg
+          4:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306156.jpg
+          5:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306157.jpg
+          6:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306158.jpg
+          7:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306159.jpg
+          8:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/302606.jpg
+          9:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/304984.jpg
+          10:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306160.jpg
+          11:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306161.jpg
+          12:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306162.jpg
+          13:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/72173/306163.jpg
+      4:
+        url_poster: https://artworks.thetvdb.com/banners/seasons/72173-4-5.jpg
+      5:
+        url_poster: https://artworks.thetvdb.com/banners/v4/season/1877437/posters/6093fb3da77e7.jpg
