@@ -16,6 +16,7 @@ metadata:
 
   72173: # Arrested Development
     url_poster: https://artworks.thetvdb.com/banners/posters/5c6c6bd1ea050.jpg
+    episode_ordering: tvdb_dvd
     seasons:
       1:
         url_poster: https://artworks.thetvdb.com/banners/seasons/72173-1.jpg
