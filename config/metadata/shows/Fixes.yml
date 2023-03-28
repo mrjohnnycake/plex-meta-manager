@@ -17,20 +17,38 @@ metadata:
   384429: # 1899
     url_poster: https://artworks.thetvdb.com/banners/v4/series/384429/posters/635050f920c88.jpg
 
+  405898: # 9/11: One Day in America
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/405898/posters/612ddaf4784cf.jpg
+
   72663: # Accused (2010)
     title: Accused (2010)
 
   402879: # Accused (2023)
     title: Accused (2023)
 
+  72668: # The Adventures of Tintin
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/72668/posters/63f6c691d48ee.jpg
+
+  284182: # ANZAC Girls
+    url_poster: https://artworks.thetvdb.com/banners/posters/284182-4.jpg
+
+  256520: # The Aquabats! Super Show!
+    url_poster: https://artworks.thetvdb.com/banners/posters/256520-1.jpg
+
   110381: # Archer
     title: Archer
+
+  410441: # Bad Vegan: Fame. Fraud. Fugitives.
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/410441/posters/626c545585e4e.jpg
 
   73545: # Battlestar Galactica
     title: Battlestar Galactica
 
   353546: # Bluey
     title: Bluey
+
+  254378: # Bomb Girls
+    url_poster: https://artworks.thetvdb.com/banners/posters/254378-4.jpg
 
   76676: # The Dana Carvey Show
     content_rating: 14
@@ -73,6 +91,9 @@ metadata:
   78804: # Doctor Who
     title: Doctor Who
 
+  347033: # Evil Genius
+    url_poster: https://artworks.thetvdb.com/banners/series/347033/posters/5ebc57127e5f9.jpg
+
   367329: # The Family
     title: The Family
 
@@ -85,20 +106,51 @@ metadata:
   366972: # Foundation
     title: Foundation
 
+  284114: # Henry Danger
+    url_poster: https://artworks.thetvdb.com/banners/posters/284114-1.jpg
+
+  79992: # Human Giant
+    url_poster: https://artworks.thetvdb.com/banners/posters/79992-1.jpg
+
+  362753: # I Think You Should Leave with Tim Robinson
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/362753/posters/62d3f4aeecad8.jpg
+
   409547: # The Long Call
     content_rating: 17
 
   367226: # Midnight Mass
     title: Midnight Mass
 
+  277954: # Mike Tyson Mysteries
+    seasons:
+      1:
+        url_poster: https://artworks.thetvdb.com/banners/v4/season/591906/posters/60aa754e93d76.jpg
+      2:
+        url_poster: https://artworks.thetvdb.com/banners/v4/season/642626/posters/60aa6c0487e3f.jpg
+
+  319539: # My Mother and Other Strangers
+    url_poster: https://artworks.thetvdb.com/banners/posters/319539-2.jpg
+
+  294169: # Other Space
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/294169/posters/62f668723451f.jpg
+
   297963: # Partners In Crime
     title: Partners In Crime
+
+  404510: # The Pentaverate
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/404510/posters/6274201f93741.jpg
+
+  384186: # Pieces of Her
+    url_poster: https://artworks.thetvdb.com/banners/v4/series/384186/posters/620bf30ccf78d.jpg
 
   79866: # The Stand (1994)
     content_rating: 18
 
   392740: # Surface
     title: Surface
+
+  274283: # The Thundermans
+    url_poster: https://artworks.thetvdb.com/banners/posters/274283-5.jpg
 
   407414: # Untold
     content_rating: 18
