@@ -53,41 +53,6 @@ metadata:
   76676: # The Dana Carvey Show
     content_rating: 14
 
-  "Dave Ramsey's Financial Peace University":
-    url_poster: https://gethope.net/wp-content/uploads/2020/12/financialpeace.png
-    summary: "Financial Peace University is a nine-lesson course that teaches you how to save for emergencies, pay off debt fast, spend wisely, and invest for your future. And no complicated financial blah blah blah over here."
-    content_rating: 12
-    seasons:
-      1:
-        episodes:
-          1:
-            title: "Super Saving"
-            summary: "Dave goes over the Seven Baby Steps and talks about the importance of saving."
-          2:
-            title: "Relating With Money"
-            summary: "Learning about the importance of communication and money, especially between spouses. Also explores topics of money and relationships for singles, and parents."
-          3:
-            title: "Cash Flow Planning"
-            summary: "Developing a budget and cash flow plan."
-          4:
-            title: "Dumping Debt"
-            summary: "Figuring out how to dump your debt, and debunking credit myths."
-          5:
-            title: "Buyer Beware; The Power of Marketing on Your Buying Decisions"
-            summary: "Understanding how marketing works so that you can overcome and avoid spending money you don’t need to!"
-          6:
-            title: "The Role of Insurance"
-            summary: "What kinds of insurance to buy, and what kinds to avoid."
-          7:
-            title: "Retirement and College Planning"
-            summary: "Retirement planning and saving for your kids’ college."
-          8:
-            title: "Real Estate and Mortgages"
-            summary: "The ins and outs of mortgages, and buying and selling your home."
-          9:
-            title: "The Great Misunderstanding; Unleashing the Power of Generous Giving"
-            summary: "The power of giving and why it’s so important for our lives"
-
   78804: # Doctor Who
     title: Doctor Who
 
@@ -151,6 +116,9 @@ metadata:
 
   274283: # The Thundermans
     url_poster: https://artworks.thetvdb.com/banners/posters/274283-5.jpg
+
+  336261: # Tom Clancy's Jack Ryan
+    title: Jack Ryan
 
   407414: # Untold
     content_rating: 18
