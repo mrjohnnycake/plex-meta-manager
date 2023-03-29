@@ -1,0 +1,138 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  71862: # Chappelle's Show
+    url_poster: 
+    seasons:
+      1:
+        url_poster: 
+        episodes:
+          1:
+            url_poster: 
+          2:
+            url_poster: 
+          3:
+            url_poster: 
+          4:
+            url_poster: 
+          5:
+            url_poster: 
+          6:
+            url_poster: 
+          7:
+            url_poster: 
+          8:
+            url_poster: 
+          9:
+            url_poster: 
+          10:
+            url_poster: 
+          11:
+            url_poster: 
+          12:
+            url_poster: 
+          13:
+            url_poster: 
+          14:
+            url_poster: 
+          15:
+            url_poster: 
+          16:
+            url_poster: 
+          17:
+            url_poster: 
+          18:
+            url_poster: 
+          19:
+            url_poster: 
+          20:
+            url_poster: 
+          21:
+            url_poster: 
+          22:
+            url_poster: 
+      2:
+        url_poster: 
+        episodes:
+          1:
+            url_poster: 
+          2:
+            url_poster: 
+          3:
+            url_poster: 
+          4:
+            url_poster: 
+          5:
+            url_poster: 
+          6:
+            url_poster: 
+          7:
+            url_poster: 
+          8:
+            url_poster: 
+          9:
+            url_poster: 
+          10:
+            url_poster: 
+          11:
+            url_poster: 
+          12:
+            url_poster: 
+          13:
+            url_poster: 
+          14:
+            url_poster: 
+          15:
+            url_poster: 
+          16:
+            url_poster: 
+          17:
+            url_poster: 
+          18:
+            url_poster: 
+      3:
+        url_poster: 
+        episodes:
+          1:
+            url_poster: 
+          2:
+            url_poster: 
+          3:
+            url_poster: 
+          4:
+            url_poster: 
+          5:
+            url_poster: 
+          6:
+            url_poster: 
+          7:
+            url_poster: 
+          8:
+            url_poster: 
+          9:
+            url_poster: 
+          10:
+            url_poster: 
+          11:
+            url_poster: 
+          12:
+            url_poster: 
+          13:
+            url_poster: 
+      4:
+        url_poster: 
+      5:
+        url_poster: 
