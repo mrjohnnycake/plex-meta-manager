@@ -1,0 +1,50 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  77780: # G.I. Joe: A Real American Hero
+    seasons:
+      1:
+        episodes:
+          1:
+            title: "The M.A.S.S. Device, pt. 1: The Cobra Strikes"
+          2:
+            title: "The M.A.S.S. Device, pt. 2: Slave of the Cobra Master"
+          3:
+            title: "The M.A.S.S. Device, pt. 3: The Worms of Death"
+          4:
+            title: "The M.A.S.S. Device, pt. 4: Duel in the Devil's Cauldron"
+          5:
+            title: "The M.A.S.S. Device, pt. 5: A Stake in the Serpent's Heart"
+          6:
+            title: "The Revenge of Cobra, pt. 1: In the Cobra's Pit"
+          7:
+            title: "The Revenge of Cobra, pt. 2: The Vines of Evil"
+          8:
+            title: "The Revenge of Cobra, pt. 3: The Palace of Doom"
+          9:
+            title: "The Revenge of Cobra, pt. 4: Battle on the Roof of the World"
+          10:
+            title: "The Revenge of Cobra, pt. 5: Amusement Park of Terror"
+          11:
+            title: "The Pyramid of Darkness, pt. 1: The Further Adventures of G.I. Joe"
+          12:
+            title: "The Pyramid of Darkness, pt. 2: Rendezvous in the City of the Dead"
+          13:
+            title: "The Pyramid of Darkness, pt. 3: Three Cubes to Darkness"
+          14:
+            title: "The Pyramid of Darkness, pt. 4: Chaos in the Sea of Lost Souls"
+          15:
+            title: "The Pyramid of Darkness, pt. 5: Knotting Cobra's Coils"
