@@ -1,0 +1,60 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  78244: # Dr. Katz, Professional Therapist
+    seasons:
+      1:
+        episodes:
+          1:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276194.jpg
+          2:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276195.jpg
+          3:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276196.jpg
+          4:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276197.jpg
+          5:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276198.jpg
+          6:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276199.jpg
+      2:
+        episodes:
+          1:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276200.jpg
+          2:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276201.jpg
+          3:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276202.jpg
+          4:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276203.jpg
+          5:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276204.jpg
+          6:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276205.jpg
+          7:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276206.jpg
+          8:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276207.jpg
+          9:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276208.jpg
+          10:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276209.jpg
+          11:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276210.jpg
+          12:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276211.jpg
+          13:
+            url_poster: https://artworks.thetvdb.com/banners/episodes/78244/276212.jpg
