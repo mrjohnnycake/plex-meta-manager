@@ -1,0 +1,26 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  336460: # Little Women (2017)
+    seasons:
+      1:
+        episodes:
+          1:
+            title: Part 1
+          2:
+            title: Part 2
+          3:
+            title: Part 3
