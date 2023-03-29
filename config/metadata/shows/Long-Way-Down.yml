@@ -1,0 +1,40 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  80731: # Long Way Down
+    seasons:
+      1:
+        episodes:
+          1:
+            title: "Gentlemen, Start Your Engines"
+          2:
+            title: "John O'Groats, Scotland to Siena, Italy"
+          3:
+            title: "Rome, Italy to Tobruk, Libya"
+          4:
+            title: "Tobruk, Libya to Khartoum, Sudan"
+          5:
+            title: "Khartoum, Sudan to Shashemene, Ethiopia"
+          6:
+            title: "Shashemene, Ethiopia to Laisamis, Kenya"
+          7:
+            title: "Laisamis, Kenya to Rwanda"
+          8:
+            title: "Kigali, Rwanda to Chintheche, Malawi"
+          9:
+            title: "Chintheche, Malawi to Maun, Botswana"
+          10:
+            title: "Maun, Botswana to Cape Town, South Africa"
