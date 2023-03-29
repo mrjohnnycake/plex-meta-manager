@@ -1,0 +1,40 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  75233: # Long Way Round
+    seasons:
+      1:
+        episodes:
+          1:
+            title: "Preparation"
+          2:
+            title: "Shoving Off"
+          3:
+            title: "London to Volgograd"
+          4:
+            title: "Kazakhstan"
+          5:
+            title: "Barnaul to Western Mongolia"
+          6:
+            title: "Western Mongolia to Yakutsk"
+          7:
+            title: "Yakutsk to Magadan: The Road of Bones"
+          8:
+            title: "Anchorage to Calgary"
+          9:
+            title: "Calgary to New York"
+          10:
+            title: "One Year Later"
