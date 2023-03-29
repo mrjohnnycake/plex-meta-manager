@@ -1,0 +1,28 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TVDb number]: # [Name of show]
+#    title: [Name of show]
+#    alt_title: [it's sometimes also called...]
+#    sort_title: [how to sort show]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  396116: # Exterminate All the Brutes
+    seasons:
+      1:
+        episodes:
+          1:
+            title: "The Disturbing Confidence of Ignorance"
+          2:
+            title: "Who the F*** is Columbus?"
+          3:
+            title: "Killing at a Distance or...How I Thoroughly Enjoyed the Outing"
+          4:
+            title: "The Bright Colors of Fascism"
