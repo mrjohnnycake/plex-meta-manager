@@ -8,6 +8,7 @@ templates:
         url_poster: <<poster>>
         sort_title: <<collection_name>>
         # collection_order: release
+        collection_mode: hide
         delete_not_scheduled: true
         run_again: true
         visible_home: false
@@ -24,6 +25,18 @@ collections:
   Sketch Comedy:
     template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
     imdb_id:
-    - tt0178126
-    - tt0130421
-    summary: An American media
+    - tt0178126  # Big Train
+    - tt0353049  # Chappelle's Show
+    - tt0115148  # The Dana Carvey Show
+    - tt0876298  # Human Giant
+    - tt10050772 # I Think You Should Leave with Tim Robinson
+    - tt0098830  # In Living Color
+    - tt0096626  # The Kids In The Hall (original)
+    - tt11921588 # The Kids In The Hall (reboot)
+    - tt0112084  # Mr. Show with Bob and David
+    - tt0074028  # The Muppet Show
+    - tt0130421  # The State
+    - tt0499410  # That Mitchell and Webb Look
+    - tt4574708  # W/ Bob and David
+    - tt0840979  # The Whitest Kids U' Know
+    summary: "Sketch comedy comprises a series of short, amusing scenes or vignettes, commonly between one and ten minutes long, performed by a group of comic actors or comedians. It has its origins in vaudeville and music hall, where many brief humorous acts were strung together to form a larger program."
