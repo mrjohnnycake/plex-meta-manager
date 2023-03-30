@@ -26,3 +26,8 @@ collections:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/162885}
     trakt_list: https://trakt.tv/users/martheo/lists/marvel?sort=released,asc
     summary: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series.
+
+  Star Wars:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/58758}
+    trakt_list: https://trakt.tv/users/darkman1498/lists/star-wars?sort=released,asc
+    summary: Star Wars is an American epic space-opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop-culture phenomenon.
