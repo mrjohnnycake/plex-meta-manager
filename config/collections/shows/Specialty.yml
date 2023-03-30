@@ -1,0 +1,27 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+    Specialty:
+        url_poster: <<poster>>
+        sort_title: <<collection_name>>
+        # collection_order: release
+        delete_not_scheduled: true
+        run_again: true
+        visible_home: false
+        visible_shared: true
+        # schedule: weekly(sunday)
+        sync_mode: sync
+
+##########################
+##   Specialty Genres   ##
+##########################
+
+collections:
+
+  Apocalyptic:
+    template: {name: Specialty, poster: https://theposterdb.com/images/defaults/missing_poster.jpg}
+    trakt_list: https://trakt.tv/users/mccaffe/lists/apocalyptic-dystopia?sort=released,asc
+    summary: This list of movies about the end of the world includes apocalypse movies and doomsday films.

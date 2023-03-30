@@ -1,0 +1,28 @@
+#######################
+##     Templates     ##
+#######################
+
+templates:
+
+  Franchise:  
+    url_poster: <<poster>>
+    sort_title: ++++_<<collection_name>>
+    collection_mode: hide
+    collection_order: release
+    # schedule: weekly(sunday)
+    delete_not_scheduled: true
+    run_again: true
+    visible_home: false
+    visible_shared: true
+    sync_mode: sync
+
+########################
+##     Franchises     ##
+########################
+
+collections:
+
+  Marvel:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/162885}
+    trakt_list: https://trakt.tv/users/martheo/lists/marvel?sort=released,asc
+    summary: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series.
