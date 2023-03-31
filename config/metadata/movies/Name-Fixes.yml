@@ -14,6 +14,9 @@
 
 metadata:
 
+  749395: # Agatha and the Midnight Murders
+    content_rating: 15
+
   348: # Alien
     sort_title: Alien 1
 
@@ -40,6 +43,9 @@ metadata:
   440: # Aliens vs. Predator: Requiem
     sort_title: AVP 2
 
+  729623: # All Its Name Implies
+    content_rating: 12
+
   10514: # The Andromeda Strain
     url_poster: https://theposterdb.com/api/assets/76544
 
@@ -53,6 +59,9 @@ metadata:
   913290: # Barbarian
     url_poster: https://theposterdb.com/api/assets/267452
 
+  749059: # Barbarian Utopia: Encounters on the Appalachian Trail
+    content_rating: 14
+
   414906: # The Batman (2022)
     url_poster: https://theposterdb.com/api/assets/185105
 
@@ -61,6 +70,9 @@ metadata:
 
   1685: # Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307
+
+  798727: # Biking Borders
+    content_rating: 14
 
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
@@ -119,6 +131,9 @@ metadata:
 
   11362: # The Count of Monte Cristo
     url_poster: https://theposterdb.com/api/assets/117112
+
+  35659: # Countdown to Looking Glass
+    content_rating: 14
 
   11839: # The Court Jester
     url_poster: https://image.tmdb.org/t/p/original//pPCOAipDP0sm8SLChpTMBPdCiqB.jpg
@@ -201,6 +216,9 @@ metadata:
     sort_title: Die Hard 4
     url_poster: https://theposterdb.com/api/assets/561
 
+  470942: # Don't Break Down: A Film About Jawbreaker
+    content_rating: 15
+
   9101: # Down Periscope
     url_poster: https://image.tmdb.org/t/p/original//brleKcHsirTw7lFqcgUMOfgL2nl.jpg
 
@@ -209,6 +227,9 @@ metadata:
 
   24099: # Dreamscape
     url_poster: https://theposterdb.com/api/assets/33713
+
+  554603: # The Eugenics Crusade
+    content_rating: 13
 
   9276: # The Faculty
     url_poster: https://theposterdb.com/api/assets/33949
@@ -227,6 +248,9 @@ metadata:
 
   236399: # Flowers in the Attic
     content_rating: 13
+
+  983406: # Fourth of July
+    content_rating: 17
 
   539892: # Freaks
     url_poster: https://theposterdb.com/api/assets/163349
@@ -378,6 +402,9 @@ metadata:
   656663: # Jackass Forever
     sort_title: Jackass 4
 
+  576703: # J.R. 'Bob' Dobbs and the Church of the SubGenius
+    content_rating: 16
+
   329: # Jurassic Park
     sort_title: Jurassic Park 1
 
@@ -427,6 +454,9 @@ metadata:
     title: The Langoliers
     content_rating: 14
     url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xcySnh6hHc98G94dF8sXNJuD0Rp.jpg
+
+  665888: # Lapsis
+    content_rating: 16
 
   11287: # A League of Their Own (1992)
     url_poster: https://theposterdb.com/api/assets/87818
@@ -497,6 +527,9 @@ metadata:
 
   334: # Magnolia
     url_poster: https://theposterdb.com/api/assets/188510
+
+  415312: # The Man from Earth: Holocene
+    content_rating: 16
 
   11454: # Manhunter
     url_poster: https://theposterdb.com/api/assets/178035
@@ -628,6 +661,9 @@ metadata:
   10606: # The Philadelphia Experiment
     url_poster: https://theposterdb.com/api/assets/72127
 
+  531634: # Pick It Up! - Ska in the '90s
+    content_rating: 14
+
   871: # Planet of the Apes (1968)
     url_poster: https://theposterdb.com/api/assets/258306
 
@@ -660,8 +696,9 @@ metadata:
   539: # Psycho
     url_poster: https://theposterdb.com/api/assets/19085
 
-  # 114442: # The Quest
-  #  url_poster: 
+  114442: # Quest
+    content_rating: 14
+  # url_poster: 
 
   94329: # The Raid
     title: The Raid
@@ -680,6 +717,7 @@ metadata:
   13188: # Scrooge (1951)
     title: Scrooge
     alt_title: A Christmas Carol
+    content_rating: 12
     url_poster: https://theposterdb.com/api/assets/278445
 
   14291: # Searching for Bobby Fischer
@@ -919,6 +957,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/17909
 
   517129: # Wolfman's Got Nards
+    content_rating: 15
     url_poster: https://image.tmdb.org/t/p/original//exSBAnTy68SCz4k9S67zoVA29oM.jpg
 
   75506: # World Without End
