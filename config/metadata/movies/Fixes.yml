@@ -36,6 +36,9 @@ metadata:
   126889: # Alien: Covenant
     sort_title: Alien 6
 
+  410199: # ARQ
+    url_poster: https://www.themoviedb.org/t/p/original/mU4VeXVK18JtCZsy7i0zczlA9p7.jpg
+
   395: # Alien vs. Predator
     alt_title: AVP Alien vs. Predator
     sort_title: AVP 1
@@ -718,7 +721,7 @@ metadata:
     title: Scrooge
     alt_title: A Christmas Carol
     content_rating: 12
-    url_poster: https://theposterdb.com/api/assets/278445
+    url_poster: https://image.tmdb.org/t/p/original/oH3H4IYABGptyoaJBaBNKxu90Bt.jpg
 
   14291: # Searching for Bobby Fischer
     url_poster: https://image.tmdb.org/t/p/original//oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg
