@@ -71,6 +71,9 @@ metadata:
   62177: # Brave (2012)
     url_poster: https://theposterdb.com/api/assets/60698
 
+  794095: # Brian Regan: On The Rocks
+    content_rating: 12
+
   287: # Bull Durham
     url_poster: https://theposterdb.com/api/assets/119865
 
@@ -125,6 +128,9 @@ metadata:
 
   9495: # The Crow
     url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg
+
+  1410: # Dark Star
+    content_rating: 12
 
   387: # Das Boot
     sort_title: Das Boot
@@ -218,6 +224,9 @@ metadata:
 
   8738: # The Final Countdown
     url_poster: https://theposterdb.com/api/assets/179552
+
+  236399: # Flowers in the Attic
+    content_rating: 13
 
   539892: # Freaks
     url_poster: https://theposterdb.com/api/assets/163349
@@ -416,6 +425,7 @@ metadata:
   The Langoliers: # The Langoliers
     tmdb_show: 18197
     title: The Langoliers
+    content_rating: 14
     url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xcySnh6hHc98G94dF8sXNJuD0Rp.jpg
 
   11287: # A League of Their Own (1992)
@@ -568,6 +578,9 @@ metadata:
 
   10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
     url_poster: https://theposterdb.com/api/assets/115954
+
+  18942: # Nirvana: Unplugged In New York
+    content_rating: 12
 
   161: # Ocean's Eleven
     sort_title: Oceans 1
