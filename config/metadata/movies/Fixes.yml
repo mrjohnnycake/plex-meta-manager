@@ -451,6 +451,12 @@ metadata:
   140300: # Kung Fu Panda 3
     url_poster: https://theposterdb.com/api/assets/20629
 
+  450875: # LA 92
+    sort_title: LA 92
+
+  16620: # La Bamba
+    sort_title: La Bamba
+
   9322: # La Femme Nikita
     sort_title: La Femme Nikita
     url_poster: https://theposterdb.com/api/assets/15673
