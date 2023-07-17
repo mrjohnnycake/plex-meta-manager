@@ -61,6 +61,12 @@ metadata:
   601938: # David Cross: Oh, Come On
     sort_title: David Cross 5
 
+  924: # Dawn of the Dead (2004)
+    url_poster: https://www.themoviedb.org/t/p/original/ttquyxStEEctzghtA2f4PUGprDr.jpg
+
+  10651: # The Dead Pool
+    url_poster: https://www.themoviedb.org/t/p/original/mqwGpW0Ptrvz1GmfCnLAOA4cQ8g.jpg
+
   505026: # Death on the Nile
     url_poster: https://theposterdb.com/api/assets/223827
 
