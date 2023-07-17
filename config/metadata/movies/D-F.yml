@@ -70,6 +70,9 @@ metadata:
   505026: # Death on the Nile
     url_poster: https://theposterdb.com/api/assets/223827
 
+  36724: # The Decline of Western Civilization II
+    url_poster: https://www.themoviedb.org/t/p/original/z0tv8cM9666wJIqen4eAkr23Hr9.jpg
+
   892: # Delicatessen
     url_poster: https://theposterdb.com/api/assets/167028
 
@@ -104,6 +107,9 @@ metadata:
   24099: # Dreamscape
     url_poster: https://theposterdb.com/api/assets/33713
 
+  10649: # The Enforcer
+    url_poster: https://www.themoviedb.org/t/p/original/mPal8eeyG5GZLetKAQ7Pte6rPPz.jpg
+
   554603: # The Eugenics Crusade
     content_rating: 13
 
@@ -124,6 +130,12 @@ metadata:
 
   236399: # Flowers in the Attic
     content_rating: 13
+
+  938: # For a Few Dollars More
+    url_poster: https://www.themoviedb.org/t/p/original/ooqASvA7qxlTVKL3KwOzBwy57Dh.jpg
+
+  14799: # For Your Consideration
+    url_poster: https://www.themoviedb.org/t/p/original/fvXClgY4ZJ7dBxalFuxPgb4nJ9s.jpg
 
   983406: # Fourth of July
     content_rating: 17
