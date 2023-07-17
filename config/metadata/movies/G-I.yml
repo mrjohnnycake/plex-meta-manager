@@ -1,0 +1,147 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  759: # Gentlemen Prefer Blondes
+    url_poster: https://image.tmdb.org/t/p/original//fDozhst5HVJJcd3BM8ZOsKniO7Q.jpg
+
+  4816: # Ghost Dog: The Way of the Samurai
+    url_poster: https://theposterdb.com/api/assets/147143
+
+  65754: # The Girl with the Dragon Tattoo
+    url_poster: https://theposterdb.com/api/assets/39706
+
+  9504: # Glengarry Glen Ross
+    url_poster: https://theposterdb.com/api/assets/108248
+
+  8393: # The Gods Must Be Crazy (1980)
+    url_poster: https://theposterdb.com/api/assets/125091
+
+  929: # Godzilla (1998)
+    url_poster: https://theposterdb.com/api/assets/62751
+
+  373571: # Godzilla: King of the Monsters (2019)
+    url_poster: https://theposterdb.com/api/assets/16643
+
+  9340: # The Goonies
+    url_poster: https://theposterdb.com/api/assets/106516
+
+  497: # The Green Mile
+    url_poster: https://theposterdb.com/api/assets/31065
+
+  137: # Groundhog Day
+    url_poster: https://theposterdb.com/api/assets/68032
+
+  11520: # Grumpy Old Men
+    url_poster: https://theposterdb.com/api/assets/176088
+
+  555604: # Guillermo del Toro's Pinocchio
+    sort_title: Pinocchio
+
+  9614: # Happy Gilmore
+    url_poster: https://theposterdb.com/api/assets/207689
+
+  671: # Harry Potter and the Philosopher's Stone
+    alt_title: Harry Potter and the Sorcerer's Stone
+    sort_title: Harry Potter 1
+    url_poster: https://theposterdb.com/api/assets/85945
+
+  672: # Harry Potter and the Chamber of Secrets
+    sort_title: Harry Potter 2
+    url_poster: https://theposterdb.com/api/assets/85946
+
+  673: # Harry Potter and the Prisoner of Azkaban
+    sort_title: Harry Potter 3
+    url_poster: https://theposterdb.com/api/assets/85947
+
+  674: # Harry Potter and the Goblet of Fire
+    sort_title: Harry Potter 4
+    url_poster: https://theposterdb.com/api/assets/85948
+
+  675: # Harry Potter and the Order of the Phoenix
+    sort_title: Harry Potter 5
+    url_poster: https://theposterdb.com/api/assets/85949
+
+  767: # Harry Potter and the Half-Blood Prince
+    sort_title: Harry Potter 6
+    url_poster: https://theposterdb.com/api/assets/85950
+
+  12444: # Harry Potter and the Deathly Hallows, Part 1
+    sort_title: Harry Potter 7
+    url_poster: https://theposterdb.com/api/assets/85951
+
+  12445: # Harry Potter and the Deathly Hallows, Part 2
+    sort_title: Harry Potter 8
+    url_poster: https://theposterdb.com/api/assets/85952
+
+  254375: # Hector and the Search for Happiness
+    url_poster: https://theposterdb.com/api/assets/289980
+
+  12476: # The Hidden
+    url_poster: https://theposterdb.com/api/assets/20662
+
+  16295: # Higher Learning
+    url_poster: https://theposterdb.com/api/assets/218714
+
+  10156: # History of the World, Part I
+    url_poster: https://theposterdb.com/api/assets/131261
+
+  49051: # The Hobbit: An Unexpected Journey
+    sort_title: Hobbit 1
+
+  57158: # The Hobbit: The Desolation of Smaug
+    sort_title: Hobbit 2
+
+  122917: # The Hobbit: The Battle of the Five Armies
+    sort_title: Hobbit 3
+
+  1581: # The Holiday
+    url_poster: https://theposterdb.com/api/assets/14838
+
+  879: # Hook
+    url_poster: https://image.tmdb.org/t/p/original//a6rB1lGXoGms7gWxRfJneQmAjNV.jpg
+
+  9595: # Hot Shots!
+    url_poster: https://theposterdb.com/api/assets/253932
+
+  85: # Indiana Jones and the Raiders of the Lost Ark
+    title: Indiana Jones and the Raiders of the Lost Ark
+    alt_title: Raiders of the Lost Ark
+    sort_title: Indiana Jones 1
+    url_poster: https://theposterdb.com/api/assets/49193
+
+  87: # Indiana Jones and the Temple of Doom
+    sort_title: Indiana Jones 2
+    url_poster: https://theposterdb.com/api/assets/49194
+
+  89: # Indiana Jones and the Last Crusade
+    sort_title: Indiana Jones 3
+    url_poster: https://theposterdb.com/api/assets/49195
+
+  217: # Indiana Jones and the Kingdom of the Crystal Skull
+    sort_title: Indiana Jones 4
+    url_poster: https://theposterdb.com/api/assets/49196
+
+  262500: # Insurgent
+    sort_title: Insurgent
+
+  31909: # Invaders From Mars (1986)
+    url_poster: https://theposterdb.com/api/assets/89956
+
+  23082: # The Invention of Lying
+    url_poster: https://theposterdb.com/api/assets/73578
+
+  1585: # It's A Wonderful Life
+    url_poster: https://theposterdb.com/api/assets/123684

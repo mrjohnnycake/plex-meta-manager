@@ -1,0 +1,165 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  13188: # Scrooge (1951)
+    title: Scrooge
+    alt_title: A Christmas Carol
+    content_rating: 12
+    url_poster: https://image.tmdb.org/t/p/original/oH3H4IYABGptyoaJBaBNKxu90Bt.jpg
+
+  14291: # Searching for Bobby Fischer
+    url_poster: https://image.tmdb.org/t/p/original//oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg
+
+  808: # Shrek
+    sort_title: Shrek 1
+    url_poster: https://theposterdb.com/api/assets/144390
+
+  809: # Shrek 2
+    sort_title: Shrek 2
+    url_poster: https://theposterdb.com/api/assets/144393
+
+  810: # Shrek the Third
+    sort_title: Shrek 3
+    url_poster: https://theposterdb.com/api/assets/144399
+
+  10192: # Shrek Forever After
+    sort_title: Shrek 4
+    url_poster: https://theposterdb.com/api/assets/144405
+
+  278: # The Shawshank Redemption
+    url_poster: https://theposterdb.com/api/assets/199948
+
+  14924: # Sid & Nancy
+    url_poster: https://theposterdb.com/api/assets/17291
+
+  9882: # The Siege
+    url_poster: https://www.themoviedb.org/t/p/original/6aSo9FepBA6zNEHgA3bgqt3UaOk.jpg
+
+  # 117974: # Sightseers
+  #   url_poster:
+
+  17898: # Silver Bullet
+    url_poster: https://theposterdb.com/api/assets/314340
+
+  137116: # Smurfs: The Lost Village
+    sort_title: Smurfs 3
+    url_poster: https://theposterdb.com/api/assets/13936
+
+  10442: # So I Married an Axe Murderer
+    url_poster: https://image.tmdb.org/t/p/original//wMr6ZjfOnCHOA9Qm3jvo0e7nzfx.jpg
+
+  325813: # Splitting Adam
+    url_poster: https://www.themoviedb.org/t/p/original/gXityecPMUQQiTYbbOQ70TsA1su.jpg
+
+  152: # Star Trek: The Motion Picture
+    sort_title: Star Trek 1
+    url_poster: https://theposterdb.com/api/assets/21271
+
+  154: # Star Trek II: The Wrath of Khan
+    sort_title: Star Trek 2
+    url_poster: https://theposterdb.com/api/assets/21272
+
+  157: # Star Trek III: The Search for Spock
+    sort_title: Star Trek 3
+    url_poster: https://theposterdb.com/api/assets/21273
+
+  168: # Star Trek IV: The Voyage Home
+    sort_title: Star Trek 4
+    url_poster: https://theposterdb.com/api/assets/21274
+
+  172: # Star Trek V: The Final Frontier
+    sort_title: Star Trek 5
+    url_poster: https://theposterdb.com/api/assets/21275
+
+  174: # Star Trek VI: The Undiscovered Country
+    sort_title: Star Trek 6
+    url_poster: https://theposterdb.com/api/assets/21276
+
+  193: # Star Trek: Generations
+    sort_title: Star Trek 7
+    url_poster: https://theposterdb.com/api/assets/21277
+
+  199: # Star Trek: First Contact
+    sort_title: Star Trek 8
+    url_poster: https://theposterdb.com/api/assets/21278
+
+  200: # Star Trek: Insurrection
+    sort_title: Star Trek 9
+    url_poster: https://theposterdb.com/api/assets/21279
+
+  201: # Star Trek: Nemesis
+    sort_title: Star Trek 10
+    url_poster: https://theposterdb.com/api/assets/21280
+
+  13475: # Star Trek
+    sort_title: Star Trek 11
+    url_poster: https://theposterdb.com/api/assets/21281
+
+  54138: # Star Trek Into Darkness
+    sort_title: Star Trek 12
+    url_poster: https://theposterdb.com/api/assets/21282
+
+  188927: # Star Trek Beyond
+    sort_title: Star Trek 13
+    url_poster: https://theposterdb.com/api/assets/21283
+
+  1893: # Star Wars: Episode I - The Phantom Menace
+    sort_title: Star Wars 1
+    url_poster: https://theposterdb.com/api/assets/28745
+
+  1894: # Star Wars: Episode II - Attack of the Clones
+    sort_title: Star Wars 2
+    url_poster: https://theposterdb.com/api/assets/28746
+
+  1895: # Star Wars: Episode III - Revenge of the Sith
+    sort_title: Star Wars 3
+    url_poster: https://theposterdb.com/api/assets/28747
+
+  11: # Star Wars: Episode IV - A New Hope
+    sort_title: Star Wars 4
+    url_poster: https://theposterdb.com/api/assets/28742
+
+  1891: # Star Wars: Episode V - The Empire Strikes Back
+    sort_title: Star Wars 5
+    url_poster: https://theposterdb.com/api/assets/28743
+
+  1892: # Star Wars: Episode VI - Return of the Jedi
+    sort_title: Star Wars 6
+    url_poster: https://theposterdb.com/api/assets/28744
+
+  140607: # Star Wars: Episode VII - The Force Awakens
+    sort_title: Star Wars 7
+    url_poster: https://theposterdb.com/api/assets/28748
+
+  181808: # Star Wars: Episode VIII - The Last Jedi
+    sort_title: Star Wars 8
+    url_poster: https://theposterdb.com/api/assets/28749
+
+  181812: # Star Wars: Episode IX - The Rise of Skywalker
+    sort_title: Star Wars 9
+    url_poster: https://theposterdb.com/api/assets/28750
+
+  9384: # Starsky & Hutch
+    url_poster: https://theposterdb.com/api/assets/115911
+
+  1262: # Stranger Than Fiction
+    url_poster: https://theposterdb.com/api/assets/74099
+
+  4614: # The Sum of All Fears
+    url_poster: https://theposterdb.com/api/assets/42841
+
+  37686: # Super 8
+    url_poster: https://theposterdb.com/api/assets/146580

@@ -1,0 +1,117 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  121734: # Tad, the Lost Explorer
+    sort_title: Tad the Lost Explorer 1
+
+  452773: # Tad, the Lost Explorer and the Secret of King Midas
+    sort_title: Tad the Lost Explorer 2
+
+  676701: # Tad, the Lost Explorer and the Emerald Tablet
+    sort_title: Tad the Lost Explorer 3
+
+  64720: # Take Shelter
+    url_poster: https://image.tmdb.org/t/p/original//zLZQv7cN8ckBEa7HvjYkm2wx7F9.jpg
+
+  10785: # The Thing From Another World
+    url_poster: https://theposterdb.com/api/assets/227908
+
+  10195: # Thor
+    sort_title: Thor 1
+    url_poster: https://theposterdb.com/api/assets/9777
+
+  76338: # Thor: The Dark World
+    sort_title: Thor 2
+    url_poster: https://theposterdb.com/api/assets/9781
+
+  284053: # Thor: Ragnarok
+    sort_title: Thor 3
+    url_poster: https://theposterdb.com/api/assets/9791
+
+  616037: # Thor: Love and Thunder
+    sort_title: Thor 4
+    url_poster: https://theposterdb.com/api/assets/248629
+
+  11969: # Tombstone
+    url_poster: https://theposterdb.com/api/assets/237056
+
+  11381: # Tommy Boy
+    url_poster: https://image.tmdb.org/t/p/original//cUvdzCbhLyYUAwbIkBjT3tC28cK.jpg
+
+  361743: # Top Gun - Maverick
+    url_poster: https://theposterdb.com/api/assets/77095
+
+  8764: # Top Secret
+    url_poster: https://image.tmdb.org/t/p/original//xsuEGorx2RcgtF6JKQjwYYrcr3E.jpg
+
+  862: # Toy Story
+    url_poster: https://theposterdb.com/api/assets/10395
+
+  863: # Toy Story 2
+    url_poster: https://theposterdb.com/api/assets/10396
+
+  2034: # Training Day
+    url_poster: https://image.tmdb.org/t/p/original//bUeiwBQdupBLQthMCHKV7zv56uv.jpg
+
+  23719: # Trapped In Paradise
+    url_poster: https://theposterdb.com/api/assets/201455
+
+  774810: # A Trash Truck Christmas
+    alt_title: A Giant Jack Christmas
+    url_poster: https://www.themoviedb.org/t/p/original/65trxH9nF1CiMj3GMZwqViTDREp.jpg
+
+  3090: # The Treasure of the Sierra Madre
+    url_poster: https://theposterdb.com/api/assets/144064
+
+  319: # True Romance
+    url_poster: https://theposterdb.com/api/assets/166546
+
+  7461: # Vantage Point
+    url_poster: https://theposterdb.com/api/assets/36298
+
+  426: # Vertigo
+    url_poster: https://theposterdb.com/api/assets/60591
+
+  69: # Walk The Line
+    url_poster: https://image.tmdb.org/t/p/original//p8lPTjvjOjTfvC1E9pmMwcF9vkn.jpg
+
+  13183: # Watchmen
+    url_poster: https://theposterdb.com/api/assets/25730
+
+  318973: # Welcome to Leith
+    url_poster: https://www.themoviedb.org/t/p/original/mNp6jfVGlF2WuGsqsXXr3tzl68y.jpg
+
+  # 10548: # When We Were Kings
+  #   url_poster: 
+
+  # 25925: # Who's The Man?
+  #   url_poster: 
+
+  847: # Willow
+    url_poster: https://theposterdb.com/api/assets/13958
+
+  252: # Willy Wonka & the Chocolate Factory
+    url_poster: https://theposterdb.com/api/assets/17909
+
+  517129: # Wolfman's Got Nards
+    content_rating: 15
+    url_poster: https://image.tmdb.org/t/p/original//exSBAnTy68SCz4k9S67zoVA29oM.jpg
+
+  75506: # World Without End
+    url_poster: https://image.tmdb.org/t/p/original//flvqHHFMBCks5Mlb4HWydUZcwbV.jpg
+
+  703451: # Your Place or Mine
+    url_poster: https://image.tmdb.org/t/p/original//ApkSeqfIPRCxOtfjXYYE6Ji7jVU.jpg

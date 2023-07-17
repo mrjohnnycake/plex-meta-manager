@@ -1,0 +1,96 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  19186: # The Parent Trap
+    url_poster: https://www.themoviedb.org/t/p/original/kpAA38CTKcAH3OIywvpgF9nFjXE.jpg
+
+  479263: # Patton Oswalt - Annihilation
+    content_rating: 18
+
+  75874: # Patton Oswalt - Finest Hour
+    content_rating: 18
+
+  696575: # Patton Oswalt - I Love Everything
+    content_rating: 18
+
+  392891: # Patton Oswalt - Talking for Clapping
+    content_rating: 18
+
+  14425: # PCU
+    url_poster: https://www.themoviedb.org/t/p/original/7jmbBHNLFQYI0DaaPiKTmNZAD88.jpg
+
+  32657: # Percy Jackson & the Olympians: The Lightning Thief
+    title: Percy Jackson & the Olympians - The Lightning Thief 
+    url_poster: https://theposterdb.com/api/assets/158
+
+  56601: # The Perfect Game
+    url_poster: https://image.tmdb.org/t/p/original//kwn02B0AyQYXzftAo9StX8JD2JY.jpg
+
+  10606: # The Philadelphia Experiment
+    url_poster: https://theposterdb.com/api/assets/72127
+
+  531634: # Pick It Up! - Ska in the '90s
+    content_rating: 14
+
+  871: # Planet of the Apes (1968)
+    url_poster: https://theposterdb.com/api/assets/258306
+
+  869: # Planet of the Apes (2001)
+    url_poster: https://theposterdb.com/api/assets/262168
+
+  10498: # Point of No Return (1993)
+    title: Point of No Return
+    alt_title: The Assassin
+    url_poster: https://theposterdb.com/api/assets/87369
+
+  12429: # Ponyo
+    url_poster: https://theposterdb.com/api/assets/409
+
+  169: # Predator 2
+    url_poster: https://theposterdb.com/api/assets/43444
+
+  14337: # Primer
+    url_poster: https://theposterdb.com/api/assets/97226
+
+  457840: # Psych: The Movie
+    sort_title: Psych 1
+
+  582218: # Psych 2: Lassie Come Home
+    sort_title: Psych 2
+
+  829400: # Psych 3: This Is Gus
+    sort_title: Psych 3
+
+  539: # Psycho
+    url_poster: https://theposterdb.com/api/assets/19085
+
+  114442: # Quest
+    content_rating: 14
+  # url_poster: 
+
+  94329: # The Raid
+    title: The Raid
+    alt_title: The Raid Redemption
+    url_poster: https://image.tmdb.org/t/p/original//Abnm1Ws3JH0ReCfEhLMPwPcMcGO.jpg
+
+  31867: # Repo Men
+    url_poster: https://theposterdb.com/api/assets/73882
+
+  5548: # RoboCop
+    url_poster: https://theposterdb.com/api/assets/225912
+
+  # 461634: # Rory Scovel Tries Standup for the First Time
+  #   url_poster: 

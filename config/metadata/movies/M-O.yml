@@ -1,0 +1,138 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  334: # Magnolia
+    url_poster: https://theposterdb.com/api/assets/188510
+
+  415312: # The Man from Earth: Holocene
+    content_rating: 16
+
+  11454: # Manhunter
+    url_poster: https://theposterdb.com/api/assets/178035
+
+  250480: # The Many Adventures of Winnie the Pooh
+    url_poster: https://theposterdb.com/api/assets/98925
+
+  603: # The Matrix
+    sort_title: Matrix 1
+
+  604: # The Matrix Reloaded
+    sort_title: Matrix 2
+
+  605: # The Matrix Revolutions
+    sort_title: Matrix 3
+
+  624860: # The Matrix Resurrections
+    sort_title: Matrix 4
+
+  198663: # The Maze Runner
+    sort_title: Maze Runner 1
+
+  294254: # The Maze Runner: The Scorch Trials
+    sort_title: Maze Runner 2
+
+  336843: # The Maze Runner: The Death Cure
+    sort_title: Maze Runner 3
+
+  1267: # Meet The Robinsons
+    url_poster: https://theposterdb.com/api/assets/217223
+
+  954: # Mission: Impossible
+    sort_title: Mission Impossible 1
+    url_poster: https://theposterdb.com/api/assets/5837
+
+  955: # Mission: Impossible II
+    sort_title: Mission Impossible 2
+    url_poster: https://theposterdb.com/api/assets/5838
+
+  956: # Mission: Impossible III
+    sort_title: Mission Impossible 3
+    url_poster: https://theposterdb.com/api/assets/5839
+
+  56292: # Mission: Impossible - Ghost Protocal
+    sort_title: Mission Impossible 4
+    url_poster: https://theposterdb.com/api/assets/5840
+
+  177677: # Mission: Impossible - Rogue Nation
+    sort_title: Mission Impossible 5
+    url_poster: https://theposterdb.com/api/assets/5841
+
+  353081: # Mission: Impossible - Fallout
+    sort_title: Mission Impossible 6
+    url_poster: https://theposterdb.com/api/assets/5842
+
+  454699: # Monster Family
+    url_poster: https://www.themoviedb.org/t/p/original/gjDbd43e7o2Ssn7P1l50Bv0rtIl.jpg
+
+  13509: # The Monster Squad
+    url_poster: https://theposterdb.com/api/assets/116012
+
+  3065: # Mystery Science Theatre 3000: The Movie
+    url_poster: https://image.tmdb.org/t/p/original//tlakU3uwNiUgd7aOlb2RoAsGTnY.jpg
+
+  37136: # The Naked Gun: From the Files of Police Squad!
+    sort_title: Naked Gun 1
+
+  37137: # The Naked Gun 2: The Smell of Fear
+    sort_title: Naked Gun 2
+
+  36593: # Naked Gun 3: The Final Insult
+    sort_title: Naked Gun 3
+
+  36670: # Never Say Never Again
+    url_poster: https://theposterdb.com/api/assets/2088
+
+  15762: # Night of the Creeps
+    url_poster: https://theposterdb.com/api/assets/62841
+
+  20481: # Nightbreed
+    url_poster: https://theposterdb.com/api/assets/103711
+
+  10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
+    url_poster: https://theposterdb.com/api/assets/115954
+
+  18942: # Nirvana: Unplugged In New York
+    content_rating: 12
+
+  161: # Ocean's Eleven
+    sort_title: Oceans 1
+    url_poster: https://theposterdb.com/api/assets/19154
+
+  163: # Ocean's Twelve
+    sort_title: Oceans 2
+    url_poster: https://theposterdb.com/api/assets/19155
+
+  298: # Ocean's Thirteen
+    sort_title: Oceans 3
+    url_poster: https://theposterdb.com/api/assets/19156
+
+  700: # Octopussy
+    url_poster: https://theposterdb.com/api/assets/21083
+
+  1542: # Office Space
+    url_poster: https://theposterdb.com/api/assets/289290
+
+  11635: # Old School
+    url_poster: https://theposterdb.com/api/assets/50704
+
+  668: # On Her Majesty's Secret Service
+    url_poster: https://theposterdb.com/api/assets/2080
+
+  35412: # On The Beach
+    url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg
+
+  2055: # Open Range
+    url_poster: https://theposterdb.com/api/assets/97804

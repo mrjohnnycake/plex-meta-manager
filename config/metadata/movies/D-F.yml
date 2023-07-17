@@ -1,0 +1,129 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  1410: # Dark Star
+    content_rating: 12
+
+  387: # Das Boot
+    sort_title: Das Boot
+    url_poster: https://theposterdb.com/api/assets/164559
+
+  35595: # Dave Chappelle: HBO Comedy Half Hour
+    sort_title: Dave Chappelle 1
+
+  16275: # Dave Chappelle: Killin' Them Softly
+    sort_title: Dave Chappelle 2
+
+  20147: # Dave Chappelle: For What It's Worth
+    sort_title: Dave Chappelle 3
+
+  444705: # Dave Chappelle: The Age of Spin
+    sort_title: Dave Chappelle 4
+
+  444706: # Dave Chappelle: Deep in the Heart of Texas
+    sort_title: Dave Chappelle 5
+
+  488223: # Dave Chappelle: Equanimity
+    sort_title: Dave Chappelle 6
+
+  494368: # Dave Chappelle: The Bird Revelation
+    sort_title: Dave Chappelle 7
+
+  624932: # Dave Chappelle: Sticks & Stones
+    sort_title: Dave Chappelle 8
+
+  879540: # Dave Chappelle: The Closer
+    sort_title: Dave Chappelle 9
+    url_poster: https://theposterdb.com/api/assets/279560
+
+  32182: # David Cross: The Pride Is Back
+    sort_title: David Cross 1
+
+  41994: # David Cross: Bigger and Blackerer
+    sort_title: David Cross 3
+
+  408546: # David Cross: Making America Great Again
+    sort_title: David Cross 4
+
+  601938: # David Cross: Oh, Come On
+    sort_title: David Cross 5
+
+  505026: # Death on the Nile
+    url_poster: https://theposterdb.com/api/assets/223827
+
+  892: # Delicatessen
+    url_poster: https://theposterdb.com/api/assets/167028
+
+  9739: # Demolition Man
+    url_poster: https://theposterdb.com/api/assets/67020
+
+  562: # Die Hard
+    sort_title: Die Hard 1
+    url_poster: https://theposterdb.com/api/assets/558
+
+  1573: # Die Hard 2
+    sort_title: Die Hard 2
+    url_poster: https://theposterdb.com/api/assets/559
+
+  1572: # Die Hard with a Vengeance
+    sort_title: Die Hard 3
+    url_poster: https://theposterdb.com/api/assets/560
+
+  1571: # Live Free or Die Hard
+    sort_title: Die Hard 4
+    url_poster: https://theposterdb.com/api/assets/561
+
+  470942: # Don't Break Down: A Film About Jawbreaker
+    content_rating: 15
+
+  9101: # Down Periscope
+    url_poster: https://image.tmdb.org/t/p/original//brleKcHsirTw7lFqcgUMOfgL2nl.jpg
+
+  935: # Dr. Strangelove
+    url_poster: https://theposterdb.com/api/assets/214759
+
+  24099: # Dreamscape
+    url_poster: https://theposterdb.com/api/assets/33713
+
+  554603: # The Eugenics Crusade
+    content_rating: 13
+
+  9276: # The Faculty
+    url_poster: https://theposterdb.com/api/assets/33949
+
+  5994: # The Family Man
+    url_poster: https://www.themoviedb.org/t/p/original/hvPltBKYxVYLPGvUJ9t8Pu8sXeT.jpg
+
+  436305: # The Farthest
+    url_poster: https://theposterdb.com/api/assets/21494
+
+  18: # The Fifth Element
+    url_poster: https://theposterdb.com/api/assets/14377
+
+  8738: # The Final Countdown
+    url_poster: https://theposterdb.com/api/assets/179552
+
+  236399: # Flowers in the Attic
+    content_rating: 13
+
+  983406: # Fourth of July
+    content_rating: 17
+
+  539892: # Freaks
+    url_poster: https://theposterdb.com/api/assets/163349
+
+  10559: # Frequency
+    url_poster: https://theposterdb.com/api/assets/108800

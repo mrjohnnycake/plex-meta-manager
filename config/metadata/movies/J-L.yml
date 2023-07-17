@@ -1,0 +1,156 @@
+#####################
+##     Example     ##
+#####################
+
+#  [TMDb number]: # [Name of movie]
+#    title: [Name of movie]
+#    alt_title: [it's sometimes also called]
+#    sort_title: [how to sort movie]
+#    url_poster: https://theposterdb.com/api/assets/[poster-number]
+
+#################################################
+##     Plex Auto-naming and Metadata Fixes     ##
+#################################################
+
+metadata:
+
+  9012: # Jackass: The Movie
+    sort_title: Jackass 1
+
+  12094: # Jackass: Number Two
+    sort_title: Jackass 2
+
+  16290: # Jackass 3D
+    sort_title: Jackass 3
+
+  656663: # Jackass Forever
+    sort_title: Jackass 4
+
+  576703: # J.R. 'Bob' Dobbs and the Church of the SubGenius
+    content_rating: 16
+
+  329: # Jurassic Park
+    sort_title: Jurassic Park 1
+
+  330: # The Lost World: Jurassic Park
+    sort_title: Jurassic Park 2
+
+  331: # Jurassic Park III
+    sort_title: Jurassic Park 3
+
+  135397: # Jurassic World
+    sort_title: Jurassic Park 4
+
+  351286: # Jurassic World: Fallen Kingdom
+    sort_title: Jurassic Park 5
+
+  507086: # Jurassic World: Dominion
+    sort_title: Jurassic Park 6
+
+  # 270828: # Kill The Habit
+  #  url_poster: 
+
+  207703: # Kingsman: The Secret Service
+    sort_title: Kingsman 1
+
+  343668: # Kingsman: The Golden Circle
+    sort_title: Kingsman 2
+
+  476669: # The King's Man
+    sort_title: Kingsman 3
+    url_poster: https://theposterdb.com/api/assets/50365
+
+  9502: # Kung Fu Panda
+    url_poster: https://theposterdb.com/api/assets/20627
+
+  49444: # Kung Fu Panda 2
+    url_poster: https://theposterdb.com/api/assets/20628
+
+  140300: # Kung Fu Panda 3
+    url_poster: https://theposterdb.com/api/assets/20629
+
+  450875: # LA 92
+    sort_title: LA 92
+
+  16620: # La Bamba
+    sort_title: La Bamba
+
+  9322: # La Femme Nikita
+    sort_title: La Femme Nikita
+    url_poster: https://theposterdb.com/api/assets/15673
+
+  The Langoliers: # The Langoliers
+    tmdb_show: 18197
+    title: The Langoliers
+    content_rating: 14
+    url_poster: https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xcySnh6hHc98G94dF8sXNJuD0Rp.jpg
+
+  665888: # Lapsis
+    content_rating: 16
+
+  11287: # A League of Their Own (1992)
+    url_poster: https://theposterdb.com/api/assets/87818
+
+  12207: # The Legend of Drunken Master
+    alt_title: Drunken Master II
+    url_poster: https://image.tmdb.org/t/p/original//xqUBrSBtPYLvCtfqHF5sapU6Div.jpg
+
+  27933: # Legend of Frosty the Snowman
+    url_poster: https://www.themoviedb.org/t/p/original/iBgQYkizdLzcpflNHolIVWJPgqz.jpg
+
+  70608: # LEGO Star Wars: The Padawan Menace
+    title: LEGO Star Wars - The Padawan Menace
+    sort_title: LEGO Star Wars 1
+
+  136406: # LEGO Star Wars: The Empire Strikes Out
+    title: LEGO Star Wars - The Empire Strikes Out
+    sort_title: LEGO Star Wars 2
+    url_poster: https://theposterdb.com/api/assets/296092
+
+  732670: # The LEGO Star Wars Holiday Special
+    title: The LEGO Star Wars Holiday Special
+    sort_title: LEGO Star Wars 3
+
+  857702: # LEGO Star Wars: Terrifying Tales
+    title: LEGO Star Wars - Terrifying Tales
+    sort_title: LEGO Star Wars 4
+
+  980804: # LEGO Star Wars: Summer Vacation
+    title: LEGO Star Wars - Summer Vacation
+    sort_title: LEGO Star Wars 5
+
+  941: # Lethal Weapon 3
+    url_poster: https://theposterdb.com/api/assets/96
+
+  942: # Lethal Weapon 3
+    url_poster: https://theposterdb.com/api/assets/97
+
+  943: # Lethal Weapon 3
+    url_poster: https://theposterdb.com/api/assets/98
+
+  944: # Lethal Weapon 4
+    url_poster: https://theposterdb.com/api/assets/99
+
+  718789: # Lightyear
+    url_poster: https://theposterdb.com/api/assets/218896
+
+  708: # The Living Daylights
+    url_poster: https://theposterdb.com/api/assets/2090
+
+  254320: # The Lobster
+    url_poster: https://theposterdb.com/api/assets/54870
+
+  10803: # Logan's Run
+    url_poster: https://theposterdb.com/api/assets/39106
+
+  120: # The Lord of the Rings: The Fellowship of the Ring
+    sort_title: Lord of the Rings 1
+    url_poster: https://theposterdb.com/api/assets/49794
+
+  121: # The Lord of the Rings: The Two Towers
+    sort_title: Lord of the Rings 2
+    url_poster: https://theposterdb.com/api/assets/49795
+
+  122: # The Lord of the Rings: The Return of the King
+    sort_title: Lord of the Rings 3
+    url_poster: https://theposterdb.com/api/assets/49796
