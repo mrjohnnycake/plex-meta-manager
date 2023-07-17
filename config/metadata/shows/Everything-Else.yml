@@ -80,6 +80,12 @@ metadata:
   362753: # I Think You Should Leave with Tim Robinson
     url_poster: https://artworks.thetvdb.com/banners/v4/series/362753/posters/62d3f4aeecad8.jpg
 
+  354573: # Jonestown- Terror in the Jungle
+    content_rating: 17
+
+  74754: # Kelsey Grammer Presents The Sketch Show
+    content_rating: 16
+
   409547: # The Long Call
     content_rating: 17
 
@@ -95,6 +101,9 @@ metadata:
 
   319539: # My Mother and Other Strangers
     url_poster: https://artworks.thetvdb.com/banners/posters/319539-2.jpg
+
+  268159: # Norm Macdonald Live
+    content_rating: 17
 
   294169: # Other Space
     url_poster: https://artworks.thetvdb.com/banners/v4/series/294169/posters/62f668723451f.jpg
