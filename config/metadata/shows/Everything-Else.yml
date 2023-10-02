@@ -29,6 +29,9 @@ metadata:
   72668: # The Adventures of Tintin
     url_poster: https://artworks.thetvdb.com/banners/v4/series/72668/posters/63f6c691d48ee.jpg
 
+  71638: # American Experience
+    content_rating: 14
+
   284182: # ANZAC Girls
     url_poster: https://artworks.thetvdb.com/banners/posters/284182-4.jpg
 
@@ -50,7 +53,13 @@ metadata:
   254378: # Bomb Girls
     url_poster: https://artworks.thetvdb.com/banners/posters/254378-4.jpg
 
+  307831: # Close to the Enemy
+    content_rating: 14
+
   76676: # The Dana Carvey Show
+    content_rating: 14
+
+  322122: # Decline and Fall
     content_rating: 14
 
   78804: # Doctor Who
@@ -86,6 +95,9 @@ metadata:
   74754: # Kelsey Grammer Presents The Sketch Show
     content_rating: 16
 
+  87341: # Ladies of Letters
+    content_rating: 14
+
   409547: # The Long Call
     content_rating: 17
 
@@ -119,6 +131,9 @@ metadata:
 
   75734: # Robot Chicken
     url_poster: https://artworks.thetvdb.com/banners/posters/75734-2.jpg
+
+  102461: # The Sketch Show
+    content_rating: 14
 
   79866: # The Stand (1994)
     content_rating: 18
