@@ -12,7 +12,7 @@ templates:
     delete_not_scheduled: false
     run_again: true
     visible_home: false
-    visible_shared: true
+    visible_shared: false
     sync_mode: sync
 
 #######################

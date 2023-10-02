@@ -11,7 +11,7 @@ templates:
         delete_not_scheduled: true
         run_again: true
         visible_home: false
-        visible_shared: true
+        visible_shared: false
         # schedule: weekly(sunday)
         sync_mode: sync
 

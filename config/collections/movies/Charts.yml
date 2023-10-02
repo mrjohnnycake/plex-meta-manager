@@ -10,7 +10,7 @@ templates:
     # collection_order: release
     # schedule: weekly(sunday)
     visible_home: false
-    visible_shared: true
+    visible_shared: false
     sync_mode: sync
 
 collections:

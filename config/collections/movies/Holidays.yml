@@ -11,8 +11,6 @@ templates:
         schedule: daily
         delete_not_scheduled: false
         run_again: true
-        # visible_home: true
-        # visible_shared: true
         sync_mode: sync
 
 ##########################
