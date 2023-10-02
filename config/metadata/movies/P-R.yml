@@ -86,11 +86,18 @@ metadata:
     alt_title: The Raid Redemption
     url_poster: https://image.tmdb.org/t/p/original//Abnm1Ws3JH0ReCfEhLMPwPcMcGO.jpg
 
+  1146147: # A Really Haunted Loud House
+    content_rating: 8
+
   31867: # Repo Men
     url_poster: https://theposterdb.com/api/assets/73882
 
   5548: # RoboCop
     url_poster: https://theposterdb.com/api/assets/225912
+
+  672233: # Rory Scovel: Live Without Fear
+    content_rating: 17
+  # url_poster: 
 
   # 461634: # Rory Scovel Tries Standup for the First Time
   #   url_poster: 
