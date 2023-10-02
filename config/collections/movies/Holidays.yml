@@ -8,7 +8,7 @@ templates:
         url_poster: <<poster>>
         collection_order: release.desc
         # collection_mode: hide
-        schedule: weekly(friday)
+        schedule: daily
         delete_not_scheduled: false
         run_again: true
         # visible_home: true
