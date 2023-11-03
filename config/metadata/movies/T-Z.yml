@@ -29,6 +29,9 @@ metadata:
   10785: # The Thing From Another World
     url_poster: https://theposterdb.com/api/assets/227908
 
+  831: # This Island Earth
+    url_poster: https://www.themoviedb.org/t/p/original/hm8S5J3Ns6Y5nJmRbNlpNR5APxU.jpg
+
   10195: # Thor
     sort_title: Thor 1
     url_poster: https://theposterdb.com/api/assets/9777
@@ -44,6 +47,9 @@ metadata:
   616037: # Thor: Love and Thunder
     sort_title: Thor 4
     url_poster: https://theposterdb.com/api/assets/248629
+
+  14139: # Timecrimes
+    url_poster: https://www.themoviedb.org/t/p/original/svQmmEyXbMMPKGvj2PYxi72tXwY.jpg
 
   11969: # Tombstone
     url_poster: https://theposterdb.com/api/assets/237056
@@ -73,6 +79,9 @@ metadata:
     alt_title: A Giant Jack Christmas
     url_poster: https://www.themoviedb.org/t/p/original/65trxH9nF1CiMj3GMZwqViTDREp.jpg
 
+  576560: # Tread
+    url_poster: https://www.themoviedb.org/t/p/original/gSvHbc5sA88H4MtgGreuH49ggfY.jpg
+
   3090: # The Treasure of the Sierra Madre
     url_poster: https://theposterdb.com/api/assets/144064
 
@@ -87,6 +96,9 @@ metadata:
 
   69: # Walk The Line
     url_poster: https://image.tmdb.org/t/p/original//p8lPTjvjOjTfvC1E9pmMwcF9vkn.jpg
+
+  10229: # A Walk To Remember
+    url_poster: https://www.themoviedb.org/t/p/original/Apfl28wg3eHmz9REPHiyFVR5L5u.jpg
 
   13183: # Watchmen
     url_poster: https://theposterdb.com/api/assets/25730
@@ -115,3 +127,6 @@ metadata:
 
   703451: # Your Place or Mine
     url_poster: https://image.tmdb.org/t/p/original//ApkSeqfIPRCxOtfjXYYE6Ji7jVU.jpg
+
+  9489: # You've Got Mail
+    url_poster: https://image.tmdb.org/t/p/original/e2uVtH6TpMfUl7WeOM70ezkcjsU.jpg

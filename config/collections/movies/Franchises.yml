@@ -47,6 +47,11 @@ collections:
     trakt_list: https://trakt.tv/users/theriskoftime/lists/die-hard?sort=released,desc
     summary: An action film series centered around the character of John McClane, a New York City police detective who finds himself fighting a group of terrorists in each film.
 
+  Dirty Harry:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/13169}
+    trakt_list: https://trakt.tv/users/ireallylovevids/lists/dirty-harry?sort=released,desc
+    summary: Dirty Harry is an American neo-noir vigilante action thriller film series featuring San Francisco Police Department Homicide Division Inspector "Dirty" Harry Callahan.
+
   Eastrail 177:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/256025}
     trakt_list: https://trakt.tv/users/jmpichardo/lists/eastrail-177?sort=released,desc

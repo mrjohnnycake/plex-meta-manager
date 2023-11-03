@@ -18,7 +18,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/188510
 
   10648: # Magnum Force
-    url_poster: https://www.themoviedb.org/t/p/original/cmQuj67qbijnC9dAQZf8x4X1KEr.jpg
+    url_poster: https://theposterdb.com/api/assets/854
 
   415312: # The Man from Earth: Holocene
     content_rating: 16
@@ -107,6 +107,9 @@ metadata:
   10014: # A Nightmare on Elm Street, Part 2: Freddy's Revenge
     url_poster: https://theposterdb.com/api/assets/115954
 
+  18910: # The Ninth Configuration
+    url_poster: https://www.themoviedb.org/t/p/original/jlQMBckfnLhiCusar62sJ7WCKBv.jpg
+
   18942: # Nirvana: Unplugged In New York
     content_rating: 12
 
@@ -136,6 +139,9 @@ metadata:
 
   35412: # On The Beach
     url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg
+
+  15797: # Only the Strong
+    url_poster: https://www.themoviedb.org/t/p/original/pPWV5rBhCgzlzhwkpdRG7a7UZqt.jpg
 
   2055: # Open Range
     url_poster: https://theposterdb.com/api/assets/97804

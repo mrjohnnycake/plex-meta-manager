@@ -39,6 +39,9 @@ metadata:
   56601: # The Perfect Game
     url_poster: https://image.tmdb.org/t/p/original//kwn02B0AyQYXzftAo9StX8JD2JY.jpg
 
+  473: # Pi
+    url_poster: https://www.themoviedb.org/t/p/original/smMlzrjGVYfL6BWeTL04KIJpf8b.jpg
+
   10606: # The Philadelphia Experiment
     url_poster: https://theposterdb.com/api/assets/72127
 
@@ -91,6 +94,9 @@ metadata:
 
   31867: # Repo Men
     url_poster: https://theposterdb.com/api/assets/73882
+
+  8367: # Robin Hood: Prince of Thieves
+    url_poster: https://www.themoviedb.org/t/p/original/4fcZfbNo9RjmnCE4SyA51XLAfmr.jpg
 
   5548: # RoboCop
     url_poster: https://theposterdb.com/api/assets/225912

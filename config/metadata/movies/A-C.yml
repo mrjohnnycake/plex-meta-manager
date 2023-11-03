@@ -77,11 +77,17 @@ metadata:
   1685: # Beneath the Planet of the Apes
     url_poster: https://theposterdb.com/api/assets/258307
 
+  96: # Beverly Hills Cop 2
+    url_poster: https://www.themoviedb.org/t/p/original/yPXAvRwhstvr8gSmAb8sfJTCORS.jpg
+
   798727: # Biking Borders
     content_rating: 14
 
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
+
+  8338: # Blindness
+    url_poster: https://www.themoviedb.org/t/p/original/deBsx5IxyqCC217j3VY24TkkE0Z.jpg
 
   20504: # The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
@@ -89,11 +95,17 @@ metadata:
   62177: # Brave (2012)
     url_poster: https://theposterdb.com/api/assets/60698
 
+  11064: # Brewster's Millions (1985)
+    url_poster: https://www.themoviedb.org/t/p/original/7z5PMgpczjXDT5scdrlLt38mnKJ.jpg
+
   794095: # Brian Regan: On The Rocks
     content_rating: 12
 
   22564: # Brian Regan: Standing Up
     content_rating: 12
+
+  10206: # Buffy the Vampire Slayer
+    url_poster: https://www.themoviedb.org/t/p/original/q72hZtWIxmHuJASMGUWQSqujyxY.jpg
 
   287: # Bull Durham
     url_poster: https://theposterdb.com/api/assets/119865
@@ -149,6 +161,9 @@ metadata:
 
   16281: # Creepshow
     url_poster: https://theposterdb.com/api/assets/108982
+
+  16288: # Creepshow 2
+    url_poster: https://www.themoviedb.org/t/p/original/rfPwZFtqGHiOvfMhN00sNyO2Umb.jpg
 
   9495: # The Crow
     url_poster: https://image.tmdb.org/t/p/original//iH5eExSCOv1kxJXH9npPyM0EAJF.jpg

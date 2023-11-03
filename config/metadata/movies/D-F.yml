@@ -65,7 +65,7 @@ metadata:
     url_poster: https://www.themoviedb.org/t/p/original/ttquyxStEEctzghtA2f4PUGprDr.jpg
 
   10651: # The Dead Pool
-    url_poster: https://www.themoviedb.org/t/p/original/mqwGpW0Ptrvz1GmfCnLAOA4cQ8g.jpg
+    url_poster: https://theposterdb.com/api/assets/857
 
   505026: # Death on the Nile
     url_poster: https://theposterdb.com/api/assets/223827
@@ -95,6 +95,9 @@ metadata:
     sort_title: Die Hard 4
     url_poster: https://theposterdb.com/api/assets/561
 
+  984: # Dirty Harry
+    url_poster: https://theposterdb.com/api/assets/852
+
   470942: # Don't Break Down: A Film About Jawbreaker
     content_rating: 15
 
@@ -108,7 +111,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/33713
 
   10649: # The Enforcer
-    url_poster: https://www.themoviedb.org/t/p/original/mPal8eeyG5GZLetKAQ7Pte6rPPz.jpg
+    url_poster: https://theposterdb.com/api/assets/855
 
   554603: # The Eugenics Crusade
     content_rating: 13
@@ -127,6 +130,9 @@ metadata:
 
   8738: # The Final Countdown
     url_poster: https://theposterdb.com/api/assets/179552
+
+  1368: # First Blood
+    url_poster: https://www.themoviedb.org/t/p/original/a9sa6ERZCpplbPEO7OMWE763CLD.jpg
 
   236399: # Flowers in the Attic
     content_rating: 13
