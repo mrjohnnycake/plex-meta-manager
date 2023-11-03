@@ -105,7 +105,7 @@ collections:
 
   Planet of the Apes:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/3041}
-    trakt_list: https://trakt.tv/users/bmonomad/lists/planet-of-the-apes?sort=released,desc
+    trakt_list: https://trakt.tv/users/strangerer/lists/planet-of-the-apes?sort=released,desc
     summary: Planet of the Apes is an American science fiction franchise about a world in which humans and intelligent apes clash for control and is based on the 1963 novel by French author Pierre Boulle.
 
   Predator:
