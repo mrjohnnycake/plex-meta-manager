@@ -108,6 +108,11 @@ collections:
     trakt_list: https://trakt.tv/users/strangerer/lists/planet-of-the-apes?sort=released,desc
     summary: Planet of the Apes is an American science fiction franchise about a world in which humans and intelligent apes clash for control and is based on the 1963 novel by French author Pierre Boulle.
 
+  Poirot:
+    template: {name: Franchise, poster: https://theposterdb.com/api/assets/344739}
+    trakt_list: https://trakt.tv/users/david-m-a-p-palmquist/lists/poirot?sort=released,desc
+    summary: The famous Belgian detective, Hercule Poirot, puts his skills to work as he travels the world solving difficult crimes. He relies on his trusty sidekicks, and a limited amount of clues, to get the job done.
+
   Predator:
     template: {name: Franchise, poster: https://theposterdb.com/api/assets/43447}
     trakt_list: https://trakt.tv/users/wdvhucb/lists/predator?sort=rank,asc

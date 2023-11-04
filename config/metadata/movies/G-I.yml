@@ -86,6 +86,12 @@ metadata:
     sort_title: Harry Potter 8
     url_poster: https://theposterdb.com/api/assets/85952
 
+  616747: # Haunted Mansion
+    url_poster: https://theposterdb.com/api/assets/329826
+
+  945729: # A Haunting in Venice
+    url_poster: https://theposterdb.com/api/assets/386561
+
   254375: # Hector and the Search for Happiness
     url_poster: https://theposterdb.com/api/assets/289980
 
