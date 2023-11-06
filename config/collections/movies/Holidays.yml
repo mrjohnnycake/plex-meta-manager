@@ -67,9 +67,8 @@ collections:
     template: {name: Holiday, holiday: Thanksgiving, poster: https://theposterdb.com/api/assets/212638}
     visible_home: range(11/01-11/31)
     visible_shared: range(11/01-11/31)
-    imdb_list: 
-      - https://www.imdb.com/list/ls000835734/
-      - https://www.imdb.com/list/ls091597850/
+    trakt_list:
+      - https://trakt.tv/users/mrjohnnycake/lists/thanksgiving?sort=title,asc
     summary: This collection revolves around the plot involving Thanksgiving.
 
   Valentine's Day Movies:

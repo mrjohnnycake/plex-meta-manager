@@ -125,6 +125,34 @@ metadata:
   75506: # World Without End
     url_poster: https://image.tmdb.org/t/p/original//flvqHHFMBCks5Mlb4HWydUZcwbV.jpg
 
+  36657: # X-Men
+    sort_title: X-Men 2000
+    url_poster: https://theposterdb.com/api/assets/143884
+
+  36658: # X2
+    sort_title: X-Men 2003
+    url_poster: https://theposterdb.com/api/assets/143885
+
+  36668: # X-Men: The Last Stand
+    sort_title: X-Men 2006
+    url_poster: https://theposterdb.com/api/assets/143886
+
+  2080: # X-Men Origins: Wolverine
+    sort_title: X-Men 2009
+    url_poster: https://theposterdb.com/api/assets/143894
+
+  49538: # X-Men: First Class
+    sort_title: X-Men 2011
+    url_poster: https://theposterdb.com/api/assets/143887
+
+  127585: # X-Men: Days of Future Past
+    sort_title: X-Men 2014
+    url_poster: https://theposterdb.com/api/assets/143888
+
+  246655: # X-Men: Apocalypse
+    sort_title: X-Men 2016
+    url_poster: https://theposterdb.com/api/assets/143889
+
   703451: # Your Place or Mine
     url_poster: https://image.tmdb.org/t/p/original//ApkSeqfIPRCxOtfjXYYE6Ji7jVU.jpg
 
