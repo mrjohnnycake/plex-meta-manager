@@ -35,6 +35,9 @@ metadata:
   373571: # Godzilla: King of the Monsters (2019)
     url_poster: https://theposterdb.com/api/assets/16643
 
+  47964: # A Good Day to Die Hard
+    url_poster: https://theposterdb.com/api/assets/562
+
   9340: # The Goonies
     url_poster: https://theposterdb.com/api/assets/106516
 
@@ -46,6 +49,9 @@ metadata:
 
   11520: # Grumpy Old Men
     url_poster: https://theposterdb.com/api/assets/176088
+
+  447365: # Guardians of the Galaxy, Vol. 3
+    url_poster: https://theposterdb.com/api/assets/383018
 
   555604: # Guillermo del Toro's Pinocchio
     sort_title: Pinocchio
