@@ -132,6 +132,9 @@ metadata:
   289: # Casablanca
     url_poster: https://image.tmdb.org/t/p/original//5K7cOHoay2mZusSLezBOY0Qxh8a.jpg
 
+  12208: # Casino Royale (1967)
+    url_poster: https://theposterdb.com/api/assets/115689
+
   10515: # Castle In The Sky
     url_poster: https://theposterdb.com/api/assets/111923
 
