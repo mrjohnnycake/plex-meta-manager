@@ -1,4 +1,3 @@
-config/logs/*
 config/UUID
 config/config.cache
 config/config.yml
