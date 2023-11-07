@@ -1,0 +1,104 @@
+[2023-03-30 00:15:22,923] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:22,923] [builder.py:193]            [INFO]     |                                  TMDb Popular Collection in Shows                                  |
+[2023-03-30 00:15:22,923] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:22,924] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-30 00:15:22,924] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-30 00:15:22,924] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,924] [builder.py:216]            [DEBUG]    | Templates Called: tmdb, shared, arr, custom, translation                                           |
+[2023-03-30 00:15:22,924] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,924] [builder.py:220]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,924] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
+[2023-03-30 00:15:22,942] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-30 00:15:22,942] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,942] [meta.py:552]               [DEBUG]    | {'tmdb_popular': 20, 'ignore_blank_results': True, 'visible_library': True, 'visible_home': False, 'visible_shared': True, 'sort_title': '!01_TMDb Popular', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of the most watched shows according to TMDb.', 'name': 'TMDb Popular'} |
+[2023-03-30 00:15:22,942] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,942] [builder.py:233]            [INFO]     |================================ Validating TMDb Popular Attributes ================================|
+[2023-03-30 00:15:22,942] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,942] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-03-30 00:15:22,942] [builder.py:240]            [DEBUG]    | Value: TMDb Popular                                                                                |
+[2023-03-30 00:15:22,946] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,946] [plex.py:860]               [DEBUG]    | Looking for: TMDb Popular                                                                          |
+[2023-03-30 00:15:22,947] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,947] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-03-30 00:15:22,947] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 00:15:22,947] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,947] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-30 00:15:22,947] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-30 00:15:22,947] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,947] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-30 00:15:22,948] [builder.py:684]            [DEBUG]    | Value: custom                                                                                      |
+[2023-03-30 00:15:22,948] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,948] [builder.py:719]            [DEBUG]    | Validating Method: tmdb_popular                                                                    |
+[2023-03-30 00:15:22,948] [builder.py:720]            [DEBUG]    | Value: 20                                                                                          |
+[2023-03-30 00:15:22,948] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,948] [builder.py:719]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-03-30 00:15:22,948] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 00:15:22,948] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,949] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-03-30 00:15:22,949] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-03-30 00:15:22,949] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,949] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-03-30 00:15:22,949] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 00:15:22,949] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,949] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-30 00:15:22,949] [builder.py:720]            [DEBUG]    | Value: !01_TMDb Popular                                                                            |
+[2023-03-30 00:15:22,950] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:22,950] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-30 00:15:22,950] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg |
+[2023-03-30 00:15:23,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:23,217] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-30 00:15:23,217] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-30 00:15:23,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:23,217] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-30 00:15:23,217] [builder.py:720]            [DEBUG]    | Value: A collection of the most watched shows according to TMDb.                                   |
+[2023-03-30 00:15:23,218] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-30 00:15:23,218] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:638]  [INFO]     |================================= Running TMDb Popular Collection ==================================|
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:657]  [DEBUG]    | Builder: tmdb_popular: 20                                                                          |
+[2023-03-30 00:15:23,218] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:23,339] [tmdb.py:353]               [INFO]     | Processing TMDb Popular: 20 Shows                                                                  |
+[2023-03-30 00:15:23,348] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:23,348] [builder.py:1666]           [DEBUG]    | 20 IDs Found                                                                                       |
+[2023-03-30 00:15:23,348] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:23,608] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203057                                                |
+[2023-03-30 00:15:24,217] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215103                                                |
+[2023-03-30 00:15:24,914] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209505                                                |
+[2023-03-30 00:15:25,185] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 219082                                                |
+[2023-03-30 00:15:25,451] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221053                                                |
+[2023-03-30 00:15:26,015] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221056                                                |
+[2023-03-30 00:15:26,328] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 197109                                                |
+[2023-03-30 00:15:27,476] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213017                                                |
+[2023-03-30 00:15:28,018] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,018] [builder.py:2250]           [INFO]     |================================ Adding to TMDb Popular Collection =================================|
+[2023-03-30 00:15:28,018] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,018] [builder.py:2265]           [INFO]     | 1/2 | TMDb Popular Collection | + | The Last of Us                                                 |
+[2023-03-30 00:15:28,038] [builder.py:2265]           [INFO]     | 2/2 | TMDb Popular Collection | + | The Mandalorian                                                |
+[2023-03-30 00:15:28,055] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,055] [builder.py:2287]           [INFO]     | 2 Shows Processed 2 Shows Added                                                                    |
+[2023-03-30 00:15:28,058] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,059] [builder.py:2624]           [INFO]     |=========================== Updating Details of TMDb Popular Collection ============================|
+[2023-03-30 00:15:28,059] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,064] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A collection of the most watched shows according to TMDb.                      |
+                                                                 | Sort Title | !01_TMDb Popular                                                                      |
+                                                                 | Label | +PMM                                                                                       |
+[2023-03-30 00:15:28,145] [builder.py:2693]           [INFO]     | Details: have been updated                                                                         |
+[2023-03-30 00:15:28,145] [builder.py:2697]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,217] [builder.py:2723]           [INFO]     | Collection Order | custom                                                                          |
+[2023-03-30 00:15:28,221] [builder.py:2744]           [INFO]     | Collection Visibility Updated                                                                      |
+[2023-03-30 00:15:28,221] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-03-30 00:15:28,221] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg |
+[2023-03-30 00:15:28,365] [library.py:175]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Popular.jpg |
+[2023-03-30 00:15:28,380] [builder.py:2780]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,380] [builder.py:2781]           [INFO]     |================================= Sorting TMDb Popular Collection ==================================|
+[2023-03-30 00:15:28,380] [builder.py:2782]           [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,380] [builder.py:2816]           [INFO]     | No Sorting Required                                                                                |
+[2023-03-30 00:15:28,380] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:28,380] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-30 00:15:28,380] [plex_meta_manager.py:781]  [INFO]     |                                  Finished TMDb Popular Collection                                  |
+[2023-03-30 00:15:28,380] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2023-03-30 00:15:28,380] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

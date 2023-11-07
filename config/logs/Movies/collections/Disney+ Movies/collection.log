@@ -1,0 +1,241 @@
+[2023-03-24 04:22:41,071] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-24 04:22:41,071] [builder.py:193]            [INFO]     |                                Disney+ Movies Collection in Movies                                 |
+[2023-03-24 04:22:41,071] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-24 04:22:41,071] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-24 04:22:41,071] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-24 04:22:41,071] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,071] [builder.py:216]            [DEBUG]    | Templates Called: streaming                                                                        |
+[2023-03-24 04:22:41,072] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,073] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-24 04:22:41,073] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,073] [meta.py:552]               [DEBUG]    | {'cache_builders': 1, 'smart_label': 'release.desc', 'sync_mode': 'sync', 'mdblist_list': 'https://mdblist.com/lists/plexmetamanager/disney-movies', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Disney%2B.jpg'} |
+[2023-03-24 04:22:41,073] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,073] [builder.py:233]            [INFO]     |=============================== Validating Disney+ Movies Attributes ===============================|
+[2023-03-24 04:22:41,458] [builder.py:473]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,458] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-03-24 04:22:41,458] [builder.py:479]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-03-24 04:22:41,464] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,465] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-24 04:22:41,465] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-24 04:22:41,465] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,465] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
+[2023-03-24 04:22:41,465] [builder.py:720]            [DEBUG]    | Value: Streaming                                                                                   |
+[2023-03-24 04:22:41,465] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,465] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-24 04:22:41,465] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-24 04:22:41,466] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,466] [builder.py:719]            [DEBUG]    | Validating Method: mdblist_list                                                                    |
+[2023-03-24 04:22:41,466] [builder.py:720]            [DEBUG]    | Value: https://mdblist.com/lists/plexmetamanager/disney-movies                                     |
+[2023-03-24 04:22:41,466] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:41,466] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-24 04:22:41,466] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Disney%2B.jpg |
+[2023-03-24 04:22:42,584] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,584] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-24 04:22:42,584] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,584] [plex_meta_manager.py:638]  [INFO]     |================================ Running Disney+ Movies Collection =================================|
+[2023-03-24 04:22:42,584] [plex_meta_manager.py:644]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:645]  [INFO]     | Smart Movie Label                                                                                  |
+                                                                 | Sort By: ['release.desc']                                                                          |
+                                                                 | Filter:                                                                                            |
+                                                                 |   Match all of the following:                                                                      |
+                                                                 |     Label is Disney+ Movies                                                                        |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:646]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:647]  [INFO]     | Items Found: 171                                                                                   |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-24 04:22:42,585] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:42,586] [plex_meta_manager.py:657]  [DEBUG]    | Builder: mdblist_list: {'url': 'https://mdblist.com/lists/plexmetamanager/disney-movies', 'limit': 0, 'sort_by': 'rank.asc'} |
+[2023-03-24 04:22:42,586] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,586] [builder.py:1614]           [INFO]     | Builder: mdblist_list loaded from Cache                                                            |
+[2023-03-24 04:22:42,590] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:42,590] [builder.py:1666]           [DEBUG]    | 884 IDs Found                                                                                      |
+[2023-03-24 04:22:42,590] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-24 04:22:42,622] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-24 04:22:42,623] [builder.py:2250]           [INFO]     |=============================== Adding to Disney+ Movies Collection ================================|
+[2023-03-24 04:22:42,623] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-24 04:22:43,067] [builder.py:2265]           [INFO]     |   1/171 | Disney+ Movies Collection | = | Chang Can Dunk (2023)                                    |
+[2023-03-24 04:22:43,067] [builder.py:2265]           [INFO]     |   2/171 | Disney+ Movies Collection | = | Disenchanted (2022)                                      |
+[2023-03-24 04:22:43,067] [builder.py:2265]           [INFO]     |   3/171 | Disney+ Movies Collection | = | Black Panther: Wakanda Forever (2022)                    |
+[2023-03-24 04:22:43,068] [builder.py:2265]           [INFO]     |   4/171 | Disney+ Movies Collection | = | Hocus Pocus 2 (2022)                                     |
+[2023-03-24 04:22:43,068] [builder.py:2265]           [INFO]     |   5/171 | Disney+ Movies Collection | = | LEGO Star Wars - Summer Vacation (2022)                  |
+[2023-03-24 04:22:43,068] [builder.py:2265]           [INFO]     |   6/171 | Disney+ Movies Collection | = | Thor: Love and Thunder (2022)                            |
+[2023-03-24 04:22:43,069] [builder.py:2265]           [INFO]     |   7/171 | Disney+ Movies Collection | = | Lightyear (2022)                                         |
+[2023-03-24 04:22:43,069] [builder.py:2265]           [INFO]     |   8/171 | Disney+ Movies Collection | = | Chip 'n Dale: Rescue Rangers (2022)                      |
+[2023-03-24 04:22:43,070] [builder.py:2265]           [INFO]     |   9/171 | Disney+ Movies Collection | = | Doctor Strange in the Multiverse of Madness (2022)       |
+[2023-03-24 04:22:43,070] [builder.py:2265]           [INFO]     |  10/171 | Disney+ Movies Collection | = | Turning Red (2022)                                       |
+[2023-03-24 04:22:43,071] [builder.py:2265]           [INFO]     |  11/171 | Disney+ Movies Collection | = | Diary of a Wimpy Kid (2021)                              |
+[2023-03-24 04:22:43,071] [builder.py:2265]           [INFO]     |  12/171 | Disney+ Movies Collection | = | Eternals (2021)                                          |
+[2023-03-24 04:22:43,071] [builder.py:2265]           [INFO]     |  13/171 | Disney+ Movies Collection | = | Ron's Gone Wrong (2021)                                  |
+[2023-03-24 04:22:43,072] [builder.py:2265]           [INFO]     |  14/171 | Disney+ Movies Collection | = | Encanto (2021)                                           |
+[2023-03-24 04:22:43,072] [builder.py:2265]           [INFO]     |  15/171 | Disney+ Movies Collection | = | LEGO Star Wars - Terrifying Tales (2021)                 |
+[2023-03-24 04:22:43,073] [builder.py:2265]           [INFO]     |  16/171 | Disney+ Movies Collection | = | Shang-Chi and the Legend of the Ten Rings (2021)         |
+[2023-03-24 04:22:43,073] [builder.py:2265]           [INFO]     |  17/171 | Disney+ Movies Collection | = | Free Guy (2021)                                          |
+[2023-03-24 04:22:43,073] [builder.py:2265]           [INFO]     |  18/171 | Disney+ Movies Collection | = | Jungle Cruise (2021)                                     |
+[2023-03-24 04:22:43,074] [builder.py:2265]           [INFO]     |  19/171 | Disney+ Movies Collection | = | Black Widow (2021)                                       |
+[2023-03-24 04:22:43,074] [builder.py:2265]           [INFO]     |  20/171 | Disney+ Movies Collection | = | Summer of Soul (...Or, When the Revolution Could Not Be Televised) (2021) |
+[2023-03-24 04:22:43,075] [builder.py:2265]           [INFO]     |  21/171 | Disney+ Movies Collection | = | Luca (2021)                                              |
+[2023-03-24 04:22:43,075] [builder.py:2265]           [INFO]     |  22/171 | Disney+ Movies Collection | = | Raya and the Last Dragon (2021)                          |
+[2023-03-24 04:22:43,076] [builder.py:2265]           [INFO]     |  23/171 | Disney+ Movies Collection | = | Soul (2020)                                              |
+[2023-03-24 04:22:43,076] [builder.py:2265]           [INFO]     |  24/171 | Disney+ Movies Collection | = | The LEGO Star Wars Holiday Special (2020)                |
+[2023-03-24 04:22:43,077] [builder.py:2265]           [INFO]     |  25/171 | Disney+ Movies Collection | = | Mulan (2020)                                             |
+[2023-03-24 04:22:43,077] [builder.py:2265]           [INFO]     |  26/171 | Disney+ Movies Collection | = | The New Mutants (2020)                                   |
+[2023-03-24 04:22:43,077] [builder.py:2265]           [INFO]     |  27/171 | Disney+ Movies Collection | = | Onward (2020)                                            |
+[2023-03-24 04:22:43,078] [builder.py:2265]           [INFO]     |  28/171 | Disney+ Movies Collection | = | The Call of the Wild (2020)                              |
+[2023-03-24 04:22:43,078] [builder.py:2265]           [INFO]     |  29/171 | Disney+ Movies Collection | = | Star Wars: Episode IX - The Rise of Skywalker (2019)     |
+[2023-03-24 04:22:43,079] [builder.py:2265]           [INFO]     |  30/171 | Disney+ Movies Collection | = | Spies in Disguise (2019)                                 |
+[2023-03-24 04:22:43,079] [builder.py:2265]           [INFO]     |  31/171 | Disney+ Movies Collection | = | Frozen II (2019)                                         |
+[2023-03-24 04:22:43,080] [builder.py:2265]           [INFO]     |  32/171 | Disney+ Movies Collection | = | The Art of Racing in the Rain (2019)                     |
+[2023-03-24 04:22:43,080] [builder.py:2265]           [INFO]     |  33/171 | Disney+ Movies Collection | = | Toy Story 4 (2019)                                       |
+[2023-03-24 04:22:43,081] [builder.py:2265]           [INFO]     |  34/171 | Disney+ Movies Collection | = | X-Men: Dark Phoenix (2019)                               |
+[2023-03-24 04:22:43,081] [builder.py:2265]           [INFO]     |  35/171 | Disney+ Movies Collection | = | Avengers: Endgame (2019)                                 |
+[2023-03-24 04:22:43,081] [builder.py:2265]           [INFO]     |  36/171 | Disney+ Movies Collection | = | Captain Marvel (2019)                                    |
+[2023-03-24 04:22:43,082] [builder.py:2265]           [INFO]     |  37/171 | Disney+ Movies Collection | = | Mary Poppins Returns (2018)                              |
+[2023-03-24 04:22:43,082] [builder.py:2265]           [INFO]     |  38/171 | Disney+ Movies Collection | = | Ralph Breaks the Internet (2018)                         |
+[2023-03-24 04:22:43,082] [builder.py:2265]           [INFO]     |  39/171 | Disney+ Movies Collection | = | Christopher Robin (2018)                                 |
+[2023-03-24 04:22:43,083] [builder.py:2265]           [INFO]     |  40/171 | Disney+ Movies Collection | = | Ant-Man and the Wasp (2018)                              |
+[2023-03-24 04:22:43,083] [builder.py:2265]           [INFO]     |  41/171 | Disney+ Movies Collection | = | Incredibles 2 (2018)                                     |
+[2023-03-24 04:22:43,083] [builder.py:2265]           [INFO]     |  42/171 | Disney+ Movies Collection | = | Solo: A Star Wars Story (2018)                           |
+[2023-03-24 04:22:43,084] [builder.py:2265]           [INFO]     |  43/171 | Disney+ Movies Collection | = | Deadpool 2 (2018)                                        |
+[2023-03-24 04:22:43,084] [builder.py:2265]           [INFO]     |  44/171 | Disney+ Movies Collection | = | Avengers: Infinity War (2018)                            |
+[2023-03-24 04:22:43,084] [builder.py:2265]           [INFO]     |  45/171 | Disney+ Movies Collection | = | Black Panther (2018)                                     |
+[2023-03-24 04:22:43,084] [builder.py:2265]           [INFO]     |  46/171 | Disney+ Movies Collection | = | Star Wars: Episode VIII - The Last Jedi (2017)           |
+[2023-03-24 04:22:43,085] [builder.py:2265]           [INFO]     |  47/171 | Disney+ Movies Collection | = | Coco (2017)                                              |
+[2023-03-24 04:22:43,085] [builder.py:2265]           [INFO]     |  48/171 | Disney+ Movies Collection | = | Thor: Ragnarok (2017)                                    |
+[2023-03-24 04:22:43,086] [builder.py:2265]           [INFO]     |  49/171 | Disney+ Movies Collection | = | Cars 3 (2017)                                            |
+[2023-03-24 04:22:43,086] [builder.py:2265]           [INFO]     |  50/171 | Disney+ Movies Collection | = | Guardians of the Galaxy Vol. 2 (2017)                    |
+[2023-03-24 04:22:43,086] [builder.py:2265]           [INFO]     |  51/171 | Disney+ Movies Collection | = | Beauty and the Beast (2017)                              |
+[2023-03-24 04:22:43,087] [builder.py:2265]           [INFO]     |  52/171 | Disney+ Movies Collection | = | Logan (2017)                                             |
+[2023-03-24 04:22:43,087] [builder.py:2265]           [INFO]     |  53/171 | Disney+ Movies Collection | = | Rogue One: A Star Wars Story (2016)                      |
+[2023-03-24 04:22:43,087] [builder.py:2265]           [INFO]     |  54/171 | Disney+ Movies Collection | = | Doctor Strange (2016)                                    |
+[2023-03-24 04:22:43,088] [builder.py:2265]           [INFO]     |  55/171 | Disney+ Movies Collection | = | Moana (2016)                                             |
+[2023-03-24 04:22:43,088] [builder.py:2265]           [INFO]     |  56/171 | Disney+ Movies Collection | = | Miss Peregrine's Home for Peculiar Children (2016)       |
+[2023-03-24 04:22:43,089] [builder.py:2265]           [INFO]     |  57/171 | Disney+ Movies Collection | = | Finding Dory (2016)                                      |
+[2023-03-24 04:22:43,089] [builder.py:2265]           [INFO]     |  58/171 | Disney+ Movies Collection | = | X-Men: Apocalypse (2016)                                 |
+[2023-03-24 04:22:43,090] [builder.py:2265]           [INFO]     |  59/171 | Disney+ Movies Collection | = | Captain America: Civil War (2016)                        |
+[2023-03-24 04:22:43,090] [builder.py:2265]           [INFO]     |  60/171 | Disney+ Movies Collection | = | The Jungle Book (2016)                                   |
+[2023-03-24 04:22:43,090] [builder.py:2265]           [INFO]     |  61/171 | Disney+ Movies Collection | = | Zootopia (2016)                                          |
+[2023-03-24 04:22:43,091] [builder.py:2265]           [INFO]     |  62/171 | Disney+ Movies Collection | = | Deadpool (2016)                                          |
+[2023-03-24 04:22:43,091] [builder.py:2265]           [INFO]     |  63/171 | Disney+ Movies Collection | = | Star Wars: Episode VII - The Force Awakens (2015)        |
+[2023-03-24 04:22:43,092] [builder.py:2265]           [INFO]     |  64/171 | Disney+ Movies Collection | = | The Good Dinosaur (2015)                                 |
+[2023-03-24 04:22:43,092] [builder.py:2265]           [INFO]     |  65/171 | Disney+ Movies Collection | = | Ant-Man (2015)                                           |
+[2023-03-24 04:22:43,092] [builder.py:2265]           [INFO]     |  66/171 | Disney+ Movies Collection | = | Inside Out (2015)                                        |
+[2023-03-24 04:22:43,092] [builder.py:2265]           [INFO]     |  67/171 | Disney+ Movies Collection | = | Avengers: Age of Ultron (2015)                           |
+[2023-03-24 04:22:43,093] [builder.py:2265]           [INFO]     |  68/171 | Disney+ Movies Collection | = | Night at the Museum: Secret of the Tomb (2014)           |
+[2023-03-24 04:22:43,093] [builder.py:2265]           [INFO]     |  69/171 | Disney+ Movies Collection | = | Big Hero 6 (2014)                                        |
+[2023-03-24 04:22:43,093] [builder.py:2265]           [INFO]     |  70/171 | Disney+ Movies Collection | = | Guardians of the Galaxy (2014)                           |
+[2023-03-24 04:22:43,094] [builder.py:2265]           [INFO]     |  71/171 | Disney+ Movies Collection | = | Planes: Fire & Rescue (2014)                             |
+[2023-03-24 04:22:43,094] [builder.py:2265]           [INFO]     |  72/171 | Disney+ Movies Collection | = | X-Men: Days of Future Past (2014)                        |
+[2023-03-24 04:22:43,095] [builder.py:2265]           [INFO]     |  73/171 | Disney+ Movies Collection | = | Bears (2014)                                             |
+[2023-03-24 04:22:43,095] [builder.py:2265]           [INFO]     |  74/171 | Disney+ Movies Collection | = | Captain America: The Winter Soldier (2014)               |
+[2023-03-24 04:22:43,095] [builder.py:2265]           [INFO]     |  75/171 | Disney+ Movies Collection | = | Frozen (2013)                                            |
+[2023-03-24 04:22:43,096] [builder.py:2265]           [INFO]     |  76/171 | Disney+ Movies Collection | = | Thor: The Dark World (2013)                              |
+[2023-03-24 04:22:43,096] [builder.py:2265]           [INFO]     |  77/171 | Disney+ Movies Collection | = | Planes (2013)                                            |
+[2023-03-24 04:22:43,097] [builder.py:2265]           [INFO]     |  78/171 | Disney+ Movies Collection | = | The Wolverine (2013)                                     |
+[2023-03-24 04:22:43,097] [builder.py:2265]           [INFO]     |  79/171 | Disney+ Movies Collection | = | Monsters University (2013)                               |
+[2023-03-24 04:22:43,098] [builder.py:2265]           [INFO]     |  80/171 | Disney+ Movies Collection | = | Iron Man 3 (2013)                                        |
+[2023-03-24 04:22:43,098] [builder.py:2265]           [INFO]     |  81/171 | Disney+ Movies Collection | = | Wreck-It Ralph (2012)                                    |
+[2023-03-24 04:22:43,099] [builder.py:2265]           [INFO]     |  82/171 | Disney+ Movies Collection | = | Frankenweenie (2012)                                     |
+[2023-03-24 04:22:43,099] [builder.py:2265]           [INFO]     |  83/171 | Disney+ Movies Collection | = | Brave (2012)                                             |
+[2023-03-24 04:22:43,099] [builder.py:2265]           [INFO]     |  84/171 | Disney+ Movies Collection | = | The Avengers (2012)                                      |
+[2023-03-24 04:22:43,100] [builder.py:2265]           [INFO]     |  85/171 | Disney+ Movies Collection | = | The Muppets (2011)                                       |
+[2023-03-24 04:22:43,100] [builder.py:2265]           [INFO]     |  86/171 | Disney+ Movies Collection | = | Captain America: The First Avenger (2011)                |
+[2023-03-24 04:22:43,100] [builder.py:2265]           [INFO]     |  87/171 | Disney+ Movies Collection | = | Cars 2 (2011)                                            |
+[2023-03-24 04:22:43,100] [builder.py:2265]           [INFO]     |  88/171 | Disney+ Movies Collection | = | Thor (2011)                                              |
+[2023-03-24 04:22:43,101] [builder.py:2265]           [INFO]     |  89/171 | Disney+ Movies Collection | = | Winnie the Pooh (2011)                                   |
+[2023-03-24 04:22:43,102] [builder.py:2265]           [INFO]     |  90/171 | Disney+ Movies Collection | = | Tangled (2010)                                           |
+[2023-03-24 04:22:43,102] [builder.py:2265]           [INFO]     |  91/171 | Disney+ Movies Collection | = | Toy Story 3 (2010)                                       |
+[2023-03-24 04:22:43,103] [builder.py:2265]           [INFO]     |  92/171 | Disney+ Movies Collection | = | Iron Man 2 (2010)                                        |
+[2023-03-24 04:22:43,103] [builder.py:2265]           [INFO]     |  93/171 | Disney+ Movies Collection | = | Percy Jackson & the Olympians - The Lightning Thief (2010) |
+[2023-03-24 04:22:43,103] [builder.py:2265]           [INFO]     |  94/171 | Disney+ Movies Collection | = | Avatar (2009)                                            |
+[2023-03-24 04:22:43,104] [builder.py:2265]           [INFO]     |  95/171 | Disney+ Movies Collection | = | The Princess and the Frog (2009)                         |
+[2023-03-24 04:22:43,104] [builder.py:2265]           [INFO]     |  96/171 | Disney+ Movies Collection | = | A Christmas Carol (2009)                                 |
+[2023-03-24 04:22:43,105] [builder.py:2265]           [INFO]     |  97/171 | Disney+ Movies Collection | = | Up (2009)                                                |
+[2023-03-24 04:22:43,105] [builder.py:2265]           [INFO]     |  98/171 | Disney+ Movies Collection | = | Bolt (2008)                                              |
+[2023-03-24 04:22:43,105] [builder.py:2265]           [INFO]     |  99/171 | Disney+ Movies Collection | = | WALL·E (2008)                                            |
+[2023-03-24 04:22:43,106] [builder.py:2265]           [INFO]     | 100/171 | Disney+ Movies Collection | = | Iron Man (2008)                                          |
+[2023-03-24 04:22:43,106] [builder.py:2265]           [INFO]     | 101/171 | Disney+ Movies Collection | = | Enchanted (2007)                                         |
+[2023-03-24 04:22:43,107] [builder.py:2265]           [INFO]     | 102/171 | Disney+ Movies Collection | = | Dan in Real Life (2007)                                  |
+[2023-03-24 04:22:43,107] [builder.py:2265]           [INFO]     | 103/171 | Disney+ Movies Collection | = | The Simpsons Movie (2007)                                |
+[2023-03-24 04:22:43,107] [builder.py:2265]           [INFO]     | 104/171 | Disney+ Movies Collection | = | Ratatouille (2007)                                       |
+[2023-03-24 04:22:43,108] [builder.py:2265]           [INFO]     | 105/171 | Disney+ Movies Collection | = | Meet the Robinsons (2007)                                |
+[2023-03-24 04:22:43,108] [builder.py:2265]           [INFO]     | 106/171 | Disney+ Movies Collection | = | Bridge to Terabithia (2007)                              |
+[2023-03-24 04:22:43,109] [builder.py:2265]           [INFO]     | 107/171 | Disney+ Movies Collection | = | Night at the Museum (2006)                               |
+[2023-03-24 04:22:43,109] [builder.py:2265]           [INFO]     | 108/171 | Disney+ Movies Collection | = | The Santa Clause 3: The Escape Clause (2006)             |
+[2023-03-24 04:22:43,110] [builder.py:2265]           [INFO]     | 109/171 | Disney+ Movies Collection | = | Cars (2006)                                              |
+[2023-03-24 04:22:43,110] [builder.py:2265]           [INFO]     | 110/171 | Disney+ Movies Collection | = | X-Men: The Last Stand (2006)                             |
+[2023-03-24 04:22:43,111] [builder.py:2265]           [INFO]     | 111/171 | Disney+ Movies Collection | = | The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005) |
+[2023-03-24 04:22:43,111] [builder.py:2265]           [INFO]     | 112/171 | Disney+ Movies Collection | = | Star Wars: Episode III - Revenge of the Sith (2005)      |
+[2023-03-24 04:22:43,111] [builder.py:2265]           [INFO]     | 113/171 | Disney+ Movies Collection | = | National Treasure (2004)                                 |
+[2023-03-24 04:22:43,112] [builder.py:2265]           [INFO]     | 114/171 | Disney+ Movies Collection | = | The Incredibles (2004)                                   |
+[2023-03-24 04:22:43,112] [builder.py:2265]           [INFO]     | 115/171 | Disney+ Movies Collection | = | Recess: Taking the Fifth Grade (2003)                    |
+[2023-03-24 04:22:43,113] [builder.py:2265]           [INFO]     | 116/171 | Disney+ Movies Collection | = | Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
+[2023-03-24 04:22:43,113] [builder.py:2265]           [INFO]     | 117/171 | Disney+ Movies Collection | = | Finding Nemo (2003)                                      |
+[2023-03-24 04:22:43,114] [builder.py:2265]           [INFO]     | 118/171 | Disney+ Movies Collection | = | X2: X-Men United (2003)                                  |
+[2023-03-24 04:22:43,114] [builder.py:2265]           [INFO]     | 119/171 | Disney+ Movies Collection | = | Holes (2003)                                             |
+[2023-03-24 04:22:43,115] [builder.py:2265]           [INFO]     | 120/171 | Disney+ Movies Collection | = | Treasure Planet (2002)                                   |
+[2023-03-24 04:22:43,115] [builder.py:2265]           [INFO]     | 121/171 | Disney+ Movies Collection | = | The Santa Clause 2 (2002)                                |
+[2023-03-24 04:22:43,116] [builder.py:2265]           [INFO]     | 122/171 | Disney+ Movies Collection | = | Tuck Everlasting (2002)                                  |
+[2023-03-24 04:22:43,117] [builder.py:2265]           [INFO]     | 123/171 | Disney+ Movies Collection | = | Like Mike (2002)                                         |
+[2023-03-24 04:22:43,117] [builder.py:2265]           [INFO]     | 124/171 | Disney+ Movies Collection | = | Star Wars: Episode II - Attack of the Clones (2002)      |
+[2023-03-24 04:22:43,118] [builder.py:2265]           [INFO]     | 125/171 | Disney+ Movies Collection | = | The Rookie (2002)                                        |
+[2023-03-24 04:22:43,118] [builder.py:2265]           [INFO]     | 126/171 | Disney+ Movies Collection | = | Peter Pan 2: Return to Never Land (2002)                 |
+[2023-03-24 04:22:43,119] [builder.py:2265]           [INFO]     | 127/171 | Disney+ Movies Collection | = | Monsters, Inc. (2001)                                    |
+[2023-03-24 04:22:43,119] [builder.py:2265]           [INFO]     | 128/171 | Disney+ Movies Collection | = | Toy Story 2 (1999)                                       |
+[2023-03-24 04:22:43,120] [builder.py:2265]           [INFO]     | 129/171 | Disney+ Movies Collection | = | Star Wars: Episode I - The Phantom Menace (1999)         |
+[2023-03-24 04:22:43,120] [builder.py:2265]           [INFO]     | 130/171 | Disney+ Movies Collection | = | A Bug's Life (1998)                                      |
+[2023-03-24 04:22:43,120] [builder.py:2265]           [INFO]     | 131/171 | Disney+ Movies Collection | = | Halloweentown (1998)                                     |
+[2023-03-24 04:22:43,121] [builder.py:2265]           [INFO]     | 132/171 | Disney+ Movies Collection | = | Mulan (1998)                                             |
+[2023-03-24 04:22:43,121] [builder.py:2265]           [INFO]     | 133/171 | Disney+ Movies Collection | = | 101 Dalmatians (1996)                                    |
+[2023-03-24 04:22:43,121] [builder.py:2265]           [INFO]     | 134/171 | Disney+ Movies Collection | = | Muppet Treasure Island (1996)                            |
+[2023-03-24 04:22:43,122] [builder.py:2265]           [INFO]     | 135/171 | Disney+ Movies Collection | = | Toy Story (1995)                                         |
+[2023-03-24 04:22:43,123] [builder.py:2265]           [INFO]     | 136/171 | Disney+ Movies Collection | = | While You Were Sleeping (1995)                           |
+[2023-03-24 04:22:43,123] [builder.py:2265]           [INFO]     | 137/171 | Disney+ Movies Collection | = | The Santa Clause (1994)                                  |
+[2023-03-24 04:22:43,124] [builder.py:2265]           [INFO]     | 138/171 | Disney+ Movies Collection | = | The Lion King (1994)                                     |
+[2023-03-24 04:22:43,124] [builder.py:2265]           [INFO]     | 139/171 | Disney+ Movies Collection | = | The Nightmare Before Christmas (1993)                    |
+[2023-03-24 04:22:43,125] [builder.py:2265]           [INFO]     | 140/171 | Disney+ Movies Collection | = | Cool Runnings (1993)                                     |
+[2023-03-24 04:22:43,125] [builder.py:2265]           [INFO]     | 141/171 | Disney+ Movies Collection | = | Hocus Pocus (1993)                                       |
+[2023-03-24 04:22:43,125] [builder.py:2265]           [INFO]     | 142/171 | Disney+ Movies Collection | = | The Muppet Christmas Carol (1992)                        |
+[2023-03-24 04:22:43,126] [builder.py:2265]           [INFO]     | 143/171 | Disney+ Movies Collection | = | Aladdin (1992)                                           |
+[2023-03-24 04:22:43,126] [builder.py:2265]           [INFO]     | 144/171 | Disney+ Movies Collection | = | Home Alone 2: Lost in New York (1992)                    |
+[2023-03-24 04:22:43,126] [builder.py:2265]           [INFO]     | 145/171 | Disney+ Movies Collection | = | The Mighty Ducks (1992)                                  |
+[2023-03-24 04:22:43,127] [builder.py:2265]           [INFO]     | 146/171 | Disney+ Movies Collection | = | Home Alone (1990)                                        |
+[2023-03-24 04:22:43,127] [builder.py:2265]           [INFO]     | 147/171 | Disney+ Movies Collection | = | DuckTales the Movie: Treasure of the Lost Lamp (1990)    |
+[2023-03-24 04:22:43,127] [builder.py:2265]           [INFO]     | 148/171 | Disney+ Movies Collection | = | Turner & Hooch (1989)                                    |
+[2023-03-24 04:22:43,128] [builder.py:2265]           [INFO]     | 149/171 | Disney+ Movies Collection | = | Honey, I Shrunk the Kids (1989)                          |
+[2023-03-24 04:22:43,128] [builder.py:2265]           [INFO]     | 150/171 | Disney+ Movies Collection | = | Who Framed Roger Rabbit (1988)                           |
+[2023-03-24 04:22:43,129] [builder.py:2265]           [INFO]     | 151/171 | Disney+ Movies Collection | = | Big (1988)                                               |
+[2023-03-24 04:22:43,129] [builder.py:2265]           [INFO]     | 152/171 | Disney+ Movies Collection | = | Willow (1988)                                            |
+[2023-03-24 04:22:43,130] [builder.py:2265]           [INFO]     | 153/171 | Disney+ Movies Collection | = | The Princess Bride (1987)                                |
+[2023-03-24 04:22:43,130] [builder.py:2265]           [INFO]     | 154/171 | Disney+ Movies Collection | = | Adventures in Babysitting (1987)                         |
+[2023-03-24 04:22:43,130] [builder.py:2265]           [INFO]     | 155/171 | Disney+ Movies Collection | = | Flight of the Navigator (1986)                           |
+[2023-03-24 04:22:43,131] [builder.py:2265]           [INFO]     | 156/171 | Disney+ Movies Collection | = | The Journey of Natty Gann (1985)                         |
+[2023-03-24 04:22:43,131] [builder.py:2265]           [INFO]     | 157/171 | Disney+ Movies Collection | = | Mickey's Christmas Carol (1983)                          |
+[2023-03-24 04:22:43,132] [builder.py:2265]           [INFO]     | 158/171 | Disney+ Movies Collection | = | Star Wars: Episode VI - Return of the Jedi (1983)        |
+[2023-03-24 04:22:43,132] [builder.py:2265]           [INFO]     | 159/171 | Disney+ Movies Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980)    |
+[2023-03-24 04:22:43,133] [builder.py:2265]           [INFO]     | 160/171 | Disney+ Movies Collection | = | Candleshoe (1977)                                        |
+[2023-03-24 04:22:43,133] [builder.py:2265]           [INFO]     | 161/171 | Disney+ Movies Collection | = | Star Wars: Episode IV - A New Hope (1977)                |
+[2023-03-24 04:22:43,133] [builder.py:2265]           [INFO]     | 162/171 | Disney+ Movies Collection | = | The Many Adventures of Winnie the Pooh (1977)            |
+[2023-03-24 04:22:43,134] [builder.py:2265]           [INFO]     | 163/171 | Disney+ Movies Collection | = | Robin Hood (1973)                                        |
+[2023-03-24 04:22:43,134] [builder.py:2265]           [INFO]     | 164/171 | Disney+ Movies Collection | = | Bedknobs and Broomsticks (1971)                          |
+[2023-03-24 04:22:43,134] [builder.py:2265]           [INFO]     | 165/171 | Disney+ Movies Collection | = | The Jungle Book (1967)                                   |
+[2023-03-24 04:22:43,135] [builder.py:2265]           [INFO]     | 166/171 | Disney+ Movies Collection | = | The Sound of Music (1965)                                |
+[2023-03-24 04:22:43,135] [builder.py:2265]           [INFO]     | 167/171 | Disney+ Movies Collection | = | Mary Poppins (1964)                                      |
+[2023-03-24 04:22:43,136] [builder.py:2265]           [INFO]     | 168/171 | Disney+ Movies Collection | = | The Parent Trap (1961)                                   |
+[2023-03-24 04:22:43,136] [builder.py:2265]           [INFO]     | 169/171 | Disney+ Movies Collection | = | Swiss Family Robinson (1960)                             |
+[2023-03-24 04:22:43,137] [builder.py:2265]           [INFO]     | 170/171 | Disney+ Movies Collection | = | Peter Pan (1953)                                         |
+[2023-03-24 04:22:43,137] [builder.py:2265]           [INFO]     | 171/171 | Disney+ Movies Collection | = | Bambi (1942)                                             |
+[2023-03-24 04:22:43,137] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-24 04:22:43,137] [builder.py:2287]           [INFO]     | 171 Movies Processed 0 Movies Added                                                                |
+[2023-03-24 04:22:43,161] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-24 04:22:43,162] [builder.py:2624]           [INFO]     |========================== Updating Details of Disney+ Movies Collection ===========================|
+[2023-03-24 04:22:43,162] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-24 04:22:43,168] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-03-24 04:22:43,168] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-03-24 04:22:43,168] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/Disney%2B.jpg |
+[2023-03-24 04:22:43,168] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Disney+ Movies/poster.jpg', 'prefix': "Disney+ Movies's ", 'is_poster': True, 'is_url': False, 'compare': 204676, 'message': "Disney+ Movies's poster to [File] //config/assets/movies/Disney+ Movies/poster.jpg"} |
+[2023-03-24 04:22:43,169] [library.py:177]            [INFO]     | Detail: Disney+ Movies's poster update not needed                                                  |
+[2023-03-24 04:22:43,510] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-24 04:22:43,511] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-24 04:22:43,511] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Disney+ Movies Collection                                 |
+[2023-03-24 04:22:43,511] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2023-03-24 04:22:43,511] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

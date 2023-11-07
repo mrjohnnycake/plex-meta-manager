@@ -1,0 +1,81 @@
+[2023-03-29 23:46:28,290] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-29 23:46:28,290] [builder.py:193]            [INFO]     |                                   Emmys 2014 Collection in Shows                                   |
+[2023-03-29 23:46:28,290] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-29 23:46:28,290] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-29 23:46:28,290] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-29 23:46:28,290] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,291] [builder.py:216]            [DEBUG]    | Templates Called: use_year_collections, imdb, shared, arr, custom                                  |
+[2023-03-29 23:46:28,291] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,308] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-29 23:46:28,308] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,308] [meta.py:552]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2013-05-31,2014-06-01&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2014', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2014.jpg', 'collection_order': 'alpha', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2023-03-29 23:46:28,308] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,308] [builder.py:233]            [INFO]     |================================= Validating Emmys 2014 Attributes =================================|
+[2023-03-29 23:46:28,312] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,312] [plex.py:860]               [DEBUG]    | Looking for: Emmys 2014                                                                            |
+[2023-03-29 23:46:28,312] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,312] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-03-29 23:46:28,312] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-29 23:46:28,312] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,312] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-29 23:46:28,312] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-29 23:46:28,313] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,313] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-29 23:46:28,313] [builder.py:684]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-03-29 23:46:28,313] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,313] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
+[2023-03-29 23:46:28,313] [builder.py:720]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2023-03-29 23:46:28,313] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,313] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-03-29 23:46:28,313] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2013-05-31,2014-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-03-29 23:46:29,064] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:29,065] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-03-29 23:46:29,065] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-03-29 23:46:29,065] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:29,065] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-29 23:46:29,065] [builder.py:720]            [DEBUG]    | Value: !16_Emmys 2014                                                                              |
+[2023-03-29 23:46:29,065] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:29,065] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-29 23:46:29,065] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2014.jpg |
+[2023-03-29 23:46:29,253] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:29,253] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-29 23:46:29,253] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-29 23:46:29,253] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-29 23:46:29,254] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:638]  [INFO]     |================================== Running Emmys 2014 Collection ===================================|
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2013-05-31,2014-06-01&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2023-03-29 23:46:29,254] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:29,255] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2013-05-31,2014-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-03-29 23:46:32,479] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:32,479] [builder.py:1666]           [DEBUG]    | 45 IDs Found                                                                                       |
+[2023-03-29 23:46:32,479] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:32,481] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,481] [builder.py:2250]           [INFO]     |================================= Adding to Emmys 2014 Collection ==================================|
+[2023-03-29 23:46:32,481] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,481] [builder.py:2265]           [INFO]     | 1/2 | Emmys 2014 Collection | + | Rick and Morty                                                   |
+[2023-03-29 23:46:32,506] [builder.py:2265]           [INFO]     | 2/2 | Emmys 2014 Collection | + | Cosmos (2014)                                                    |
+[2023-03-29 23:46:32,520] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,520] [builder.py:2287]           [INFO]     | 2 Shows Processed 2 Shows Added                                                                    |
+[2023-03-29 23:46:32,523] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,523] [builder.py:2624]           [INFO]     |============================ Updating Details of Emmys 2014 Collection =============================|
+[2023-03-29 23:46:32,524] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,528] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Sort Title | !16_Emmys 2014                                                                        |
+                                                                 | Label | +Emmy Awards, +PMM                                                                         |
+[2023-03-29 23:46:32,607] [builder.py:2693]           [INFO]     | Details: have been updated                                                                         |
+[2023-03-29 23:46:32,607] [builder.py:2697]           [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,678] [builder.py:2709]           [INFO]     | Collection Mode | hide                                                                             |
+[2023-03-29 23:46:32,750] [builder.py:2723]           [INFO]     | Collection Order | alpha                                                                           |
+[2023-03-29 23:46:32,751] [plex.py:1228]              [WARNING]  | Asset Warning: Asset Directory Not Found and Created: //config/assets/shows/Emmys 2014             |
+[2023-03-29 23:46:32,751] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-03-29 23:46:32,751] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2014.jpg |
+[2023-03-29 23:46:32,904] [library.py:175]            [INFO]     | Detail: asset_directory updated Emmys 2014's poster to [File] //config/assets/shows/Emmys 2014/poster.jpg |
+[2023-03-29 23:46:32,938] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:32,939] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-29 23:46:32,939] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Emmys 2014 Collection                                   |
+[2023-03-29 23:46:32,939] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2023-03-29 23:46:32,939] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

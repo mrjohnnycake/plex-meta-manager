@@ -1,0 +1,98 @@
+[2023-03-30 00:15:50,004] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:50,004] [builder.py:193]            [INFO]     |                               TMDb Airing Today Collection in Shows                                |
+[2023-03-30 00:15:50,004] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:50,004] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,004] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-30 00:15:50,004] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,004] [builder.py:216]            [DEBUG]    | Templates Called: tmdb, shared, arr, custom, translation                                           |
+[2023-03-30 00:15:50,004] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,004] [builder.py:220]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,004] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
+[2023-03-30 00:15:50,021] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-30 00:15:50,021] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,021] [meta.py:552]               [DEBUG]    | {'tmdb_airing_today': 100, 'allowed_library_types': ['show'], 'ignore_blank_results': True, 'sort_title': '!01_TMDb Airing Today', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Airing%20Today.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of shows with episodes airing today.', 'name': 'TMDb Airing Today'} |
+[2023-03-30 00:15:50,021] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,021] [builder.py:233]            [INFO]     |============================= Validating TMDb Airing Today Attributes ==============================|
+[2023-03-30 00:15:50,021] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,021] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-03-30 00:15:50,021] [builder.py:240]            [DEBUG]    | Value: TMDb Airing Today                                                                           |
+[2023-03-30 00:15:50,024] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,024] [plex.py:860]               [DEBUG]    | Looking for: TMDb Airing Today                                                                     |
+[2023-03-30 00:15:50,024] [builder.py:274]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,024] [builder.py:275]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2023-03-30 00:15:50,024] [builder.py:278]            [DEBUG]    | Value: ['show']                                                                                    |
+[2023-03-30 00:15:50,025] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,025] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-03-30 00:15:50,025] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 00:15:50,025] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,025] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-30 00:15:50,025] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-30 00:15:50,025] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,025] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-30 00:15:50,025] [builder.py:684]            [DEBUG]    | Value: custom                                                                                      |
+[2023-03-30 00:15:50,025] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,025] [builder.py:719]            [DEBUG]    | Validating Method: tmdb_airing_today                                                               |
+[2023-03-30 00:15:50,026] [builder.py:720]            [DEBUG]    | Value: 100                                                                                         |
+[2023-03-30 00:15:50,026] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,026] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-30 00:15:50,026] [builder.py:720]            [DEBUG]    | Value: !01_TMDb Airing Today                                                                       |
+[2023-03-30 00:15:50,026] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,026] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-30 00:15:50,026] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Airing%20Today.jpg |
+[2023-03-30 00:15:50,193] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,193] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-30 00:15:50,193] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-30 00:15:50,193] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,193] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-30 00:15:50,193] [builder.py:720]            [DEBUG]    | Value: A collection of shows with episodes airing today.                                           |
+[2023-03-30 00:15:50,194] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,194] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:638]  [INFO]     |=============================== Running TMDb Airing Today Collection ===============================|
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:657]  [DEBUG]    | Builder: tmdb_airing_today: 100                                                                    |
+[2023-03-30 00:15:50,194] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,825] [tmdb.py:353]               [INFO]     | Processing TMDb Airing Today: 100 Shows                                                            |
+[2023-03-30 00:15:50,831] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,831] [builder.py:1666]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2023-03-30 00:15:50,831] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,834] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203057                                                |
+[2023-03-30 00:15:50,838] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215103                                                |
+[2023-03-30 00:15:50,841] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209505                                                |
+[2023-03-30 00:15:50,843] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 219082                                                |
+[2023-03-30 00:15:50,846] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221053                                                |
+[2023-03-30 00:15:50,850] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221056                                                |
+[2023-03-30 00:15:50,852] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 197109                                                |
+[2023-03-30 00:15:50,857] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213017                                                |
+[2023-03-30 00:15:52,625] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 218145                                                |
+[2023-03-30 00:15:52,903] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 37757                                                 |
+[2023-03-30 00:15:54,967] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221968                                                |
+[2023-03-30 00:15:56,390] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 130542                                                |
+[2023-03-30 00:15:57,141] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215902                                                |
+[2023-03-30 00:15:57,710] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122543                                                |
+[2023-03-30 00:15:57,982] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215315                                                |
+[2023-03-30 00:15:58,414] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208711                                                |
+[2023-03-30 00:16:03,207] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154300                                                |
+[2023-03-30 00:16:04,531] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 220953                                                |
+[2023-03-30 00:16:04,807] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 72205                                                 |
+[2023-03-30 00:16:06,822] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 222203                                                |
+[2023-03-30 00:16:07,229] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102365                                                |
+[2023-03-30 00:16:08,082] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 211352                                                |
+[2023-03-30 00:16:08,659] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221355                                                |
+[2023-03-30 00:16:08,982] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 218324                                                |
+[2023-03-30 00:16:09,381] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215426                                                |
+[2023-03-30 00:16:09,637] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221030                                                |
+[2023-03-30 00:16:10,887] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221075                                                |
+[2023-03-30 00:16:11,283] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 218328                                                |
+[2023-03-30 00:16:12,434] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221080                                                |
+[2023-03-30 00:16:13,034] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 220962                                                |
+[2023-03-30 00:16:13,346] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 218308                                                |
+[2023-03-30 00:16:13,996] [plex_meta_manager.py:693]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:13,996] [plex_meta_manager.py:694]  [INFO]     | Collection Minimum: 2 not met for TMDb Airing Today Collection                                     |
+[2023-03-30 00:16:13,996] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:13,996] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-30 00:16:13,997] [plex_meta_manager.py:781]  [INFO]     |                               Finished TMDb Airing Today Collection                                |
+[2023-03-30 00:16:13,997] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:23                                    |
+[2023-03-30 00:16:13,997] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

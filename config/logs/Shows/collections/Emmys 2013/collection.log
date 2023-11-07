@@ -1,0 +1,62 @@
+[2023-03-29 23:46:23,948] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-29 23:46:23,948] [builder.py:193]            [INFO]     |                                   Emmys 2013 Collection in Shows                                   |
+[2023-03-29 23:46:23,948] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-29 23:46:23,948] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-29 23:46:23,949] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-29 23:46:23,949] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,949] [builder.py:216]            [DEBUG]    | Templates Called: use_year_collections, imdb, shared, arr, custom                                  |
+[2023-03-29 23:46:23,949] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,967] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-29 23:46:23,967] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,967] [meta.py:552]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2012-05-31,2013-06-01&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2013', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2013.jpg', 'collection_order': 'alpha', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2023-03-29 23:46:23,967] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,968] [builder.py:233]            [INFO]     |================================= Validating Emmys 2013 Attributes =================================|
+[2023-03-29 23:46:23,971] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,971] [plex.py:860]               [DEBUG]    | Looking for: Emmys 2013                                                                            |
+[2023-03-29 23:46:23,971] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,971] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-03-29 23:46:23,971] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-29 23:46:23,971] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,972] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-29 23:46:23,972] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-29 23:46:23,972] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,972] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-29 23:46:23,972] [builder.py:684]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-03-29 23:46:23,972] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,972] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
+[2023-03-29 23:46:23,972] [builder.py:720]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2023-03-29 23:46:23,972] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:23,973] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-03-29 23:46:23,973] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2012-05-31,2013-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-03-29 23:46:24,961] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:24,962] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-03-29 23:46:24,962] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-03-29 23:46:24,962] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:24,962] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-29 23:46:24,962] [builder.py:720]            [DEBUG]    | Value: !16_Emmys 2013                                                                              |
+[2023-03-29 23:46:24,962] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:24,962] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-29 23:46:24,963] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2013.jpg |
+[2023-03-29 23:46:25,151] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:25,151] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-29 23:46:25,151] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-29 23:46:25,151] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-29 23:46:25,151] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-29 23:46:25,151] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:25,151] [plex_meta_manager.py:638]  [INFO]     |================================== Running Emmys 2013 Collection ===================================|
+[2023-03-29 23:46:25,152] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:25,152] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-29 23:46:25,152] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:25,152] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?release_date=2012-05-31,2013-06-01&groups=emmy_winner&sort=moviemeter,asc', 'limit': 0} |
+[2023-03-29 23:46:25,152] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:25,152] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?release_date=2012-05-31,2013-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-03-29 23:46:28,287] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,287] [builder.py:1666]           [DEBUG]    | 35 IDs Found                                                                                       |
+[2023-03-29 23:46:28,287] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:693]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:694]  [INFO]     | Collection Minimum: 2 not met for Emmys 2013 Collection                                            |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Emmys 2013 Collection                                   |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2023-03-29 23:46:28,289] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

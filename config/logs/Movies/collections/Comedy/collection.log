@@ -1,0 +1,28 @@
+[2023-03-24 02:09:21,031] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-24 02:09:21,031] [builder.py:193]            [INFO]     |                                    Comedy Collection in Movies                                     |
+[2023-03-24 02:09:21,031] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-24 02:09:21,031] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-24 02:09:21,031] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-24 02:09:21,031] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,031] [builder.py:216]            [DEBUG]    | Templates Called: Genre                                                                            |
+[2023-03-24 02:09:21,032] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,032] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-24 02:09:21,032] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,032] [meta.py:552]               [DEBUG]    | {'plex_search': {'genre': 'Comedy'}, 'url_poster': 'https://theposterdb.com/api/assets/51397', 'sort_title': 'Comedy', 'collection_order': 'alpha', 'schedule': 'weekly(sunday)'} |
+[2023-03-24 02:09:21,033] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,033] [builder.py:233]            [INFO]     |=================================== Validating Comedy Attributes ===================================|
+[2023-03-24 02:09:21,046] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,046] [plex.py:859]               [DEBUG]    | Found: Stand Up Comedy                                                                             |
+[2023-03-24 02:09:21,046] [plex.py:860]               [DEBUG]    | Looking for: Comedy                                                                                |
+[2023-03-24 02:09:21,046] [builder.py:519]            [DEBUG]    |                                                                                                    |
+[2023-03-24 02:09:21,046] [builder.py:520]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2023-03-24 02:09:21,047] [builder.py:524]            [DEBUG]    | Value: weekly(sunday)                                                                              |
+[2023-03-24 02:09:21,047] [plex_meta_manager.py:755]  [INFO]     |                                                                                                    |
+                                                                 | Scheduled weekly on Sunday                                                                         |
+                                                                 |                                                                                                    |
+                                                                 | Collection Comedy not scheduled to run                                                             |
+[2023-03-24 02:09:21,047] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-24 02:09:21,047] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-24 02:09:21,047] [plex_meta_manager.py:781]  [INFO]     |                                     Finished Comedy Collection                                     |
+[2023-03-24 02:09:21,048] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-24 02:09:21,048] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

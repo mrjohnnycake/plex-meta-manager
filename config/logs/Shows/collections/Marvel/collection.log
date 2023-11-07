@@ -1,0 +1,92 @@
+[2023-11-07 06:08:43,469] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 06:08:43,469] [builder.py:193]            [INFO]     |                                     Marvel Collection in Shows                                     |
+[2023-11-07 06:08:43,469] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 06:08:43,470] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-07 06:08:43,470] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-07 06:08:43,470] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,470] [builder.py:216]            [DEBUG]    | Templates Called: Franchise                                                                        |
+[2023-11-07 06:08:43,470] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,471] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-07 06:08:43,471] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,471] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/api/assets/162885', 'sort_title': '++++_Marvel', 'collection_mode': 'hide', 'collection_order': 'release', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-07 06:08:43,471] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,471] [builder.py:233]            [INFO]     |=================================== Validating Marvel Attributes ===================================|
+[2023-11-07 06:08:43,509] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,509] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-11-07 06:08:43,509] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-07 06:08:43,510] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,510] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-11-07 06:08:43,510] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-07 06:08:43,510] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,510] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-07 06:08:43,510] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-07 06:08:43,510] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,510] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-07 06:08:43,510] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2023-11-07 06:08:43,510] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,510] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-11-07 06:08:43,510] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/martheo/lists/marvel?sort=released,asc                               |
+[2023-11-07 06:08:43,686] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for Marvel Battleworld: Treachery at Twilight (2021)                 |
+[2023-11-07 06:08:43,686] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for the Mighty Thor (1996)                                           |
+[2023-11-07 06:08:43,687] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,687] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-07 06:08:43,687] [builder.py:720]            [DEBUG]    | Value: An American media franchise and shared fictional universe that is centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in publications by Marvel Comics. The franchise has expanded to include comic books, short films, and television series. |
+[2023-11-07 06:08:43,687] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:43,687] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-07 06:08:43,687] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/162885                                                   |
+[2023-11-07 06:08:44,700] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,700] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-07 06:08:44,700] [builder.py:720]            [DEBUG]    | Value: ++++_Marvel                                                                                 |
+[2023-11-07 06:08:44,700] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,701] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-07 06:08:44,701] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-07 06:08:44,701] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,701] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-07 06:08:44,701] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-07 06:08:44,701] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,701] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-07 06:08:44,701] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-07 06:08:44,702] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,702] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:638]  [INFO]     |==================================== Running Marvel Collection =====================================|
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/martheo/lists/marvel?sort=released,asc                 |
+[2023-11-07 06:08:44,702] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,702] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/martheo/lists/marvel?sort=released,asc               |
+[2023-11-07 06:08:44,980] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for Marvel Battleworld: Treachery at Twilight (2021)                 |
+[2023-11-07 06:08:44,980] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for the Mighty Thor (1996)                                           |
+[2023-11-07 06:08:44,980] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,980] [builder.py:1666]           [DEBUG]    | 219 IDs Found                                                                                      |
+[2023-11-07 06:08:44,981] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-07 06:08:44,981] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,981] [builder.py:2250]           [INFO]     |=================================== Adding to Marvel Collection ====================================|
+[2023-11-07 06:08:44,981] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,981] [builder.py:2265]           [INFO]     | 1/3 | Marvel Collection | = | Moon Knight                                                          |
+[2023-11-07 06:08:44,982] [builder.py:2265]           [INFO]     | 2/3 | Marvel Collection | = | Marvel's Hit-Monkey                                                  |
+[2023-11-07 06:08:44,982] [builder.py:2265]           [INFO]     | 3/3 | Marvel Collection | = | Marvel's M.O.D.O.K.                                                  |
+[2023-11-07 06:08:44,982] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-07 06:08:44,982] [builder.py:2287]           [INFO]     | 3 Shows Processed 0 Shows Added                                                                    |
+[2023-11-07 06:09:04,194] [builder.py:2411]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 1003646                                                     |
+[2023-11-07 06:09:04,632] [builder.py:2411]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 966464                                                      |
+[2023-11-07 06:09:04,632] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2023-11-07 06:09:04,632] [builder.py:2423]           [INFO]     | 120 Movies Missing                                                                                 |
+[2023-11-07 06:09:07,506] [builder.py:2457]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 393201                                                    |
+[2023-11-07 06:09:23,678] [builder.py:2457]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 284190                                                    |
+[2023-11-07 06:09:28,461] [builder.py:2457]           [ERROR]    | TVDb Error: Name not found from TVDb ID: 263365                                                    |
+[2023-11-07 06:09:51,074] [builder.py:2467]           [INFO]     |                                                                                                    |
+[2023-11-07 06:09:51,074] [builder.py:2468]           [INFO]     | 91 Shows Missing                                                                                   |
+[2023-11-07 06:09:51,096] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-07 06:09:51,096] [builder.py:2624]           [INFO]     |============================== Updating Details of Marvel Collection ===============================|
+[2023-11-07 06:09:51,096] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-07 06:09:51,103] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-07 06:09:51,105] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-11-07 06:09:51,105] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/162885                               |
+[2023-11-07 06:09:51,106] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-11-07 06:09:51,144] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-07 06:09:51,144] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-07 06:09:51,144] [plex_meta_manager.py:781]  [INFO]     |                                     Finished Marvel Collection                                     |
+[2023-11-07 06:09:51,144] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:01:07                                    |
+[2023-11-07 06:09:51,144] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

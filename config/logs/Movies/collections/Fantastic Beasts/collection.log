@@ -1,0 +1,85 @@
+[2022-10-16 02:33:02,836] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-16 02:33:02,836] [builder.py:197]            [INFO]     |                               Fantastic Beasts Collection in Movies                                |
+[2022-10-16 02:33:02,836] [builder.py:197]            [INFO]     |====================================================================================================|
+[2022-10-16 02:33:02,836] [builder.py:198]            [INFO]     |                                                                                                    |
+[2022-10-16 02:33:02,836] [builder.py:203]            [INFO]     |================================ Building Definition From Templates ================================|
+[2022-10-16 02:33:02,836] [builder.py:211]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,836] [meta.py:128]               [DEBUG]    | Template Set                                                                                       |
+[2022-10-16 02:33:02,836] [meta.py:129]               [DEBUG]    | Call: ordereddict([('name', 'Set'), ('collection', 435259), ('poster', 'https://theposterdb.com/api/assets/173773')]) |
+[2022-10-16 02:33:02,837] [meta.py:304]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,837] [meta.py:305]               [DEBUG]    | Variables: ordereddict([('name', 'Set'), ('collection', 435259), ('poster', 'https://theposterdb.com/api/assets/173773'), ('collection_name', 'Fantastic Beasts'), ('mapping_name', 'Fantastic Beasts'), ('library_type', 'movie'), ('library_name', 'Movies'), ('name_encoded', 'Set'), ('collection_encoded', '435259'), ('poster_encoded', 'https%3A//theposterdb.com/api/assets/173773'), ('collection_name_encoded', 'Fantastic%20Beasts'), ('mapping_name_encoded', 'Fantastic%20Beasts'), ('library_type_encoded', 'movie'), ('library_name_encoded', 'Movies'), ('collection_sort', 'Fantastic Beasts')]) |
+[2022-10-16 02:33:02,837] [meta.py:306]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,837] [meta.py:307]               [DEBUG]    | Defaults: {}                                                                                       |
+[2022-10-16 02:33:02,837] [meta.py:308]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,837] [meta.py:309]               [DEBUG]    | Optional: ['collection', 'collection_encoded', 'movie', 'movie_encoded', 'list', 'list_encoded']   |
+[2022-10-16 02:33:02,838] [meta.py:370]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,838] [meta.py:371]               [DEBUG]    | Final Template Attributes: {'tmdb_collection_details': 435259, 'sync_mode': 'sync', 'collection_order': 'release', 'url_poster': 'https://theposterdb.com/api/assets/173773', 'sort_title': 'Fantastic Beasts'} |
+[2022-10-16 02:33:02,838] [meta.py:372]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,838] [builder.py:219]            [INFO]     |============================== Validating Fantastic Beasts Attributes ==============================|
+[2022-10-16 02:33:02,838] [builder.py:488]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,838] [builder.py:489]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-16 02:33:02,839] [builder.py:493]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-16 02:33:02,839] [builder.py:609]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,839] [builder.py:610]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-16 02:33:02,839] [builder.py:611]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-16 02:33:02,839] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:02,839] [builder.py:631]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2022-10-16 02:33:02,839] [builder.py:632]            [DEBUG]    | Value: 435259                                                                                      |
+[2022-10-16 02:33:03,032] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,032] [builder.py:631]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-16 02:33:03,032] [builder.py:632]            [DEBUG]    | Value: https://theposterdb.com/api/assets/173773                                                   |
+[2022-10-16 02:33:03,822] [builder.py:627]            [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,822] [builder.py:631]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-16 02:33:03,822] [builder.py:632]            [DEBUG]    | Value: Fantastic Beasts                                                                            |
+[2022-10-16 02:33:03,826] [plex.py:790]               [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,826] [plex.py:793]               [DEBUG]    | Looking for: Fantastic Beasts                                                                      |
+[2022-10-16 02:33:03,826] [builder.py:797]            [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,826] [builder.py:798]            [INFO]     | Validation Successful                                                                              |
+[2022-10-16 02:33:03,826] [plex_meta_manager.py:561]  [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,826] [plex_meta_manager.py:563]  [INFO]     |=============================== Running Fantastic Beasts Collection ================================|
+[2022-10-16 02:33:03,827] [plex_meta_manager.py:575]  [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,827] [plex_meta_manager.py:576]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-16 02:33:03,827] [plex_meta_manager.py:579]  [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,827] [plex_meta_manager.py:580]  [DEBUG]    | Builder: tmdb_collection: 435259                                                                   |
+[2022-10-16 02:33:03,827] [plex_meta_manager.py:581]  [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,848] [tmdb.py:382]               [INFO]     | Processing TMDb Collection: (435259) Fantastic Beasts Collection (5 Items)                         |
+[2022-10-16 02:33:03,849] [builder.py:1540]           [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,849] [builder.py:1541]           [DEBUG]    | 5 IDs Found: [(259316, 'tmdb'), (422641, 'tmdb'), (422642, 'tmdb'), (338953, 'tmdb'), (338952, 'tmdb')] |
+[2022-10-16 02:33:03,849] [builder.py:1542]           [DEBUG]    |                                                                                                    |
+[2022-10-16 02:33:03,849] [builder.py:2064]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,849] [builder.py:2065]           [INFO]     |============================== Adding to Fantastic Beasts Collection ===============================|
+[2022-10-16 02:33:03,849] [builder.py:2066]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:03,849] [builder.py:2080]           [INFO]     | 1/3 | Fantastic Beasts Collection | + | Fantastic Beasts and Where to Find Them (2016)             |
+[2022-10-16 02:33:04,042] [builder.py:2080]           [INFO]     | 2/3 | Fantastic Beasts Collection | + | Fantastic Beasts: The Secrets of Dumbledore (2022)         |
+[2022-10-16 02:33:04,207] [builder.py:2080]           [INFO]     | 3/3 | Fantastic Beasts Collection | + | Fantastic Beasts: The Crimes of Grindelwald (2018)         |
+[2022-10-16 02:33:04,334] [builder.py:2100]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:04,334] [builder.py:2102]           [INFO]     | 3 Movies Processed 3 Movies Added                                                                  |
+[2022-10-16 02:33:04,334] [builder.py:2228]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:04,334] [builder.py:2229]           [INFO]     |=============================== Missing Movies from Library: Movies ================================|
+[2022-10-16 02:33:04,335] [builder.py:2230]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:04,640] [builder.py:2243]           [INFO]     | Fantastic Beasts Collection | ? | Fantastic Beasts 4 (TMDb: 422641)                                |
+[2022-10-16 02:33:04,982] [builder.py:2243]           [INFO]     | Fantastic Beasts Collection | ? | Fantastic Beasts 5 (TMDb: 422642)                                |
+[2022-10-16 02:33:04,982] [builder.py:2248]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:04,982] [builder.py:2249]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-10-16 02:33:04,987] [builder.py:2441]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:04,987] [builder.py:2442]           [INFO]     |========================= Updating Details of Fantastic Beasts Collection ==========================|
+[2022-10-16 02:33:04,987] [builder.py:2443]           [INFO]     |                                                                                                    |
+[2022-10-16 02:33:05,050] [builder.py:2509]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (tmdb_collection_details) | The Fantastic Beasts films are a fantasy series based on and inspired by the textbook mentioned in the Harry Potter novels by British writer J. K. Rowling. Set in the same Wizarding World franchise, they follow the adventures of Newt Scamander, a self-proclaimed magizoologist, along with Porpentina "Tina" Goldstein, a MACUSA auror.
+                                                                 | Label | +PMM
+[2022-10-16 02:33:05,117] [builder.py:2513]           [INFO]     | Details: have been updated
+[2022-10-16 02:33:05,117] [builder.py:2517]           [INFO]     | 
+[2022-10-16 02:33:05,118] [builder.py:2580]           [WARNING]  | Asset Warning: Unable to find asset folder: 'Fantastic Beasts
+                                                                 | Asset Directory Created: //config/movies/assets/Fantastic Beasts'
+[2022-10-16 02:33:05,118] [util.py:150]               [DEBUG]    | 2 posters found:
+[2022-10-16 02:33:05,118] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/oqLzqCb2old88cVuXS0SGMHkP7Z.jpg
+[2022-10-16 02:33:05,118] [util.py:152]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/173773
+[2022-10-16 02:33:05,118] [util.py:150]               [DEBUG]    | 1 background found:
+[2022-10-16 02:33:05,118] [util.py:152]               [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/2Iripuf9j5vbROHNpkUUiWIIDxE.jpg
+[2022-10-16 02:33:05,932] [library.py:170]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/173773
+[2022-10-16 02:33:06,232] [library.py:186]            [INFO]     | Detail: tmdb_collection_details updated background to [URL] https://image.tmdb.org/t/p/original/2Iripuf9j5vbROHNpkUUiWIIDxE.jpg
+[2022-10-16 02:33:06,310] [plex_meta_manager.py:708]  [INFO]     | 
+[2022-10-16 02:33:06,310] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|
+[2022-10-16 02:33:06,310] [plex_meta_manager.py:709]  [INFO]     |                                Finished Fantastic Beasts Collection                                |
+[2022-10-16 02:33:06,310] [plex_meta_manager.py:709]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-10-16 02:33:06,310] [plex_meta_manager.py:709]  [INFO]     |====================================================================================================|

@@ -1,0 +1,61 @@
+[2023-03-30 03:33:19,132] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 03:33:19,132] [builder.py:193]            [INFO]     |                                  Apocalyptic Collection in Shows                                   |
+[2023-03-30 03:33:19,132] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 03:33:19,132] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-30 03:33:19,132] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-30 03:33:19,132] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,132] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
+[2023-03-30 03:33:19,132] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,133] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-30 03:33:19,133] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,133] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Apocalyptic', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': True, 'sync_mode': 'sync'} |
+[2023-03-30 03:33:19,133] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,134] [builder.py:233]            [INFO]     |================================ Validating Apocalyptic Attributes =================================|
+[2023-03-30 03:33:19,137] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,137] [plex.py:860]               [DEBUG]    | Looking for: Apocalyptic                                                                           |
+[2023-03-30 03:33:19,137] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,137] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-03-30 03:33:19,137] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 03:33:19,137] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,137] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-03-30 03:33:19,137] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 03:33:19,138] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,138] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-30 03:33:19,138] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-30 03:33:19,138] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,138] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-03-30 03:33:19,138] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/mccaffe/lists/apocalyptic-dystopia?sort=released,asc                 |
+[2023-03-30 03:33:19,515] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,516] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-30 03:33:19,516] [builder.py:720]            [DEBUG]    | Value: This list of movies about the end of the world includes apocalypse movies and doomsday films. |
+[2023-03-30 03:33:19,516] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,516] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-30 03:33:19,516] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
+[2023-03-30 03:33:19,698] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,698] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-30 03:33:19,699] [builder.py:720]            [DEBUG]    | Value: Apocalyptic                                                                                 |
+[2023-03-30 03:33:19,699] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,699] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-03-30 03:33:19,699] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-03-30 03:33:19,699] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,699] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-03-30 03:33:19,699] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 03:33:19,699] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-30 03:33:19,699] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-30 03:33:19,699] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:638]  [INFO]     |================================== Running Apocalyptic Collection ==================================|
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/mccaffe/lists/apocalyptic-dystopia?sort=released,asc   |
+[2023-03-30 03:33:19,700] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-30 03:33:19,700] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/mccaffe/lists/apocalyptic-dystopia?sort=released,asc |
+[2023-03-30 03:33:20,069] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:20,069] [builder.py:1666]           [DEBUG]    | 113 IDs Found                                                                                      |
+[2023-03-30 03:33:20,069] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:752]  [WARNING]  | Collection Warning: No items found                                                                 |
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:781]  [INFO]     |                                  Finished Apocalyptic Collection                                   |
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-30 03:33:20,070] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

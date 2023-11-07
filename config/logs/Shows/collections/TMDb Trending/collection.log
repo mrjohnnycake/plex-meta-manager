@@ -1,0 +1,29 @@
+[2023-03-30 00:15:49,982] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:49,982] [builder.py:193]            [INFO]     |                                 TMDb Trending Collection in Shows                                  |
+[2023-03-30 00:15:49,982] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:15:49,982] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-30 00:15:49,982] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-30 00:15:49,982] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,982] [builder.py:216]            [DEBUG]    | Templates Called: tmdb, shared, arr, custom, translation                                           |
+[2023-03-30 00:15:49,982] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,982] [builder.py:220]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,983] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
+[2023-03-30 00:15:49,999] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-30 00:15:49,999] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,999] [meta.py:552]               [DEBUG]    | {'tmdb_trending_weekly': 100, 'allowed_library_types': [False], 'ignore_blank_results': True, 'sort_title': '!01_TMDb Trending', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20Trending.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of shows trending on TMDb.', 'name': 'TMDb Trending'} |
+[2023-03-30 00:15:49,999] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,999] [builder.py:233]            [INFO]     |=============================== Validating TMDb Trending Attributes ================================|
+[2023-03-30 00:15:49,999] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:49,999] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-03-30 00:15:49,999] [builder.py:240]            [DEBUG]    | Value: TMDb Trending                                                                               |
+[2023-03-30 00:15:50,002] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,003] [plex.py:860]               [DEBUG]    | Looking for: TMDb Trending                                                                         |
+[2023-03-30 00:15:50,003] [builder.py:274]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:15:50,003] [builder.py:275]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2023-03-30 00:15:50,003] [builder.py:278]            [DEBUG]    | Value: [False]                                                                                     |
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:755]  [INFO]     | Skipped because allowed_library_types is false                                                     |
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:781]  [INFO]     |                                 Finished TMDb Trending Collection                                  |
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-03-30 00:15:50,003] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

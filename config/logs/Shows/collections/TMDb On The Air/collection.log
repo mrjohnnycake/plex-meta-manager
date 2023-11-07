@@ -1,0 +1,113 @@
+[2023-03-30 00:16:13,997] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:16:13,997] [builder.py:193]            [INFO]     |                                TMDb On The Air Collection in Shows                                 |
+[2023-03-30 00:16:13,997] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-03-30 00:16:13,997] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-03-30 00:16:13,997] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-03-30 00:16:13,997] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:13,997] [builder.py:216]            [DEBUG]    | Templates Called: tmdb, shared, arr, custom, translation                                           |
+[2023-03-30 00:16:13,998] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:13,998] [builder.py:220]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:13,998] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
+[2023-03-30 00:16:14,014] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-03-30 00:16:14,014] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,015] [meta.py:552]               [DEBUG]    | {'tmdb_on_the_air': 100, 'allowed_library_types': ['show'], 'ignore_blank_results': True, 'sort_title': '!01_TMDb On The Air', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20On%20The%20Air.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': 'A collection of shows that are still actively airing episodes.', 'name': 'TMDb On The Air'} |
+[2023-03-30 00:16:14,015] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,015] [builder.py:233]            [INFO]     |============================== Validating TMDb On The Air Attributes ===============================|
+[2023-03-30 00:16:14,015] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,015] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-03-30 00:16:14,015] [builder.py:240]            [DEBUG]    | Value: TMDb On The Air                                                                             |
+[2023-03-30 00:16:14,020] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,020] [plex.py:860]               [DEBUG]    | Looking for: TMDb On The Air                                                                       |
+[2023-03-30 00:16:14,021] [builder.py:274]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,021] [builder.py:275]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2023-03-30 00:16:14,021] [builder.py:278]            [DEBUG]    | Value: ['show']                                                                                    |
+[2023-03-30 00:16:14,021] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,021] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-03-30 00:16:14,021] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-03-30 00:16:14,021] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,021] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-03-30 00:16:14,021] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-03-30 00:16:14,021] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,021] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-03-30 00:16:14,021] [builder.py:684]            [DEBUG]    | Value: custom                                                                                      |
+[2023-03-30 00:16:14,022] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,022] [builder.py:719]            [DEBUG]    | Validating Method: tmdb_on_the_air                                                                 |
+[2023-03-30 00:16:14,022] [builder.py:720]            [DEBUG]    | Value: 100                                                                                         |
+[2023-03-30 00:16:14,022] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,022] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-03-30 00:16:14,022] [builder.py:720]            [DEBUG]    | Value: !01_TMDb On The Air                                                                         |
+[2023-03-30 00:16:14,022] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,022] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-03-30 00:16:14,022] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20On%20The%20Air.jpg |
+[2023-03-30 00:16:14,218] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,218] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-03-30 00:16:14,218] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-03-30 00:16:14,218] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,218] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-03-30 00:16:14,218] [builder.py:720]            [DEBUG]    | Value: A collection of shows that are still actively airing episodes.                              |
+[2023-03-30 00:16:14,218] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-03-30 00:16:14,219] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:638]  [INFO]     |================================ Running TMDb On The Air Collection ================================|
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:657]  [DEBUG]    | Builder: tmdb_on_the_air: 100                                                                      |
+[2023-03-30 00:16:14,219] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:14,795] [tmdb.py:353]               [INFO]     | Processing TMDb On The Air: 100 Shows                                                              |
+[2023-03-30 00:16:14,800] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,800] [builder.py:1666]           [DEBUG]    | 100 IDs Found                                                                                      |
+[2023-03-30 00:16:14,801] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-03-30 00:16:14,804] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 203057                                                |
+[2023-03-30 00:16:14,808] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215103                                                |
+[2023-03-30 00:16:14,810] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 209505                                                |
+[2023-03-30 00:16:14,813] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 219082                                                |
+[2023-03-30 00:16:14,816] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221053                                                |
+[2023-03-30 00:16:14,820] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221056                                                |
+[2023-03-30 00:16:14,823] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 197109                                                |
+[2023-03-30 00:16:14,827] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 213017                                                |
+[2023-03-30 00:16:14,957] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 218145                                                |
+[2023-03-30 00:16:14,960] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 37757                                                 |
+[2023-03-30 00:16:15,093] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 221968                                                |
+[2023-03-30 00:16:15,363] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 130542                                                |
+[2023-03-30 00:16:15,977] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215902                                                |
+[2023-03-30 00:16:15,980] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 122543                                                |
+[2023-03-30 00:16:15,983] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 215315                                                |
+[2023-03-30 00:16:15,986] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 208711                                                |
+[2023-03-30 00:16:17,721] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 154300                                                |
+[2023-03-30 00:16:18,258] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 220953                                                |
+[2023-03-30 00:16:18,261] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 72205                                                 |
+[2023-03-30 00:16:18,699] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 222203                                                |
+[2023-03-30 00:16:18,703] [builder.py:1780]           [WARNING]  | Convert Error: No TVDb ID Found for TMDb ID: 102365                                                |
+[2023-03-30 00:16:18,939] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:18,939] [builder.py:2250]           [INFO]     |=============================== Adding to TMDb On The Air Collection ===============================|
+[2023-03-30 00:16:18,939] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:18,939] [builder.py:2265]           [INFO]     | 1/3 | TMDb On The Air Collection | + | The Mandalorian                                             |
+[2023-03-30 00:16:18,961] [builder.py:2265]           [INFO]     | 2/3 | TMDb On The Air Collection | + | Ted Lasso                                                   |
+[2023-03-30 00:16:18,979] [builder.py:2265]           [INFO]     | 3/3 | TMDb On The Air Collection | + | Yellowjackets                                               |
+[2023-03-30 00:16:18,995] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:18,995] [builder.py:2287]           [INFO]     | 3 Shows Processed 3 Shows Added                                                                    |
+[2023-03-30 00:16:18,999] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:18,999] [builder.py:2624]           [INFO]     |========================== Updating Details of TMDb On The Air Collection ==========================|
+[2023-03-30 00:16:18,999] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:19,004] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+                                                                 | Summary (summary) | A collection of shows that are still actively airing episodes.                 |
+                                                                 | Sort Title | !01_TMDb On The Air                                                                   |
+                                                                 | Label | +PMM                                                                                       |
+[2023-03-30 00:16:19,085] [builder.py:2693]           [INFO]     | Details: have been updated                                                                         |
+[2023-03-30 00:16:19,085] [builder.py:2697]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:19,158] [builder.py:2723]           [INFO]     | Collection Order | custom                                                                          |
+[2023-03-30 00:16:19,158] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-03-30 00:16:19,158] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20On%20The%20Air.jpg |
+[2023-03-30 00:16:19,193] [library.py:175]            [INFO]     | Detail: url_poster updated poster to [URL] https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/TMDb%20On%20The%20Air.jpg |
+[2023-03-30 00:16:19,213] [builder.py:2780]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:19,213] [builder.py:2781]           [INFO]     |================================ Sorting TMDb On The Air Collection ================================|
+[2023-03-30 00:16:19,213] [builder.py:2782]           [INFO]     |                                                                                                    |
+[2023-03-30 00:16:19,222] [builder.py:2809]           [INFO]     | Moving The Mandalorian to the beginning                                                            |
+[2023-03-30 00:16:19,232] [builder.py:2809]           [INFO]     | Moving Ted Lasso after The Mandalorian                                                             |
+[2023-03-30 00:16:19,241] [builder.py:2809]           [INFO]     | Moving Yellowjackets after Ted Lasso                                                               |
+[2023-03-30 00:16:19,241] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-03-30 00:16:19,241] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-03-30 00:16:19,241] [plex_meta_manager.py:781]  [INFO]     |                                Finished TMDb On The Air Collection                                 |
+[2023-03-30 00:16:19,241] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2023-03-30 00:16:19,241] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

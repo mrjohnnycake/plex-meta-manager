@@ -1,0 +1,616 @@
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:185]  [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:186]  [INFO]     |                                                                                                    |
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:187]  [INFO]     |        ____  _             __  __      _          __  __                                           |
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:188]  [INFO]     |       |  _ \| | _____  __ |  \/  | ___| |_ __ _  |  \/  | __ _ _ __   __ _  __ _  ___ _ __         |
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:189]  [INFO]     |       | |_) | |/ _ \ \/ / | |\/| |/ _ \ __/ _` | | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|        |
+[2023-11-06 22:27:24,138] [plex_meta_manager.py:190]  [INFO]     |       |  __/| |  __/>  <  | |  | |  __/ || (_| | | |  | | (_| | | | | (_| | (_| |  __/ |           |
+[2023-11-06 22:27:24,139] [plex_meta_manager.py:191]  [INFO]     |       |_|   |_|\___/_/\_\ |_|  |_|\___|\__\__,_| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|           |
+[2023-11-06 22:27:24,139] [plex_meta_manager.py:192]  [INFO]     |                                                                            |___/                   |
+[2023-11-06 22:27:24,139] [plex_meta_manager.py:194]  [INFO]     |     Version: 1.18.3 (Docker)                                                                       |
+[2023-11-06 22:27:24,209] [plex_meta_manager.py:198]  [INFO]     |     Newest Version: 1.19.1                                                                         |
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:199]  [INFO]     |     Platform: Linux-5.10.0-21-amd64-x86_64-with-glibc2.28                                          |
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:200]  [INFO]     |     Memory: 8 GB                                                                                   |
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:220]  [DEBUG]    |====================================================================================================|
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:221]  [DEBUG]    | Run Command: plex_meta_manager.py --run                                                            |
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:222]  [DEBUG]    | --config (PMM_CONFIG): None                                                                        |
+[2023-11-06 22:27:24,210] [plex_meta_manager.py:223]  [DEBUG]    | --time (PMM_TIME): 05:00                                                                           |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:224]  [DEBUG]    | --run (PMM_RUN): True                                                                              |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:225]  [DEBUG]    | --run-tests (PMM_TEST): False                                                                      |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:226]  [DEBUG]    | --collections-only (PMM_COLLECTIONS_ONLY): False                                                   |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:227]  [DEBUG]    | --playlists-only (PMM_PLAYLISTS_ONLY): False                                                       |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:228]  [DEBUG]    | --operations (PMM_OPERATIONS): False                                                               |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:229]  [DEBUG]    | --overlays (PMM_OVERLAYS): False                                                                   |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:230]  [DEBUG]    | --libraries-first (PMM_LIBRARIES_FIRST): False                                                     |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:231]  [DEBUG]    | --run-collections (PMM_COLLECTIONS): None                                                          |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:232]  [DEBUG]    | --run-libraries (PMM_LIBRARIES): None                                                              |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:233]  [DEBUG]    | --run-metadata-files (PMM_METADATA_FILES): None                                                    |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:234]  [DEBUG]    | --ignore-schedules (PMM_IGNORE_SCHEDULES): False                                                   |
+[2023-11-06 22:27:24,211] [plex_meta_manager.py:235]  [DEBUG]    | --ignore-ghost (PMM_IGNORE_GHOST): False                                                           |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:236]  [DEBUG]    | --cache-libraries (PMM_CACHE_LIBRARIES): False                                                     |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:237]  [DEBUG]    | --delete-collections (PMM_DELETE_COLLECTIONS): False                                               |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:238]  [DEBUG]    | --delete-labels (PMM_DELETE_LABELS): False                                                         |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:239]  [DEBUG]    | --resume (PMM_RESUME): None                                                                        |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:240]  [DEBUG]    | --no-countdown (PMM_NO_COUNTDOWN): False                                                           |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:241]  [DEBUG]    | --no-missing (PMM_NO_MISSING): False                                                               |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:242]  [DEBUG]    | --no-report (PMM_NO_REPORT): False                                                                 |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:243]  [DEBUG]    | --read-only-config (PMM_READ_ONLY_CONFIG): False                                                   |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:244]  [DEBUG]    | --plex-url (PMM_PLEX_URL):                                                                         |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:245]  [DEBUG]    | --plex-token (PMM_PLEX_TOKEN):                                                                     |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:246]  [DEBUG]    | --divider (PMM_DIVIDER): =                                                                         |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:247]  [DEBUG]    | --width (PMM_WIDTH): 100                                                                           |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:248]  [DEBUG]    | --debug (PMM_DEBUG): False                                                                         |
+[2023-11-06 22:27:24,212] [plex_meta_manager.py:249]  [DEBUG]    | --trace (PMM_TRACE): False                                                                         |
+[2023-11-06 22:27:24,213] [plex_meta_manager.py:250]  [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,213] [plex_meta_manager.py:251]  [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,213] [plex_meta_manager.py:251]  [INFO]     |                                            Starting Run                                            |
+[2023-11-06 22:27:24,213] [plex_meta_manager.py:251]  [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,213] [config.py:105]             [INFO]     | Locating config...                                                                                 |
+[2023-11-06 22:27:24,213] [config.py:111]             [INFO]     | Using //config/config.yml as config                                                                |
+[2023-11-06 22:27:24,218] [config.py:133]             [DEBUG]    |========================================= Redacted Config ==========================================|
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    | libraries:                                                                                         |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    | ########################################                                                           |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    | #   MUST MATCH THE PLEX LIBRARY NAME   #                                                           |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    | ########################################                                                           |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    |   Movies:                                                                                          |
+[2023-11-06 22:27:24,219] [config.py:135]             [DEBUG]    |     metadata_path:                                                                                 |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |     - folder: //config/collections/movies/                                                         |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |     - folder: //config/metadata/movies/                                                            |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |     settings:                                                                                      |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |       asset_directory: //config/assets/movies/                                                     |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |       overlay_path: //config/overlays/movies/                                                      |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |       remove_overlays: true                                                                        |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |     operations:                                                                                    |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |         PG: 12                                                                                     |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |         PG-13: 13                                                                                  |
+[2023-11-06 22:27:24,220] [config.py:135]             [DEBUG]    |         TV-14: 15                                                                                  |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |         NR: 17                                                                                     |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |         Not Rated: 17                                                                              |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |         R: 18                                                                                      |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |     report_path: /config/reports/Movies.yml                                                        |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |   Music:                                                                                           |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |     metadata_path:                                                                                 |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |     - folder: //config/metadata/music/                                                             |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |     settings:                                                                                      |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |       asset_directory: //config/assets/music/                                                      |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |     report_path: /config/reports/Music.yml                                                         |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,221] [config.py:135]             [DEBUG]    |   Shows:                                                                                           |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |     metadata_path:                                                                                 |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |     - folder: //config/collections/shows/                                                          |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |     - folder: //config/metadata/shows/                                                             |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |     - pmm: country                                                                                 |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |       template_variables:                                                                          |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         use_other: false                                                                           |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         use_separator: false                                                                       |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         sep_style: purple                                                                          |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         include:                                                                                   |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         - gb                                                                                       |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         - kr                                                                                       |
+[2023-11-06 22:27:24,222] [config.py:135]             [DEBUG]    |         sort_by: title.asc                                                                         |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |     - pmm: emmy                                                                                    |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |       template_variables:                                                                          |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |         collection_order: alpha                                                                    |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |         data:                                                                                      |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |           starting: current_year-5                                                                 |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |           ending: current_year                                                                     |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |     - pmm: trakt                                                                                   |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |       template_variables:                                                                          |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2023-11-06 22:27:24,223] [config.py:135]             [DEBUG]    |         use_collected: false                                                                       |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         use_popular: false                                                                         |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         use_recommended: false                                                                     |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         use_watched: false                                                                         |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         limit: 20                                                                                  |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         visible_library_trending: true                                                             |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         visible_home_trending: false                                                               |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         visible_shared_trending: true                                                              |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |     - pmm: basic                                                                                   |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |       template_variables:                                                                          |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         collection_mode: hide                                                                      |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         use_episodes: false                                                                        |
+[2023-11-06 22:27:24,224] [config.py:135]             [DEBUG]    |         use_released: true                                                                         |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         in_the_last_released: 120                                                                  |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         visible_library_released: true                                                             |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         visible_home_released: false                                                               |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         visible_shared_released: false                                                             |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |       settings:                                                                                    |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         asset_directory: //config/assets/shows/                                                    |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         overlay_path: //config/overlays/shows/                                                     |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         remove_overlays: true                                                                      |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |     operations:                                                                                    |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |       mass_content_rating_update: mdb_commonsense                                                  |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |       content_rating_mapper:                                                                       |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         TV-Y: 4                                                                                    |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         TV-Y7: 7                                                                                   |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         TV-G: 7                                                                                    |
+[2023-11-06 22:27:24,225] [config.py:135]             [DEBUG]    |         TV-PG: 12                                                                                  |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |         TV-14: 14                                                                                  |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |         TV-MA: 18                                                                                  |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |     report_path: /config/reports/Shows.yml                                                         |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    | playlist_files:                                                                                    |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    | - folder: //config/playlists/                                                                      |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    | settings:                                                                                          |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |   cache: true                                                                                      |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |   asset_directory:                                                                                 |
+[2023-11-06 22:27:24,226] [config.py:135]             [DEBUG]    |   asset_folders: true                                                                              |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   asset_depth: 1                                                                                   |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   create_asset_folders: true                                                                       |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   prioritize_assets: true                                                                          |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   dimensional_asset_rename: false                                                                  |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   download_url_assets: true                                                                        |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   show_missing_season_assets: true                                                                 |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   show_missing_episode_assets: false                                                               |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   show_asset_not_needed: true                                                                      |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   sync_mode: append                                                                                |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   minimum_items: 2                                                                                 |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   default_collection_order:                                                                        |
+[2023-11-06 22:27:24,227] [config.py:135]             [DEBUG]    |   delete_below_minimum: true                                                                       |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   delete_not_scheduled: false                                                                      |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   run_again_delay: 2                                                                               |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   missing_only_released: false                                                                     |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   only_filter_missing: false                                                                       |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   show_unmanaged: true                                                                             |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   show_filtered: false                                                                             |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   show_options: false                                                                              |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   show_missing: false                                                                              |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   show_missing_assets: true                                                                        |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   save_report: true                                                                                |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   tvdb_language: eng                                                                               |
+[2023-11-06 22:27:24,228] [config.py:135]             [DEBUG]    |   ignore_ids:                                                                                      |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   ignore_imdb_ids:                                                                                 |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   item_refresh_delay: 0                                                                            |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   playlist_sync_to_user:                                                                           |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   playlist_report: false                                                                           |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   verify_ssl: true                                                                                 |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   custom_repo:                                                                                     |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   check_nightly: false                                                                             |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   show_unconfigured: true                                                                          |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   playlist_exclude_users:                                                                          |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    | webhooks: (redacted)                                                                               |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   error:                                                                                           |
+[2023-11-06 22:27:24,229] [config.py:135]             [DEBUG]    |   version:                                                                                         |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   run_start:                                                                                       |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   run_end:                                                                                         |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   changes:                                                                                         |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   delete:                                                                                          |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    | plex:                                                                                              |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   url: (redacted)                                                                                  |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   token: (redacted)                                                                                |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   timeout: 60                                                                                      |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   clean_bundles: false                                                                             |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   empty_trash: false                                                                               |
+[2023-11-06 22:27:24,230] [config.py:135]             [DEBUG]    |   optimize: false                                                                                  |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    | tmdb:                                                   # REQUIRED for the script to run           |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   language: en                                                                                     |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   region:                                                                                          |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    | trakt:                                                                                             |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   client_id: (redacted)                                                                            |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   client_secret: (redacted)                                                                        |
+[2023-11-06 22:27:24,231] [config.py:135]             [DEBUG]    |   pin:                                                                                             |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |   authorization:                          # everything below is autofilled by the script           |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     access_token: (redacted)                                                                       |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     token_type: Bearer                                                                             |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     expires_in: 7889237                                                                            |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     refresh_token: (redacted)                                                                      |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     scope: public                                                                                  |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |     created_at: 1694735079                                                                         |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    | mdblist:                                                                                           |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |   apikey: (redacted)                                                                               |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |   cache_expiration: 60                                                                             |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,232] [config.py:135]             [DEBUG]    | # radarr:                                                                                          |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   add_missing: false                                                                             |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   add_existing: false                                                                            |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   root_folder_path: S:/movies                                                                    |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   monitor: true                                                                                  |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   availability: announced                                                                        |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   tag:                                                                                           |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   search: false                                                                                  |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   radarr_path:                                                                                   |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   plex_path:                                                                                     |
+[2023-11-06 22:27:24,233] [config.py:135]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | # sonarr:                                                                                          |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   url: (redacted)                                                                                |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   token: (redacted)                                                                              |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   add_missing: false                                                                             |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   add_existing: false                                                                            |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   root_folder_path: S:/shows                                                                     |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   monitor: all                                                                                   |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   quality_profile: HD-1080p                                                                      |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   language_profile: English                                                                      |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   series_type: standard                                                                          |
+[2023-11-06 22:27:24,234] [config.py:135]             [DEBUG]    | #   season_folder: true                                                                            |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   tag:                                                                                           |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   search: false                                                                                  |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   cutoff_search: false                                                                           |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   sonarr_path:                                                                                   |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   plex_path:                                                                                     |
+[2023-11-06 22:27:24,235] [config.py:135]             [DEBUG]    | #   upgrade_existing: false                                                                        |
+[2023-11-06 22:27:24,235] [config.py:136]             [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:24,260] [config.py:398]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,261] [cache.py:17]               [INFO]     | Initializing cache database at //config/config.cache                                               |
+[2023-11-06 22:27:24,261] [config.py:404]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,261] [config.py:419]             [WARNING]  | notifiarr attribute not found                                                                      |
+[2023-11-06 22:27:24,262] [config.py:439]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,262] [config.py:444]             [INFO]     | Connecting to TMDb...                                                                              |
+[2023-11-06 22:27:24,445] [config.py:452]             [INFO]     | TMDb Connection Successful                                                                         |
+[2023-11-06 22:27:24,445] [config.py:456]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,445] [config.py:473]             [WARNING]  | omdb attribute not found                                                                           |
+[2023-11-06 22:27:24,445] [config.py:475]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:24,445] [config.py:479]             [INFO]     | Connecting to Mdblist...                                                                           |
+[2023-11-06 22:27:25,152] [config.py:485]             [INFO]     | Mdblist Connection Successful                                                                      |
+[2023-11-06 22:27:25,152] [config.py:495]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,152] [config.py:499]             [INFO]     | Connecting to Trakt...                                                                             |
+[2023-11-06 22:27:25,610] [config.py:513]             [INFO]     | Trakt Connection Successful                                                                        |
+[2023-11-06 22:27:25,610] [config.py:517]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,610] [config.py:538]             [WARNING]  | mal attribute not found                                                                            |
+[2023-11-06 22:27:25,610] [config.py:568]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,611] [config.py:573]             [INFO]     | Reading in Playlist Files                                                                          |
+[2023-11-06 22:27:25,611] [meta.py:1573]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,611] [meta.py:1574]              [INFO]     | Loading Playlist File: //config/playlists/video.yml                                                |
+[2023-11-06 22:27:25,611] [meta.py:1575]              [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,612] [config.py:589]             [INFO]     | Playlist File Failed To Load                                                                       |
+[2023-11-06 22:27:25,612] [config.py:590]             [ERROR]    | YAML Error: File is empty                                                                          |
+[2023-11-06 22:27:25,767] [config.py:604]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,767] [config.py:606]             [INFO]     | Connecting to Plex Libraries...                                                                    |
+[2023-11-06 22:27:25,767] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,768] [config.py:665]             [INFO]     |                                        Movies Configuration                                        |
+[2023-11-06 22:27:25,768] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,768] [config.py:666]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,768] [config.py:667]             [INFO]     | Connecting to Movies Library...                                                                    |
+[2023-11-06 22:27:25,768] [config.py:863]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,769] [config.py:864]             [INFO]     |======================================== Plex Configuration ========================================|
+[2023-11-06 22:27:25,770] [library.py:123]            [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,770] [library.py:125]            [INFO]     | Using Asset Directory: //config/assets/movies/                                                     |
+[2023-11-06 22:27:25,780] [config.py:878]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,781] [config.py:879]             [INFO]     | Movies Library Connection Successful                                                               |
+[2023-11-06 22:27:25,781] [config.py:880]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,781] [config.py:881]             [INFO]     |=============================== Scanning Metadata and Overlay Files ================================|
+[2023-11-06 22:27:25,781] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,781] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,781] [meta.py:591]               [INFO]     |                   Loading Metadata File: //config/collections/movies/Charts.yml                    |
+[2023-11-06 22:27:25,781] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,781] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,795] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Charts.yml                                           |
+[2023-11-06 22:27:25,795] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,795] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,795] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,795] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,795] [meta.py:591]               [INFO]     |                   Loading Metadata File: //config/collections/movies/Studios.yml                   |
+[2023-11-06 22:27:25,795] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,796] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,801] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Studios.yml                                          |
+[2023-11-06 22:27:25,801] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,801] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,801] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,801] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,801] [meta.py:591]               [INFO]     |                   Loading Metadata File: //config/collections/movies/People.yml                    |
+[2023-11-06 22:27:25,801] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,801] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,823] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/People.yml                                           |
+[2023-11-06 22:27:25,824] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,824] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,824] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,824] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,824] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/collections/movies/Countries.yml                  |
+[2023-11-06 22:27:25,824] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,824] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,833] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Countries.yml                                        |
+[2023-11-06 22:27:25,834] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,834] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,834] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,834] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,834] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/collections/movies/Specialty.yml                  |
+[2023-11-06 22:27:25,834] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,834] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,858] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Specialty.yml                                        |
+[2023-11-06 22:27:25,859] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,859] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,859] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,859] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,859] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/collections/movies/Franchises.yml                  |
+[2023-11-06 22:27:25,859] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,859] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,885] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Franchises.yml                                       |
+[2023-11-06 22:27:25,886] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,886] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,886] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,886] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,886] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/collections/movies/Holidays.yml                   |
+[2023-11-06 22:27:25,886] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,886] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,897] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/movies/Holidays.yml                                         |
+[2023-11-06 22:27:25,898] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,898] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,898] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,898] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,898] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/J-L.yml                       |
+[2023-11-06 22:27:25,898] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,898] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,914] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/J-L.yml                                                 |
+[2023-11-06 22:27:25,914] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,915] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,915] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,915] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,915] [meta.py:591]               [INFO]     |                       Loading Metadata File: //config/metadata/movies/S.yml                        |
+[2023-11-06 22:27:25,915] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,915] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,935] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/S.yml                                                   |
+[2023-11-06 22:27:25,935] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,935] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,935] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,935] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,935] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/G-I.yml                       |
+[2023-11-06 22:27:25,935] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,935] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,952] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/G-I.yml                                                 |
+[2023-11-06 22:27:25,952] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,952] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,952] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,952] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,952] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/A-C.yml                       |
+[2023-11-06 22:27:25,952] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,953] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,970] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/A-C.yml                                                 |
+[2023-11-06 22:27:25,970] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,970] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,970] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,970] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,970] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/P-R.yml                       |
+[2023-11-06 22:27:25,970] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,970] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,981] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/P-R.yml                                                 |
+[2023-11-06 22:27:25,982] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,982] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,982] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,982] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,982] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/M-O.yml                       |
+[2023-11-06 22:27:25,982] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,982] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:25,998] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/M-O.yml                                                 |
+[2023-11-06 22:27:25,998] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,998] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:25,998] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:25,998] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,998] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/T-Z.yml                       |
+[2023-11-06 22:27:25,998] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:25,999] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,014] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/T-Z.yml                                                 |
+[2023-11-06 22:27:26,014] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,015] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,015] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,015] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,015] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/movies/D-F.yml                       |
+[2023-11-06 22:27:26,015] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,015] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,031] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/movies/D-F.yml                                                 |
+[2023-11-06 22:27:26,031] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,032] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,032] [config.py:971]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,032] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,032] [config.py:665]             [INFO]     |                                        Music Configuration                                         |
+[2023-11-06 22:27:26,032] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,032] [config.py:666]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,032] [config.py:667]             [INFO]     | Connecting to Music Library...                                                                     |
+[2023-11-06 22:27:26,033] [config.py:863]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,033] [config.py:864]             [INFO]     |======================================== Plex Configuration ========================================|
+[2023-11-06 22:27:26,034] [library.py:123]            [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,034] [library.py:125]            [INFO]     | Using Asset Directory: //config/assets/music/                                                      |
+[2023-11-06 22:27:26,041] [config.py:878]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,041] [config.py:879]             [INFO]     | Music Library Connection Successful                                                                |
+[2023-11-06 22:27:26,041] [config.py:880]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,042] [config.py:881]             [INFO]     |=============================== Scanning Metadata and Overlay Files ================================|
+[2023-11-06 22:27:26,042] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,042] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,042] [meta.py:591]               [INFO]     |                      Loading Metadata File: //config/metadata/music/Fixes.yml                      |
+[2023-11-06 22:27:26,042] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,042] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,047] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/music/Fixes.yml                                                |
+[2023-11-06 22:27:26,047] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,047] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,047] [config.py:971]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,048] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,048] [config.py:665]             [INFO]     |                                        Shows Configuration                                         |
+[2023-11-06 22:27:26,048] [config.py:665]             [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,048] [config.py:666]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,048] [config.py:667]             [INFO]     | Connecting to Shows Library...                                                                     |
+[2023-11-06 22:27:26,049] [config.py:863]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,049] [config.py:864]             [INFO]     |======================================== Plex Configuration ========================================|
+[2023-11-06 22:27:26,056] [config.py:878]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,057] [config.py:879]             [INFO]     | Shows Library Connection Successful                                                                |
+[2023-11-06 22:27:26,057] [config.py:880]             [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,057] [config.py:881]             [INFO]     |=============================== Scanning Metadata and Overlay Files ================================|
+[2023-11-06 22:27:26,057] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,057] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,057] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/collections/shows/Specialty.yml                   |
+[2023-11-06 22:27:26,057] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,057] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,062] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/shows/Specialty.yml                                         |
+[2023-11-06 22:27:26,062] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,063] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,063] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,063] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,063] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/collections/shows/Franchises.yml                  |
+[2023-11-06 22:27:26,063] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,063] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,067] [meta.py:144]               [DEBUG]    | File Loaded From: //config/collections/shows/Franchises.yml                                        |
+[2023-11-06 22:27:26,068] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,068] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,068] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,068] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,068] [meta.py:591]               [INFO]     |             Loading Metadata File: //config/metadata/shows/Flight-of-the-Conchords.yml             |
+[2023-11-06 22:27:26,068] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,068] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,076] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Flight-of-the-Conchords.yml                              |
+[2023-11-06 22:27:26,077] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,077] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,077] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,077] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,077] [meta.py:591]               [INFO]     |                Loading Metadata File: //config/metadata/shows/Little-Women_2017.yml                |
+[2023-11-06 22:27:26,077] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,077] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,080] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Little-Women_2017.yml                                    |
+[2023-11-06 22:27:26,080] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,080] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,080] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,080] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,080] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/metadata/shows/Chappelles-Show.yml                 |
+[2023-11-06 22:27:26,080] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,080] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,090] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Chappelles-Show.yml                                      |
+[2023-11-06 22:27:26,090] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,090] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,090] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,090] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,090] [meta.py:591]               [INFO]     |            Loading Metadata File: //config/metadata/shows/Why-Didnt-They-Ask-Evans.yml             |
+[2023-11-06 22:27:26,090] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,090] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,093] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Why-Didnt-They-Ask-Evans.yml                             |
+[2023-11-06 22:27:26,093] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,093] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,093] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,093] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,093] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/metadata/shows/Long-Way-Down.yml                  |
+[2023-11-06 22:27:26,093] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,093] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,098] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Long-Way-Down.yml                                        |
+[2023-11-06 22:27:26,098] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,098] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,098] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,098] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,098] [meta.py:591]               [INFO]     |               Loading Metadata File: //config/metadata/shows/blank-show-template.yml               |
+[2023-11-06 22:27:26,098] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,098] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,114] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/blank-show-template.yml                                  |
+[2023-11-06 22:27:26,114] [meta.py:48]                [WARNING]  | Config Warning: Skipping duplicate metadata: 71862                                                 |
+[2023-11-06 22:27:26,114] [library.py:142]            [ERROR]    | YAML Error: metadata, collections, or dynamic_collections attribute is required                    |
+[2023-11-06 22:27:26,114] [library.py:143]            [INFO]     | Metadata File Failed To Load                                                                       |
+[2023-11-06 22:27:26,115] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,115] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,115] [meta.py:591]               [INFO]     |           Loading Metadata File: //config/metadata/shows/Exterminate-All-The-Brutes.yml            |
+[2023-11-06 22:27:26,115] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,115] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,118] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Exterminate-All-The-Brutes.yml                           |
+[2023-11-06 22:27:26,118] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,118] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,118] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,118] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,118] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/metadata/shows/Dave_Ramsey-FPU.yml                 |
+[2023-11-06 22:27:26,118] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,118] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,124] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Dave_Ramsey-FPU.yml                                      |
+[2023-11-06 22:27:26,124] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,124] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,124] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,124] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,125] [meta.py:591]               [INFO]     |                Loading Metadata File: //config/metadata/shows/Star-Wars-Rebels.yml                 |
+[2023-11-06 22:27:26,125] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,125] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,127] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Star-Wars-Rebels.yml                                     |
+[2023-11-06 22:27:26,127] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,127] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,127] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,127] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,128] [meta.py:591]               [INFO]     |                    Loading Metadata File: //config/metadata/shows/Seinfeld.yml                     |
+[2023-11-06 22:27:26,128] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,128] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,183] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Seinfeld.yml                                             |
+[2023-11-06 22:27:26,183] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,183] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,184] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,184] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,184] [meta.py:591]               [INFO]     |              Loading Metadata File: //config/metadata/shows/Arrested-Development.yml               |
+[2023-11-06 22:27:26,184] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,184] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,203] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Arrested-Development.yml                                 |
+[2023-11-06 22:27:26,203] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,203] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,203] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,203] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,203] [meta.py:591]               [INFO]     |                     Loading Metadata File: //config/metadata/shows/30_Rock.yml                     |
+[2023-11-06 22:27:26,203] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,203] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,220] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/30_Rock.yml                                              |
+[2023-11-06 22:27:26,220] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,220] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,220] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,220] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,220] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/metadata/shows/The First Lady.yml                  |
+[2023-11-06 22:27:26,221] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,221] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,225] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/The First Lady.yml                                       |
+[2023-11-06 22:27:26,225] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,225] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,225] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,225] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,225] [meta.py:591]               [INFO]     |         Loading Metadata File: //config/metadata/shows/Dr-Katz_Professional-Therapist.yml          |
+[2023-11-06 22:27:26,226] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,226] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,233] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Dr-Katz_Professional-Therapist.yml                       |
+[2023-11-06 22:27:26,233] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,233] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,233] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,233] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,233] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/metadata/shows/Long-Way-Round.yml                  |
+[2023-11-06 22:27:26,234] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,234] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,238] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Long-Way-Round.yml                                       |
+[2023-11-06 22:27:26,238] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,238] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,238] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,238] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,238] [meta.py:591]               [INFO]     |                     Loading Metadata File: //config/metadata/shows/GI-Joe.yml                      |
+[2023-11-06 22:27:26,238] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,238] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,247] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/GI-Joe.yml                                               |
+[2023-11-06 22:27:26,247] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,247] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,247] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,247] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,247] [meta.py:591]               [INFO]     |                 Loading Metadata File: //config/metadata/shows/Everything-Else.yml                 |
+[2023-11-06 22:27:26,248] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,248] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,264] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/Everything-Else.yml                                      |
+[2023-11-06 22:27:26,264] [meta.py:48]                [WARNING]  | Config Warning: Skipping duplicate metadata: 389612                                                |
+[2023-11-06 22:27:26,264] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,264] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,264] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,264] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,264] [meta.py:591]               [INFO]     |                  Loading Metadata File: //config/metadata/shows/The-Simpsons.yml                   |
+[2023-11-06 22:27:26,264] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,264] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,284] [meta.py:144]               [DEBUG]    | File Loaded From: //config/metadata/shows/The-Simpsons.yml                                         |
+[2023-11-06 22:27:26,284] [meta.py:1043]              [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,284] [meta.py:1044]              [INFO]     | Metadata File Loaded Successfully                                                                  |
+[2023-11-06 22:27:26,284] [meta.py:590]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,285] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,285] [meta.py:591]               [INFO]     |                               Loading Metadata PMM Default: country                                |
+[2023-11-06 22:27:26,285] [meta.py:591]               [INFO]     |====================================================================================================|
+[2023-11-06 22:27:26,285] [meta.py:592]               [DEBUG]    |                                                                                                    |
+[2023-11-06 22:27:26,298] [meta.py:144]               [DEBUG]    | File Loaded From: /defaults/show/country.yml                                                       |
+[2023-11-06 22:27:26,321] [meta.py:144]               [DEBUG]    | File Loaded From: /defaults/templates.yml                                                          |
+[2023-11-06 22:27:26,680] [meta.py:602]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,680] [meta.py:603]               [INFO]     |=============================== Building Country Dynamic Collections ===============================|
+[2023-11-06 22:27:26,680] [meta.py:604]               [INFO]     |                                                                                                    |
+[2023-11-06 22:27:26,680] [plex.py:520]               [INFO]     | Loading All Shows from Library: Shows                                                              |
+[2023-11-06 22:27:27,147] [plex.py:529]               [INFO]     | Loaded 307 Shows                                                                                   |
+[2023-11-06 22:27:28,483] [tmdb.py:412]               [INFO]     | Dave Ramsey's Financial P | No TMDb ID for Guid: local://26006                                     |

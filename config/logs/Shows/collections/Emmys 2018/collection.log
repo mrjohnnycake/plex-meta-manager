@@ -1,0 +1,49 @@
+[2023-11-07 06:12:04,216] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 06:12:04,216] [builder.py:193]            [INFO]     |                                   Emmys 2018 Collection in Shows                                   |
+[2023-11-07 06:12:04,216] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 06:12:04,216] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-07 06:12:04,216] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-07 06:12:04,216] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,216] [builder.py:216]            [DEBUG]    | Templates Called: use_year_collections, imdb, shared, arr, custom                                  |
+[2023-11-07 06:12:04,216] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,233] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-07 06:12:04,234] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,234] [meta.py:552]               [DEBUG]    | {'imdb_list': 'https://www.imdb.com/search/title/?release_date=2017-05-31,2018-06-01&groups=emmy_winner&sort=moviemeter,asc', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!16_Emmys 2018', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/award/emmys/winner/2018.jpg', 'collection_order': 'alpha', 'sync_mode': 'sync', 'cache_builders': 1} |
+[2023-11-07 06:12:04,234] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,234] [builder.py:233]            [INFO]     |================================= Validating Emmys 2018 Attributes =================================|
+[2023-11-07 06:12:04,277] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,278] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-11-07 06:12:04,278] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-07 06:12:04,278] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,278] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-07 06:12:04,278] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-07 06:12:04,278] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,278] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-07 06:12:04,278] [builder.py:684]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-11-07 06:12:04,278] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,278] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
+[2023-11-07 06:12:04,279] [builder.py:720]            [DEBUG]    | Value: Emmy Awards                                                                                 |
+[2023-11-07 06:12:04,279] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 06:12:04,279] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-07 06:12:04,279] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?release_date=2017-05-31,2018-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-11-07 06:12:05,113] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 793, in __init__                                                |
+                                                                 |     self._imdb(method_name, method_data)                                                           |
+                                                                 |   File "/modules/builder.py", line 1239, in _imdb                                                  |
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):  |
+                                                                 |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   |
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists                                         |
+                                                                 |     self._total(imdb_url, language)                                                                |
+                                                                 |   File "/modules/imdb.py", line 118, in _total                                                     |
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?release_date=2017-05-31,2018-06-01&groups=emmy_winner&sort=moviemeter,asc |
+                                                                 |                                                                                                    |
+[2023-11-07 06:12:05,114] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?release_date=2017-05-31,2018-06-01&groups=emmy_winner&sort=moviemeter,asc |
+[2023-11-07 06:12:05,114] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-07 06:12:05,115] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-07 06:12:05,115] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Emmys 2018 Collection                                   |
+[2023-11-07 06:12:05,115] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-11-07 06:12:05,115] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
