@@ -56,8 +56,26 @@ metadata:
     title: Anne of Green Gables - The Good Stars
     url_poster: https://theposterdb.com/api/assets/85045
 
+  102899: # Ant-Man
+    url_poster: https://theposterdb.com/api/assets/9786
+
+  363088: # Ant-Man and the Wasp
+    url_poster: https://theposterdb.com/api/assets/9795
+
   640146: # Ant-Man and the Wasp: Quantumania 
     url_poster: https://www.themoviedb.org/t/p/original/hp8WX1GpZBmziDGvIOW7IwFN4Gl.jpg
+
+  24428: # The Avengers
+    url_poster: https://theposterdb.com/api/assets/9779
+
+  99861: # Avengers: Age of Ultron
+    url_poster: https://theposterdb.com/api/assets/9785
+
+  299534: # Avengers: Endgame
+    url_poster: https://theposterdb.com/api/assets/9797
+
+  299536: # Avengers: Infinity War
+    url_poster: https://theposterdb.com/api/assets/9794
 
   537996: # The Ballad of Buster Scruggs
     url_poster: https://theposterdb.com/api/assets/284748
@@ -86,8 +104,14 @@ metadata:
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
 
+  284054: # Black Panther
+    url_poster: https://theposterdb.com/api/assets/9792
+
   505642: # Black Panther: Wakanda Forever
     url_poster: https://theposterdb.com/api/assets/286152
+
+  497698: # Black Widow
+    url_poster: https://theposterdb.com/api/assets/54982
 
   8338: # Blindness
     url_poster: https://www.themoviedb.org/t/p/original/deBsx5IxyqCC217j3VY24TkkE0Z.jpg
@@ -125,6 +149,18 @@ metadata:
 
   11286: # The Cannonball Run
     url_poster: https://theposterdb.com/api/assets/72226
+
+  271110: # Captain America: Civil War
+    url_poster: https://theposterdb.com/api/assets/9787
+
+  1771: # Captain America: The First Avenger
+    url_poster: https://theposterdb.com/api/assets/9778
+
+  100402: # Captain America: The Winter Soldier
+    url_poster: https://theposterdb.com/api/assets/9783
+
+  299537: # Captain Marvel
+    url_poster: https://theposterdb.com/api/assets/9796
 
   34069: # Cargo
     url_poster: https://www.themoviedb.org/t/p/original/i4h0qGCmqQ8P12W3yVgCNN7PnMP.jpg

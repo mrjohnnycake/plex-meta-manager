@@ -98,6 +98,12 @@ metadata:
   984: # Dirty Harry
     url_poster: https://theposterdb.com/api/assets/852
 
+  284052: # Doctor Strange
+    url_poster: https://theposterdb.com/api/assets/9788
+
+  453395: # Doctor Strange in the Multiverse of Madness
+    url_poster: https://theposterdb.com/api/assets/234599
+
   470942: # Don't Break Down: A Film About Jawbreaker
     content_rating: 15
 
@@ -112,6 +118,9 @@ metadata:
 
   10649: # The Enforcer
     url_poster: https://theposterdb.com/api/assets/855
+
+  524434: # Eternals
+    url_poster: https://theposterdb.com/api/assets/153775
 
   554603: # The Eugenics Crusade
     content_rating: 13

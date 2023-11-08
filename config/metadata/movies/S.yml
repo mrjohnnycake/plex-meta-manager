@@ -26,6 +26,12 @@ metadata:
   14291: # Searching for Bobby Fischer
     url_poster: https://image.tmdb.org/t/p/original//oAJpHkMpfXiFY9F3HocIz9fhHLc.jpg
 
+  566525: # Shang-Chi and the Legend of the Ten Rings
+    url_poster: https://theposterdb.com/api/assets/170437
+
+  278: # The Shawshank Redemption
+    url_poster: https://theposterdb.com/api/assets/199948
+
   808: # Shrek
     sort_title: Shrek 1
     url_poster: https://theposterdb.com/api/assets/144390
@@ -41,9 +47,6 @@ metadata:
   10192: # Shrek Forever After
     sort_title: Shrek 4
     url_poster: https://theposterdb.com/api/assets/144405
-
-  278: # The Shawshank Redemption
-    url_poster: https://theposterdb.com/api/assets/199948
 
   14924: # Sid & Nancy
     url_poster: https://theposterdb.com/api/assets/17291
@@ -63,6 +66,15 @@ metadata:
 
   10442: # So I Married an Axe Murderer
     url_poster: https://image.tmdb.org/t/p/original//wMr6ZjfOnCHOA9Qm3jvo0e7nzfx.jpg
+
+  429617: # Spider-Man: Far From Home
+    url_poster: https://theposterdb.com/api/assets/9798
+
+  315635: # Spider-Man: Homecoming
+    url_poster: https://theposterdb.com/api/assets/9790
+
+  634649: # Spider-Man: No Way Home
+    url_poster: https://theposterdb.com/api/assets/188475
 
   325813: # Splitting Adam
     url_poster: https://www.themoviedb.org/t/p/original/gXityecPMUQQiTYbbOQ70TsA1su.jpg

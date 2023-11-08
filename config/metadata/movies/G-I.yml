@@ -50,6 +50,9 @@ metadata:
   11520: # Grumpy Old Men
     url_poster: https://theposterdb.com/api/assets/176088
 
+  283995: # Guardians of the Galaxy, Vol. 2
+    url_poster: https://theposterdb.com/api/assets/9789
+
   447365: # Guardians of the Galaxy, Vol. 3
     url_poster: https://theposterdb.com/api/assets/383018
 
@@ -163,6 +166,12 @@ metadata:
 
   1726: # Iron Man
     url_poster: https://theposterdb.com/api/assets/9773
+
+  10138: # Iron Man 2
+    url_poster: https://theposterdb.com/api/assets/9776
+
+  68721: # Iron Man 3
+    url_poster: https://theposterdb.com/api/assets/9780
 
   1585: # It's A Wonderful Life
     url_poster: https://theposterdb.com/api/assets/123684
