@@ -1,23 +1,23 @@
-[2023-11-04 18:46:51,271] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-04 18:46:51,271] [builder.py:193]            [INFO]     |                                 Oscar Winners Collection in Movies                                 |
-[2023-11-04 18:46:51,271] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-04 18:46:51,271] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-04 18:46:51,271] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-04 18:46:51,271] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,271] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
-[2023-11-04 18:46:51,271] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,272] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-04 18:46:51,272] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,272] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.imgur.com/9yKqpqa.png', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-04 18:46:51,272] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,272] [builder.py:233]            [INFO]     |=============================== Validating Oscar Winners Attributes ================================|
-[2023-11-04 18:46:51,833] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,833] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-04 18:46:51,834] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-04 18:46:51,834] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-04 18:46:51,834] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-11-04 18:46:51,834] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner       |
-[2023-11-04 18:46:52,970] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2023-11-07 23:09:59,712] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 23:09:59,712] [builder.py:193]            [INFO]     |                                 Oscar Winners Collection in Movies                                 |
+[2023-11-07 23:09:59,712] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-07 23:09:59,712] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-07 23:09:59,712] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-07 23:09:59,712] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-07 23:09:59,713] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-11-07 23:09:59,713] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-07 23:09:59,713] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-07 23:09:59,713] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-07 23:09:59,714] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.imgur.com/9yKqpqa.png', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-07 23:09:59,714] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-07 23:09:59,714] [builder.py:233]            [INFO]     |=============================== Validating Oscar Winners Attributes ================================|
+[2023-11-07 23:10:00,308] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-07 23:10:00,308] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-07 23:10:00,308] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-07 23:10:00,309] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-07 23:10:00,309] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-07 23:10:00,309] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner       |
+[2023-11-07 23:10:01,354] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
                                                                  |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
                                                                  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
@@ -32,9 +32,9 @@
                                                                  |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
                                                                  | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner |
                                                                  |                                                                                                    |
-[2023-11-04 18:46:52,971] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner |
-[2023-11-04 18:46:52,972] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-04 18:46:52,972] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-04 18:46:52,972] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Oscar Winners Collection                                  |
-[2023-11-04 18:46:52,972] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
-[2023-11-04 18:46:52,972] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-07 23:10:01,355] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature,documentary&groups=oscar_winner |
+[2023-11-07 23:10:01,355] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-07 23:10:01,355] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-07 23:10:01,356] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Oscar Winners Collection                                  |
+[2023-11-07 23:10:01,356] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2023-11-07 23:10:01,356] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

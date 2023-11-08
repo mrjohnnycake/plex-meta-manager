@@ -125,6 +125,7 @@ Marvel:
     393203: Secret Invasion
     415084: Marvel's Moon Girl and Devil Dinosaur
     368613: 'She-Hulk: Attorney at Law'
+    393201: I Am Groot
     393207: Baymax!
     368612: Ms. Marvel
     402834: Super Crooks
@@ -155,6 +156,7 @@ Marvel:
     326174: Marvel's Rocket & Groot
     320724: Legion
     304219: Marvel's Luke Cage
+    284190: Marvel's Jessica Jones
     293614: Marvel's Guardians of the Galaxy
     281662: Marvel's Daredevil
     281485: Marvel's Agent Carter
@@ -162,6 +164,7 @@ Marvel:
     282798: 'Wolverine Weapon X: Tomorrow Dies Today'
     278153: 'Marvel Disk Wars: The Avengers'
     280601: Wolverine vs Sabretooth
+    263365: Marvel's Agents of S.H.I.E.L.D.
     273281: Ultimate Wolverine vs. Hulk
     267543: Marvel's Hulk and the Agents of S.M.A.S.H.
     263979: 'Wolverine: Origin'
@@ -822,14 +825,6 @@ Korea:
   - Yellowjackets
   - You, Me and the Apocalypse
 Trakt Trending:
-  Shows Added (TVDb IDs): {}
-  Shows Added:
-  - Bob's Burgers
-  - The Simpsons
-  - Fear the Walking Dead
-  Shows Removed (TVDb IDs): {}
-  Shows Removed:
-  - The Boys
   Shows Missing (TVDb IDs):
     417909: Gen V
     416503: 'Lawmen: Bass Reeves'
