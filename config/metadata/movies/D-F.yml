@@ -14,6 +14,9 @@
 
 metadata:
 
+  7211: # Dan In Real Life
+    url_poster: https://theposterdb.com/api/assets/113756
+
   1410: # Dark Star
     content_rating: 12
 
@@ -79,6 +82,12 @@ metadata:
   9739: # Demolition Man
     url_poster: https://theposterdb.com/api/assets/67020
 
+  681: # Diamonds Are Forever
+    url_poster: https://theposterdb.com/api/assets/115669
+
+  36669: # Die Another Day
+    url_poster: https://theposterdb.com/api/assets/115683
+
   562: # Die Hard
     sort_title: Die Hard 1
     url_poster: https://theposterdb.com/api/assets/558
@@ -90,10 +99,6 @@ metadata:
   1572: # Die Hard with a Vengeance
     sort_title: Die Hard 3
     url_poster: https://theposterdb.com/api/assets/560
-
-  1571: # Live Free or Die Hard
-    sort_title: Die Hard 4
-    url_poster: https://theposterdb.com/api/assets/561
 
   984: # Dirty Harry
     url_poster: https://theposterdb.com/api/assets/852
@@ -109,6 +114,9 @@ metadata:
 
   9101: # Down Periscope
     url_poster: https://image.tmdb.org/t/p/original//brleKcHsirTw7lFqcgUMOfgL2nl.jpg
+
+  646: # Dr. No
+    url_poster: https://theposterdb.com/api/assets/115663
 
   935: # Dr. Strangelove
     url_poster: https://theposterdb.com/api/assets/214759
@@ -152,6 +160,9 @@ metadata:
   14799: # For Your Consideration
     url_poster: https://www.themoviedb.org/t/p/original/fvXClgY4ZJ7dBxalFuxPgb4nJ9s.jpg
 
+  699: # For Your Eyes Only
+    url_poster: https://theposterdb.com/api/assets/115674
+
   983406: # Fourth of July
     content_rating: 17
 
@@ -160,3 +171,6 @@ metadata:
 
   10559: # Frequency
     url_poster: https://theposterdb.com/api/assets/108800
+
+  657: # From Russia With Love
+    url_poster: https://theposterdb.com/api/assets/115664

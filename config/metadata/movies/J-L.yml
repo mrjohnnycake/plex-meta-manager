@@ -131,11 +131,21 @@ metadata:
   944: # Lethal Weapon 4
     url_poster: https://theposterdb.com/api/assets/99
 
+  709: # Licence to Kill
+    url_poster: https://theposterdb.com/api/assets/115679
+
   718789: # Lightyear
     url_poster: https://theposterdb.com/api/assets/218896
 
+  253: # Live and Let Die
+    url_poster: https://theposterdb.com/api/assets/115670
+
+  1571: # Live Free or Die Hard
+    sort_title: Die Hard 4
+    url_poster: https://theposterdb.com/api/assets/561
+
   708: # The Living Daylights
-    url_poster: https://theposterdb.com/api/assets/2090
+    url_poster: https://theposterdb.com/api/assets/115678
 
   254320: # The Lobster
     url_poster: https://theposterdb.com/api/assets/54870

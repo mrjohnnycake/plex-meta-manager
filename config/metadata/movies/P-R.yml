@@ -80,9 +80,11 @@ metadata:
   539: # Psycho
     url_poster: https://theposterdb.com/api/assets/19085
 
+  10764: # Quantum of Solace
+    url_poster: https://theposterdb.com/api/assets/115685
+
   114442: # Quest
     content_rating: 14
-  # url_poster: 
 
   94329: # The Raid
     title: The Raid
@@ -103,7 +105,3 @@ metadata:
 
   672233: # Rory Scovel: Live Without Fear
     content_rating: 17
-  # url_poster: 
-
-  # 461634: # Rory Scovel Tries Standup for the First Time
-  #   url_poster: 

@@ -116,6 +116,9 @@ metadata:
   8338: # Blindness
     url_poster: https://www.themoviedb.org/t/p/original/deBsx5IxyqCC217j3VY24TkkE0Z.jpg
 
+  4722: # Body Snatchers
+    url_poster: https://www.themoviedb.org/t/p/original/s8WdtuOBvfEsuPtbQVpNfEgd5aR.jpg
+
   20504: # The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
 
@@ -174,6 +177,9 @@ metadata:
   12208: # Casino Royale (1967)
     url_poster: https://theposterdb.com/api/assets/115689
 
+  36557: # Casino Royale (2006)
+    url_poster: https://theposterdb.com/api/assets/115684
+
   10515: # Castle In The Sky
     url_poster: https://theposterdb.com/api/assets/111923
 
@@ -185,6 +191,9 @@ metadata:
 
   902: # The City of Lost Children
     url_poster: https://image.tmdb.org/t/p/original//whwT3Q9JxbAYzEc3t7uYYcCbTMf.jpg
+
+  384521: # The Cloverfield Paradox
+    url_poster: https://theposterdb.com/api/assets/413423
 
   9612: # Coneheads
     url_poster: https://theposterdb.com/api/assets/67311

@@ -54,11 +54,11 @@ metadata:
   9882: # The Siege
     url_poster: https://www.themoviedb.org/t/p/original/6aSo9FepBA6zNEHgA3bgqt3UaOk.jpg
 
-  # 117974: # Sightseers
-  #   url_poster:
-
   17898: # Silver Bullet
     url_poster: https://theposterdb.com/api/assets/314340
+
+  37724: # Skyfall
+    url_poster: https://theposterdb.com/api/assets/115686
 
   137116: # Smurfs: The Lost Village
     sort_title: Smurfs 3
@@ -66,6 +66,9 @@ metadata:
 
   10442: # So I Married an Axe Murderer
     url_poster: https://image.tmdb.org/t/p/original//wMr6ZjfOnCHOA9Qm3jvo0e7nzfx.jpg
+
+  206647: # Spectre
+    url_poster: https://theposterdb.com/api/assets/115687
 
   429617: # Spider-Man: Far From Home
     url_poster: https://theposterdb.com/api/assets/9798
@@ -78,6 +81,9 @@ metadata:
 
   325813: # Splitting Adam
     url_poster: https://www.themoviedb.org/t/p/original/gXityecPMUQQiTYbbOQ70TsA1su.jpg
+
+  691: # The Spy Who Loved Me
+    url_poster: https://theposterdb.com/api/assets/115672
 
   152: # Star Trek: The Motion Picture
     sort_title: Star Trek 1

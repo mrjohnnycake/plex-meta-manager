@@ -23,6 +23,9 @@ metadata:
   415312: # The Man from Earth: Holocene
     content_rating: 16
 
+  682: # The Man With The Golden Gun
+    url_poster: https://theposterdb.com/api/assets/115671
+
   11454: # Manhunter
     url_poster: https://theposterdb.com/api/assets/178035
 
@@ -87,6 +90,9 @@ metadata:
   13509: # The Monster Squad
     url_poster: https://theposterdb.com/api/assets/116012
 
+  698: # Moonraker
+    url_poster: https://theposterdb.com/api/assets/115673
+
   392044: # Murder on the Orient Express
     url_poster: https://theposterdb.com/api/assets/7153
 
@@ -103,7 +109,7 @@ metadata:
     sort_title: Naked Gun 3
 
   36670: # Never Say Never Again
-    url_poster: https://theposterdb.com/api/assets/2088
+    url_poster: https://theposterdb.com/api/assets/115676
 
   15762: # Night of the Creeps
     url_poster: https://theposterdb.com/api/assets/62841
@@ -120,6 +126,9 @@ metadata:
   18942: # Nirvana: Unplugged In New York
     content_rating: 12
 
+  370172: # No Time To Die
+    url_poster: https://theposterdb.com/api/assets/115688
+
   161: # Ocean's Eleven
     sort_title: Oceans 1
     url_poster: https://theposterdb.com/api/assets/19154
@@ -133,7 +142,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/19156
 
   700: # Octopussy
-    url_poster: https://theposterdb.com/api/assets/21083
+    url_poster: https://theposterdb.com/api/assets/115675
 
   1542: # Office Space
     url_poster: https://theposterdb.com/api/assets/289290
@@ -142,7 +151,7 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/50704
 
   668: # On Her Majesty's Secret Service
-    url_poster: https://theposterdb.com/api/assets/2080
+    url_poster: https://theposterdb.com/api/assets/115668
 
   35412: # On The Beach
     url_poster: https://image.tmdb.org/t/p/original//lTDuj5zalrI0fpQel7UfPHTexTK.jpg

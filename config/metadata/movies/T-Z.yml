@@ -48,6 +48,9 @@ metadata:
     sort_title: Thor 4
     url_poster: https://theposterdb.com/api/assets/248629
 
+  660: # Thunderball
+    url_poster: https://theposterdb.com/api/assets/115666
+
   14139: # Timecrimes
     url_poster: https://www.themoviedb.org/t/p/original/svQmmEyXbMMPKGvj2PYxi72tXwY.jpg
 
@@ -56,6 +59,9 @@ metadata:
 
   11381: # Tommy Boy
     url_poster: https://image.tmdb.org/t/p/original//cUvdzCbhLyYUAwbIkBjT3tC28cK.jpg
+
+  714: # Tomorrow Never Dies
+    url_poster: https://theposterdb.com/api/assets/115681
 
   361743: # Top Gun - Maverick
     url_poster: https://theposterdb.com/api/assets/77095
@@ -94,6 +100,9 @@ metadata:
   426: # Vertigo
     url_poster: https://theposterdb.com/api/assets/60591
 
+  707: # A View To Kill
+    url_poster: https://theposterdb.com/api/assets/115677
+
   69: # Walk The Line
     url_poster: https://image.tmdb.org/t/p/original//p8lPTjvjOjTfvC1E9pmMwcF9vkn.jpg
 
@@ -121,6 +130,9 @@ metadata:
   517129: # Wolfman's Got Nards
     content_rating: 15
     url_poster: https://image.tmdb.org/t/p/original//exSBAnTy68SCz4k9S67zoVA29oM.jpg
+
+  36643: # The World Is Not Enough
+    url_poster: https://theposterdb.com/api/assets/115682
 
   75506: # World Without End
     url_poster: https://image.tmdb.org/t/p/original//flvqHHFMBCks5Mlb4HWydUZcwbV.jpg
@@ -152,6 +164,9 @@ metadata:
   246655: # X-Men: Apocalypse
     sort_title: X-Men 2016
     url_poster: https://theposterdb.com/api/assets/143889
+
+  667: # You Only Live Twice
+    url_poster: https://theposterdb.com/api/assets/115667
 
   703451: # Your Place or Mine
     url_poster: https://image.tmdb.org/t/p/original//ApkSeqfIPRCxOtfjXYYE6Ji7jVU.jpg
