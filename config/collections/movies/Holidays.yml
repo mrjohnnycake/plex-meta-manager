@@ -23,8 +23,8 @@ collections:
 
   Christmas: #IMDB lists have been removed as they have all been merged into christmas-static-list
     template: {name: Holiday, holiday: "Christmas", poster: https://theposterdb.com/api/assets/212635}
-    visible_home: range(12/01-12/31)
-    visible_shared: range(12/01-12/31)
+    visible_home: range(11/29-12/31)
+    visible_shared: range(11/29-12/31)
     trakt_list:
       - https://trakt.tv/users/jjjonesjr33/lists/christmas
       - https://trakt.tv/users/jjjonesjr33/lists/christmas-static-list
@@ -65,8 +65,8 @@ collections:
 
   Thanksgiving Movies:
     template: {name: Holiday, holiday: Thanksgiving, poster: https://theposterdb.com/api/assets/212638}
-    visible_home: range(11/01-11/31)
-    visible_shared: range(11/01-11/31)
+    visible_home: range(11/01-11/28)
+    visible_shared: range(11/01-11/28)
     trakt_list:
       - https://trakt.tv/users/mrjohnnycake/lists/thanksgiving?sort=title,asc
     summary: This collection revolves around the plot involving Thanksgiving.
