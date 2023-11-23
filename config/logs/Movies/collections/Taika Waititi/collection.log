@@ -1,70 +1,70 @@
-[2023-11-08 05:01:27,851] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:01:27,851] [builder.py:193]            [INFO]     |                                 Taika Waititi Collection in Movies                                 |
-[2023-11-08 05:01:27,851] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:01:27,851] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:01:27,851] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:01:27,851] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:27,851] [builder.py:216]            [DEBUG]    | Templates Called: Director                                                                         |
-[2023-11-08 05:01:27,851] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:27,852] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:01:27,852] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:27,852] [meta.py:552]               [DEBUG]    | {'tmdb_person': 55934, 'sort_title': '++_Taika Waititi', 'collection_order': 'release', 'collection_mode': 'hide'} |
-[2023-11-08 05:01:27,852] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:27,852] [builder.py:233]            [INFO]     |=============================== Validating Taika Waititi Attributes ================================|
-[2023-11-08 05:01:27,941] [builder.py:591]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:27,941] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
-[2023-11-08 05:01:27,941] [builder.py:596]            [DEBUG]    | Value: 55934                                                                                       |
-[2023-11-08 05:01:28,052] [builder.py:682]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,052] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-11-08 05:01:28,052] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
-[2023-11-08 05:01:28,053] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,053] [builder.py:719]            [DEBUG]    | Validating Method: director                                                                        |
-[2023-11-08 05:01:28,053] [builder.py:720]            [DEBUG]    | Value: tmdb                                                                                        |
-[2023-11-08 05:01:28,115] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,115] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:01:28,115] [builder.py:720]            [DEBUG]    | Value: Taika David Cohen ONZM (born 16 August 1975), known professionally as Taika Waititi, is a New Zealand film and television director, producer, screenwriter, actor, and comedian. He is the recipient of an Academy Award, BAFTA Award and a Grammy Award, and has been nominated for two Primetime Emmy Awards. |
-[2023-11-08 05:01:28,115] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,116] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:01:28,116] [builder.py:720]            [DEBUG]    | Value: ++_Taika Waititi                                                                            |
-[2023-11-08 05:01:28,116] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,116] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-08 05:01:28,116] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-08 05:01:28,116] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,116] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:01:28,116] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,116] [plex_meta_manager.py:638]  [INFO]     |================================= Running Taika Waititi Collection =================================|
-[2023-11-08 05:01:28,116] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,116] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: append                                                                                  |
-[2023-11-08 05:01:28,117] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,117] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Taika Waititi", '?type=1&sort=titleSort&push=1&director=82806&pop=1') |
-[2023-11-08 05:01:28,117] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,117] [plex.py:946]               [INFO]     | Processing Plex Movie Search                                                                       |
+[2023-11-22 05:01:39,637] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:01:39,637] [builder.py:193]            [INFO]     |                                 Taika Waititi Collection in Movies                                 |
+[2023-11-22 05:01:39,638] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:01:39,638] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,638] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:01:39,638] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,638] [builder.py:216]            [DEBUG]    | Templates Called: Director                                                                         |
+[2023-11-22 05:01:39,638] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,638] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:01:39,639] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,639] [meta.py:552]               [DEBUG]    | {'tmdb_person': 55934, 'sort_title': '++_Taika Waititi', 'collection_order': 'release', 'collection_mode': 'hide'} |
+[2023-11-22 05:01:39,639] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,639] [builder.py:233]            [INFO]     |=============================== Validating Taika Waititi Attributes ================================|
+[2023-11-22 05:01:39,722] [builder.py:591]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,722] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2023-11-22 05:01:39,722] [builder.py:596]            [DEBUG]    | Value: 55934                                                                                       |
+[2023-11-22 05:01:39,817] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,817] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-22 05:01:39,817] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2023-11-22 05:01:39,817] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,817] [builder.py:719]            [DEBUG]    | Validating Method: director                                                                        |
+[2023-11-22 05:01:39,817] [builder.py:720]            [DEBUG]    | Value: tmdb                                                                                        |
+[2023-11-22 05:01:39,876] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,876] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:01:39,876] [builder.py:720]            [DEBUG]    | Value: Taika David Cohen ONZM (born 16 August 1975), known professionally as Taika Waititi, is a New Zealand film and television director, producer, screenwriter, actor, and comedian. He is the recipient of an Academy Award, BAFTA Award and a Grammy Award, and has been nominated for two Primetime Emmy Awards. |
+[2023-11-22 05:01:39,876] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,877] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:01:39,877] [builder.py:720]            [DEBUG]    | Value: ++_Taika Waititi                                                                            |
+[2023-11-22 05:01:39,877] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,877] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-22 05:01:39,877] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-22 05:01:39,877] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,877] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:01:39,877] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,877] [plex_meta_manager.py:638]  [INFO]     |================================= Running Taika Waititi Collection =================================|
+[2023-11-22 05:01:39,877] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,877] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-11-22 05:01:39,877] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,878] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Director is Taika Waititi", '?type=1&sort=titleSort&push=1&director=82806&pop=1') |
+[2023-11-22 05:01:39,878] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,878] [plex.py:946]               [INFO]     | Processing Plex Movie Search                                                                       |
                                                                  | Sort By: ['title.asc']                                                                             |
                                                                  | Filter:                                                                                            |
                                                                  |   Match any of the following:                                                                      |
                                                                  |     Director is Taika Waititi                                                                      |
-[2023-11-08 05:01:28,133] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,134] [builder.py:1666]           [DEBUG]    | 5 IDs Found                                                                                        |
-[2023-11-08 05:01:28,134] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:28,134] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,134] [builder.py:2250]           [INFO]     |================================ Adding to Taika Waititi Collection ================================|
-[2023-11-08 05:01:28,134] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,134] [builder.py:2265]           [INFO]     | 1/5 | Taika Waititi Collection | = | Hunt for the Wilderpeople (2016)                              |
-[2023-11-08 05:01:28,134] [builder.py:2265]           [INFO]     | 2/5 | Taika Waititi Collection | = | Jojo Rabbit (2019)                                            |
-[2023-11-08 05:01:28,134] [builder.py:2265]           [INFO]     | 3/5 | Taika Waititi Collection | = | Thor: Ragnarok (2017)                                         |
-[2023-11-08 05:01:28,134] [builder.py:2265]           [INFO]     | 4/5 | Taika Waititi Collection | = | Thor: Love and Thunder (2022)                                 |
-[2023-11-08 05:01:28,134] [builder.py:2265]           [INFO]     | 5/5 | Taika Waititi Collection | = | What We Do in the Shadows (2014)                              |
-[2023-11-08 05:01:28,134] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,135] [builder.py:2287]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
-[2023-11-08 05:01:28,140] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,140] [builder.py:2624]           [INFO]     |=========================== Updating Details of Taika Waititi Collection ===========================|
-[2023-11-08 05:01:28,140] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,147] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:01:28,147] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
-[2023-11-08 05:01:28,147] [util.py:180]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xbRQK8szHo4s8erD9O69lEVuC7z.jpg    |
-[2023-11-08 05:01:28,148] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-11-08 05:01:28,241] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:28,241] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:01:28,241] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Taika Waititi Collection                                  |
-[2023-11-08 05:01:28,241] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-11-08 05:01:28,241] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:01:39,892] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,892] [builder.py:1666]           [DEBUG]    | 5 IDs Found                                                                                        |
+[2023-11-22 05:01:39,892] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:39,892] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,892] [builder.py:2250]           [INFO]     |================================ Adding to Taika Waititi Collection ================================|
+[2023-11-22 05:01:39,892] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,892] [builder.py:2265]           [INFO]     | 1/5 | Taika Waititi Collection | = | Hunt for the Wilderpeople (2016)                              |
+[2023-11-22 05:01:39,893] [builder.py:2265]           [INFO]     | 2/5 | Taika Waititi Collection | = | Jojo Rabbit (2019)                                            |
+[2023-11-22 05:01:39,893] [builder.py:2265]           [INFO]     | 3/5 | Taika Waititi Collection | = | Thor: Ragnarok (2017)                                         |
+[2023-11-22 05:01:39,893] [builder.py:2265]           [INFO]     | 4/5 | Taika Waititi Collection | = | Thor: Love and Thunder (2022)                                 |
+[2023-11-22 05:01:39,893] [builder.py:2265]           [INFO]     | 5/5 | Taika Waititi Collection | = | What We Do in the Shadows (2014)                              |
+[2023-11-22 05:01:39,893] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,893] [builder.py:2287]           [INFO]     | 5 Movies Processed 0 Movies Added                                                                  |
+[2023-11-22 05:01:39,897] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,897] [builder.py:2624]           [INFO]     |=========================== Updating Details of Taika Waititi Collection ===========================|
+[2023-11-22 05:01:39,897] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,903] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:01:39,907] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-11-22 05:01:39,907] [util.py:180]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xbRQK8szHo4s8erD9O69lEVuC7z.jpg    |
+[2023-11-22 05:01:39,908] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-11-22 05:01:39,986] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:39,986] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:01:39,986] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Taika Waititi Collection                                  |
+[2023-11-22 05:01:39,986] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-11-22 05:01:39,986] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

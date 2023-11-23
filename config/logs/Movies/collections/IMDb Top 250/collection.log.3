@@ -1,197 +1,40 @@
-[2023-11-07 22:58:07,491] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 22:58:07,491] [builder.py:193]            [INFO]     |                                 IMDb Top 250 Collection in Movies                                  |
-[2023-11-07 22:58:07,491] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 22:58:07,491] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-07 22:58:07,491] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-07 22:58:07,491] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,491] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
-[2023-11-07 22:58:07,492] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,492] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-07 22:58:07,492] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,492] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.redd.it/gkfygy4k3tr21.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-07 22:58:07,492] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,493] [builder.py:233]            [INFO]     |================================ Validating IMDb Top 250 Attributes ================================|
-[2023-11-07 22:58:07,970] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,970] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-07 22:58:07,970] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-07 22:58:07,970] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:07,970] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-11-07 22:58:07,970] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc           |
-[2023-11-07 22:58:09,850] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:09,850] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-07 22:58:09,851] [builder.py:720]            [DEBUG]    | Value: ++++++++_IMDb Top 250                                                                       |
-[2023-11-07 22:58:09,851] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:09,851] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-07 22:58:09,851] [builder.py:720]            [DEBUG]    | Value: IMDb's all-time top 250 highest rated movies.                                               |
-[2023-11-07 22:58:09,851] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:09,851] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-07 22:58:09,851] [builder.py:720]            [DEBUG]    | Value: https://i.redd.it/gkfygy4k3tr21.jpg                                                         |
-[2023-11-07 22:58:10,044] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:10,045] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-07 22:58:10,045] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-07 22:58:10,045] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:10,045] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-07 22:58:10,045] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-07 22:58:10,045] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:10,045] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-07 22:58:10,045] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-07 22:58:10,046] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-07 22:58:10,046] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-07 22:58:10,049] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-07 22:58:10,049] [plex_meta_manager.py:638]  [INFO]     |================================= Running IMDb Top 250 Collection ==================================|
-[2023-11-07 22:58:10,049] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-07 22:58:10,050] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-07 22:58:10,050] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:10,050] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc', 'limit': 0} |
-[2023-11-07 22:58:10,050] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-07 22:58:10,050] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
-[2023-11-07 22:58:15,854] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:15,854] [builder.py:1666]           [DEBUG]    | 250 IDs Found                                                                                      |
-[2023-11-07 22:58:15,854] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-07 22:58:28,304] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:28,305] [builder.py:2250]           [INFO]     |================================ Adding to IMDb Top 250 Collection =================================|
-[2023-11-07 22:58:28,305] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:28,305] [builder.py:2265]           [INFO]     |   1/127 | IMDb Top 250 Collection | = | The Shawshank Redemption (1994)                            |
-[2023-11-07 22:58:28,306] [builder.py:2265]           [INFO]     |   2/127 | IMDb Top 250 Collection | = | The Godfather (1972)                                       |
-[2023-11-07 22:58:28,306] [builder.py:2265]           [INFO]     |   3/127 | IMDb Top 250 Collection | = | The Dark Knight (2008)                                     |
-[2023-11-07 22:58:28,306] [builder.py:2265]           [INFO]     |   4/127 | IMDb Top 250 Collection | = | Schindler's List (1993)                                    |
-[2023-11-07 22:58:28,307] [builder.py:2265]           [INFO]     |   5/127 | IMDb Top 250 Collection | = | The Lord of the Rings: The Return of the King (2003)       |
-[2023-11-07 22:58:28,307] [builder.py:2265]           [INFO]     |   6/127 | IMDb Top 250 Collection | = | The Godfather Part II (1974)                               |
-[2023-11-07 22:58:28,307] [builder.py:2265]           [INFO]     |   7/127 | IMDb Top 250 Collection | = | 12 Angry Men (1957)                                        |
-[2023-11-07 22:58:28,307] [builder.py:2265]           [INFO]     |   8/127 | IMDb Top 250 Collection | = | Pulp Fiction (1994)                                        |
-[2023-11-07 22:58:28,308] [builder.py:2265]           [INFO]     |   9/127 | IMDb Top 250 Collection | = | Fight Club (1999)                                          |
-[2023-11-07 22:58:28,308] [builder.py:2265]           [INFO]     |  10/127 | IMDb Top 250 Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001)   |
-[2023-11-07 22:58:28,308] [builder.py:2265]           [INFO]     |  11/127 | IMDb Top 250 Collection | = | Inception (2010)                                           |
-[2023-11-07 22:58:28,309] [builder.py:2265]           [INFO]     |  12/127 | IMDb Top 250 Collection | = | Forrest Gump (1994)                                        |
-[2023-11-07 22:58:28,309] [builder.py:2265]           [INFO]     |  13/127 | IMDb Top 250 Collection | = | The Lord of the Rings: The Two Towers (2002)               |
-[2023-11-07 22:58:28,309] [builder.py:2265]           [INFO]     |  14/127 | IMDb Top 250 Collection | = | The Good, the Bad and the Ugly (1966)                      |
-[2023-11-07 22:58:28,310] [builder.py:2265]           [INFO]     |  15/127 | IMDb Top 250 Collection | = | Spider-Man: Across the Spider-Verse (2023)                 |
-[2023-11-07 22:58:28,310] [builder.py:2265]           [INFO]     |  16/127 | IMDb Top 250 Collection | = | Interstellar (2014)                                        |
-[2023-11-07 22:58:28,310] [builder.py:2265]           [INFO]     |  17/127 | IMDb Top 250 Collection | = | Goodfellas (1990)                                          |
-[2023-11-07 22:58:28,311] [builder.py:2265]           [INFO]     |  18/127 | IMDb Top 250 Collection | = | The Matrix (1999)                                          |
-[2023-11-07 22:58:28,311] [builder.py:2265]           [INFO]     |  19/127 | IMDb Top 250 Collection | = | One Flew Over the Cuckoo's Nest (1975)                     |
-[2023-11-07 22:58:28,311] [builder.py:2265]           [INFO]     |  20/127 | IMDb Top 250 Collection | = | Star Wars: Episode V - The Empire Strikes Back (1980)      |
-[2023-11-07 22:58:28,311] [builder.py:2265]           [INFO]     |  21/127 | IMDb Top 250 Collection | = | The Silence of the Lambs (1991)                            |
-[2023-11-07 22:58:28,312] [builder.py:2265]           [INFO]     |  22/127 | IMDb Top 250 Collection | = | Se7en (1995)                                               |
-[2023-11-07 22:58:28,312] [builder.py:2265]           [INFO]     |  23/127 | IMDb Top 250 Collection | = | Spirited Away (2001)                                       |
-[2023-11-07 22:58:28,312] [builder.py:2265]           [INFO]     |  24/127 | IMDb Top 250 Collection | = | Saving Private Ryan (1998)                                 |
-[2023-11-07 22:58:28,313] [builder.py:2265]           [INFO]     |  25/127 | IMDb Top 250 Collection | = | The Green Mile (1999)                                      |
-[2023-11-07 22:58:28,313] [builder.py:2265]           [INFO]     |  26/127 | IMDb Top 250 Collection | = | Star Wars: Episode IV - A New Hope (1977)                  |
-[2023-11-07 22:58:28,313] [builder.py:2265]           [INFO]     |  27/127 | IMDb Top 250 Collection | = | Terminator 2: Judgment Day (1991)                          |
-[2023-11-07 22:58:28,313] [builder.py:2265]           [INFO]     |  28/127 | IMDb Top 250 Collection | = | Life Is Beautiful (1997)                                   |
-[2023-11-07 22:58:28,313] [builder.py:2265]           [INFO]     |  29/127 | IMDb Top 250 Collection | = | It's a Wonderful Life (1946)                               |
-[2023-11-07 22:58:28,314] [builder.py:2265]           [INFO]     |  30/127 | IMDb Top 250 Collection | = | Seven Samurai (1954)                                       |
-[2023-11-07 22:58:28,314] [builder.py:2265]           [INFO]     |  31/127 | IMDb Top 250 Collection | = | Alien (1979)                                               |
-[2023-11-07 22:58:28,314] [builder.py:2265]           [INFO]     |  32/127 | IMDb Top 250 Collection | = | Gladiator (2000)                                           |
-[2023-11-07 22:58:28,314] [builder.py:2265]           [INFO]     |  33/127 | IMDb Top 250 Collection | = | Psycho (1960)                                              |
-[2023-11-07 22:58:28,314] [builder.py:2265]           [INFO]     |  34/127 | IMDb Top 250 Collection | = | Back to the Future (1985)                                  |
-[2023-11-07 22:58:28,315] [builder.py:2265]           [INFO]     |  35/127 | IMDb Top 250 Collection | = | Parasite (2019)                                            |
-[2023-11-07 22:58:28,315] [builder.py:2265]           [INFO]     |  36/127 | IMDb Top 250 Collection | = | The Prestige (2006)                                        |
-[2023-11-07 22:58:28,315] [builder.py:2265]           [INFO]     |  37/127 | IMDb Top 250 Collection | = | Léon: The Professional (1994)                              |
-[2023-11-07 22:58:28,316] [builder.py:2265]           [INFO]     |  38/127 | IMDb Top 250 Collection | = | American History X (1998)                                  |
-[2023-11-07 22:58:28,316] [builder.py:2265]           [INFO]     |  39/127 | IMDb Top 250 Collection | = | The Lion King (1994)                                       |
-[2023-11-07 22:58:28,316] [builder.py:2265]           [INFO]     |  40/127 | IMDb Top 250 Collection | = | The Usual Suspects (1995)                                  |
-[2023-11-07 22:58:28,317] [builder.py:2265]           [INFO]     |  41/127 | IMDb Top 250 Collection | = | Casablanca (1943)                                          |
-[2023-11-07 22:58:28,317] [builder.py:2265]           [INFO]     |  42/127 | IMDb Top 250 Collection | = | Rear Window (1954)                                         |
-[2023-11-07 22:58:28,317] [builder.py:2265]           [INFO]     |  43/127 | IMDb Top 250 Collection | = | Grave of the Fireflies (1988)                              |
-[2023-11-07 22:58:28,317] [builder.py:2265]           [INFO]     |  44/127 | IMDb Top 250 Collection | = | The Shining (1980)                                         |
-[2023-11-07 22:58:28,317] [builder.py:2265]           [INFO]     |  45/127 | IMDb Top 250 Collection | = | Coco (2017)                                                |
-[2023-11-07 22:58:28,318] [builder.py:2265]           [INFO]     |  46/127 | IMDb Top 250 Collection | = | Joker (2019)                                               |
-[2023-11-07 22:58:28,318] [builder.py:2265]           [INFO]     |  47/127 | IMDb Top 250 Collection | = | Spider-Man: Into the Spider-Verse (2018)                   |
-[2023-11-07 22:58:28,319] [builder.py:2265]           [INFO]     |  48/127 | IMDb Top 250 Collection | = | Inglourious Basterds (2009)                                |
-[2023-11-07 22:58:28,319] [builder.py:2265]           [INFO]     |  49/127 | IMDb Top 250 Collection | = | Avengers: Endgame (2019)                                   |
-[2023-11-07 22:58:28,319] [builder.py:2265]           [INFO]     |  50/127 | IMDb Top 250 Collection | = | Aliens (1986)                                              |
-[2023-11-07 22:58:28,320] [builder.py:2265]           [INFO]     |  51/127 | IMDb Top 250 Collection | = | The Dark Knight Rises (2012)                               |
-[2023-11-07 22:58:28,320] [builder.py:2265]           [INFO]     |  52/127 | IMDb Top 250 Collection | = | Oldboy (2003)                                              |
-[2023-11-07 22:58:28,321] [builder.py:2265]           [INFO]     |  53/127 | IMDb Top 250 Collection | = | Avengers: Infinity War (2018)                              |
-[2023-11-07 22:58:28,321] [builder.py:2265]           [INFO]     |  54/127 | IMDb Top 250 Collection | = | Indiana Jones and the Raiders of the Lost Ark (1981)       |
-[2023-11-07 22:58:28,321] [builder.py:2265]           [INFO]     |  55/127 | IMDb Top 250 Collection | = | WALL·E (2008)                                              |
-[2023-11-07 22:58:28,321] [builder.py:2265]           [INFO]     |  56/127 | IMDb Top 250 Collection | = | Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964) |
-[2023-11-07 22:58:28,322] [builder.py:2265]           [INFO]     |  57/127 | IMDb Top 250 Collection | = | Das Boot (1981)                                            |
-[2023-11-07 22:58:28,322] [builder.py:2265]           [INFO]     |  58/127 | IMDb Top 250 Collection | = | Top Gun: Maverick (2022)                                   |
-[2023-11-07 22:58:28,322] [builder.py:2265]           [INFO]     |  59/127 | IMDb Top 250 Collection | = | Heat (1995)                                                |
-[2023-11-07 22:58:28,323] [builder.py:2265]           [INFO]     |  60/127 | IMDb Top 250 Collection | = | Good Will Hunting (1997)                                   |
-[2023-11-07 22:58:28,323] [builder.py:2265]           [INFO]     |  61/127 | IMDb Top 250 Collection | = | Eternal Sunshine of the Spotless Mind (2004)               |
-[2023-11-07 22:58:28,323] [builder.py:2265]           [INFO]     |  62/127 | IMDb Top 250 Collection | = | Braveheart (1995)                                          |
-[2023-11-07 22:58:28,324] [builder.py:2265]           [INFO]     |  63/127 | IMDb Top 250 Collection | = | Toy Story (1995)                                           |
-[2023-11-07 22:58:28,324] [builder.py:2265]           [INFO]     |  64/127 | IMDb Top 250 Collection | = | Up (2009)                                                  |
-[2023-11-07 22:58:28,324] [builder.py:2265]           [INFO]     |  65/127 | IMDb Top 250 Collection | = | Full Metal Jacket (1987)                                   |
-[2023-11-07 22:58:28,324] [builder.py:2265]           [INFO]     |  66/127 | IMDb Top 250 Collection | = | Amélie (2001)                                              |
-[2023-11-07 22:58:28,325] [builder.py:2265]           [INFO]     |  67/127 | IMDb Top 250 Collection | = | Star Wars: Episode VI - Return of the Jedi (1983)          |
-[2023-11-07 22:58:28,325] [builder.py:2265]           [INFO]     |  68/127 | IMDb Top 250 Collection | = | Vertigo (1958)                                             |
-[2023-11-07 22:58:28,325] [builder.py:2265]           [INFO]     |  69/127 | IMDb Top 250 Collection | = | Toy Story 3 (2010)                                         |
-[2023-11-07 22:58:28,325] [builder.py:2265]           [INFO]     |  70/127 | IMDb Top 250 Collection | = | Citizen Kane (1941)                                        |
-[2023-11-07 22:58:28,326] [builder.py:2265]           [INFO]     |  71/127 | IMDb Top 250 Collection | = | Metropolis (1927)                                          |
-[2023-11-07 22:58:28,326] [builder.py:2265]           [INFO]     |  72/127 | IMDb Top 250 Collection | = | To Kill a Mockingbird (1963)                               |
-[2023-11-07 22:58:28,326] [builder.py:2265]           [INFO]     |  73/127 | IMDb Top 250 Collection | = | North by Northwest (1959)                                  |
-[2023-11-07 22:58:28,326] [builder.py:2265]           [INFO]     |  74/127 | IMDb Top 250 Collection | = | The Thing (1982)                                           |
-[2023-11-07 22:58:28,326] [builder.py:2265]           [INFO]     |  75/127 | IMDb Top 250 Collection | = | The Wolf of Wall Street (2013)                             |
-[2023-11-07 22:58:28,327] [builder.py:2265]           [INFO]     |  76/127 | IMDb Top 250 Collection | = | Spider-Man: No Way Home (2021)                             |
-[2023-11-07 22:58:28,327] [builder.py:2265]           [INFO]     |  77/127 | IMDb Top 250 Collection | = | Taxi Driver (1976)                                         |
-[2023-11-07 22:58:28,327] [builder.py:2265]           [INFO]     |  78/127 | IMDb Top 250 Collection | = | Jurassic Park (1993)                                       |
-[2023-11-07 22:58:28,328] [builder.py:2265]           [INFO]     |  79/127 | IMDb Top 250 Collection | = | The Sixth Sense (1999)                                     |
-[2023-11-07 22:58:28,328] [builder.py:2265]           [INFO]     |  80/127 | IMDb Top 250 Collection | = | Shutter Island (2010)                                      |
-[2023-11-07 22:58:28,328] [builder.py:2265]           [INFO]     |  81/127 | IMDb Top 250 Collection | = | No Country for Old Men (2007)                              |
-[2023-11-07 22:58:28,329] [builder.py:2265]           [INFO]     |  82/127 | IMDb Top 250 Collection | = | There Will Be Blood (2008)                                 |
-[2023-11-07 22:58:28,329] [builder.py:2265]           [INFO]     |  83/127 | IMDb Top 250 Collection | = | Snatch (2000)                                              |
-[2023-11-07 22:58:28,329] [builder.py:2265]           [INFO]     |  84/127 | IMDb Top 250 Collection | = | V for Vendetta (2006)                                      |
-[2023-11-07 22:58:28,330] [builder.py:2265]           [INFO]     |  85/127 | IMDb Top 250 Collection | = | Batman Begins (2005)                                       |
-[2023-11-07 22:58:28,330] [builder.py:2265]           [INFO]     |  86/127 | IMDb Top 250 Collection | = | Kill Bill: Vol. 1 (2003)                                   |
-[2023-11-07 22:58:28,331] [builder.py:2265]           [INFO]     |  87/127 | IMDb Top 250 Collection | = | Die Hard (1988)                                            |
-[2023-11-07 22:58:28,331] [builder.py:2265]           [INFO]     |  88/127 | IMDb Top 250 Collection | = | Howl's Moving Castle (2004)                                |
-[2023-11-07 22:58:28,331] [builder.py:2265]           [INFO]     |  89/127 | IMDb Top 250 Collection | = | The Truman Show (1998)                                     |
-[2023-11-07 22:58:28,331] [builder.py:2265]           [INFO]     |  90/127 | IMDb Top 250 Collection | = | Pan's Labyrinth (2006)                                     |
-[2023-11-07 22:58:28,332] [builder.py:2265]           [INFO]     |  91/127 | IMDb Top 250 Collection | = | 1917 (2020)                                                |
-[2023-11-07 22:58:28,332] [builder.py:2265]           [INFO]     |  92/127 | IMDb Top 250 Collection | = | Finding Nemo (2003)                                        |
-[2023-11-07 22:58:28,333] [builder.py:2265]           [INFO]     |  93/127 | IMDb Top 250 Collection | = | Indiana Jones and the Last Crusade (1989)                  |
-[2023-11-07 22:58:28,333] [builder.py:2265]           [INFO]     |  94/127 | IMDb Top 250 Collection | = | Downfall (2004)                                            |
-[2023-11-07 22:58:28,333] [builder.py:2265]           [INFO]     |  95/127 | IMDb Top 250 Collection | = | Unforgiven (1992)                                          |
-[2023-11-07 22:58:28,333] [builder.py:2265]           [INFO]     |  96/127 | IMDb Top 250 Collection | = | Monty Python and the Holy Grail (1975)                     |
-[2023-11-07 22:58:28,334] [builder.py:2265]           [INFO]     |  97/127 | IMDb Top 250 Collection | = | Klaus (2019)                                               |
-[2023-11-07 22:58:28,334] [builder.py:2265]           [INFO]     |  98/127 | IMDb Top 250 Collection | = | For a Few Dollars More (1965)                              |
-[2023-11-07 22:58:28,334] [builder.py:2265]           [INFO]     |  99/127 | IMDb Top 250 Collection | = | The Treasure of the Sierra Madre (1948)                    |
-[2023-11-07 22:58:28,334] [builder.py:2265]           [INFO]     | 100/127 | IMDb Top 250 Collection | = | Prisoners (2013)                                           |
-[2023-11-07 22:58:28,335] [builder.py:2265]           [INFO]     | 101/127 | IMDb Top 250 Collection | = | Pirates of the Caribbean: The Curse of the Black Pearl (2003) |
-[2023-11-07 22:58:28,335] [builder.py:2265]           [INFO]     | 102/127 | IMDb Top 250 Collection | = | Blade Runner (1982)                                        |
-[2023-11-07 22:58:28,335] [builder.py:2265]           [INFO]     | 103/127 | IMDb Top 250 Collection | = | Ratatouille (2007)                                         |
-[2023-11-07 22:58:28,336] [builder.py:2265]           [INFO]     | 104/127 | IMDb Top 250 Collection | = | Harry Potter and the Deathly Hallows: Part 2 (2011)        |
-[2023-11-07 22:58:28,336] [builder.py:2265]           [INFO]     | 105/127 | IMDb Top 250 Collection | = | Stand by Me (1986)                                         |
-[2023-11-07 22:58:28,336] [builder.py:2265]           [INFO]     | 106/127 | IMDb Top 250 Collection | = | The Wizard of Oz (1939)                                    |
-[2023-11-07 22:58:28,337] [builder.py:2265]           [INFO]     | 107/127 | IMDb Top 250 Collection | = | The Terminator (1984)                                      |
-[2023-11-07 22:58:28,337] [builder.py:2265]           [INFO]     | 108/127 | IMDb Top 250 Collection | = | Dead Poets Society (1989)                                  |
-[2023-11-07 22:58:28,337] [builder.py:2265]           [INFO]     | 109/127 | IMDb Top 250 Collection | = | Monsters, Inc. (2001)                                      |
-[2023-11-07 22:58:28,337] [builder.py:2265]           [INFO]     | 110/127 | IMDb Top 250 Collection | = | Into the Wild (2007)                                       |
-[2023-11-07 22:58:28,338] [builder.py:2265]           [INFO]     | 111/127 | IMDb Top 250 Collection | = | Inside Out (2015)                                          |
-[2023-11-07 22:58:28,338] [builder.py:2265]           [INFO]     | 112/127 | IMDb Top 250 Collection | = | Trainspotting (1996)                                       |
-[2023-11-07 22:58:28,339] [builder.py:2265]           [INFO]     | 113/127 | IMDb Top 250 Collection | = | Three Billboards Outside Ebbing, Missouri (2017)           |
-[2023-11-07 22:58:28,339] [builder.py:2265]           [INFO]     | 114/127 | IMDb Top 250 Collection | = | Logan (2017)                                               |
-[2023-11-07 22:58:28,339] [builder.py:2265]           [INFO]     | 115/127 | IMDb Top 250 Collection | = | The Sound of Music (1965)                                  |
-[2023-11-07 22:58:28,340] [builder.py:2265]           [INFO]     | 116/127 | IMDb Top 250 Collection | = | 12 Years a Slave (2013)                                    |
-[2023-11-07 22:58:28,340] [builder.py:2265]           [INFO]     | 117/127 | IMDb Top 250 Collection | = | How to Train Your Dragon (2010)                            |
-[2023-11-07 22:58:28,340] [builder.py:2265]           [INFO]     | 118/127 | IMDb Top 250 Collection | = | Platoon (1986)                                             |
-[2023-11-07 22:58:28,341] [builder.py:2265]           [INFO]     | 119/127 | IMDb Top 250 Collection | = | My Neighbor Totoro (1988)                                  |
-[2023-11-07 22:58:28,341] [builder.py:2265]           [INFO]     | 120/127 | IMDb Top 250 Collection | = | Gran Torino (2009)                                         |
-[2023-11-07 22:58:28,341] [builder.py:2265]           [INFO]     | 121/127 | IMDb Top 250 Collection | = | Ben-Hur (1959)                                             |
-[2023-11-07 22:58:28,341] [builder.py:2265]           [INFO]     | 122/127 | IMDb Top 250 Collection | = | The Iron Giant (1999)                                      |
-[2023-11-07 22:58:28,342] [builder.py:2265]           [INFO]     | 123/127 | IMDb Top 250 Collection | = | Hotel Rwanda (2005)                                        |
-[2023-11-07 22:58:28,342] [builder.py:2265]           [INFO]     | 124/127 | IMDb Top 250 Collection | = | Mr. Smith Goes to Washington (1939)                        |
-[2023-11-07 22:58:28,342] [builder.py:2265]           [INFO]     | 125/127 | IMDb Top 250 Collection | = | The Incredibles (2004)                                     |
-[2023-11-07 22:58:28,342] [builder.py:2265]           [INFO]     | 126/127 | IMDb Top 250 Collection | = | Groundhog Day (1993)                                       |
-[2023-11-07 22:58:28,343] [builder.py:2265]           [INFO]     | 127/127 | IMDb Top 250 Collection | = | Aladdin (1992)                                             |
-[2023-11-07 22:58:28,343] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:28,343] [builder.py:2287]           [INFO]     | 127 Movies Processed 0 Movies Added                                                                |
-[2023-11-07 22:58:35,258] [builder.py:2422]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:35,258] [builder.py:2423]           [INFO]     | 123 Movies Missing                                                                                 |
-[2023-11-07 22:58:35,303] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:35,304] [builder.py:2624]           [INFO]     |=========================== Updating Details of IMDb Top 250 Collection ============================|
-[2023-11-07 22:58:35,304] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-07 22:58:35,310] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-07 22:58:35,312] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
-[2023-11-07 22:58:35,313] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://i.redd.it/gkfygy4k3tr21.jpg                                     |
-[2023-11-07 22:58:35,313] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/IMDb Top 250/poster.jpg', 'prefix': "IMDb Top 250's ", 'is_poster': True, 'is_url': False, 'compare': 242014, 'message': "IMDb Top 250's poster to [File] //config/assets/movies/IMDb Top 250/poster.jpg"} |
-[2023-11-07 22:58:35,313] [library.py:177]            [INFO]     | Detail: IMDb Top 250's poster update not needed                                                    |
-[2023-11-07 22:58:35,777] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-07 22:58:35,777] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-07 22:58:35,777] [plex_meta_manager.py:781]  [INFO]     |                                  Finished IMDb Top 250 Collection                                  |
-[2023-11-07 22:58:35,778] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:28                                    |
-[2023-11-07 22:58:35,778] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-19 05:00:44,327] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-19 05:00:44,327] [builder.py:193]            [INFO]     |                                 IMDb Top 250 Collection in Movies                                  |
+[2023-11-19 05:00:44,327] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-19 05:00:44,327] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-19 05:00:44,328] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-19 05:00:44,328] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,328] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-11-19 05:00:44,328] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,328] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-19 05:00:44,328] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,328] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.redd.it/gkfygy4k3tr21.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-19 05:00:44,329] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,329] [builder.py:233]            [INFO]     |================================ Validating IMDb Top 250 Attributes ================================|
+[2023-11-19 05:00:44,821] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,821] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-19 05:00:44,821] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-19 05:00:44,822] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-19 05:00:44,822] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-19 05:00:44,822] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc           |
+[2023-11-19 05:00:47,589] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
+                                                                 |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
+                                                                 |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
+                                                                 |   File "/modules/builder.py", line 793, in __init__                                                |
+                                                                 |     self._imdb(method_name, method_data)                                                           |
+                                                                 |   File "/modules/builder.py", line 1239, in _imdb                                                  |
+                                                                 |     for imdb_dict in self.config.IMDb.validate_imdb_lists(self.Type, method_data, self.language):  |
+                                                                 |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^   |
+                                                                 |   File "/modules/imdb.py", line 52, in validate_imdb_lists                                         |
+                                                                 |     self._total(imdb_url, language)                                                                |
+                                                                 |   File "/modules/imdb.py", line 118, in _total                                                     |
+                                                                 |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
+                                                                 | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
+                                                                 |                                                                                                    |
+[2023-11-19 05:00:47,590] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
+[2023-11-19 05:00:47,591] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-19 05:00:47,591] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-19 05:00:47,591] [plex_meta_manager.py:781]  [INFO]     |                                  Finished IMDb Top 250 Collection                                  |
+[2023-11-19 05:00:47,591] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-11-19 05:00:47,591] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

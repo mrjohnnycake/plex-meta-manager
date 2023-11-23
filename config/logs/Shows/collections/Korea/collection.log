@@ -1,90 +1,90 @@
-[2023-11-08 05:13:05,146] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:13:05,146] [builder.py:193]            [INFO]     |                                     Korea Collection in Shows                                      |
-[2023-11-08 05:13:05,146] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:13:05,146] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,147] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:13:05,147] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,147] [builder.py:216]            [DEBUG]    | Templates Called: filter, translation, shared                                                      |
-[2023-11-08 05:13:05,147] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,164] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:13:05,164] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,164] [meta.py:552]               [DEBUG]    | {'smart_label': {'sort_by': 'title.asc', 'all': {'label': '<<smart_label>>'}}, 'sync_mode': 'sync', 'plex_all': True, 'filters': {'origin_country': ['kr']}, 'summary': 'Shows filmed in Korea.', 'name': 'Korea', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!09_Korea', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg'} |
-[2023-11-08 05:13:05,165] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,165] [builder.py:233]            [INFO]     |=================================== Validating Korea Attributes ====================================|
-[2023-11-08 05:13:05,165] [builder.py:236]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,165] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
-[2023-11-08 05:13:05,165] [builder.py:240]            [DEBUG]    | Value: Korea                                                                                       |
-[2023-11-08 05:13:05,176] [builder.py:463]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,177] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
-[2023-11-08 05:13:05,177] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:13:05,177] [builder.py:473]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,177] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
-[2023-11-08 05:13:05,177] [builder.py:479]            [DEBUG]    | Value: {'sort_by': 'title.asc', 'all': {'label': '<<smart_label>>'}}                               |
-[2023-11-08 05:13:05,182] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,182] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-08 05:13:05,182] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-08 05:13:05,183] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,183] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
-[2023-11-08 05:13:05,183] [builder.py:720]            [DEBUG]    | Value: Country                                                                                     |
-[2023-11-08 05:13:05,183] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,183] [builder.py:719]            [DEBUG]    | Validating Method: plex_all                                                                        |
-[2023-11-08 05:13:05,183] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:13:05,183] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,183] [builder.py:719]            [DEBUG]    | Validating Method: filters                                                                         |
-[2023-11-08 05:13:05,183] [builder.py:720]            [DEBUG]    | Value: {'origin_country': ['kr']}                                                                  |
-[2023-11-08 05:13:05,183] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,184] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:13:05,184] [builder.py:720]            [DEBUG]    | Value: Shows filmed in Korea.                                                                      |
-[2023-11-08 05:13:05,184] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,184] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-08 05:13:05,184] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-08 05:13:05,184] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,184] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:13:05,184] [builder.py:720]            [DEBUG]    | Value: !09_Korea                                                                                   |
-[2023-11-08 05:13:05,184] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,184] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-08 05:13:05,184] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg |
-[2023-11-08 05:13:05,228] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,228] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:13:05,228] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,228] [plex_meta_manager.py:638]  [INFO]     |===================================== Running Korea Collection =====================================|
-[2023-11-08 05:13:05,228] [plex_meta_manager.py:644]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,228] [plex_meta_manager.py:645]  [INFO]     | Smart Show Label                                                                                   |
+[2023-11-22 05:12:19,887] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:12:19,887] [builder.py:193]            [INFO]     |                                     Korea Collection in Shows                                      |
+[2023-11-22 05:12:19,887] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:12:19,887] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:12:19,888] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:12:19,888] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,888] [builder.py:216]            [DEBUG]    | Templates Called: filter, translation, shared                                                      |
+[2023-11-22 05:12:19,888] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,904] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:12:19,904] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,904] [meta.py:552]               [DEBUG]    | {'smart_label': {'sort_by': 'title.asc', 'all': {'label': '<<smart_label>>'}}, 'sync_mode': 'sync', 'plex_all': True, 'filters': {'origin_country': ['kr']}, 'summary': 'Shows filmed in Korea.', 'name': 'Korea', 'ignore_blank_results': True, 'collection_mode': 'hide', 'sort_title': '!09_Korea', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg'} |
+[2023-11-22 05:12:19,904] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,904] [builder.py:233]            [INFO]     |=================================== Validating Korea Attributes ====================================|
+[2023-11-22 05:12:19,904] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,904] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-11-22 05:12:19,904] [builder.py:240]            [DEBUG]    | Value: Korea                                                                                       |
+[2023-11-22 05:12:19,914] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,914] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-11-22 05:12:19,914] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:12:19,914] [builder.py:473]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,914] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-11-22 05:12:19,914] [builder.py:479]            [DEBUG]    | Value: {'sort_by': 'title.asc', 'all': {'label': '<<smart_label>>'}}                               |
+[2023-11-22 05:12:19,919] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,919] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-22 05:12:19,920] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-22 05:12:19,920] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,920] [builder.py:719]            [DEBUG]    | Validating Method: label                                                                           |
+[2023-11-22 05:12:19,920] [builder.py:720]            [DEBUG]    | Value: Country                                                                                     |
+[2023-11-22 05:12:19,920] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,920] [builder.py:719]            [DEBUG]    | Validating Method: plex_all                                                                        |
+[2023-11-22 05:12:19,920] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:12:19,920] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,920] [builder.py:719]            [DEBUG]    | Validating Method: filters                                                                         |
+[2023-11-22 05:12:19,921] [builder.py:720]            [DEBUG]    | Value: {'origin_country': ['kr']}                                                                  |
+[2023-11-22 05:12:19,921] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,921] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:12:19,921] [builder.py:720]            [DEBUG]    | Value: Shows filmed in Korea.                                                                      |
+[2023-11-22 05:12:19,921] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,921] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-22 05:12:19,921] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-22 05:12:19,921] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,921] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:12:19,921] [builder.py:720]            [DEBUG]    | Value: !09_Korea                                                                                   |
+[2023-11-22 05:12:19,922] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:19,922] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-22 05:12:19,922] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg |
+[2023-11-22 05:12:20,137] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,137] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:12:20,137] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,137] [plex_meta_manager.py:638]  [INFO]     |===================================== Running Korea Collection =====================================|
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:644]  [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:645]  [INFO]     | Smart Show Label                                                                                   |
                                                                  | Sort By: ['title.asc']                                                                             |
                                                                  | Filter:                                                                                            |
                                                                  |   Match all of the following:                                                                      |
                                                                  |     Label is Korea                                                                                 |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:646]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:647]  [INFO]     | Items Found: 3                                                                                     |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_all: show                                                                            |
-[2023-11-08 05:13:05,229] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:05,229] [plex.py:932]               [INFO]     | Processing Plex All Shows                                                                          |
-[2023-11-08 05:13:05,230] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:05,230] [builder.py:1666]           [DEBUG]    | 307 IDs Found                                                                                      |
-[2023-11-08 05:13:05,230] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:13:16,672] [builder.py:2372]           [WARNING]  | Filter Error: No TVDb ID found for Dave Ramsey's Financial Peace University                        |
-[2023-11-08 05:13:52,726] [builder.py:2393]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,726] [builder.py:2395]           [INFO]     | Collection Filter origin_country: ['KR']                                                           |
-[2023-11-08 05:13:52,726] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,726] [builder.py:2250]           [INFO]     |==================================== Adding to Korea Collection ====================================|
-[2023-11-08 05:13:52,727] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,741] [builder.py:2265]           [INFO]     | 1/3 | Korea Collection | = | Hellbound                                                             |
-[2023-11-08 05:13:52,741] [builder.py:2265]           [INFO]     | 2/3 | Korea Collection | = | The Silent Sea                                                        |
-[2023-11-08 05:13:52,741] [builder.py:2265]           [INFO]     | 3/3 | Korea Collection | = | Squid Game                                                            |
-[2023-11-08 05:13:52,742] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,742] [builder.py:2287]           [INFO]     | 3 Shows Processed 0 Shows Added                                                                    |
-[2023-11-08 05:13:52,751] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,751] [builder.py:2624]           [INFO]     |=============================== Updating Details of Korea Collection ===============================|
-[2023-11-08 05:13:52,751] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,758] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:13:52,758] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
-[2023-11-08 05:13:52,759] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg |
-[2023-11-08 05:13:52,759] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-11-08 05:13:52,766] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:13:52,766] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:13:52,767] [plex_meta_manager.py:781]  [INFO]     |                                     Finished Korea Collection                                      |
-[2023-11-08 05:13:52,767] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:47                                    |
-[2023-11-08 05:13:52,767] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:646]  [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:647]  [INFO]     | Items Found: 3                                                                                     |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_all: show                                                                            |
+[2023-11-22 05:12:20,138] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:12:20,139] [plex.py:932]               [INFO]     | Processing Plex All Shows                                                                          |
+[2023-11-22 05:12:20,139] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:20,139] [builder.py:1666]           [DEBUG]    | 308 IDs Found                                                                                      |
+[2023-11-22 05:12:20,139] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:12:30,339] [builder.py:2372]           [WARNING]  | Filter Error: No TVDb ID found for Dave Ramsey's Financial Peace University                        |
+[2023-11-22 05:13:01,313] [builder.py:2393]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,313] [builder.py:2395]           [INFO]     | Collection Filter origin_country: ['KR']                                                           |
+[2023-11-22 05:13:01,313] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,314] [builder.py:2250]           [INFO]     |==================================== Adding to Korea Collection ====================================|
+[2023-11-22 05:13:01,314] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,325] [builder.py:2265]           [INFO]     | 1/3 | Korea Collection | = | Hellbound                                                             |
+[2023-11-22 05:13:01,325] [builder.py:2265]           [INFO]     | 2/3 | Korea Collection | = | The Silent Sea                                                        |
+[2023-11-22 05:13:01,325] [builder.py:2265]           [INFO]     | 3/3 | Korea Collection | = | Squid Game                                                            |
+[2023-11-22 05:13:01,325] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,325] [builder.py:2287]           [INFO]     | 3 Shows Processed 0 Shows Added                                                                    |
+[2023-11-22 05:13:01,334] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,334] [builder.py:2624]           [INFO]     |=============================== Updating Details of Korea Collection ===============================|
+[2023-11-22 05:13:01,334] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,339] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:13:01,339] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-11-22 05:13:01,339] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/white/Korea.jpg |
+[2023-11-22 05:13:01,340] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-11-22 05:13:01,346] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:13:01,346] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:13:01,346] [plex_meta_manager.py:781]  [INFO]     |                                     Finished Korea Collection                                      |
+[2023-11-22 05:13:01,346] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:41                                    |
+[2023-11-22 05:13:01,346] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

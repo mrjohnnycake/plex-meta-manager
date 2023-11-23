@@ -1,8 +1,12 @@
 Marvel:
   Movies Missing (TMDb IDs):
     569094: 'Spider-Man: Across the Spider-Verse (2023)'
-    1154598: 'LEGO Marvel Avengers: Code Red (2023)'
+    912649: Venom 3 (2024)
+    539972: Kraven the Hunter (2024)
+    533535: Deadpool 3 (2024)
+    634492: Madame Web (2024)
     609681: The Marvels (2023)
+    1154598: 'LEGO Marvel Avengers: Code Red (2023)'
     447365: Guardians of the Galaxy Vol. 3 (2023)
     640146: 'Ant-Man and the Wasp: Quantumania (2023)'
     774752: The Guardians of the Galaxy Holiday Special (2022)
@@ -108,12 +112,9 @@ Marvel:
     36586: Blade II (2002)
     36657: X-Men (2000)
     36647: Blade (1998)
-    539972: Kraven the Hunter (2024)
     911916: 'Spider-Man: Beyond the Spider-Verse'
-    634492: Madame Web (2024)
     822119: 'Captain America: Brave New World (2024)'
     986056: Thunderbolts (2024)
-    533535: Deadpool 3 (2024)
     617127: Blade (2025)
     617126: Fantastic Four (2025)
     1003596: 'Avengers: The Kang Dynasty (2026)'
@@ -207,9 +208,9 @@ Marvel:
     72739: Spider-Man (1967)
     72216: Fantastic Four (1967)
     74996: The Marvel Super Heroes
+    412432: X-Men '97
     412428: Marvel Zombies
     412427: 'Spider-Man: Freshman Year'
-    412432: X-Men '97
     393204: Ironheart
     412429: 'Agatha: Darkhold Diaries'
     422712: 'Daredevil: Born Again'
@@ -402,6 +403,7 @@ United Kingdom:
   - MeatEater
   - Midnight Mass
   - Mike Tyson Mysteries
+  - 'Monarch: Legacy of Monsters'
   - Monk
   - Monster (2022)
   - Moon Knight
@@ -467,6 +469,7 @@ United Kingdom:
   - Shining Vale
   - The Shivering Truth
   - The Silent Sea
+  - Silo
   - The Simpsons
   - Smiling Friends
   - Sports Show with Norm Macdonald
@@ -486,6 +489,7 @@ United Kingdom:
   - Sweet Tooth
   - Swimming with Sharks
   - Tales from the Loop
+  - Ted Lasso
   - Teenage Mutant Ninja Turtles
   - Them
   - The Thing About Pam
@@ -694,6 +698,7 @@ Korea:
   - MeatEater
   - Midnight Mass
   - Mike Tyson Mysteries
+  - 'Monarch: Legacy of Monsters'
   - Monk
   - Monster (2022)
   - Moon Knight
@@ -826,17 +831,15 @@ Korea:
   - You, Me and the Apocalypse
 Trakt Trending:
   Shows Missing (TVDb IDs):
-    417909: Gen V
-    416503: 'Lawmen: Bass Reeves'
-    362472: Loki
-    278518: Last Week Tonight with John Oliver
-    414553: 'Bosch: Legacy'
-    368211: Upload
     79168: Friends
+    408696: A Murder at the End of the World
     75978: Family Guy
-    377593: 'Power Book IV: Force'
-    279536: Billions
+    400440: The Lazarus Project
+    362472: Loki
+    267440: Attack on Titan
+    73141: American Dad!
+    417909: Gen V
+    305621: Below Deck Mediterranean
     361563: The Morning Show
-    404492: Invasion (2021)
-    411021: The Fall of the House of Usher
-    364412: The Gilded Age
+    73762: Grey's Anatomy
+    73244: The Office (US)

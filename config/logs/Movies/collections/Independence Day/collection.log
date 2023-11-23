@@ -1,83 +1,83 @@
-[2023-11-08 05:08:46,517] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:08:46,517] [builder.py:193]            [INFO]     |                               Independence Day Collection in Movies                                |
-[2023-11-08 05:08:46,518] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:08:46,518] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:08:46,518] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:08:46,518] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,518] [builder.py:216]            [DEBUG]    | Templates Called: Holiday                                                                          |
-[2023-11-08 05:08:46,518] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,519] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:08:46,519] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,519] [meta.py:552]               [DEBUG]    | {'sort_title': 'Independence Day', 'url_poster': 'https://theposterdb.com/api/assets/240645', 'collection_order': 'release.desc', 'schedule': 'daily', 'delete_not_scheduled': False, 'run_again': True, 'sync_mode': 'sync'} |
-[2023-11-08 05:08:46,519] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,519] [builder.py:233]            [INFO]     |============================== Validating Independence Day Attributes ==============================|
-[2023-11-08 05:08:46,576] [builder.py:500]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,576] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
-[2023-11-08 05:08:46,577] [builder.py:502]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:08:46,577] [builder.py:519]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,577] [builder.py:520]            [DEBUG]    | Validating Method: schedule                                                                        |
-[2023-11-08 05:08:46,577] [builder.py:524]            [DEBUG]    | Value: daily                                                                                       |
-[2023-11-08 05:08:46,577] [builder.py:558]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,577] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
-[2023-11-08 05:08:46,577] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:08:46,577] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,577] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-08 05:08:46,577] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-08 05:08:46,578] [builder.py:682]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,578] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-11-08 05:08:46,578] [builder.py:684]            [DEBUG]    | Value: release.desc                                                                                |
-[2023-11-08 05:08:46,578] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,578] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-08 05:08:46,578] [builder.py:720]            [DEBUG]    | Value: range(07/01-07/05)                                                                          |
-[2023-11-08 05:08:46,578] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,578] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-08 05:08:46,579] [builder.py:720]            [DEBUG]    | Value: range(07/01-07/05)                                                                          |
-[2023-11-08 05:08:46,579] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:46,579] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-11-08 05:08:46,579] [builder.py:720]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls552600367/']                                                  |
-[2023-11-08 05:08:47,238] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:47,239] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:08:47,239] [builder.py:720]            [DEBUG]    | Value: This collection revolves around the plot involving the Fourth of July.                      |
-[2023-11-08 05:08:47,239] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:47,239] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:08:47,239] [builder.py:720]            [DEBUG]    | Value: Independence Day                                                                            |
-[2023-11-08 05:08:47,239] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:47,239] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-08 05:08:47,240] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240645                                                   |
-[2023-11-08 05:08:48,033] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:08:48,034] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:638]  [INFO]     |=============================== Running Independence Day Collection ================================|
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls552600367/', 'limit': 0}                  |
-[2023-11-08 05:08:48,034] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:08:48,034] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls552600367/                                       |
-[2023-11-08 05:08:51,321] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:51,321] [builder.py:1666]           [DEBUG]    | 2 IDs Found                                                                                        |
-[2023-11-08 05:08:51,322] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:08:51,323] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,323] [builder.py:2250]           [INFO]     |============================== Adding to Independence Day Collection ===============================|
-[2023-11-08 05:08:51,324] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,324] [builder.py:2265]           [INFO]     | 1/2 | Independence Day Collection | = | Independence Day (1996)                                    |
-[2023-11-08 05:08:51,324] [builder.py:2265]           [INFO]     | 2/2 | Independence Day Collection | = | Independence Day: Resurgence (2016)                        |
-[2023-11-08 05:08:51,324] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,324] [builder.py:2287]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
-[2023-11-08 05:08:51,329] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,329] [builder.py:2624]           [INFO]     |========================= Updating Details of Independence Day Collection ==========================|
-[2023-11-08 05:08:51,329] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,336] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:08:51,339] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
-[2023-11-08 05:08:51,339] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/240645                               |
-[2023-11-08 05:08:51,339] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Independence Day/poster.png', 'prefix': "Independence Day's ", 'is_poster': True, 'is_url': False, 'compare': 2984744, 'message': "Independence Day's poster to [File] //config/assets/movies/Independence Day/poster.png"} |
-[2023-11-08 05:08:51,339] [library.py:177]            [INFO]     | Detail: Independence Day's poster update not needed                                                |
-[2023-11-08 05:08:51,399] [builder.py:2780]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,399] [builder.py:2781]           [INFO]     |=============================== Sorting Independence Day Collection ================================|
-[2023-11-08 05:08:51,399] [builder.py:2782]           [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,422] [builder.py:2816]           [INFO]     | No Sorting Required                                                                                |
-[2023-11-08 05:08:51,422] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:08:51,422] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:08:51,422] [plex_meta_manager.py:781]  [INFO]     |                                Finished Independence Day Collection                                |
-[2023-11-08 05:08:51,422] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
-[2023-11-08 05:08:51,422] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:08:24,542] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:08:24,542] [builder.py:193]            [INFO]     |                               Independence Day Collection in Movies                                |
+[2023-11-22 05:08:24,542] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:08:24,542] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:08:24,542] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:08:24,542] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,542] [builder.py:216]            [DEBUG]    | Templates Called: Holiday                                                                          |
+[2023-11-22 05:08:24,542] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,543] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:08:24,543] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,543] [meta.py:552]               [DEBUG]    | {'sort_title': 'Independence Day', 'url_poster': 'https://theposterdb.com/api/assets/240645', 'collection_order': 'release.desc', 'schedule': 'daily', 'delete_not_scheduled': False, 'run_again': True, 'sync_mode': 'sync'} |
+[2023-11-22 05:08:24,543] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,544] [builder.py:233]            [INFO]     |============================== Validating Independence Day Attributes ==============================|
+[2023-11-22 05:08:24,600] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,600] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-11-22 05:08:24,600] [builder.py:502]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:08:24,600] [builder.py:519]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,600] [builder.py:520]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2023-11-22 05:08:24,600] [builder.py:524]            [DEBUG]    | Value: daily                                                                                       |
+[2023-11-22 05:08:24,600] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,600] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-11-22 05:08:24,600] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:08:24,600] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,601] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-22 05:08:24,601] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-22 05:08:24,601] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,601] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-22 05:08:24,601] [builder.py:684]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-11-22 05:08:24,601] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,601] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-22 05:08:24,601] [builder.py:720]            [DEBUG]    | Value: range(07/01-07/05)                                                                          |
+[2023-11-22 05:08:24,602] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,602] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-22 05:08:24,602] [builder.py:720]            [DEBUG]    | Value: range(07/01-07/05)                                                                          |
+[2023-11-22 05:08:24,602] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:24,602] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-22 05:08:24,602] [builder.py:720]            [DEBUG]    | Value: ['https://www.imdb.com/list/ls552600367/']                                                  |
+[2023-11-22 05:08:25,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:25,217] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:08:25,217] [builder.py:720]            [DEBUG]    | Value: This collection revolves around the plot involving the Fourth of July.                      |
+[2023-11-22 05:08:25,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:25,217] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:08:25,217] [builder.py:720]            [DEBUG]    | Value: Independence Day                                                                            |
+[2023-11-22 05:08:25,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:25,218] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-22 05:08:25,218] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240645                                                   |
+[2023-11-22 05:08:25,712] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:08:25,712] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:638]  [INFO]     |=============================== Running Independence Day Collection ================================|
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:657]  [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls552600367/', 'limit': 0}                  |
+[2023-11-22 05:08:25,712] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:08:25,712] [imdb.py:205]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls552600367/                                       |
+[2023-11-22 05:08:28,907] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:28,907] [builder.py:1666]           [DEBUG]    | 2 IDs Found                                                                                        |
+[2023-11-22 05:08:28,907] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:08:28,908] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,909] [builder.py:2250]           [INFO]     |============================== Adding to Independence Day Collection ===============================|
+[2023-11-22 05:08:28,909] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,909] [builder.py:2265]           [INFO]     | 1/2 | Independence Day Collection | = | Independence Day (1996)                                    |
+[2023-11-22 05:08:28,909] [builder.py:2265]           [INFO]     | 2/2 | Independence Day Collection | = | Independence Day: Resurgence (2016)                        |
+[2023-11-22 05:08:28,909] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,909] [builder.py:2287]           [INFO]     | 2 Movies Processed 0 Movies Added                                                                  |
+[2023-11-22 05:08:28,913] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,913] [builder.py:2624]           [INFO]     |========================= Updating Details of Independence Day Collection ==========================|
+[2023-11-22 05:08:28,913] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,919] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:08:28,926] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-11-22 05:08:28,926] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/240645                               |
+[2023-11-22 05:08:28,926] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Independence Day/poster.png', 'prefix': "Independence Day's ", 'is_poster': True, 'is_url': False, 'compare': 2984744, 'message': "Independence Day's poster to [File] //config/assets/movies/Independence Day/poster.png"} |
+[2023-11-22 05:08:28,926] [library.py:177]            [INFO]     | Detail: Independence Day's poster update not needed                                                |
+[2023-11-22 05:08:28,977] [builder.py:2780]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,977] [builder.py:2781]           [INFO]     |=============================== Sorting Independence Day Collection ================================|
+[2023-11-22 05:08:28,978] [builder.py:2782]           [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,997] [builder.py:2816]           [INFO]     | No Sorting Required                                                                                |
+[2023-11-22 05:08:28,997] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:08:28,997] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:08:28,997] [plex_meta_manager.py:781]  [INFO]     |                                Finished Independence Day Collection                                |
+[2023-11-22 05:08:28,997] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2023-11-22 05:08:28,997] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

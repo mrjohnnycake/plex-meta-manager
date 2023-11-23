@@ -1,90 +1,93 @@
-[2023-11-08 05:00:38,576] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:00:38,576] [builder.py:193]            [INFO]     |                                 New Releases Collection in Movies                                  |
-[2023-11-08 05:00:38,576] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:00:38,576] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:00:38,577] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:00:38,577] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,577] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
-[2023-11-08 05:00:38,577] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,578] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:00:38,578] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,578] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.ibb.co/VNwwdZQ/New-Releases.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-08 05:00:38,578] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,578] [builder.py:233]            [INFO]     |================================ Validating New Releases Attributes ================================|
-[2023-11-08 05:00:38,601] [builder.py:473]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,601] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
-[2023-11-08 05:00:38,601] [builder.py:479]            [DEBUG]    | Value: critic_rating.desc                                                                          |
-[2023-11-08 05:00:38,629] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,629] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-08 05:00:38,630] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-08 05:00:38,630] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,630] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2023-11-08 05:00:38,630] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/giladg/lists/latest-releases                                         |
-[2023-11-08 05:00:38,863] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,863] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:00:38,863] [builder.py:720]            [DEBUG]    | Value: *101a                                                                                       |
-[2023-11-08 05:00:38,863] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,863] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:00:38,863] [builder.py:720]            [DEBUG]    | Value: The most recent movie releases.                                                             |
-[2023-11-08 05:00:38,863] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:38,863] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-08 05:00:38,864] [builder.py:720]            [DEBUG]    | Value: https://i.ibb.co/VNwwdZQ/New-Releases.jpg                                                   |
-[2023-11-08 05:00:39,355] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,355] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-08 05:00:39,356] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-08 05:00:39,356] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,356] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-08 05:00:39,356] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:00:39,356] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,356] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-08 05:00:39,356] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:00:39,394] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,394] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:00:39,394] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:638]  [INFO]     |================================= Running New Releases Collection ==================================|
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:644]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:645]  [INFO]     | Smart Movie Label                                                                                  |
+[2023-11-22 05:00:54,758] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:00:54,759] [builder.py:193]            [INFO]     |                                 New Releases Collection in Movies                                  |
+[2023-11-22 05:00:54,759] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:00:54,759] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:00:54,759] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:00:54,759] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,759] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-11-22 05:00:54,759] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,760] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:00:54,760] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,760] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.ibb.co/VNwwdZQ/New-Releases.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-22 05:00:54,760] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,760] [builder.py:233]            [INFO]     |================================ Validating New Releases Attributes ================================|
+[2023-11-22 05:00:54,782] [builder.py:473]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,782] [builder.py:474]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-11-22 05:00:54,782] [builder.py:479]            [DEBUG]    | Value: critic_rating.desc                                                                          |
+[2023-11-22 05:00:54,807] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,807] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-22 05:00:54,807] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-22 05:00:54,807] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,807] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-11-22 05:00:54,807] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/giladg/lists/latest-releases                                         |
+[2023-11-22 05:00:54,974] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,974] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:00:54,974] [builder.py:720]            [DEBUG]    | Value: *101a                                                                                       |
+[2023-11-22 05:00:54,974] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,974] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:00:54,974] [builder.py:720]            [DEBUG]    | Value: The most recent movie releases.                                                             |
+[2023-11-22 05:00:54,974] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:54,974] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-22 05:00:54,974] [builder.py:720]            [DEBUG]    | Value: https://i.ibb.co/VNwwdZQ/New-Releases.jpg                                                   |
+[2023-11-22 05:00:55,883] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:55,883] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-22 05:00:55,883] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-22 05:00:55,883] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:55,883] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-22 05:00:55,883] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:00:55,883] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:55,883] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-22 05:00:55,884] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:00:55,928] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,928] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:00:55,928] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,928] [plex_meta_manager.py:638]  [INFO]     |================================= Running New Releases Collection ==================================|
+[2023-11-22 05:00:55,928] [plex_meta_manager.py:644]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,928] [plex_meta_manager.py:645]  [INFO]     | Smart Movie Label                                                                                  |
                                                                  | Sort By: ['critic_rating.desc']                                                                    |
                                                                  | Filter:                                                                                            |
                                                                  |   Match all of the following:                                                                      |
                                                                  |     Label is New Releases                                                                          |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:646]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:647]  [INFO]     | Items Found: 6                                                                                     |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,395] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-08 05:00:39,396] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,396] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/giladg/lists/latest-releases                           |
-[2023-11-08 05:00:39,396] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,396] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/giladg/lists/latest-releases                         |
-[2023-11-08 05:00:39,553] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,553] [builder.py:1666]           [DEBUG]    | 300 IDs Found                                                                                      |
-[2023-11-08 05:00:39,553] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:00:39,554] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,554] [builder.py:2250]           [INFO]     |================================ Adding to New Releases Collection =================================|
-[2023-11-08 05:00:39,554] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 1/6 | New Releases Collection | = | Spider-Man: Across the Spider-Verse (2023)                     |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 2/6 | New Releases Collection | = | Teenage Mutant Ninja Turtles: Mutant Mayhem (2023)             |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 3/6 | New Releases Collection | = | Barbie (2023)                                                  |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 4/6 | New Releases Collection | = | Haunted Mansion (2023)                                         |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 5/6 | New Releases Collection | = | Mission: Impossible - Dead Reckoning Part One (2023)           |
-[2023-11-08 05:00:39,576] [builder.py:2265]           [INFO]     | 6/6 | New Releases Collection | = | A Haunting in Venice (2023)                                    |
-[2023-11-08 05:00:39,577] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:39,577] [builder.py:2287]           [INFO]     | 6 Movies Processed 0 Movies Added                                                                  |
-[2023-11-08 05:00:42,180] [builder.py:2422]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:42,180] [builder.py:2423]           [INFO]     | 294 Movies Missing                                                                                 |
-[2023-11-08 05:00:42,211] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:42,211] [builder.py:2624]           [INFO]     |=========================== Updating Details of New Releases Collection ============================|
-[2023-11-08 05:00:42,211] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:00:42,218] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:00:42,222] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
-[2023-11-08 05:00:42,222] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://i.ibb.co/VNwwdZQ/New-Releases.jpg                               |
-[2023-11-08 05:00:42,222] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/New Releases/poster.jpg', 'prefix': "New Releases's ", 'is_poster': True, 'is_url': False, 'compare': 92705, 'message': "New Releases's poster to [File] //config/assets/movies/New Releases/poster.jpg"} |
-[2023-11-08 05:00:42,222] [util.py:178]               [DEBUG]    | 1 background found:                                                                                |
-[2023-11-08 05:00:42,222] [util.py:180]               [DEBUG]    | Method: asset_directory Background: {'attribute': 'asset_directory', 'location': '//config/assets/movies/New Releases/background.jpg', 'prefix': "New Releases's ", 'is_poster': False, 'is_url': False, 'compare': 1173495, 'message': "New Releases's background to [File] //config/assets/movies/New Releases/background.jpg"} |
-[2023-11-08 05:00:42,223] [library.py:177]            [INFO]     | Detail: New Releases's poster update not needed                                                    |
-[2023-11-08 05:00:42,223] [library.py:193]            [INFO]     | Detail: New Releases's background update not needed                                                |
-[2023-11-08 05:00:42,239] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:00:42,239] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:00:42,239] [plex_meta_manager.py:781]  [INFO]     |                                  Finished New Releases Collection                                  |
-[2023-11-08 05:00:42,240] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
-[2023-11-08 05:00:42,240] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:646]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:647]  [INFO]     | Items Found: 8                                                                                     |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/giladg/lists/latest-releases                           |
+[2023-11-22 05:00:55,929] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:55,929] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/giladg/lists/latest-releases                         |
+[2023-11-22 05:00:56,085] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:56,085] [builder.py:1666]           [DEBUG]    | 300 IDs Found                                                                                      |
+[2023-11-22 05:00:56,085] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:00:56,086] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:56,086] [builder.py:2250]           [INFO]     |================================ Adding to New Releases Collection =================================|
+[2023-11-22 05:00:56,086] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 1/9 | New Releases Collection | = | Indiana Jones and the Dial of Destiny (2023)                   |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 2/9 | New Releases Collection | = | Spider-Man: Across the Spider-Verse (2023)                     |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 3/9 | New Releases Collection | = | Teenage Mutant Ninja Turtles: Mutant Mayhem (2023)             |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 4/9 | New Releases Collection | = | Barbie (2023)                                                  |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 5/9 | New Releases Collection | = | Haunted Mansion (2023)                                         |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 6/9 | New Releases Collection | = | Mission: Impossible - Dead Reckoning Part One (2023)           |
+[2023-11-22 05:00:56,112] [builder.py:2265]           [INFO]     | 7/9 | New Releases Collection | + | Oppenheimer (2023)                                             |
+[2023-11-22 05:00:56,258] [builder.py:2265]           [INFO]     | 8/9 | New Releases Collection | = | The Creator (2023)                                             |
+[2023-11-22 05:00:56,258] [builder.py:2265]           [INFO]     | 9/9 | New Releases Collection | = | A Haunting in Venice (2023)                                    |
+[2023-11-22 05:00:56,265] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:56,265] [builder.py:2287]           [INFO]     | 9 Movies Processed 1 Movies Added                                                                  |
+[2023-11-22 05:00:58,590] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:58,590] [builder.py:2423]           [INFO]     | 291 Movies Missing                                                                                 |
+[2023-11-22 05:00:58,619] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:58,619] [builder.py:2624]           [INFO]     |=========================== Updating Details of New Releases Collection ============================|
+[2023-11-22 05:00:58,619] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:00:58,624] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:00:58,628] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-11-22 05:00:58,628] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://i.ibb.co/VNwwdZQ/New-Releases.jpg                               |
+[2023-11-22 05:00:58,628] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/New Releases/poster.jpg', 'prefix': "New Releases's ", 'is_poster': True, 'is_url': False, 'compare': 92705, 'message': "New Releases's poster to [File] //config/assets/movies/New Releases/poster.jpg"} |
+[2023-11-22 05:00:58,628] [util.py:178]               [DEBUG]    | 1 background found:                                                                                |
+[2023-11-22 05:00:58,628] [util.py:180]               [DEBUG]    | Method: asset_directory Background: {'attribute': 'asset_directory', 'location': '//config/assets/movies/New Releases/background.jpg', 'prefix': "New Releases's ", 'is_poster': False, 'is_url': False, 'compare': 1173495, 'message': "New Releases's background to [File] //config/assets/movies/New Releases/background.jpg"} |
+[2023-11-22 05:00:58,629] [library.py:177]            [INFO]     | Detail: New Releases's poster update not needed                                                    |
+[2023-11-22 05:00:58,630] [library.py:193]            [INFO]     | Detail: New Releases's background update not needed                                                |
+[2023-11-22 05:00:58,650] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:00:58,650] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:00:58,650] [plex_meta_manager.py:781]  [INFO]     |                                  Finished New Releases Collection                                  |
+[2023-11-22 05:00:58,650] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-11-22 05:00:58,650] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

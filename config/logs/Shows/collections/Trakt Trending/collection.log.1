@@ -1,96 +1,105 @@
-[2023-11-07 05:38:37,725] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 05:38:37,725] [builder.py:193]            [INFO]     |                                 Trakt Trending Collection in Shows                                 |
-[2023-11-07 05:38:37,725] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 05:38:37,725] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,725] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-07 05:38:37,725] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,725] [builder.py:216]            [DEBUG]    | Templates Called: trakt, shared, arr, custom, translation                                          |
-[2023-11-07 05:38:37,725] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,725] [builder.py:220]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,725] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
-[2023-11-07 05:38:37,744] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-07 05:38:37,744] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,744] [meta.py:552]               [DEBUG]    | {'trakt_chart': {'chart': 'trending', 'limit': 20}, 'ignore_blank_results': True, 'collection_mode': 'hide', 'visible_library': True, 'visible_home': False, 'visible_shared': True, 'sort_title': '!01_Trakt Trending', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Trending List.", 'name': 'Trakt Trending'} |
-[2023-11-07 05:38:37,744] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,745] [builder.py:233]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
-[2023-11-07 05:38:37,745] [builder.py:236]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,745] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
-[2023-11-07 05:38:37,745] [builder.py:240]            [DEBUG]    | Value: Trakt Trending                                                                              |
-[2023-11-07 05:38:37,768] [builder.py:463]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,768] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
-[2023-11-07 05:38:37,768] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-07 05:38:37,768] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,768] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-07 05:38:37,768] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-07 05:38:37,768] [builder.py:682]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,768] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-11-07 05:38:37,768] [builder.py:684]            [DEBUG]    | Value: custom                                                                                      |
-[2023-11-07 05:38:37,768] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,768] [builder.py:719]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
-[2023-11-07 05:38:37,769] [builder.py:720]            [DEBUG]    | Value: {'chart': 'trending', 'limit': 20}                                                          |
-[2023-11-07 05:38:37,769] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,769] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-07 05:38:37,769] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-07 05:38:37,769] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,769] [builder.py:719]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2023-11-07 05:38:37,769] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-07 05:38:37,769] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,769] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-07 05:38:37,769] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-07 05:38:37,770] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,770] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-07 05:38:37,770] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-07 05:38:37,770] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,770] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-07 05:38:37,770] [builder.py:720]            [DEBUG]    | Value: !01_Trakt Trending                                                                          |
-[2023-11-07 05:38:37,770] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,770] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-07 05:38:37,770] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
-[2023-11-07 05:38:37,972] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,972] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
-[2023-11-07 05:38:37,972] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
-[2023-11-07 05:38:37,972] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,973] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-07 05:38:37,973] [builder.py:720]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Trending List.                                         |
-[2023-11-07 05:38:37,973] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,973] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:638]  [INFO]     |================================ Running Trakt Trending Collection =================================|
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 20, 'time_period': None}                      |
-[2023-11-07 05:38:37,973] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,974] [builder.py:1614]           [INFO]     | Builder: trakt_chart loaded from Cache                                                             |
-[2023-11-07 05:38:37,980] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,980] [builder.py:1666]           [DEBUG]    | 20 IDs Found                                                                                       |
-[2023-11-07 05:38:37,980] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-07 05:38:37,980] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,980] [builder.py:2250]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
-[2023-11-07 05:38:37,980] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,980] [builder.py:2265]           [INFO]     | 1/6 | Trakt Trending Collection | = | Rick and Morty                                               |
-[2023-11-07 05:38:37,981] [builder.py:2265]           [INFO]     | 2/6 | Trakt Trending Collection | = | Bob's Burgers                                                |
-[2023-11-07 05:38:37,981] [builder.py:2265]           [INFO]     | 3/6 | Trakt Trending Collection | = | The Simpsons                                                 |
-[2023-11-07 05:38:37,981] [builder.py:2265]           [INFO]     | 4/6 | Trakt Trending Collection | = | Fear the Walking Dead                                        |
-[2023-11-07 05:38:37,981] [builder.py:2265]           [INFO]     | 5/6 | Trakt Trending Collection | = | The Big Bang Theory                                          |
-[2023-11-07 05:38:37,981] [builder.py:2265]           [INFO]     | 6/6 | Trakt Trending Collection | = | Game of Thrones                                              |
-[2023-11-07 05:38:37,981] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:37,981] [builder.py:2287]           [INFO]     | 6 Shows Processed 0 Shows Added                                                                    |
-[2023-11-07 05:38:38,017] [builder.py:2467]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,017] [builder.py:2468]           [INFO]     | 14 Shows Missing                                                                                   |
-[2023-11-07 05:38:38,058] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,059] [builder.py:2624]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
-[2023-11-07 05:38:38,059] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,064] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-07 05:38:38,067] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
-[2023-11-07 05:38:38,067] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
-[2023-11-07 05:38:38,067] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-11-07 05:38:38,086] [builder.py:2780]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,086] [builder.py:2781]           [INFO]     |================================ Sorting Trakt Trending Collection =================================|
-[2023-11-07 05:38:38,087] [builder.py:2782]           [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,087] [builder.py:2816]           [INFO]     | No Sorting Required                                                                                |
-[2023-11-07 05:38:38,087] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-07 05:38:38,087] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-07 05:38:38,087] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
-[2023-11-07 05:38:38,087] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-11-07 05:38:38,087] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-21 05:15:00,007] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-21 05:15:00,007] [builder.py:193]            [INFO]     |                                 Trakt Trending Collection in Shows                                 |
+[2023-11-21 05:15:00,008] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-21 05:15:00,008] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,008] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-21 05:15:00,008] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,008] [builder.py:216]            [DEBUG]    | Templates Called: trakt, shared, arr, custom, translation                                          |
+[2023-11-21 05:15:00,008] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,008] [builder.py:220]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,008] [builder.py:221]            [DEBUG]    | Validating Method: variables                                                                       |
+[2023-11-21 05:15:00,028] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-21 05:15:00,028] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,028] [meta.py:552]               [DEBUG]    | {'trakt_chart': {'chart': 'trending', 'limit': 20}, 'ignore_blank_results': True, 'collection_mode': 'hide', 'visible_library': True, 'visible_home': False, 'visible_shared': True, 'sort_title': '!01_Trakt Trending', 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg', 'collection_order': 'custom', 'sync_mode': 'sync', 'cache_builders': 1, 'summary': "A collection of Trakt's Weekly Trakt Trending List.", 'name': 'Trakt Trending'} |
+[2023-11-21 05:15:00,028] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,028] [builder.py:233]            [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2023-11-21 05:15:00,028] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,028] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-11-21 05:15:00,028] [builder.py:240]            [DEBUG]    | Value: Trakt Trending                                                                              |
+[2023-11-21 05:15:00,052] [builder.py:463]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,052] [builder.py:464]            [DEBUG]    | Validating Method: ignore_blank_results                                                            |
+[2023-11-21 05:15:00,052] [builder.py:465]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-21 05:15:00,053] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,053] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-21 05:15:00,053] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-21 05:15:00,053] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,053] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-21 05:15:00,053] [builder.py:684]            [DEBUG]    | Value: custom                                                                                      |
+[2023-11-21 05:15:00,053] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,053] [builder.py:719]            [DEBUG]    | Validating Method: trakt_chart                                                                     |
+[2023-11-21 05:15:00,053] [builder.py:720]            [DEBUG]    | Value: {'chart': 'trending', 'limit': 20}                                                          |
+[2023-11-21 05:15:00,053] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,053] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-21 05:15:00,054] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-21 05:15:00,054] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,054] [builder.py:719]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-11-21 05:15:00,054] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-21 05:15:00,054] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,054] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-21 05:15:00,054] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-21 05:15:00,054] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,054] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-21 05:15:00,054] [builder.py:720]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-21 05:15:00,054] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,054] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-21 05:15:00,055] [builder.py:720]            [DEBUG]    | Value: !01_Trakt Trending                                                                          |
+[2023-11-21 05:15:00,055] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,055] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-21 05:15:00,055] [builder.py:720]            [DEBUG]    | Value: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2023-11-21 05:15:00,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,217] [builder.py:719]            [DEBUG]    | Validating Method: cache_builders                                                                  |
+[2023-11-21 05:15:00,217] [builder.py:720]            [DEBUG]    | Value: 1                                                                                           |
+[2023-11-21 05:15:00,217] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,217] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-21 05:15:00,218] [builder.py:720]            [DEBUG]    | Value: A collection of Trakt's Weekly Trakt Trending List.                                         |
+[2023-11-21 05:15:00,218] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,218] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:638]  [INFO]     |================================ Running Trakt Trending Collection =================================|
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_chart: {'chart': 'trending', 'limit': 20, 'time_period': None}                      |
+[2023-11-21 05:15:00,218] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,219] [trakt.py:501]              [INFO]     | Processing Trakt Chart: 20 Trending Shows                                                          |
+[2023-11-21 05:15:00,557] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,557] [builder.py:1666]           [DEBUG]    | 20 IDs Found                                                                                       |
+[2023-11-21 05:15:00,557] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-21 05:15:00,558] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,558] [builder.py:2250]           [INFO]     |=============================== Adding to Trakt Trending Collection ================================|
+[2023-11-21 05:15:00,558] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,558] [builder.py:2265]           [INFO]     | 1/8 | Trakt Trending Collection | + | Rick and Morty                                               |
+[2023-11-21 05:15:00,576] [builder.py:2265]           [INFO]     | 2/8 | Trakt Trending Collection | = | For All Mankind                                              |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 3/8 | Trakt Trending Collection | = | Game of Thrones                                              |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 4/8 | Trakt Trending Collection | = | The Big Bang Theory                                          |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 5/8 | Trakt Trending Collection | = | Monarch: Legacy of Monsters                                  |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 6/8 | Trakt Trending Collection | = | The Boys                                                     |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 7/8 | Trakt Trending Collection | = | Fear the Walking Dead                                        |
+[2023-11-21 05:15:00,577] [builder.py:2265]           [INFO]     | 8/8 | Trakt Trending Collection | = | The Simpsons                                                 |
+[2023-11-21 05:15:00,616] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:00,616] [builder.py:2287]           [INFO]     | 8 Shows Processed 1 Shows Added                                                                    |
+[2023-11-21 05:15:03,757] [builder.py:2467]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,757] [builder.py:2468]           [INFO]     | 12 Shows Missing                                                                                   |
+[2023-11-21 05:15:03,799] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,799] [builder.py:2624]           [INFO]     |========================== Updating Details of Trakt Trending Collection ===========================|
+[2023-11-21 05:15:03,799] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,804] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-21 05:15:03,806] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-11-21 05:15:03,806] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/chart/Trakt%20Trending.jpg |
+[2023-11-21 05:15:03,807] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-11-21 05:15:03,829] [builder.py:2780]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,829] [builder.py:2781]           [INFO]     |================================ Sorting Trakt Trending Collection =================================|
+[2023-11-21 05:15:03,829] [builder.py:2782]           [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,847] [builder.py:2809]           [INFO]     | Moving Rick and Morty to the beginning                                                             |
+[2023-11-21 05:15:03,862] [builder.py:2809]           [INFO]     | Moving For All Mankind after Rick and Morty                                                        |
+[2023-11-21 05:15:03,878] [builder.py:2809]           [INFO]     | Moving Game of Thrones after For All Mankind                                                       |
+[2023-11-21 05:15:03,893] [builder.py:2809]           [INFO]     | Moving The Big Bang Theory after Game of Thrones                                                   |
+[2023-11-21 05:15:03,909] [builder.py:2809]           [INFO]     | Moving Monarch: Legacy of Monsters after The Big Bang Theory                                       |
+[2023-11-21 05:15:03,924] [builder.py:2809]           [INFO]     | Moving The Boys after Monarch: Legacy of Monsters                                                  |
+[2023-11-21 05:15:03,940] [builder.py:2809]           [INFO]     | Moving Fear the Walking Dead after The Boys                                                        |
+[2023-11-21 05:15:03,955] [builder.py:2809]           [INFO]     | Moving The Simpsons after Fear the Walking Dead                                                    |
+[2023-11-21 05:15:03,955] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-21 05:15:03,955] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-21 05:15:03,955] [plex_meta_manager.py:781]  [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2023-11-21 05:15:03,955] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-11-21 05:15:03,955] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

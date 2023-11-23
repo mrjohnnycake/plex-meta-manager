@@ -1,82 +1,82 @@
-[2023-11-08 05:01:25,616] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:01:25,616] [builder.py:193]            [INFO]     |                                  Jim Carrey Collection in Movies                                   |
-[2023-11-08 05:01:25,616] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:01:25,617] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:01:25,617] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:01:25,617] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,617] [builder.py:216]            [DEBUG]    | Templates Called: Actor                                                                            |
-[2023-11-08 05:01:25,617] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,618] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:01:25,618] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,618] [meta.py:552]               [DEBUG]    | {'tmdb_person': 206, 'sort_title': '++_Jim Carrey', 'collection_order': 'release', 'collection_mode': 'hide'} |
-[2023-11-08 05:01:25,618] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,618] [builder.py:233]            [INFO]     |================================= Validating Jim Carrey Attributes =================================|
-[2023-11-08 05:01:25,740] [builder.py:591]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,740] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
-[2023-11-08 05:01:25,740] [builder.py:596]            [DEBUG]    | Value: 206                                                                                         |
-[2023-11-08 05:01:25,846] [builder.py:682]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,846] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-11-08 05:01:25,846] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
-[2023-11-08 05:01:25,846] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:25,846] [builder.py:719]            [DEBUG]    | Validating Method: actor                                                                           |
-[2023-11-08 05:01:25,846] [builder.py:720]            [DEBUG]    | Value: tmdb                                                                                        |
-[2023-11-08 05:01:26,125] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,125] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:01:26,125] [builder.py:720]            [DEBUG]    | Value: James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994). |
-[2023-11-08 05:01:26,125] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,126] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:01:26,126] [builder.py:720]            [DEBUG]    | Value: ++_Jim Carrey                                                                               |
-[2023-11-08 05:01:26,126] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,126] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-11-08 05:01:26,126] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
-[2023-11-08 05:01:26,126] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,126] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:01:26,126] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,126] [plex_meta_manager.py:638]  [INFO]     |================================== Running Jim Carrey Collection ===================================|
-[2023-11-08 05:01:26,126] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,127] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: append                                                                                  |
-[2023-11-08 05:01:26,127] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,127] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jim Carrey", '?type=1&sort=titleSort&push=1&actor=59593&pop=1') |
-[2023-11-08 05:01:26,127] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,127] [plex.py:946]               [INFO]     | Processing Plex Movie Search                                                                       |
+[2023-11-22 05:01:37,679] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:01:37,679] [builder.py:193]            [INFO]     |                                  Jim Carrey Collection in Movies                                   |
+[2023-11-22 05:01:37,680] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:01:37,680] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:01:37,680] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:01:37,680] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,680] [builder.py:216]            [DEBUG]    | Templates Called: Actor                                                                            |
+[2023-11-22 05:01:37,680] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,680] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:01:37,681] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,681] [meta.py:552]               [DEBUG]    | {'tmdb_person': 206, 'sort_title': '++_Jim Carrey', 'collection_order': 'release', 'collection_mode': 'hide'} |
+[2023-11-22 05:01:37,681] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,681] [builder.py:233]            [INFO]     |================================= Validating Jim Carrey Attributes =================================|
+[2023-11-22 05:01:37,794] [builder.py:591]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,794] [builder.py:592]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2023-11-22 05:01:37,794] [builder.py:596]            [DEBUG]    | Value: 206                                                                                         |
+[2023-11-22 05:01:37,878] [builder.py:682]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,878] [builder.py:683]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-11-22 05:01:37,878] [builder.py:684]            [DEBUG]    | Value: release                                                                                     |
+[2023-11-22 05:01:37,878] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:37,878] [builder.py:719]            [DEBUG]    | Validating Method: actor                                                                           |
+[2023-11-22 05:01:37,878] [builder.py:720]            [DEBUG]    | Value: tmdb                                                                                        |
+[2023-11-22 05:01:38,139] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,139] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:01:38,139] [builder.py:720]            [DEBUG]    | Value: James Eugene Carrey (born January 17, 1962) is a Canadian and American actor, comedian, writer, and producer. Known for his energetic slapstick performances, Carrey first gained recognition in 1990, after landing a recurring role in the American sketch comedy television series In Living Color (1990–1994). |
+[2023-11-22 05:01:38,139] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,139] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:01:38,139] [builder.py:720]            [DEBUG]    | Value: ++_Jim Carrey                                                                               |
+[2023-11-22 05:01:38,139] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,139] [builder.py:719]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-11-22 05:01:38,140] [builder.py:720]            [DEBUG]    | Value: hide                                                                                        |
+[2023-11-22 05:01:38,140] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,140] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:638]  [INFO]     |================================== Running Jim Carrey Collection ===================================|
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:657]  [DEBUG]    | Builder: plex_search: (1, "Plex Movie Search\nSort By: ['title.asc']\nFilter:\n  Match any of the following:\n    Actor is Jim Carrey", '?type=1&sort=titleSort&push=1&actor=59593&pop=1') |
+[2023-11-22 05:01:38,140] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,141] [plex.py:946]               [INFO]     | Processing Plex Movie Search                                                                       |
                                                                  | Sort By: ['title.asc']                                                                             |
                                                                  | Filter:                                                                                            |
                                                                  |   Match any of the following:                                                                      |
                                                                  |     Actor is Jim Carrey                                                                            |
-[2023-11-08 05:01:26,163] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,164] [builder.py:1666]           [DEBUG]    | 17 IDs Found                                                                                       |
-[2023-11-08 05:01:26,164] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:01:26,164] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,164] [builder.py:2250]           [INFO]     |================================= Adding to Jim Carrey Collection ==================================|
-[2023-11-08 05:01:26,164] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,164] [builder.py:2265]           [INFO]     |  1/17 | Jim Carrey Collection | = | Ace Ventura: Pet Detective (1994)                              |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  2/17 | Jim Carrey Collection | = | Batman Forever (1995)                                          |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  3/17 | Jim Carrey Collection | = | Bruce Almighty (2003)                                          |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  4/17 | Jim Carrey Collection | = | A Christmas Carol (2009)                                       |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  5/17 | Jim Carrey Collection | = | Conan O'Brien Can't Stop (2011)                                |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  6/17 | Jim Carrey Collection | = | The Dead Pool (1988)                                           |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  7/17 | Jim Carrey Collection | = | Dumb and Dumber (1994)                                         |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  8/17 | Jim Carrey Collection | = | Eternal Sunshine of the Spotless Mind (2004)                   |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     |  9/17 | Jim Carrey Collection | = | Fun with Dick and Jane (2005)                                  |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     | 10/17 | Jim Carrey Collection | = | How the Grinch Stole Christmas (2000)                          |
-[2023-11-08 05:01:26,165] [builder.py:2265]           [INFO]     | 11/17 | Jim Carrey Collection | = | Liar Liar (1997)                                               |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 12/17 | Jim Carrey Collection | = | Man on the Moon (1999)                                         |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 13/17 | Jim Carrey Collection | = | A Series of Unfortunate Events (2004)                          |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 14/17 | Jim Carrey Collection | = | Sonic the Hedgehog (2020)                                      |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 15/17 | Jim Carrey Collection | = | Sonic the Hedgehog 2 (2022)                                    |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 16/17 | Jim Carrey Collection | = | The Truman Show (1998)                                         |
-[2023-11-08 05:01:26,166] [builder.py:2265]           [INFO]     | 17/17 | Jim Carrey Collection | = | Yes Man (2008)                                                 |
-[2023-11-08 05:01:26,166] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,166] [builder.py:2287]           [INFO]     | 17 Movies Processed 0 Movies Added                                                                 |
-[2023-11-08 05:01:26,170] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,171] [builder.py:2624]           [INFO]     |============================ Updating Details of Jim Carrey Collection =============================|
-[2023-11-08 05:01:26,171] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,177] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:01:26,177] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
-[2023-11-08 05:01:26,178] [util.py:180]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg    |
-[2023-11-08 05:01:26,178] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-11-08 05:01:26,293] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:01:26,293] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:01:26,293] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Jim Carrey Collection                                   |
-[2023-11-08 05:01:26,293] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-11-08 05:01:26,293] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:01:38,176] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,176] [builder.py:1666]           [DEBUG]    | 17 IDs Found                                                                                       |
+[2023-11-22 05:01:38,176] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:01:38,177] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,177] [builder.py:2250]           [INFO]     |================================= Adding to Jim Carrey Collection ==================================|
+[2023-11-22 05:01:38,177] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,177] [builder.py:2265]           [INFO]     |  1/17 | Jim Carrey Collection | = | Ace Ventura: Pet Detective (1994)                              |
+[2023-11-22 05:01:38,177] [builder.py:2265]           [INFO]     |  2/17 | Jim Carrey Collection | = | Batman Forever (1995)                                          |
+[2023-11-22 05:01:38,177] [builder.py:2265]           [INFO]     |  3/17 | Jim Carrey Collection | = | Bruce Almighty (2003)                                          |
+[2023-11-22 05:01:38,177] [builder.py:2265]           [INFO]     |  4/17 | Jim Carrey Collection | = | A Christmas Carol (2009)                                       |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     |  5/17 | Jim Carrey Collection | = | Conan O'Brien Can't Stop (2011)                                |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     |  6/17 | Jim Carrey Collection | = | The Dead Pool (1988)                                           |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     |  7/17 | Jim Carrey Collection | = | Dumb and Dumber (1994)                                         |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     |  8/17 | Jim Carrey Collection | = | Eternal Sunshine of the Spotless Mind (2004)                   |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     |  9/17 | Jim Carrey Collection | = | Fun with Dick and Jane (2005)                                  |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     | 10/17 | Jim Carrey Collection | = | How the Grinch Stole Christmas (2000)                          |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     | 11/17 | Jim Carrey Collection | = | Liar Liar (1997)                                               |
+[2023-11-22 05:01:38,178] [builder.py:2265]           [INFO]     | 12/17 | Jim Carrey Collection | = | Man on the Moon (1999)                                         |
+[2023-11-22 05:01:38,179] [builder.py:2265]           [INFO]     | 13/17 | Jim Carrey Collection | = | A Series of Unfortunate Events (2004)                          |
+[2023-11-22 05:01:38,179] [builder.py:2265]           [INFO]     | 14/17 | Jim Carrey Collection | = | Sonic the Hedgehog (2020)                                      |
+[2023-11-22 05:01:38,179] [builder.py:2265]           [INFO]     | 15/17 | Jim Carrey Collection | = | Sonic the Hedgehog 2 (2022)                                    |
+[2023-11-22 05:01:38,179] [builder.py:2265]           [INFO]     | 16/17 | Jim Carrey Collection | = | The Truman Show (1998)                                         |
+[2023-11-22 05:01:38,179] [builder.py:2265]           [INFO]     | 17/17 | Jim Carrey Collection | = | Yes Man (2008)                                                 |
+[2023-11-22 05:01:38,179] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,179] [builder.py:2287]           [INFO]     | 17 Movies Processed 0 Movies Added                                                                 |
+[2023-11-22 05:01:38,183] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,184] [builder.py:2624]           [INFO]     |============================ Updating Details of Jim Carrey Collection =============================|
+[2023-11-22 05:01:38,184] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,189] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:01:38,194] [util.py:178]               [DEBUG]    | 1 poster found:                                                                                    |
+[2023-11-22 05:01:38,194] [util.py:180]               [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/u0AqTz6Y7GHPCHINS01P7gPvDSb.jpg    |
+[2023-11-22 05:01:38,194] [library.py:177]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-11-22 05:01:38,306] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:01:38,306] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:01:38,306] [plex_meta_manager.py:781]  [INFO]     |                                   Finished Jim Carrey Collection                                   |
+[2023-11-22 05:01:38,306] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-11-22 05:01:38,306] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

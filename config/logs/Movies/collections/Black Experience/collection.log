@@ -1,88 +1,88 @@
-[2023-11-08 05:04:14,868] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:04:14,868] [builder.py:193]            [INFO]     |                               Black Experience Collection in Movies                                |
-[2023-11-08 05:04:14,868] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:04:14,868] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:04:14,869] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:04:14,869] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,869] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
-[2023-11-08 05:04:14,869] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,869] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:04:14,870] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,870] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Black Experience', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-08 05:04:14,870] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,870] [builder.py:233]            [INFO]     |============================== Validating Black Experience Attributes ==============================|
-[2023-11-08 05:04:14,985] [builder.py:500]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,986] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
-[2023-11-08 05:04:14,986] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:04:14,986] [builder.py:558]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,986] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
-[2023-11-08 05:04:14,986] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:04:14,986] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,986] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-08 05:04:14,986] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-08 05:04:14,986] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:14,986] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2023-11-08 05:04:14,986] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
-[2023-11-08 05:04:15,142] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for O.J.: Made in America (2016)                                     |
-[2023-11-08 05:04:15,142] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,143] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:04:15,143] [builder.py:720]            [DEBUG]    | Value: These films will teach you something the history books don’t.                               |
-[2023-11-08 05:04:15,143] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,143] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-08 05:04:15,143] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
-[2023-11-08 05:04:15,173] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,173] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:04:15,174] [builder.py:720]            [DEBUG]    | Value: Black Experience                                                                            |
-[2023-11-08 05:04:15,174] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,174] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-08 05:04:15,174] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:04:15,174] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,174] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-08 05:04:15,174] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:04:15,174] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,174] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:04:15,174] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,174] [plex_meta_manager.py:638]  [INFO]     |=============================== Running Black Experience Collection ================================|
-[2023-11-08 05:04:15,175] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,175] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-08 05:04:15,175] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,175] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
-[2023-11-08 05:04:15,175] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,175] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
-[2023-11-08 05:04:15,534] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for O.J.: Made in America (2016)                                     |
-[2023-11-08 05:04:15,534] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,534] [builder.py:1666]           [DEBUG]    | 109 IDs Found                                                                                      |
-[2023-11-08 05:04:15,534] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:15,535] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,535] [builder.py:2250]           [INFO]     |============================== Adding to Black Experience Collection ===============================|
-[2023-11-08 05:04:15,535] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,535] [builder.py:2265]           [INFO]     |  1/13 | Black Experience Collection | = | Black Panther (2018)                                     |
-[2023-11-08 05:04:15,535] [builder.py:2265]           [INFO]     |  2/13 | Black Experience Collection | = | BlacKkKlansman (2018)                                    |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  3/13 | Black Experience Collection | = | Get Out (2017)                                           |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  4/13 | Black Experience Collection | = | I Am Not Your Negro (2017)                               |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  5/13 | Black Experience Collection | = | Straight Outta Compton (2015)                            |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  6/13 | Black Experience Collection | = | Selma (2015)                                             |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  7/13 | Black Experience Collection | = | 12 Years a Slave (2013)                                  |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  8/13 | Black Experience Collection | = | The Princess and the Frog (2009)                         |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     |  9/13 | Black Experience Collection | = | Hotel Rwanda (2005)                                      |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     | 10/13 | Black Experience Collection | = | When We Were Kings (1997)                                |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     | 11/13 | Black Experience Collection | = | Hoop Dreams (1994)                                       |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     | 12/13 | Black Experience Collection | = | Malcolm X (1992)                                         |
-[2023-11-08 05:04:15,536] [builder.py:2265]           [INFO]     | 13/13 | Black Experience Collection | = | Coming to America (1988)                                 |
-[2023-11-08 05:04:15,537] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,537] [builder.py:2287]           [INFO]     | 13 Movies Processed 0 Movies Added                                                                 |
-[2023-11-08 05:04:15,772] [builder.py:2422]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:15,773] [builder.py:2423]           [INFO]     | 95 Movies Missing                                                                                  |
-[2023-11-08 05:04:16,317] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:16,317] [builder.py:2624]           [INFO]     |========================= Updating Details of Black Experience Collection ==========================|
-[2023-11-08 05:04:16,317] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:16,325] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:04:16,328] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
-[2023-11-08 05:04:16,328] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/images/defaults/missing_poster.jpg              |
-[2023-11-08 05:04:16,328] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Black Experience/poster.jpg', 'prefix': "Black Experience's ", 'is_poster': True, 'is_url': False, 'compare': 37395, 'message': "Black Experience's poster to [File] //config/assets/movies/Black Experience/poster.jpg"} |
-[2023-11-08 05:04:16,329] [library.py:177]            [INFO]     | Detail: Black Experience's poster update not needed                                                |
-[2023-11-08 05:04:16,454] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:16,454] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:04:16,454] [plex_meta_manager.py:781]  [INFO]     |                                Finished Black Experience Collection                                |
-[2023-11-08 05:04:16,454] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
-[2023-11-08 05:04:16,454] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:03:09,876] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:03:09,876] [builder.py:193]            [INFO]     |                               Black Experience Collection in Movies                                |
+[2023-11-22 05:03:09,876] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:03:09,877] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:03:09,877] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:03:09,877] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,877] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
+[2023-11-22 05:03:09,877] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,878] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:03:09,878] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,878] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Black Experience', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-22 05:03:09,878] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,878] [builder.py:233]            [INFO]     |============================== Validating Black Experience Attributes ==============================|
+[2023-11-22 05:03:09,985] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,986] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-11-22 05:03:09,986] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:03:09,986] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,986] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-11-22 05:03:09,986] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:03:09,986] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,986] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-22 05:03:09,986] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-22 05:03:09,986] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:09,986] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-11-22 05:03:09,986] [builder.py:720]            [DEBUG]    | Value: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
+[2023-11-22 05:03:10,117] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for O.J.: Made in America (2016)                                     |
+[2023-11-22 05:03:10,117] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,117] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:03:10,117] [builder.py:720]            [DEBUG]    | Value: These films will teach you something the history books don’t.                               |
+[2023-11-22 05:03:10,117] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,117] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-22 05:03:10,118] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
+[2023-11-22 05:03:10,149] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,149] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:03:10,149] [builder.py:720]            [DEBUG]    | Value: Black Experience                                                                            |
+[2023-11-22 05:03:10,149] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,149] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-22 05:03:10,149] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:03:10,149] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,149] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-22 05:03:10,149] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:03:10,150] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,150] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:638]  [INFO]     |=============================== Running Black Experience Collection ================================|
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
+[2023-11-22 05:03:10,150] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,150] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/loriejcall/lists/110-important-films-about-the-black-experience-11784433?sort=released,asc |
+[2023-11-22 05:03:10,371] [trakt.py:284]              [ERROR]    | Trakt Error: No TVDb ID found for O.J.: Made in America (2016)                                     |
+[2023-11-22 05:03:10,372] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,372] [builder.py:1666]           [DEBUG]    | 109 IDs Found                                                                                      |
+[2023-11-22 05:03:10,372] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:10,372] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,372] [builder.py:2250]           [INFO]     |============================== Adding to Black Experience Collection ===============================|
+[2023-11-22 05:03:10,372] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  1/13 | Black Experience Collection | = | Black Panther (2018)                                     |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  2/13 | Black Experience Collection | = | BlacKkKlansman (2018)                                    |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  3/13 | Black Experience Collection | = | Get Out (2017)                                           |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  4/13 | Black Experience Collection | = | I Am Not Your Negro (2017)                               |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  5/13 | Black Experience Collection | = | Straight Outta Compton (2015)                            |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  6/13 | Black Experience Collection | = | Selma (2015)                                             |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  7/13 | Black Experience Collection | = | 12 Years a Slave (2013)                                  |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  8/13 | Black Experience Collection | = | The Princess and the Frog (2009)                         |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     |  9/13 | Black Experience Collection | = | Hotel Rwanda (2005)                                      |
+[2023-11-22 05:03:10,373] [builder.py:2265]           [INFO]     | 10/13 | Black Experience Collection | = | When We Were Kings (1997)                                |
+[2023-11-22 05:03:10,374] [builder.py:2265]           [INFO]     | 11/13 | Black Experience Collection | = | Hoop Dreams (1994)                                       |
+[2023-11-22 05:03:10,374] [builder.py:2265]           [INFO]     | 12/13 | Black Experience Collection | = | Malcolm X (1992)                                         |
+[2023-11-22 05:03:10,374] [builder.py:2265]           [INFO]     | 13/13 | Black Experience Collection | = | Coming to America (1988)                                 |
+[2023-11-22 05:03:10,374] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,374] [builder.py:2287]           [INFO]     | 13 Movies Processed 0 Movies Added                                                                 |
+[2023-11-22 05:03:10,638] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:10,638] [builder.py:2423]           [INFO]     | 95 Movies Missing                                                                                  |
+[2023-11-22 05:03:11,198] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:11,199] [builder.py:2624]           [INFO]     |========================= Updating Details of Black Experience Collection ==========================|
+[2023-11-22 05:03:11,199] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:11,204] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:03:11,206] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-11-22 05:03:11,206] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/images/defaults/missing_poster.jpg              |
+[2023-11-22 05:03:11,206] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Black Experience/poster.jpg', 'prefix': "Black Experience's ", 'is_poster': True, 'is_url': False, 'compare': 37395, 'message': "Black Experience's poster to [File] //config/assets/movies/Black Experience/poster.jpg"} |
+[2023-11-22 05:03:11,207] [library.py:177]            [INFO]     | Detail: Black Experience's poster update not needed                                                |
+[2023-11-22 05:03:11,309] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:11,309] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:03:11,309] [plex_meta_manager.py:781]  [INFO]     |                                Finished Black Experience Collection                                |
+[2023-11-22 05:03:11,309] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2023-11-22 05:03:11,309] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

@@ -1,139 +1,139 @@
-[2023-11-08 05:04:25,203] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:04:25,203] [builder.py:193]            [INFO]     |                                Good Bad Movies Collection in Movies                                |
-[2023-11-08 05:04:25,203] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-08 05:04:25,203] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-08 05:04:25,203] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-08 05:04:25,203] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,203] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
-[2023-11-08 05:04:25,203] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,204] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-08 05:04:25,204] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,205] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Good Bad Movies', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-08 05:04:25,205] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,205] [builder.py:233]            [INFO]     |============================== Validating Good Bad Movies Attributes ===============================|
-[2023-11-08 05:04:25,406] [builder.py:500]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,406] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
-[2023-11-08 05:04:25,406] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:04:25,406] [builder.py:558]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,407] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
-[2023-11-08 05:04:25,407] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
-[2023-11-08 05:04:25,407] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,407] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-08 05:04:25,407] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-08 05:04:25,407] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,407] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2023-11-08 05:04:25,407] [builder.py:720]            [DEBUG]    | Value: ['https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc', 'https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc', 'https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc', 'https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc'] |
-[2023-11-08 05:04:25,970] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,970] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-11-08 05:04:25,971] [builder.py:720]            [DEBUG]    | Value: The bad special effects, the awful acting, the nonsensical plots — there’s something enchanting about a movie that’s hopelessly bad. |
-[2023-11-08 05:04:25,971] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:25,971] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-11-08 05:04:25,971] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
-[2023-11-08 05:04:26,004] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,005] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-11-08 05:04:26,005] [builder.py:720]            [DEBUG]    | Value: Good Bad Movies                                                                             |
-[2023-11-08 05:04:26,005] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,005] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-11-08 05:04:26,005] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:04:26,005] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,005] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-11-08 05:04:26,005] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-08 05:04:26,006] [builder.py:885]            [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,006] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:638]  [INFO]     |================================ Running Good Bad Movies Collection ================================|
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc |
-[2023-11-08 05:04:26,006] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,007] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc |
-[2023-11-08 05:04:26,136] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,136] [builder.py:1666]           [DEBUG]    | 50 IDs Found                                                                                       |
-[2023-11-08 05:04:26,137] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,137] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,137] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc           |
-[2023-11-08 05:04:26,137] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,137] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc         |
-[2023-11-08 05:04:26,267] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,267] [builder.py:1666]           [DEBUG]    | 68 IDs Found                                                                                       |
-[2023-11-08 05:04:26,267] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,268] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,268] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc         |
-[2023-11-08 05:04:26,269] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,269] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc       |
-[2023-11-08 05:04:26,407] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,407] [builder.py:1666]           [DEBUG]    | 95 IDs Found                                                                                       |
-[2023-11-08 05:04:26,407] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,408] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,408] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc |
-[2023-11-08 05:04:26,408] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,408] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc |
-[2023-11-08 05:04:26,560] [builder.py:1665]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,560] [builder.py:1666]           [DEBUG]    | 226 IDs Found                                                                                      |
-[2023-11-08 05:04:26,560] [builder.py:1668]           [DEBUG]    |                                                                                                    |
-[2023-11-08 05:04:26,562] [builder.py:2249]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,562] [builder.py:2250]           [INFO]     |=============================== Adding to Good Bad Movies Collection ===============================|
-[2023-11-08 05:04:26,562] [builder.py:2251]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,563] [builder.py:2265]           [INFO]     |  1/44 | Good Bad Movies Collection | = | Godzilla (1998)                                           |
-[2023-11-08 05:04:26,563] [builder.py:2265]           [INFO]     |  2/44 | Good Bad Movies Collection | = | Last Action Hero (1993)                                   |
-[2023-11-08 05:04:26,563] [builder.py:2265]           [INFO]     |  3/44 | Good Bad Movies Collection | = | The Chase (1994)                                          |
-[2023-11-08 05:04:26,563] [builder.py:2265]           [INFO]     |  4/44 | Good Bad Movies Collection | = | Demolition Man (1993)                                     |
-[2023-11-08 05:04:26,563] [builder.py:2265]           [INFO]     |  5/44 | Good Bad Movies Collection | = | Nothing But Trouble (1991)                                |
-[2023-11-08 05:04:26,564] [builder.py:2265]           [INFO]     |  6/44 | Good Bad Movies Collection | = | Mission: Impossible II (2000)                             |
-[2023-11-08 05:04:26,564] [builder.py:2265]           [INFO]     |  7/44 | Good Bad Movies Collection | = | Dante's Peak (1997)                                       |
-[2023-11-08 05:04:26,564] [builder.py:2265]           [INFO]     |  8/44 | Good Bad Movies Collection | = | Commando (1985)                                           |
-[2023-11-08 05:04:26,564] [builder.py:2265]           [INFO]     |  9/44 | Good Bad Movies Collection | = | Alien vs. Predator (2004)                                 |
-[2023-11-08 05:04:26,564] [builder.py:2265]           [INFO]     | 10/44 | Good Bad Movies Collection | = | Aliens vs. Predator: Requiem (2007)                       |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 11/44 | Good Bad Movies Collection | = | 101 Dalmatians (1996)                                     |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 12/44 | Good Bad Movies Collection | = | Airplane! (1980)                                          |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 13/44 | Good Bad Movies Collection | = | Airplane II: The Sequel (1982)                            |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 14/44 | Good Bad Movies Collection | = | Batman Forever (1995)                                     |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 15/44 | Good Bad Movies Collection | = | Beetlejuice (1988)                                        |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 16/44 | Good Bad Movies Collection | = | Cocoon (1985)                                             |
-[2023-11-08 05:04:26,565] [builder.py:2265]           [INFO]     | 17/44 | Good Bad Movies Collection | = | Coneheads (1993)                                          |
-[2023-11-08 05:04:26,566] [builder.py:2265]           [INFO]     | 18/44 | Good Bad Movies Collection | = | Death at a Funeral (2007)                                 |
-[2023-11-08 05:04:26,566] [builder.py:2265]           [INFO]     | 19/44 | Good Bad Movies Collection | = | Elf (2003)                                                |
-[2023-11-08 05:04:26,566] [builder.py:2265]           [INFO]     | 20/44 | Good Bad Movies Collection | = | The Faculty (1998)                                        |
-[2023-11-08 05:04:26,566] [builder.py:2265]           [INFO]     | 21/44 | Good Bad Movies Collection | = | Fun with Dick and Jane (2005)                             |
-[2023-11-08 05:04:26,567] [builder.py:2265]           [INFO]     | 22/44 | Good Bad Movies Collection | = | Galaxy Quest (1999)                                       |
-[2023-11-08 05:04:26,567] [builder.py:2265]           [INFO]     | 23/44 | Good Bad Movies Collection | = | Groundhog Day (1993)                                      |
-[2023-11-08 05:04:26,567] [builder.py:2265]           [INFO]     | 24/44 | Good Bad Movies Collection | = | Hocus Pocus (1993)                                        |
-[2023-11-08 05:04:26,567] [builder.py:2265]           [INFO]     | 25/44 | Good Bad Movies Collection | = | Hot Shots! (1991)                                         |
-[2023-11-08 05:04:26,567] [builder.py:2265]           [INFO]     | 26/44 | Good Bad Movies Collection | = | Hot Shots! Part Deux (1993)                               |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 27/44 | Good Bad Movies Collection | = | Jeepers Creepers (2001)                                   |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 28/44 | Good Bad Movies Collection | = | Jeepers Creepers 2 (2003)                                 |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 29/44 | Good Bad Movies Collection | = | Robin Hood: Men in Tights (1993)                          |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 30/44 | Good Bad Movies Collection | = | Three Amigos! (1986)                                      |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 31/44 | Good Bad Movies Collection | = | Twister (1996)                                            |
-[2023-11-08 05:04:26,568] [builder.py:2265]           [INFO]     | 32/44 | Good Bad Movies Collection | = | Krull (1983)                                              |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 33/44 | Good Bad Movies Collection | = | Star Wars: Episode I - The Phantom Menace (1999)          |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 34/44 | Good Bad Movies Collection | = | Dawn of the Dead (1978)                                   |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 35/44 | Good Bad Movies Collection | = | Dead Alive (1992)                                         |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 36/44 | Good Bad Movies Collection | = | Planet of the Apes (1968)                                 |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 37/44 | Good Bad Movies Collection | = | The Adventures of Buckaroo Banzai Across the 8th Dimension (1984) |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 38/44 | Good Bad Movies Collection | = | Army of Darkness (1992)                                   |
-[2023-11-08 05:04:26,569] [builder.py:2265]           [INFO]     | 39/44 | Good Bad Movies Collection | = | Beneath the Planet of the Apes (1970)                     |
-[2023-11-08 05:04:26,570] [builder.py:2265]           [INFO]     | 40/44 | Good Bad Movies Collection | = | Dark Star (1975)                                          |
-[2023-11-08 05:04:26,570] [builder.py:2265]           [INFO]     | 41/44 | Good Bad Movies Collection | = | Delicatessen (1991)                                       |
-[2023-11-08 05:04:26,570] [builder.py:2265]           [INFO]     | 42/44 | Good Bad Movies Collection | = | Mom and Dad Save the World (1992)                         |
-[2023-11-08 05:04:26,570] [builder.py:2265]           [INFO]     | 43/44 | Good Bad Movies Collection | = | Night of the Living Dead (1968)                           |
-[2023-11-08 05:04:26,570] [builder.py:2265]           [INFO]     | 44/44 | Good Bad Movies Collection | = | Spaced Invaders (1990)                                    |
-[2023-11-08 05:04:26,570] [builder.py:2285]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:26,570] [builder.py:2287]           [INFO]     | 44 Movies Processed 0 Movies Added                                                                 |
-[2023-11-08 05:04:27,151] [builder.py:2411]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 332343                                                      |
-[2023-11-08 05:04:29,445] [builder.py:2422]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:29,445] [builder.py:2423]           [INFO]     | 359 Movies Missing                                                                                 |
-[2023-11-08 05:04:30,009] [builder.py:2623]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:30,009] [builder.py:2624]           [INFO]     |========================== Updating Details of Good Bad Movies Collection ==========================|
-[2023-11-08 05:04:30,010] [builder.py:2625]           [INFO]     |                                                                                                    |
-[2023-11-08 05:04:30,016] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
-[2023-11-08 05:04:30,018] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
-[2023-11-08 05:04:30,018] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/images/defaults/missing_poster.jpg              |
-[2023-11-08 05:04:30,018] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Good Bad Movies/poster.jpg', 'prefix': "Good Bad Movies's ", 'is_poster': True, 'is_url': False, 'compare': 37395, 'message': "Good Bad Movies's poster to [File] //config/assets/movies/Good Bad Movies/poster.jpg"} |
-[2023-11-08 05:04:30,019] [library.py:177]            [INFO]     | Detail: Good Bad Movies's poster update not needed                                                 |
-[2023-11-08 05:04:30,204] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-08 05:04:30,204] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-08 05:04:30,204] [plex_meta_manager.py:781]  [INFO]     |                                Finished Good Bad Movies Collection                                 |
-[2023-11-08 05:04:30,204] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:05                                    |
-[2023-11-08 05:04:30,204] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:03:29,508] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:03:29,508] [builder.py:193]            [INFO]     |                                Good Bad Movies Collection in Movies                                |
+[2023-11-22 05:03:29,508] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-22 05:03:29,508] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-22 05:03:29,508] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-22 05:03:29,509] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,509] [builder.py:216]            [DEBUG]    | Templates Called: Specialty                                                                        |
+[2023-11-22 05:03:29,509] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,509] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-22 05:03:29,510] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,510] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://theposterdb.com/images/defaults/missing_poster.jpg', 'sort_title': 'Good Bad Movies', 'delete_not_scheduled': True, 'run_again': True, 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-22 05:03:29,510] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,510] [builder.py:233]            [INFO]     |============================== Validating Good Bad Movies Attributes ===============================|
+[2023-11-22 05:03:29,692] [builder.py:500]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,693] [builder.py:501]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-11-22 05:03:29,693] [builder.py:502]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:03:29,693] [builder.py:558]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,693] [builder.py:559]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2023-11-22 05:03:29,693] [builder.py:560]            [DEBUG]    | Value: True                                                                                        |
+[2023-11-22 05:03:29,693] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,693] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-22 05:03:29,693] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-22 05:03:29,693] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:29,693] [builder.py:719]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-11-22 05:03:29,694] [builder.py:720]            [DEBUG]    | Value: ['https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc', 'https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc', 'https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc', 'https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc'] |
+[2023-11-22 05:03:30,279] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,279] [builder.py:719]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-11-22 05:03:30,279] [builder.py:720]            [DEBUG]    | Value: The bad special effects, the awful acting, the nonsensical plots — there’s something enchanting about a movie that’s hopelessly bad. |
+[2023-11-22 05:03:30,280] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,280] [builder.py:719]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-11-22 05:03:30,280] [builder.py:720]            [DEBUG]    | Value: https://theposterdb.com/images/defaults/missing_poster.jpg                                  |
+[2023-11-22 05:03:30,313] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,313] [builder.py:719]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-11-22 05:03:30,313] [builder.py:720]            [DEBUG]    | Value: Good Bad Movies                                                                             |
+[2023-11-22 05:03:30,313] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,313] [builder.py:719]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-11-22 05:03:30,314] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:03:30,314] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,314] [builder.py:719]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-11-22 05:03:30,314] [builder.py:720]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-22 05:03:30,314] [builder.py:885]            [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,314] [builder.py:886]            [INFO]     | Validation Successful                                                                              |
+[2023-11-22 05:03:30,314] [plex_meta_manager.py:636]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,314] [plex_meta_manager.py:638]  [INFO]     |================================ Running Good Bad Movies Collection ================================|
+[2023-11-22 05:03:30,315] [plex_meta_manager.py:652]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,315] [plex_meta_manager.py:653]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-11-22 05:03:30,315] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,315] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc |
+[2023-11-22 05:03:30,315] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,315] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/philrivers/lists/the-50-best-good-bad-movies?sort=rank,asc |
+[2023-11-22 05:03:30,450] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,450] [builder.py:1666]           [DEBUG]    | 50 IDs Found                                                                                       |
+[2023-11-22 05:03:30,450] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,450] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,450] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc           |
+[2023-11-22 05:03:30,450] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,450] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/acelove/lists/good-bad-movies?sort=title,asc         |
+[2023-11-22 05:03:30,574] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,574] [builder.py:1666]           [DEBUG]    | 68 IDs Found                                                                                       |
+[2023-11-22 05:03:30,574] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,575] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,575] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc         |
+[2023-11-22 05:03:30,575] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,575] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/gristlemctough/lists/bad-movies?sort=title,asc       |
+[2023-11-22 05:03:30,705] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,705] [builder.py:1666]           [DEBUG]    | 95 IDs Found                                                                                       |
+[2023-11-22 05:03:30,705] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,706] [plex_meta_manager.py:656]  [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,706] [plex_meta_manager.py:657]  [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc |
+[2023-11-22 05:03:30,706] [plex_meta_manager.py:658]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,706] [trakt.py:493]              [INFO]     | Processing Trakt List: https://trakt.tv/users/maxwelldeux/lists/badmovies-org-best-b-movies?sort=rank,asc |
+[2023-11-22 05:03:30,858] [builder.py:1665]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,858] [builder.py:1666]           [DEBUG]    | 226 IDs Found                                                                                      |
+[2023-11-22 05:03:30,858] [builder.py:1668]           [DEBUG]    |                                                                                                    |
+[2023-11-22 05:03:30,860] [builder.py:2249]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,860] [builder.py:2250]           [INFO]     |=============================== Adding to Good Bad Movies Collection ===============================|
+[2023-11-22 05:03:30,860] [builder.py:2251]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,860] [builder.py:2265]           [INFO]     |  1/44 | Good Bad Movies Collection | = | Godzilla (1998)                                           |
+[2023-11-22 05:03:30,860] [builder.py:2265]           [INFO]     |  2/44 | Good Bad Movies Collection | = | Last Action Hero (1993)                                   |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  3/44 | Good Bad Movies Collection | = | The Chase (1994)                                          |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  4/44 | Good Bad Movies Collection | = | Demolition Man (1993)                                     |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  5/44 | Good Bad Movies Collection | = | Nothing But Trouble (1991)                                |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  6/44 | Good Bad Movies Collection | = | Mission: Impossible II (2000)                             |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  7/44 | Good Bad Movies Collection | = | Dante's Peak (1997)                                       |
+[2023-11-22 05:03:30,861] [builder.py:2265]           [INFO]     |  8/44 | Good Bad Movies Collection | = | Commando (1985)                                           |
+[2023-11-22 05:03:30,862] [builder.py:2265]           [INFO]     |  9/44 | Good Bad Movies Collection | = | Alien vs. Predator (2004)                                 |
+[2023-11-22 05:03:30,862] [builder.py:2265]           [INFO]     | 10/44 | Good Bad Movies Collection | = | Aliens vs. Predator: Requiem (2007)                       |
+[2023-11-22 05:03:30,862] [builder.py:2265]           [INFO]     | 11/44 | Good Bad Movies Collection | = | 101 Dalmatians (1996)                                     |
+[2023-11-22 05:03:30,862] [builder.py:2265]           [INFO]     | 12/44 | Good Bad Movies Collection | = | Airplane! (1980)                                          |
+[2023-11-22 05:03:30,862] [builder.py:2265]           [INFO]     | 13/44 | Good Bad Movies Collection | = | Airplane II: The Sequel (1982)                            |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 14/44 | Good Bad Movies Collection | = | Batman Forever (1995)                                     |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 15/44 | Good Bad Movies Collection | = | Beetlejuice (1988)                                        |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 16/44 | Good Bad Movies Collection | = | Cocoon (1985)                                             |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 17/44 | Good Bad Movies Collection | = | Coneheads (1993)                                          |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 18/44 | Good Bad Movies Collection | = | Death at a Funeral (2007)                                 |
+[2023-11-22 05:03:30,863] [builder.py:2265]           [INFO]     | 19/44 | Good Bad Movies Collection | = | Elf (2003)                                                |
+[2023-11-22 05:03:30,864] [builder.py:2265]           [INFO]     | 20/44 | Good Bad Movies Collection | = | The Faculty (1998)                                        |
+[2023-11-22 05:03:30,864] [builder.py:2265]           [INFO]     | 21/44 | Good Bad Movies Collection | = | Fun with Dick and Jane (2005)                             |
+[2023-11-22 05:03:30,864] [builder.py:2265]           [INFO]     | 22/44 | Good Bad Movies Collection | = | Galaxy Quest (1999)                                       |
+[2023-11-22 05:03:30,864] [builder.py:2265]           [INFO]     | 23/44 | Good Bad Movies Collection | = | Groundhog Day (1993)                                      |
+[2023-11-22 05:03:30,864] [builder.py:2265]           [INFO]     | 24/44 | Good Bad Movies Collection | = | Hocus Pocus (1993)                                        |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 25/44 | Good Bad Movies Collection | = | Hot Shots! (1991)                                         |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 26/44 | Good Bad Movies Collection | = | Hot Shots! Part Deux (1993)                               |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 27/44 | Good Bad Movies Collection | = | Jeepers Creepers (2001)                                   |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 28/44 | Good Bad Movies Collection | = | Jeepers Creepers 2 (2003)                                 |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 29/44 | Good Bad Movies Collection | = | Robin Hood: Men in Tights (1993)                          |
+[2023-11-22 05:03:30,865] [builder.py:2265]           [INFO]     | 30/44 | Good Bad Movies Collection | = | Three Amigos! (1986)                                      |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 31/44 | Good Bad Movies Collection | = | Twister (1996)                                            |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 32/44 | Good Bad Movies Collection | = | Krull (1983)                                              |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 33/44 | Good Bad Movies Collection | = | Star Wars: Episode I - The Phantom Menace (1999)          |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 34/44 | Good Bad Movies Collection | = | Dawn of the Dead (1978)                                   |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 35/44 | Good Bad Movies Collection | = | Dead Alive (1992)                                         |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 36/44 | Good Bad Movies Collection | = | Planet of the Apes (1968)                                 |
+[2023-11-22 05:03:30,866] [builder.py:2265]           [INFO]     | 37/44 | Good Bad Movies Collection | = | The Adventures of Buckaroo Banzai Across the 8th Dimension (1984) |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 38/44 | Good Bad Movies Collection | = | Army of Darkness (1992)                                   |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 39/44 | Good Bad Movies Collection | = | Beneath the Planet of the Apes (1970)                     |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 40/44 | Good Bad Movies Collection | = | Dark Star (1975)                                          |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 41/44 | Good Bad Movies Collection | = | Delicatessen (1991)                                       |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 42/44 | Good Bad Movies Collection | = | Mom and Dad Save the World (1992)                         |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 43/44 | Good Bad Movies Collection | = | Night of the Living Dead (1968)                           |
+[2023-11-22 05:03:30,867] [builder.py:2265]           [INFO]     | 44/44 | Good Bad Movies Collection | = | Spaced Invaders (1990)                                    |
+[2023-11-22 05:03:30,867] [builder.py:2285]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:30,868] [builder.py:2287]           [INFO]     | 44 Movies Processed 0 Movies Added                                                                 |
+[2023-11-22 05:03:31,176] [builder.py:2411]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 332343                                                      |
+[2023-11-22 05:03:32,096] [builder.py:2422]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:32,096] [builder.py:2423]           [INFO]     | 359 Movies Missing                                                                                 |
+[2023-11-22 05:03:32,636] [builder.py:2623]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:32,636] [builder.py:2624]           [INFO]     |========================== Updating Details of Good Bad Movies Collection ==========================|
+[2023-11-22 05:03:32,636] [builder.py:2625]           [INFO]     |                                                                                                    |
+[2023-11-22 05:03:32,641] [builder.py:2689]           [INFO]     | Collection Metadata Edits                                                                          |
+[2023-11-22 05:03:32,644] [util.py:178]               [DEBUG]    | 2 posters found:                                                                                   |
+[2023-11-22 05:03:32,644] [util.py:180]               [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/images/defaults/missing_poster.jpg              |
+[2023-11-22 05:03:32,644] [util.py:180]               [DEBUG]    | Method: asset_directory Poster: {'attribute': 'asset_directory', 'location': '//config/assets/movies/Good Bad Movies/poster.jpg', 'prefix': "Good Bad Movies's ", 'is_poster': True, 'is_url': False, 'compare': 37395, 'message': "Good Bad Movies's poster to [File] //config/assets/movies/Good Bad Movies/poster.jpg"} |
+[2023-11-22 05:03:32,644] [library.py:177]            [INFO]     | Detail: Good Bad Movies's poster update not needed                                                 |
+[2023-11-22 05:03:32,827] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-22 05:03:32,827] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-22 05:03:32,827] [plex_meta_manager.py:781]  [INFO]     |                                Finished Good Bad Movies Collection                                 |
+[2023-11-22 05:03:32,827] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-11-22 05:03:32,827] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

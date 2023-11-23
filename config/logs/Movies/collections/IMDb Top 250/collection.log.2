@@ -1,23 +1,23 @@
-[2023-11-07 23:09:56,159] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 23:09:56,159] [builder.py:193]            [INFO]     |                                 IMDb Top 250 Collection in Movies                                  |
-[2023-11-07 23:09:56,159] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-07 23:09:56,159] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-07 23:09:56,159] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-07 23:09:56,160] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,160] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
-[2023-11-07 23:09:56,160] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,160] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-07 23:09:56,161] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,161] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.redd.it/gkfygy4k3tr21.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-07 23:09:56,161] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,161] [builder.py:233]            [INFO]     |================================ Validating IMDb Top 250 Attributes ================================|
-[2023-11-07 23:09:56,635] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,635] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-07 23:09:56,636] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-07 23:09:56,638] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-07 23:09:56,638] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-11-07 23:09:56,638] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc           |
-[2023-11-07 23:09:58,690] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2023-11-20 05:01:00,070] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-20 05:01:00,070] [builder.py:193]            [INFO]     |                                 IMDb Top 250 Collection in Movies                                  |
+[2023-11-20 05:01:00,070] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-20 05:01:00,070] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-20 05:01:00,070] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-20 05:01:00,070] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,071] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-11-20 05:01:00,071] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,071] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-20 05:01:00,071] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,071] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.redd.it/gkfygy4k3tr21.jpg', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-20 05:01:00,071] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,071] [builder.py:233]            [INFO]     |================================ Validating IMDb Top 250 Attributes ================================|
+[2023-11-20 05:01:00,518] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,518] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-20 05:01:00,518] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-20 05:01:00,518] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-20 05:01:00,518] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-20 05:01:00,519] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc           |
+[2023-11-20 05:01:02,587] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
                                                                  |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
                                                                  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
@@ -32,9 +32,9 @@
                                                                  |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
                                                                  | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
                                                                  |                                                                                                    |
-[2023-11-07 23:09:58,691] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
-[2023-11-07 23:09:58,691] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-07 23:09:58,692] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-07 23:09:58,692] [plex_meta_manager.py:781]  [INFO]     |                                  Finished IMDb Top 250 Collection                                  |
-[2023-11-07 23:09:58,692] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2023-11-07 23:09:58,692] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc |
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:781]  [INFO]     |                                  Finished IMDb Top 250 Collection                                  |
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2023-11-20 05:01:02,588] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
