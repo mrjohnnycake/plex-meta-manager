@@ -90,6 +90,12 @@ metadata:
   13509: # The Monster Squad
     url_poster: https://theposterdb.com/api/assets/116012
 
+  585: # Monsters, Inc.
+    sort_title: Monsters 1
+
+  62211: # Monsters University
+    sort_title: Monsters 2
+
   698: # Moonraker
     url_poster: https://theposterdb.com/api/assets/115673
 

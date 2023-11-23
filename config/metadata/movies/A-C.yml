@@ -122,6 +122,22 @@ metadata:
   20504: # The Book of Eli
     url_poster: https://theposterdb.com/api/assets/165333
 
+  2501: # The Bourne Identity
+    sort_title: Bourne 1
+    url_poster: https://theposterdb.com/api/assets/16465
+
+  49040: # The Bourne Legacy
+    sort_title: Bourne 1
+    url_poster: https://theposterdb.com/api/assets/16468
+
+  2502: # The Bourne Supremacy
+    sort_title: Bourne 2
+    url_poster: https://theposterdb.com/api/assets/16466
+
+  2503: # The Bourne Ultimatum
+    sort_title: Bourne 3
+    url_poster: https://theposterdb.com/api/assets/16467
+
   62177: # Brave (2012)
     url_poster: https://theposterdb.com/api/assets/60698
 

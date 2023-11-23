@@ -26,8 +26,20 @@ metadata:
   656663: # Jackass Forever
     sort_title: Jackass 4
 
+  324668: # Jason Bourne
+    url_poster: https://theposterdb.com/api/assets/16469
+
   576703: # J.R. 'Bob' Dobbs and the Church of the SubGenius
     content_rating: 16
+
+  8844: # Jumanji (1995)
+    sort_title: Jumanji 1
+
+  353486: # Jumanji: Welcome to the Jungle
+    sort_title: Jumanji 2
+
+  512200: # Jumanji: The Next Level
+    sort_title: Jumanji 3
 
   329: # Jurassic Park
     sort_title: Jurassic Park 1
