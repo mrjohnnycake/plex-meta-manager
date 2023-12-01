@@ -1,23 +1,23 @@
-[2023-11-19 05:00:47,591] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-19 05:00:47,592] [builder.py:193]            [INFO]     |                                 Best Picture Collection in Movies                                  |
-[2023-11-19 05:00:47,592] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-19 05:00:47,592] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-19 05:00:47,592] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-19 05:00:47,592] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,592] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
-[2023-11-19 05:00:47,592] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,593] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-19 05:00:47,593] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,593] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.imgur.com/nNTPdYS.png', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
-[2023-11-19 05:00:47,593] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,593] [builder.py:233]            [INFO]     |================================ Validating Best Picture Attributes ================================|
-[2023-11-19 05:00:47,730] [builder.py:579]            [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,731] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-11-19 05:00:47,731] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
-[2023-11-19 05:00:47,731] [builder.py:715]            [DEBUG]    |                                                                                                    |
-[2023-11-19 05:00:47,731] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-11-19 05:00:47,731] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees |
-[2023-11-19 05:00:48,523] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2023-11-27 05:00:52,507] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-27 05:00:52,507] [builder.py:193]            [INFO]     |                                 Best Picture Collection in Movies                                  |
+[2023-11-27 05:00:52,507] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-27 05:00:52,508] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-27 05:00:52,508] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-27 05:00:52,508] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,508] [builder.py:216]            [DEBUG]    | Templates Called: Charts                                                                           |
+[2023-11-27 05:00:52,508] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,509] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-27 05:00:52,509] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,509] [meta.py:552]               [DEBUG]    | {'url_poster': 'https://i.imgur.com/nNTPdYS.png', 'collection_mode': 'hide', 'visible_home': False, 'visible_shared': False, 'sync_mode': 'sync'} |
+[2023-11-27 05:00:52,509] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,509] [builder.py:233]            [INFO]     |================================ Validating Best Picture Attributes ================================|
+[2023-11-27 05:00:52,732] [builder.py:579]            [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,733] [builder.py:580]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-11-27 05:00:52,733] [builder.py:584]            [DEBUG]    | Value: sync                                                                                        |
+[2023-11-27 05:00:52,733] [builder.py:715]            [DEBUG]    |                                                                                                    |
+[2023-11-27 05:00:52,733] [builder.py:719]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-11-27 05:00:52,733] [builder.py:720]            [DEBUG]    | Value: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees |
+[2023-11-27 05:00:53,530] [plex_meta_manager.py:768]  [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "//plex_meta_manager.py", line 634, in run_collection                                       |
                                                                  |     builder = CollectionBuilder(config, metadata, mapping_name, collection_attrs, library=library, extra=output_str) |
                                                                  |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ |
@@ -32,9 +32,9 @@
                                                                  |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
                                                                  | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees |
                                                                  |                                                                                                    |
-[2023-11-19 05:00:48,524] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees |
-[2023-11-19 05:00:48,524] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-19 05:00:48,525] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-19 05:00:48,525] [plex_meta_manager.py:781]  [INFO]     |                                  Finished Best Picture Collection                                  |
-[2023-11-19 05:00:48,525] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-11-19 05:00:48,525] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:769]  [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/search/title/?title_type=feature&groups=best_picture_winner,oscar_best_picture_nominees |
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:781]  [INFO]     |                                  Finished Best Picture Collection                                  |
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2023-11-27 05:00:53,531] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|

@@ -1,30 +1,30 @@
-[2023-11-22 05:11:30,073] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-22 05:11:30,073] [builder.py:193]            [INFO]     |                              Country Collections Collection in Shows                               |
-[2023-11-22 05:11:30,073] [builder.py:193]            [INFO]     |====================================================================================================|
-[2023-11-22 05:11:30,073] [builder.py:194]            [INFO]     |                                                                                                    |
-[2023-11-22 05:11:30,073] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
-[2023-11-22 05:11:30,073] [builder.py:206]            [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,073] [builder.py:216]            [DEBUG]    | Templates Called: separator, translation                                                           |
-[2023-11-22 05:11:30,073] [builder.py:217]            [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,074] [meta.py:350]               [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,074] [meta.py:351]               [DEBUG]    | Conditional: use_blank                                                                             |
-[2023-11-22 05:11:30,074] [meta.py:419]               [DEBUG]    | Conditional Variable: use_blank defaults to "True"                                                 |
-[2023-11-22 05:11:30,080] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
-[2023-11-22 05:11:30,080] [meta.py:551]               [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,081] [meta.py:552]               [DEBUG]    | {'allowed_library_types': False, 'collection_mode': 'hide', 'sort_title': '!09_!Country Collections', 'blank_collection': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/country.jpg', 'summary': 'Section separator for Country Collections.', 'name': 'Country Collections'} |
-[2023-11-22 05:11:30,081] [meta.py:553]               [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,081] [builder.py:233]            [INFO]     |============================ Validating Country Collections Attributes =============================|
-[2023-11-22 05:11:30,081] [builder.py:236]            [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,081] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
-[2023-11-22 05:11:30,081] [builder.py:240]            [DEBUG]    | Value: Country Collections                                                                         |
-[2023-11-22 05:11:30,084] [plex.py:857]               [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,084] [plex.py:860]               [DEBUG]    | Looking for: Country Collections                                                                   |
-[2023-11-22 05:11:30,084] [builder.py:274]            [DEBUG]    |                                                                                                    |
-[2023-11-22 05:11:30,084] [builder.py:275]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
-[2023-11-22 05:11:30,085] [builder.py:278]            [DEBUG]    | Value: False                                                                                       |
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:755]  [INFO]     | Skipped because allowed_library_types is false                                                     |
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:781]  [INFO]     |                              Finished Country Collections Collection                               |
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-11-22 05:11:30,085] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-30 05:12:30,227] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-30 05:12:30,227] [builder.py:193]            [INFO]     |                              Country Collections Collection in Shows                               |
+[2023-11-30 05:12:30,227] [builder.py:193]            [INFO]     |====================================================================================================|
+[2023-11-30 05:12:30,227] [builder.py:194]            [INFO]     |                                                                                                    |
+[2023-11-30 05:12:30,227] [builder.py:205]            [INFO]     |================================ Building Definition From Templates ================================|
+[2023-11-30 05:12:30,227] [builder.py:206]            [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,227] [builder.py:216]            [DEBUG]    | Templates Called: separator, translation                                                           |
+[2023-11-30 05:12:30,227] [builder.py:217]            [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,228] [meta.py:350]               [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,228] [meta.py:351]               [DEBUG]    | Conditional: use_blank                                                                             |
+[2023-11-30 05:12:30,228] [meta.py:419]               [DEBUG]    | Conditional Variable: use_blank defaults to "True"                                                 |
+[2023-11-30 05:12:30,234] [meta.py:550]               [DEBUG]    |==================================== Final Template Attributes =====================================|
+[2023-11-30 05:12:30,235] [meta.py:551]               [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,235] [meta.py:552]               [DEBUG]    | {'allowed_library_types': False, 'collection_mode': 'hide', 'sort_title': '!09_!Country Collections', 'blank_collection': True, 'url_poster': 'https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/separators/purple/country.jpg', 'summary': 'Section separator for Country Collections.', 'name': 'Country Collections'} |
+[2023-11-30 05:12:30,235] [meta.py:553]               [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,235] [builder.py:233]            [INFO]     |============================ Validating Country Collections Attributes =============================|
+[2023-11-30 05:12:30,235] [builder.py:236]            [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,235] [builder.py:237]            [DEBUG]    | Validating Method: name                                                                            |
+[2023-11-30 05:12:30,235] [builder.py:240]            [DEBUG]    | Value: Country Collections                                                                         |
+[2023-11-30 05:12:30,238] [plex.py:857]               [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,238] [plex.py:860]               [DEBUG]    | Looking for: Country Collections                                                                   |
+[2023-11-30 05:12:30,238] [builder.py:274]            [DEBUG]    |                                                                                                    |
+[2023-11-30 05:12:30,238] [builder.py:275]            [DEBUG]    | Validating Method: allowed_library_types                                                           |
+[2023-11-30 05:12:30,238] [builder.py:278]            [DEBUG]    | Value: False                                                                                       |
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:755]  [INFO]     | Skipped because allowed_library_types is false                                                     |
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:780]  [INFO]     |                                                                                                    |
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:781]  [INFO]     |                              Finished Country Collections Collection                               |
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:781]  [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-11-30 05:12:30,239] [plex_meta_manager.py:781]  [INFO]     |====================================================================================================|
