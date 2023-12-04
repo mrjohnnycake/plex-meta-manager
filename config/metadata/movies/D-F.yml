@@ -124,8 +124,14 @@ metadata:
   24099: # Dreamscape
     url_poster: https://theposterdb.com/api/assets/33713
 
+  4523: # Enchanted
+    url_poster: https://theposterdb.com/api/assets/6258
+
   10649: # The Enforcer
     url_poster: https://theposterdb.com/api/assets/855
+
+  476549: # Escape From Mr. Lemoncello's Library
+    content_rating: 8
 
   524434: # Eternals
     url_poster: https://theposterdb.com/api/assets/153775

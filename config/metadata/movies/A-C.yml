@@ -101,6 +101,15 @@ metadata:
   798727: # Biking Borders
     content_rating: 14
 
+  1648: # Bill & Ted's Excellent Adventure
+    sort_title: Bill and Ted 1
+
+  1649: # Bill & Ted's Bogus Journey
+    sort_title: Bill and Ted 2
+
+  501979: # Bill & Ted Face the Music
+    sort_title: Bill and Ted 3
+
   194662: # Birdman or (The Unexpected Virtue of Ignorance)
     url_poster: https://theposterdb.com/api/assets/214684
 
@@ -170,12 +179,15 @@ metadata:
     url_poster: https://theposterdb.com/api/assets/72226
 
   271110: # Captain America: Civil War
+    sort_title: Captain America 3
     url_poster: https://theposterdb.com/api/assets/9787
 
   1771: # Captain America: The First Avenger
+    sort_title: Captain America 1
     url_poster: https://theposterdb.com/api/assets/9778
 
   100402: # Captain America: The Winter Soldier
+    sort_title: Captain America 2
     url_poster: https://theposterdb.com/api/assets/9783
 
   299537: # Captain Marvel
